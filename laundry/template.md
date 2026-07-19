@@ -1,8 +1,3 @@
----
-name: dissociative-hardcore
-description: Use when writing a new song lyric in the Dissociative Hardcore style — digital-hardcore/electropunk with dual drummers, samplers, a preacher-style frontman, and overload metabolised as numbness. Triggered by requests like "another dissociative hardcore song" or "another song in the style of this document" after this spec has been shared.
----
-
 # Dissociative Hardcore — Song Style Spec
  
 A reusable brief for writing songs in the "dissociative hardcore" style — the Lip Critic / digital-hardcore / electropunk lineage: two drummers, samplers instead of guitars, a preacher at the mic, and the whole thing running too hot. Hand this to Claude with an instruction like *"another song in the style of this document"* and it should produce a new, standalone lyric set that shares the voice, structure and signature moves below — not a rewrite of the example.
@@ -77,27 +72,6 @@ Word-level craft lives in the collage-method section above; these are the struct
 - **Identity / theft as the usual gravity well** — the copy spending your money, the self you're relieved to be rid of, the bank asking if you're still you. Worn casually.
 - **Overheated, unstable, digital production; no guitars as the backbone; stop-start collage.** The sampler is the lead instrument. Texture over key — where the other specs say "minor / harmonic minor," here the tonality note is *blown-out and clipping*.
 Save the size for the hook and the dissolve — but the size here is **density, not catharsis**. It gets heavier, not higher.
- 
----
- 
-## Suno prompt notes
- 
-- Paste the **bracketed section tags** (`[Verse 1 — fast, clipped, dry, sampler stabs]`, `[The dissolve — spoken vocal chopped and looped into the sampler, no release]`, etc.) into Suno — the whole style depends on the flat-verse / chanted-hook / collapsing-dissolve contrast, and the tags are how you get the spoken-thinning-into-chopped delivery at all.
-- **Where you sit on the coherence dial changes the vocal instruction.** Followable-paranoid end → "half-sung, ranted, cult-leader delivery." Pure-collage end → "muttered, chopped, words treated as rhythmic texture." Say which, or Suno will default to over-singing it.
-- The **dissolve is the least predictable part** — regenerate several times to find a take where the vocal actually gets *chopped and swallowed* by the production rather than sung cleanly over it. That absorption is the payoff; a clean sung read kills it. (Same job as chasing the crack on gypsy-emo's shout-back, or the *turn* in institutional hardcore's monologue.)
-- Style prompt for the **fast digital-hardcore core** (recommended default):
-  ```
-  digital hardcore, two live drummers playing against each other, blown-out sampler stabs instead of guitars, ranted cult-leader vocals, chanted gang hooks, chopped and pitched vocal samples, stop-start collage structure, overheated lo-fi digital production, clipping
-  ```
-- **Slow "insidious churn" variant** (the *Talon* mood — dissociation at half speed, push the dial toward pure-collage):
-  ```
-  slow digital hardcore, sludgy lurching rhythm, nauseating blown-out texture that clings rather than explodes, dissociative half-spoken muttered vocals, pitched vocal loops, claustrophobic overheated production, no release, no catharsis
-  ```
-- **Club/pop-adjacent variant** (the *Hex Dealer* end — brighter, catchier, then rancid; sits toward the followable end of the dial):
-  ```
-  electropunk, club-footed drum-machine-and-live-drums, catchy chanted hook, sampler hooks, snotty half-sung preacher vocals, glitchy pop-hardcore, bright then rotten, minor
-  ```
-Core instrument/texture palette to draw from: two drum kits played as *separate* parts, hardware + laptop samplers, chopped / pitched vocal used as an instrument, gang chants, driving low end — but **no guitars or bass as the backbone**, and no solos. The **sampler is the solo** (the way the violin carries gypsy-emo and the spoken monologue *is* the solo in institutional hardcore).
  
 ---
  
