@@ -1,8 +1,3 @@
----
-name: institutional-hardcore
-description: Use when writing a new song lyric in the Institutional Hardcore style — early-Suicidal-Tendencies-lineage hardcore punk about a reasonable person driven to fury by a petty institutional denial, resolving into a crowd shout-back that agrees with him against the world. Triggered by requests like "another institutional hardcore song" or "another song in the style of this document" after this spec has been shared.
----
-
 # Institutional Hardcore — Song Style Spec
  
 A reusable brief for writing songs in the "institutional hardcore" style — the early-Suicidal-Tendencies / Venice-'83 lineage. Hand this to Claude with an instruction like *"another song in the style of this document"* and it should produce a new, standalone lyric set that shares the voice, structure and signature moves below — not a rewrite of the example.
@@ -52,26 +47,6 @@ A new song should hit most of these:
 - **The communal flip** in the final chorus — the shout-back turns from *he* to *we*. The crowd claims the anger with him.
 - **Minor key, stop-start dynamics, fast.** Quiet-verse / eruption-chorus contrast is everything.
 Keep verses composed and conversational; save the size and the speed for the choruses and the detonating breakdown. And keep it **defiant, not despairing** — this style is about reclaiming your voice against people who wrote you off, anger pointed outward. It's "I'm done being quiet," not "I'm done."
- 
----
- 
-## Suno prompt notes
- 
-- Paste the **bracketed section tags** (`[Verse 1 — spoken, tense, reasonable, tight quiet drums]`, `[Breakdown — spoken mock-calm, detonating into a scream]`, etc.) into Suno — the whole style depends on the spoken-verse / shouted-chorus contrast, and the tags are how you get the spoken delivery at all.
-- The **breakdown monologue is the least predictable part** — regenerate several times to find a take where the singer actually *turns* mid-monologue (talks it, then loses it). That snap is the payoff; a flat read kills the song.
-- Style prompt for the **raw '83 flavour** (recommended default):
-  ```
-  1980s hardcore punk, Venice skate punk, fast raw aggressive guitars, sneering shouted vocals, spoken paranoid monologue breakdown, gang backing vocals, stop-start dynamics, minor key, lo-fi live production
-  ```
-- **Crossover-thrash variant** (later, heavier ST):
-  ```
-  crossover thrash hardcore, palm-muted riffing, aggressive shouted vocals, spoken-word breakdown, double-time drums, gang shouts, minor key, tight metallic production
-  ```
-- **Melodic skate-punk variant** (more tuneful, still snotty):
-  ```
-  melodic skate punk, fast downstroke guitars, snotty half-sung half-shouted vocals, spoken bridge, big gang-vocal hooks, minor key, driving energy, clean punchy production
-  ```
-Core instrument/texture palette to draw from: fast downstroked electric guitar, tight punchy drums, driving bass, gang/shout backing vocals, the spoken-word breakdown as the centrepiece. No solos to speak of — the monologue *is* the solo.
  
 ---
  
