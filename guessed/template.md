@@ -1,4 +1,3 @@
-
 # Lurker Trip-Hop — Song Style Spec
  
 A reusable brief for writing songs in the "lurker trip-hop" style — the Portishead / Beth Gibbons lineage: a dusty slowed breakbeat, a Rhodes, vinyl crackle, and one thin close-miked female voice that sounds like it's being recorded against its will. All songs written to this spec are by **Guessed**. Hand this to Claude with the instruction **"song for Guessed"** — optionally with a theme, a dial position or an arrangement — and it should produce a new, standalone lyric set that shares the voice, structure and signature moves below, not a rewrite of the example. With no further steer, pick an unused theme, an unused arrangement, and go.
