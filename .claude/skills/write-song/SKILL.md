@@ -43,7 +43,7 @@ doing anything else.
    - `<band>/<slug>.style.txt` — the flat, single-paragraph Suno style prompt. No markdown,
      no headers — just the prompt text itself, exactly as it will be pasted into Suno.
 7. Log the new song's notable devices into `.claude/tropes/library.md`: add each one under the
-   right category (Constructions / Phrases / Imagery-Motifs) with a one-line description, one
+   right category (Constructions / Phrases / Imagery / Motifs) with a one-line description, one
    example, and the source song — following the exact entry format already in the file. This is
    what makes the *next* song's check in step 5 catch a second use.
 
