@@ -1,8 +1,3 @@
----
-name: gypsy-emo
-description: Use when writing a new song lyric in the Gypsy-Emo style — emo longing fused with Romani/Balkan violin, csardas tempo lurches, and caravan/exile imagery, resolving into a communal shout-back line. Triggered by requests like "another gypsy-emo song" or "another song in the style of this document" after this spec has been shared.
----
-
 # Gypsy-Emo — Song Style Spec
  
 A reusable brief for writing songs in the "gypsy-emo" style. Hand this to Claude with an instruction like *"another song in the style of this document"* and it should produce a new, standalone lyric set that shares the voice, structure and signature moves below — not a rewrite of the examples.
@@ -43,26 +38,6 @@ A new song should hit most of these:
 - **One communal shout-back line** in the final chorus, built to be caught and repeated by a crowd — the emotional payload (*"but God, I stayed a while"* / *"but tonight, boys, let them leave"*).
 - **Minor / harmonic minor** tonality throughout.
 Keep verses intimate and confessional; save the size for the choruses and the doubled bridge.
- 
----
- 
-## Suno prompt notes
- 
-- Paste the **bracketed section tags** (`[Verse 1 — slow, intimate, solo violin]`, `[Bridge — half-time, sparse, then huge]`, etc.) into Suno — it uses them to shape dynamics, and the slow-verse / fast-or-swelling-chorus contrast is what sells the lurch.
-- The vocal delivery on the chorus is the least predictable part — regenerate a few times to find a take where the singer actually cracks on the shout-back line.
-- Style prompt for the **darker / cinematic** flavour (recommended default):
-  ```
-  cinematic gypsy emo ballad, sorrowful solo violin, cimbalom, swelling accordion, harmonic minor, cracked emotional vocals, rubato intro, dramatic crescendo, live room reverb
-  ```
-- Softer / Midwest-emo-adjacent variant:
-  ```
-  melancholic gypsy folk emo, twinkly nylon guitar, mournful violin, accordion, minor key, intimate confessional male vocals, dynamic build to cathartic chorus, reverb
-  ```
-- Punkier / Gogol-Bordello-with-feelings variant:
-  ```
-  gypsy punk emo, driving upright bass, frantic fiddle, accordion, Balkan brass, anthemic gang vocals, aching lead vocal, minor key, tempo shifts from slow to frantic
-  ```
-Core instrument palette to draw from: lead violin/fiddle, accordion, cimbalom (hammered dulcimer), upright bass, nylon-string guitar, optional Balkan brass.
  
 ---
  
