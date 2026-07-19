@@ -34,6 +34,12 @@ not listed here. Everything logged from this point forward (new songs written vi
   (buckle variant); laundry/keep-it-warm, laundry/scroll-up ("the churn folds in on itself,
   doesn't lift" variant)
 
+### "you trust [the record], not [the reality]" — accusatory parallel aimed at an institution
+- A two-beat "you trust X, not Y" accusation naming what the institution takes as evidence
+  against what actually happened. Fresh construction, logged on first use so a near-identical
+  wording doesn't recur.
+- Example: "you trust the log, not the room — you trust the timestamp, not the wait" — purple-dog/no-show
+
 ## Phrases
 
 ### "closer than that"
@@ -65,3 +71,6 @@ not listed here. Everything logged from this point forward (new songs written vi
 - Example: "Eleven months. Every letter, in order, in a folder." — guessed/upheld-in-full
 - Also seen: guessed/what-was-the-hurry-for ("a woman with a folder"),
   laundry/mind-the-man ("a certificate somewhere in a folder")
+
+### Video-call waiting room as institutional bureaucracy (forced to attend by camera, held past the slot, penalized for a system failure)
+- Example: "the screen just says WAITING, only WAITING, forty minutes says WAITING" — purple-dog/no-show
