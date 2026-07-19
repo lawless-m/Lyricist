@@ -75,7 +75,7 @@ Expected: `3`
 Run:
 ```bash
 cd /home/matt/Git/Lyricist
-awk 'NR==1 && /^---$/{fm=1; next} fm && /^---$/{fm=0; next} fm{next} /^## Suno prompt notes$/{skip=1} /^## Reference example/{skip=0} !skip' .claude/skills/lurker/SKILL.md > guessed/template.md
+awk 'NR==1 && /^---$/{fm=1; next} fm && /^---$/{fm=0; afterfm=1; next} fm{next} afterfm{afterfm=0; if(/^$/) next} /^## Suno prompt notes$/{skip=1} /^## Reference example/{skip=0} !skip' .claude/skills/lurker/SKILL.md > guessed/template.md
 ```
 
 - [ ] **Step 4: Verify template.md has the expected sections and no frontmatter/Suno section**
@@ -141,7 +141,7 @@ Expected: `6` (three style-prompt variants, each a fenced code block with an ope
 
 ```bash
 cd /home/matt/Git/Lyricist
-awk 'NR==1 && /^---$/{fm=1; next} fm && /^---$/{fm=0; next} fm{next} /^## Suno prompt notes$/{skip=1} /^## Reference example/{skip=0} !skip' .claude/skills/dissociative-hardcore/SKILL.md > laundry/template.md
+awk 'NR==1 && /^---$/{fm=1; next} fm && /^---$/{fm=0; afterfm=1; next} fm{next} afterfm{afterfm=0; if(/^$/) next} /^## Suno prompt notes$/{skip=1} /^## Reference example/{skip=0} !skip' .claude/skills/dissociative-hardcore/SKILL.md > laundry/template.md
 ```
 
 - [ ] **Step 4: Verify**
@@ -203,7 +203,7 @@ Expected: `6` (three style-prompt variants — darker/cinematic, softer/Midwest-
 
 ```bash
 cd /home/matt/Git/Lyricist
-awk 'NR==1 && /^---$/{fm=1; next} fm && /^---$/{fm=0; next} fm{next} /^## Suno prompt notes$/{skip=1} /^## Reference example/{skip=0} !skip' .claude/skills/gypsy-emo/SKILL.md > the-bell-knows-my-name/template.md
+awk 'NR==1 && /^---$/{fm=1; next} fm && /^---$/{fm=0; afterfm=1; next} fm{next} afterfm{afterfm=0; if(/^$/) next} /^## Suno prompt notes$/{skip=1} /^## Reference example/{skip=0} !skip' .claude/skills/gypsy-emo/SKILL.md > the-bell-knows-my-name/template.md
 ```
 
 - [ ] **Step 4: Verify**
@@ -263,7 +263,7 @@ Expected: `6` (three style-prompt variants, each a fenced code block with an ope
 
 ```bash
 cd /home/matt/Git/Lyricist
-awk 'NR==1 && /^---$/{fm=1; next} fm && /^---$/{fm=0; next} fm{next} /^## Suno prompt notes$/{skip=1} /^## Reference example/{skip=0} !skip' .claude/skills/institutional-hardcore/SKILL.md > purple-dog/template.md
+awk 'NR==1 && /^---$/{fm=1; next} fm && /^---$/{fm=0; afterfm=1; next} fm{next} afterfm{afterfm=0; if(/^$/) next} /^## Suno prompt notes$/{skip=1} /^## Reference example/{skip=0} !skip' .claude/skills/institutional-hardcore/SKILL.md > purple-dog/template.md
 ```
 
 - [ ] **Step 4: Verify**
@@ -323,7 +323,7 @@ Expected: `6` (three style-prompt variants, each a fenced code block with an ope
 
 ```bash
 cd /home/matt/Git/Lyricist
-awk 'NR==1 && /^---$/{fm=1; next} fm && /^---$/{fm=0; next} fm{next} /^## Suno prompt notes$/{skip=1} /^## Reference example/{skip=0} !skip' .claude/skills/lucy-might/SKILL.md > lucy-might/template.md
+awk 'NR==1 && /^---$/{fm=1; next} fm && /^---$/{fm=0; afterfm=1; next} fm{next} afterfm{afterfm=0; if(/^$/) next} /^## Suno prompt notes$/{skip=1} /^## Reference example/{skip=0} !skip' .claude/skills/lucy-might/SKILL.md > lucy-might/template.md
 ```
 
 - [ ] **Step 4: Verify**
