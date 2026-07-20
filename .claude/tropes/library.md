@@ -82,6 +82,16 @@ not listed here. Everything logged from this point forward (new songs written vi
   lucy-might/sit-on-my-knee, lucy-might/stay-in-the-room-with-me, lucy-might/take-your-time,
   lucy-might/the-easiest-evening, lucy-might/the-view, lucy-might/youd-have-stood-up-for-me
 
+### "don't correct a compliment"
+- Guessed's quoted-instruction hook opener for this song — internalised advice about letting
+  someone else's warm, wrong assumption stand rather than correcting it.
+- Example: guessed/the-version-she-liked
+
+### "I didn't lose them. I filed them."
+- The drop-out's one naked admission — reframes cutting people off as an administrative act
+  rather than a loss, in keeping with the "tiny administrative decision" engine of the style.
+- Example: guessed/the-version-she-liked
+
 ### "and the fiddle starts confessing"
 - Example: the-bell-knows-my-name/the-bell-knows-my-name
 - Also seen: the-bell-knows-my-name/do-you-hear-the-ground-you-keep,
