@@ -130,6 +130,21 @@ not listed here. Everything logged from this point forward (new songs written vi
   degrading toward noise across the final hook.
 - Example: laundry/unbalanced-load
 
+### "read the card, hold the mic, pour the round, mean the toast" — wedding-toast consumption-imperative hook opener
+- Laundry's imperative-opener slot filled with wedding-reception logistics verbs undercut by
+  the impossible instruction to "mean" the one that matters.
+- Example: laundry/second-draft
+
+### "to the happy couple" — ubiquitous-idiom-degraded-to-mantra
+- The standard toast-closing phrase repurposed as the chanted mantra, degrading toward noise.
+- Example: laundry/second-draft
+
+### "the machine gets the emotions while I go through the motions" — AI-authorship-vs-lived-numbness legible spike
+- The band's own founding irony (see template.md's band-name origin note), first actually used
+  in a song here: an AI-authored line lands with real feeling in the room while the narrator,
+  delivering it, feels only the mechanics of delivery.
+- Example: laundry/second-draft
+
 ## Phrases
 
 ### "Error code UE. Unbalanced load. It knows before I do."
