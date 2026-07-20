@@ -120,7 +120,22 @@ not listed here. Everything logged from this point forward (new songs written vi
   unreachable listener).
 - Example: laundry/sorry-spider
 
+### "spin it out, wring it dry, fold what's left, forget the rest" — laundry-cycle consumption-imperative hook opener
+- Laundry's imperative-opener slot filled with literal washing-machine verbs fused with
+  erasure/forgetting verbs.
+- Example: laundry/unbalanced-load
+
+### "wash, rinse, repeat" — ubiquitous-idiom-degraded-to-mantra
+- The shampoo-bottle instruction repurposed as the chanted mantra for mindless repetition,
+  degrading toward noise across the final hook.
+- Example: laundry/unbalanced-load
+
 ## Phrases
+
+### "Error code UE. Unbalanced load. It knows before I do."
+- The flash-of-legibility line: a washing machine's literal error code read as a diagnosis of
+  the narrator's own state, delivered flat.
+- Example: laundry/unbalanced-load
 
 ### "I don't think 'sorry' travels across phyla."
 - The flash-of-legibility line, dry and factual: a plain admission that an apology has no
