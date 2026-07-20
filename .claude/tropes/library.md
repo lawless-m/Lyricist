@@ -89,6 +89,16 @@ not listed here. Everything logged from this point forward (new songs written vi
   been walked into.
 - Example: "I said yes to a coffee. This is an audition." — guessed/the-second-chair
 
+### "pin the face, mute the room, spend the hour, burn the deck" — video-call consumption-imperative hook opener
+- Laundry's imperative-opener slot filled with video-call-interface verbs (pin/mute) fused with
+  consumption verbs (spend/burn).
+- Example: laundry/pin-her-video
+
+### "can everyone see my screen" — banal-phrase-degraded-to-mantra
+- A ubiquitous, meaningless tech-support phrase used as the chanted mantra, repeating until it
+  curdles into an existential question (can anyone see him at all).
+- Example: laundry/pin-her-video
+
 ## Phrases
 
 ### "The kindest thing he ever did to me was get it wrong."
@@ -192,3 +202,10 @@ not listed here. Everything logged from this point forward (new songs written vi
   erasing.
 - Example: "he lengthened it so it wouldn't sound like he'd earned it, and it's further from my
   name than the one he heard" — guessed/he-meant-it-kindly
+
+### Choosing to leave a crush's frozen video-call tile unfixed
+- A buffering/frozen webcam tile catches someone mid-expression (mid-laugh, mid-blink); the
+  narrator notices it could refresh and deliberately doesn't intervene, letting the frozen
+  image sit — tenderness and surveillance in the same small non-action.
+- Example: "Her tile freezes mid-laugh. I don't unfreeze it. I let it sit like that a while." —
+  laundry/pin-her-video
