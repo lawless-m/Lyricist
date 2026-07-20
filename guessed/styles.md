@@ -27,6 +27,14 @@ Test before you paste: **read only the un-bracketed text and ask whether you'd b
   variant, where "folk-jazz" alone was enough to pull it toward a full, expressive vocal
   performance — don't rely on the general note above to cover it, put "no vibrato" in the
   block itself.
+- **Mood/texture adjectives alone still land too far from the actual reference corpus** —
+  "melancholic," "dusty," "cracked" describe a feeling, not a specific recording, and Suno
+  will happily satisfy them with something generic. Anchor every variant with a **named
+  reference** directly in the prompt string, not just in this file's prose commentary: "in the
+  style of Portishead's Dummy" for the dusty core, "in the style of Portishead's Third" for
+  the frozen variant, "in the style of Beth Gibbons' Out of Season" for the sparse acoustic
+  variant. Named-artist/named-album anchors pull Suno's generation toward the actual sound far
+  more reliably than adjectives do — same lesson Coase Guard learned the hard way.
 - **Theremin was getting overused** — it was sitting in the default block below, so it got
   copy-pasted into most songs' prompts regardless of fit. It's one texture in the palette, not
   a fixed ingredient: use it when a song specifically wants that wavering, spectral edge, and
@@ -40,15 +48,15 @@ Test before you paste: **read only the un-bracketed text and ask whether you'd b
   of the dial).
 - Style prompt for the **dusty Dummy-era core** (recommended default):
   ```
-  trip hop, slow dusty breakbeat behind the beat, vinyl crackle, Rhodes piano, tremolo guitar, spy-film strings, melancholic minor key, thin close-miked fragile female vocal, no vibrato, flat unadorned delivery, dry vocal against heavy reverb, sparse, unresolved, no backing vocals, no gang vocals
+  in the style of Portishead's Dummy, trip hop, slow dusty breakbeat behind the beat, vinyl crackle, Rhodes piano, tremolo guitar, spy-film strings, melancholic minor key, thin close-miked fragile female vocal, no vibrato, flat unadorned delivery, dry vocal against heavy reverb, sparse, unresolved, no backing vocals, no gang vocals
   ```
 - **Frozen Third-era variant** (colder, crueller, no comfort — use for humiliation and for anything she's angry about but won't say):
   ```
-  cold mechanical trip hop, krautrock motorik pulse, analogue synth drone, no reverb, brittle drum machine, dissonant strings, unsettling, relentless loop, flat detached solo female vocal, no vibrato, monotone delivery, claustrophobic, no release, no backing vocals
+  in the style of Portishead's Third, cold mechanical trip hop, krautrock motorik pulse, analogue synth drone, no reverb, brittle drum machine, dissonant strings, unsettling, relentless loop, flat detached solo female vocal, no vibrato, monotone delivery, claustrophobic, no release, no backing vocals
   ```
 - **Sparse acoustic variant** (Beth Gibbons solo / *Out of Season* — for regret, the childlessness material, the warmest and most exposed):
   ```
-  sparse acoustic melancholy, nylon guitar, upright bass, brushed drums, distant strings, folk-jazz instrumentation, flat unadorned female vocal, no vibrato, restrained near-spoken delivery, intimate voice recorded close, room tone, no percussion in places, minor key, unresolved, solo vocal only
+  in the style of Beth Gibbons' Out of Season, sparse acoustic melancholy, nylon guitar, upright bass, brushed drums, distant strings, folk-jazz instrumentation, flat unadorned female vocal, no vibrato, restrained near-spoken delivery, intimate voice recorded close, room tone, no percussion in places, minor key, unresolved, solo vocal only
   ```
 Core instrument/texture palette: slowed hip-hop breakbeat, Rhodes/Wurlitzer, vinyl crackle and surface noise as an instrument, tremolo/surf guitar, upright bass, muted strings, analogue synth drone, theremin or Trautonium (occasional, rotate between the two, not every song). **No guitar solos, no big drums, no key change, no crowd.** The **loop is the solo** — the way the violin carries gypsy-emo, the spoken monologue *is* the solo in institutional hardcore, and the sampler *is* the solo in dissociative hardcore.
  
