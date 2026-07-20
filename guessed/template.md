@@ -9,6 +9,8 @@ Fourth sibling spec to **gypsy-emo**, **institutional-hardcore** and **dissociat
 The narrator is therefore always **a reader, not a speaker**. She knows everything about the room she's in. The room knows nothing about her. She isn't withholding out of strategy any more; it's just what she does now.
  
 **The name is part of the brief.** *Guessed* is a past-tense verb with no subject and no object — she was guessed at. Guessed wrong, guessed male, guessed harmless. Rooms decided what she was and never checked, and she let them, and that's the arrangement the whole catalogue is about. Said aloud it's *guest*: present, no account, no standing, nothing kept after the tab closes. Written down it's a word people will get slightly wrong forever, which is on-theme enough to be a feature. If a lyric could be sung by someone who has been correctly identified, it isn't a Guessed song.
+
+**Billing name vs. lyric content.** The artist is credited externally (Suno, streaming) as **Emma Guest** — but that name is metadata, not material. It must never appear inside a lyric: the moment she's correctly named on the page, the song stops being a Guessed song, per the rule above. **Wrong** names are fair game and are in fact the whole point — a name she made up, a name someone's had wrong for years, a name on a cup or a cred that isn't hers — because the correct name is the one thing every song withholds.
  
 ---
  
