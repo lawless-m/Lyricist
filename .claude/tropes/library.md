@@ -44,6 +44,17 @@ not listed here. Everything logged from this point forward (new songs written vi
 - A chanted claim that a system runs without anyone having designed or authorized it.
 - Example: "Nobody built it — it just runs" — coase-guard/no-blueprint (template.md reference example)
 
+### "We don't run on [a system], we run on [a name]" — identity-over-schedule chant hook
+- A chanted claim that the crew organizes around who people are and what they know, not an
+  imposed system or schedule.
+- Example: "We don't run on a schedule, we run on a name" — coase-guard/the-day-we-turned-it-off
+
+### "What matters is what we needed [him] to have said" — myth-serves-the-need-not-the-fact line
+- The wink's explicit admission that a legend's details are chosen for what the story needs,
+  not what actually happened.
+- Example: "Doesn't matter what he actually said. What matters is what we needed him to have
+  said." — coase-guard/the-day-we-turned-it-off
+
 ## Phrases
 
 ### "closer than that"
@@ -92,3 +103,11 @@ not listed here. Everything logged from this point forward (new songs written vi
   measure of care, immediately after or instead of a sentimental declaration.
 - Example: "Six mouths, four hands, one bag of flour left — that's not a feeling, that's
   Thursday." — coase-guard/who-eats-fragment (template.md illustrative fragment)
+
+### The algorithm/app reassigning dangerous work away from the competent person
+- An installed scheduling algorithm or app hands skilled/dangerous work to someone unqualified
+  based on screen data, ignoring the crew's lived competence — distinct from the clipboard-
+  inspector motif above (that's paperwork hypocrisy from a visiting official; this is an
+  installed system silently reallocating danger).
+- Example: "Gave Danny the night shift 'cause the screen liked his face, put a nineteen-year-old
+  on the crane in Marcus' place." — coase-guard/the-day-we-turned-it-off
