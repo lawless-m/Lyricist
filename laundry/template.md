@@ -3,6 +3,10 @@
 A reusable brief for writing songs in the "dissociative hardcore" style — the Lip Critic / digital-hardcore / electropunk lineage: two drummers, samplers instead of guitars, a preacher at the mic, and the whole thing running too hot. Hand this to Claude with an instruction like *"another song in the style of this document"* and it should produce a new, standalone lyric set that shares the voice, structure and signature moves below — not a rewrite of the example.
  
 Third sibling spec to **gypsy-emo** and **institutional-hardcore**. Same house, third temperature. Gypsy-emo turns the wound inward and mournful; institutional hardcore turns it outward and furious; this one turns it **sideways and numb**. The devices deliberately rhyme across all three — but the biggest departure is in the *words*: the other two tell a story, this one lets the story come apart on purpose. Read the collage-method section before you write a line.
+
+**Where the band name comes from.** We wanted robots to fold the laundry while we made music and wrote poetry — we got robots that make music and write poetry while we fold the laundry. **Laundry** is that inversion, worn as a name. It's the same joke "The Machine is Crying" is already built on (the kettle writes the villanelle, he minds the lint, "I'm not even sad about it"), and it's the actual gravity well under the whole band, not just one song's — worth keeping live as a possibility, not spending it all at once.
+
+A newer, sharper way of saying the same thing, not yet used in any song and cleared to use next: **"the machine gets the emotions while I go through the motions."** Good candidate for a future hook or legible spike — check it against the trope library like anything else once it's actually used, but it isn't retired yet, it's just available.
  
 ---
  
