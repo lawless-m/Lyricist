@@ -84,6 +84,11 @@ not listed here. Everything logged from this point forward (new songs written vi
 - Example: "Who the fuck are you? We don't know your face. ... You bought a piece of paper. You
   didn't buy this place." — coase-guard/who-the-fuck-are-you
 
+### "I said yes to [X]. This is [an audition/other mismatch]." — small-invitation-vs-actual-stakes reveal
+- A plain two-clause line naming the gap between what she agreed to and what she's actually
+  been walked into.
+- Example: "I said yes to a coffee. This is an audition." — guessed/the-second-chair
+
 ## Phrases
 
 ### "closer than that"
@@ -167,3 +172,10 @@ not listed here. Everything logged from this point forward (new songs written vi
   no procedural role at all, just a stake).
 - Example: "Says he's got forty percent now, says it like a fact he found... You bought a piece
   of paper. You didn't buy this place." — coase-guard/who-the-fuck-are-you
+
+### The friend-arranged ambush disguised as an ordinary invitation
+- A friend invites the narrator to something low-stakes (coffee, a catch-up) and has actually
+  arranged a romantic setup — a partner and a single third party already seated, uninvited and
+  unannounced — putting the narrator on the spot with no graceful way to object or leave.
+- Example: "Three cups on the table before I'd sat down. She hadn't taken her coat off. I'd
+  already done the maths." — guessed/the-second-chair
