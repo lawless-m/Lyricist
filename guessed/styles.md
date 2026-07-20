@@ -20,9 +20,16 @@ Test before you paste: **read only the un-bracketed text and ask whether you'd b
 - **State "no backing vocals, no gang vocals, solo female voice" explicitly in the style prompt**, and again in the final tags. Suno's instinct on anything with a repeated hook is to stack a crowd behind it, which destroys this style specifically.
 - The **drop-out is the least predictable part** — regenerate several times to find a take where the production genuinely strips to nothing and the voice is dry and unaccompanied. A take that keeps the pad running underneath kills it. (Same job as chasing the crack in gypsy-emo's shout-back, the *turn* in hardcore's monologue, the swallow in dissoc's dissolve.)
 - Ask for the vocal **close, thin, dry and forward** while everything else is drenched. That mismatch is the Portishead signature — she's in your ear, the band is down a corridor.
+- **Theremin was getting overused** — it was sitting in the default block below, so it got
+  copy-pasted into most songs' prompts regardless of fit. It's one texture in the palette, not
+  a fixed ingredient: use it when a song specifically wants that wavering, spectral edge, and
+  reach for tremolo guitar, spy-film strings, Rhodes, synth drone, or **Trautonium** (confirmed
+  working in Suno — same eerie spectral-glide territory as theremin, e.g. the *The Birds*
+  sound, and a good alternate pick when a song wants that texture without reaching for theremin
+  again) the rest of the time so the catalogue's texture actually varies.
 - Style prompt for the **dusty Dummy-era core** (recommended default):
   ```
-  trip hop, slow dusty breakbeat behind the beat, vinyl crackle, Rhodes piano, tremolo guitar, theremin, spy-film strings, melancholic minor key, thin close-miked fragile female vocal, dry vocal against heavy reverb, sparse, unresolved, no backing vocals, no gang vocals
+  trip hop, slow dusty breakbeat behind the beat, vinyl crackle, Rhodes piano, tremolo guitar, spy-film strings, melancholic minor key, thin close-miked fragile female vocal, dry vocal against heavy reverb, sparse, unresolved, no backing vocals, no gang vocals
   ```
 - **Frozen Third-era variant** (colder, crueller, no comfort — use for humiliation and for anything she's angry about but won't say):
   ```
@@ -32,7 +39,7 @@ Test before you paste: **read only the un-bracketed text and ask whether you'd b
   ```
   sparse acoustic melancholy, nylon guitar, upright bass, brushed drums, distant strings, folk-jazz, intimate cracked female voice recorded close, room tone, no percussion in places, minor key, unresolved, solo vocal only
   ```
-Core instrument/texture palette: slowed hip-hop breakbeat, Rhodes/Wurlitzer, vinyl crackle and surface noise as an instrument, theremin, tremolo/surf guitar, upright bass, muted strings, analogue synth drone. **No guitar solos, no big drums, no key change, no crowd.** The **loop is the solo** — the way the violin carries gypsy-emo, the spoken monologue *is* the solo in institutional hardcore, and the sampler *is* the solo in dissociative hardcore.
+Core instrument/texture palette: slowed hip-hop breakbeat, Rhodes/Wurlitzer, vinyl crackle and surface noise as an instrument, tremolo/surf guitar, upright bass, muted strings, analogue synth drone, theremin or Trautonium (occasional, rotate between the two, not every song). **No guitar solos, no big drums, no key change, no crowd.** The **loop is the solo** — the way the violin carries gypsy-emo, the spoken monologue *is* the solo in institutional hardcore, and the sampler *is* the solo in dissociative hardcore.
  
 ---
  
