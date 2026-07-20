@@ -27,6 +27,19 @@ not listed here. Everything logged from this point forward (new songs written vi
   the-bell-knows-my-name/the-graves-i-didnt-dig, the-bell-knows-my-name/the-plum-trees-secret,
   the-bell-knows-my-name/wheels-where-i-should-kneel
 
+### "Nobody['s] [ever/never] asked" — unacknowledged-expertise tic
+- A stock way of voicing the lurker's "total attendance, zero standing" ache: nobody in the
+  room ever asked her anything, ever asked her opinion, ever asked if she was okay. Recurred
+  enough across the pre-existing catalog (never flagged until now) that it needs retiring the
+  same way `"___ where ___ should ___"` did.
+- Example: "and nobody's ever asked" — guessed/handle-where-a-name-should-be
+- Also seen: guessed/emerald-three ("Nobody's ever asked."), guessed/who-was-i-first-for
+  ("Nobody's asked me about it since."), guessed/well-delivered ("Nobody in that room asked me
+  a single question")
+- Caught and avoided during drafting: guessed/the-version-she-liked originally used "and she
+  never once asked" in its hook — revised to "and she took it whole" before this entry was
+  logged, so it is not listed as a further instance.
+
 ### "and the [drums/churn] [fold/buckle] in (on themselves)(, doesn't lift)" — mechanical-collapse hook line
 - Example: "— and the drums fold in on themselves —" — laundry/breeder
 - Also seen: laundry/addicted-to-declining, laundry/turn-it-down (fold variant);
