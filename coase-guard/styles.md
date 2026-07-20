@@ -40,11 +40,10 @@
   verses with precise clean enunciation, low warm-toned female vocal turning clinical and flat,
   chanted hook with cold echo, minor key, stripped-back production
   ```
-- If a take still drifts toward a generic mainstream hip-hop vocal cadence after adding the
-  delivery descriptors above, try anchoring the vocal further with a named reference point in
-  the technical/industrial-rap-metal lane (e.g. "Eminem-style rapid technical flow," "Ghostemane-
-  style industrial trap-metal vocal") — Suno responds strongly to named-artist-style anchors when
-  generic descriptors alone don't move the vocal enough.
+- **Naming real artists in the prompt is off-limits** — if a take still drifts toward a generic
+  mainstream hip-hop vocal cadence after adding the delivery descriptors above, push harder on
+  descriptive language instead (more specific enunciation/diction cues, tighter compression,
+  colder reverb) rather than reaching for a named-artist anchor.
 
 Core instrument/texture palette to draw from: distorted 808s and sub-bass, detuned/distorted
 guitar stabs, metallic/factory percussion samples, mechanized loop textures, minimal melodic
