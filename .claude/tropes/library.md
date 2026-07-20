@@ -40,6 +40,10 @@ not listed here. Everything logged from this point forward (new songs written vi
   wording doesn't recur.
 - Example: "you trust the log, not the room — you trust the timestamp, not the wait" — purple-dog/no-show
 
+### "Nobody [verb]ed it — it just [verb]s" — spontaneous-order chant hook
+- A chanted claim that a system runs without anyone having designed or authorized it.
+- Example: "Nobody built it — it just runs" — coase-guard/no-blueprint (template.md reference example)
+
 ## Phrases
 
 ### "closer than that"
@@ -74,3 +78,17 @@ not listed here. Everything logged from this point forward (new songs written vi
 
 ### Video-call waiting room as institutional bureaucracy (forced to attend by camera, held past the slot, penalized for a system failure)
 - Example: "the screen just says WAITING, only WAITING, forty minutes says WAITING" — purple-dog/no-show
+
+### The clipboard inspector vs. the untested competence he's citing
+- An outside official (inspector/licensor/planner) criticizes the crew on paperwork/procedure
+  grounds while standing on/using/benefiting from the exact competence he's dismissing (e.g.
+  the roof that never leaked, under a citation for being "unlicensed").
+- Example: "Inspector came in March, said we're unlicensed and untrained — funny how the roof
+  he stood under never leaked once in the rain." — coase-guard/no-blueprint (template.md
+  reference example)
+
+### The exact-headcount food tally as a stand-in for love
+- A domestic-scene song states a specific, small count (mouths/hands/portions) as the real
+  measure of care, immediately after or instead of a sentimental declaration.
+- Example: "Six mouths, four hands, one bag of flour left — that's not a feeling, that's
+  Thursday." — coase-guard/who-eats-fragment (template.md illustrative fragment)
