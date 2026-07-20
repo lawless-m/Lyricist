@@ -147,6 +147,21 @@ not listed here. Everything logged from this point forward (new songs written vi
 
 ## Phrases
 
+### "be happy for her"
+- Guessed's quoted-instruction hook opener for this song — the plain social script she's
+  rehearsing, internalised so thoroughly she now issues it to herself.
+- Example: guessed/be-happy-for-her
+
+### "I bought the card before I knew which way it would go."
+- The flash-of-legibility line: a plain admission that the performance of gladness was
+  prepared in advance, regardless of the actual outcome or her actual feelings about it.
+- Example: guessed/be-happy-for-her
+
+### "I wanted it more than anyone in that room, and I clapped the loudest."
+- The drop-out's naked admission — envy and complicity in the same breath, the loudest
+  applause coming from the person who wanted it most.
+- Example: guessed/be-happy-for-her
+
 ### "Error code UE. Unbalanced load. It knows before I do."
 - The flash-of-legibility line: a washing machine's literal error code read as a diagnosis of
   the narrator's own state, delivered flat.
@@ -270,3 +285,9 @@ not listed here. Everything logged from this point forward (new songs written vi
   image sit — tenderness and surveillance in the same small non-action.
 - Example: "Her tile freezes mid-laugh. I don't unfreeze it. I let it sit like that a while." —
   laundry/pin-her-video
+
+### Timing her own reaction to someone else's good news
+- The narrator clocks and reports the exact, small elapsed time of her own performed
+  response (a like, a reply, a hug) as if it were evidence in a self-administered audit —
+  self-surveillance standing in for feeling.
+- Example: "I was first to like the post. Eleven seconds. I checked." — guessed/be-happy-for-her

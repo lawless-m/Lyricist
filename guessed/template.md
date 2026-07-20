@@ -103,7 +103,14 @@ Save the size for nothing. **This style has no big moment.** It gets closer, col
  
 These songs live in territory the sibling specs don't, and the craft advice and the ethics happen to be the same advice. The brief is **genuine representation of people who don't get a voice** — so the failure mode isn't offence, it's the two ways of getting it wrong: turning her into a poster, or turning her into a victim. Both are lies about a real person.
  
-**Territory this style covers.** Social anxiety and the specific loserhood of a woman who isn't the woman she was supposed to be. Regretting career over children. Being a woman who plays games and is never quite in the room. The four words, and the fifteen years of pre-emptive male-presenting that followed. Feeling let down by a movement that told her what she'd want. Supporting something in principle and being hurt by it in person, then finding she isn't allowed to say so. One theme per song, or two that share a shape — never all of them at once.
+**Territory this style covers.** Social anxiety and the specific loserhood of a woman who isn't the woman she was supposed to be. Regretting career over children. Being a woman who plays games and is never quite in the room. The four words, and the fifteen years of pre-emptive male-presenting that followed. Feeling let down by a movement that told her what she'd want. Supporting something in principle and being hurt by it in person, then finding she isn't allowed to say so. A friend's win she can't feel happy about, performed anyway (`be-happy-for-her`). One theme per song, or two that share a shape — never all of them at once.
+
+**Banked, unused territory** — double-bind situations spotted but not yet written; check this list before reaching for a theme, so a fresh one doesn't get proposed twice:
+- Grief that's aged out of its welcome — old enough that people have started saying "still?"
+- Catching herself becoming the mother she swore she wouldn't, and "you're just like her" landing as a compliment from someone else.
+- A partner's small, old lie she chose to let stand years ago, and still lets stand.
+- Being told she's "aged so gracefully" — a compliment built entirely on the thing she's not supposed to mind about.
+(Already spent, for reference: remembering everyone's birthdays and never being remembered back — that's `when-was-it-decided`, not a fresh well.)
  
 **The rules:**
  
