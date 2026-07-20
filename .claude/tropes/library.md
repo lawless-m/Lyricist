@@ -65,6 +65,12 @@ not listed here. Everything logged from this point forward (new songs written vi
 - Example: "Two hours at the woodpile earns one hour at my table. That's not strict. That's
   arithmetic." — coase-guard/you-work-you-eat
 
+### "Who the fuck are you? ... You bought a piece of paper. You didn't buy this place." — ownership-without-legitimacy chant hook
+- A two-part chanted challenge: first a flat identity challenge to an outside claimant, then a
+  paper-claim-vs-actual-place contrast rejecting financial/legal ownership as real legitimacy.
+- Example: "Who the fuck are you? We don't know your face. ... You bought a piece of paper. You
+  didn't buy this place." — coase-guard/who-the-fuck-are-you
+
 ## Phrases
 
 ### "closer than that"
@@ -128,3 +134,13 @@ not listed here. Everything logged from this point forward (new songs written vi
   earned reciprocity as "withholding care" or "concerning."
 - Example: "The office called back, called my rule 'concerning,' asked was I withholding care
   from a minor in the home." — coase-guard/you-work-you-eat
+
+### The paper-owner without contribution, claiming a place he never built
+- An outside investor/owner arrives via financial restructuring (a holding company, an equity
+  stake, redundancy language) claiming ownership of a crew's operation or place, with no
+  hands-on contribution to it — challenged by the crew's assertion that legal paper doesn't
+  confer real legitimacy. Distinct from the clipboard-inspector motif above (that's a visiting
+  official citing procedure while benefiting from competence; this is a financial claimant with
+  no procedural role at all, just a stake).
+- Example: "Says he's got forty percent now, says it like a fact he found... You bought a piece
+  of paper. You didn't buy this place." — coase-guard/who-the-fuck-are-you
