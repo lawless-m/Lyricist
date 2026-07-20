@@ -55,6 +55,16 @@ not listed here. Everything logged from this point forward (new songs written vi
 - Example: "Doesn't matter what he actually said. What matters is what we needed him to have
   said." — coase-guard/the-day-we-turned-it-off
 
+### "You work, you eat. That's the whole of the law." — earn-it chant hook
+- A chanted two-clause law-statement: the whole household/crew rule collapsed into one blunt
+  earned-exchange line.
+- Example: "You work, you eat. That's the whole of the law." — coase-guard/you-work-you-eat
+
+### "That's not [feeling word], that's arithmetic" — blunt reframing of a rule as cold math
+- Rejects an emotional label for a rule (strict/cruel/harsh) by reframing it as plain counting.
+- Example: "Two hours at the woodpile earns one hour at my table. That's not strict. That's
+  arithmetic." — coase-guard/you-work-you-eat
+
 ## Phrases
 
 ### "closer than that"
@@ -111,3 +121,10 @@ not listed here. Everything logged from this point forward (new songs written vi
   installed system silently reallocating danger).
 - Example: "Gave Danny the night shift 'cause the screen liked his face, put a nineteen-year-old
   on the crane in Marcus' place." — coase-guard/the-day-we-turned-it-off
+
+### The welfare office framing an earned-reciprocity household rule as neglect
+- An institutional caseworker/office calls in or writes to challenge a self-organizing
+  household's "you work, you eat" rule, framing unconditional entitlement as the default and
+  earned reciprocity as "withholding care" or "concerning."
+- Example: "The office called back, called my rule 'concerning,' asked was I withholding care
+  from a minor in the home." — coase-guard/you-work-you-eat
