@@ -91,6 +91,11 @@ not listed here. Everything logged from this point forward (new songs written vi
 
 ## Phrases
 
+### "The kindest thing he ever did to me was get it wrong."
+- The drop-out's naked admission that someone's considerate impulse (not wanting to presume
+  familiarity) is what erased her further, rather than any carelessness or cruelty.
+- Example: guessed/he-meant-it-kindly
+
 ### "closer than that"
 - A response/refrain line that has become a stock line in nearly every lucy-might song,
   traced back to the reference example embedded in the old lucy-might spec — it was never
@@ -179,3 +184,11 @@ not listed here. Everything logged from this point forward (new songs written vi
   unannounced — putting the narrator on the spot with no graceful way to object or leave.
 - Example: "Three cups on the table before I'd sat down. She hadn't taken her coat off. I'd
   already done the maths." — guessed/the-second-chair
+
+### The polite over-lengthening of a nickname, ending up further from her real name
+- Someone hears a short, correct-enough nickname for her, decides it's too familiar to use
+  himself without having earned it, and lengthens it into a fuller version that is actually
+  further from her real name than the nickname was — kindness, not carelessness, doing the
+  erasing.
+- Example: "he lengthened it so it wouldn't sound like he'd earned it, and it's further from my
+  name than the one he heard" — guessed/he-meant-it-kindly
