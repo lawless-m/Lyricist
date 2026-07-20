@@ -99,7 +99,22 @@ not listed here. Everything logged from this point forward (new songs written vi
   curdles into an existential question (can anyone see him at all).
 - Example: laundry/pin-her-video
 
+### "count the sheep, scroll the feed, dim the screen, drain the charge" — insomnia consumption-imperative hook opener
+- Laundry's imperative-opener slot filled with sleep-hygiene-advice verbs fused with
+  screen/battery-drain verbs.
+- Example: laundry/the-app-says-im-resting
+
+### "the app says I'm resting" — quantified-self mantra
+- A sleep-tracker's data contradicting lived experience, chanted as mantra until it degrades to
+  noise; the narrator ultimately believes the graph over the day he's actually having.
+- Example: laundry/the-app-says-im-resting
+
 ## Phrases
+
+### "Six hours of light sleep, the graph says. I didn't sleep at all."
+- The flash-of-legibility line: a flat factual contradiction between tracked data and lived
+  experience, delivered too calm to be sane.
+- Example: laundry/the-app-says-im-resting
 
 ### "The kindest thing he ever did to me was get it wrong."
 - The drop-out's naked admission that someone's considerate impulse (not wanting to presume
