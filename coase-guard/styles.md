@@ -12,29 +12,43 @@
   the audible drop in temperature.
 - The Foreman and Quartermaster need **different core prompts**, not just different lyrics —
   same instrumentation family, different density and space.
+- **"hip-hop" alone pulls Suno toward a generic mainstream vocal cadence and ad-lib style,
+  regardless of what instrumental tags surround it** — that's the wrong vocal lane for this
+  band's cold, technical, precision-over-swagger delivery. Anchor the vocal explicitly with
+  **"rap-metal" / "rap-rock"** framing instead of leaning on "hip-hop" alone, and always include
+  an explicit delivery descriptor ("clipped precise enunciation," "cold controlled delivery,"
+  "minimal ad-libs") — the genre tag sets the instrumentation, the delivery descriptor is what
+  actually steers the vocal performance.
 - Style prompt for **the Foreman, "What We Have" / "Where We Came From"** (recommended
   default):
   ```
-  industrial hip-hop, distorted 808s, metallic factory-floor percussion, rapid technical
-  rapped verses, cold aggressive delivery, chanted gang-vocal hooks, mechanized loops, minor
-  key, tight compressed production
+  industrial rap-metal, distorted 808s and detuned guitar stabs, metallic factory-floor
+  percussion, rapid rapped verses with clipped precise enunciation, cold controlled delivery,
+  minimal ad-libs, chanted gang-vocal hooks, mechanized loops, minor key, tight compressed
+  production
   ```
 - **Heavier variant** for Where We Came From (origin-myth songs, tribal layer under the
   machine):
   ```
-  industrial hip-hop, tribal war-drum layer under mechanized percussion, distorted bass,
-  rapid rapped verses building to a shouted chanted hook, minor key, heavier low-end,
-  cavernous reverberant production
+  industrial rap-metal, tribal war-drum layer under mechanized percussion and detuned guitar,
+  distorted bass, rapid rapped verses with precise clipped enunciation building to a shouted
+  chanted hook, minor key, heavier low-end, cavernous reverberant production
   ```
 - Style prompt for **the Quartermaster, "Who Eats"**:
   ```
-  industrial hip-hop, sparse skeletal beat, wide space between hits, cold controlled rapped
-  verses, low warm-toned female vocal turning clinical and flat, chanted hook with cold
-  echo, minor key, stripped-back production
+  industrial rap-metal, sparse skeletal beat, wide space between hits, cold controlled rapped
+  verses with precise clean enunciation, low warm-toned female vocal turning clinical and flat,
+  chanted hook with cold echo, minor key, stripped-back production
   ```
-Core instrument/texture palette to draw from: distorted 808s and sub-bass, metallic/factory
-percussion samples, mechanized loop textures, minimal melodic material — the chant *is* the
-hook, there's no sung melody to fall back on. No ad-libs or hype-man chatter — the cold
-control is the point.
+- If a take still drifts toward a generic mainstream hip-hop vocal cadence after adding the
+  delivery descriptors above, try anchoring the vocal further with a named reference point in
+  the technical/industrial-rap-metal lane (e.g. "Eminem-style rapid technical flow," "Ghostemane-
+  style industrial trap-metal vocal") — Suno responds strongly to named-artist-style anchors when
+  generic descriptors alone don't move the vocal enough.
+
+Core instrument/texture palette to draw from: distorted 808s and sub-bass, detuned/distorted
+guitar stabs, metallic/factory percussion samples, mechanized loop textures, minimal melodic
+material — the chant *is* the hook, there's no sung melody to fall back on. No ad-libs or
+hype-man chatter — the cold control is the point.
 
 ---
