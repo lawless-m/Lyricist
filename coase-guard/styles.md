@@ -32,7 +32,6 @@
   verses, low warm-toned female vocal turning clinical and flat, chanted hook with cold
   echo, minor key, stripped-back production
   ```
-
 Core instrument/texture palette to draw from: distorted 808s and sub-bass, metallic/factory
 percussion samples, mechanized loop textures, minimal melodic material — the chant *is* the
 hook, there's no sung melody to fall back on. No ad-libs or hype-man chatter — the cold

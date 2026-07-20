@@ -5,7 +5,7 @@ description: Use when writing a new song lyric for any of the six bands (Guessed
 
 # write-song
 
-Writes a new song for one of the five bands, checks it against the shared trope library so
+Writes a new song for one of the six bands, checks it against the shared trope library so
 nothing gets reused across the catalog, and saves it using the existing file convention.
 
 ## Band lookup
