@@ -1,6 +1,6 @@
 ---
 name: write-song
-description: Use when writing a new song lyric for any of the five bands (Guessed, Laundry, Lucy Might, Purple Dog, The Bell Knows My Name). Triggered by requests like "song for Guessed", "another laundry track", "make new song for purple-dog", "another gypsy-emo song", "write me a lucy-might song", or a bare theme with no style named (in which case ask which band). This is the only entry point for song requests — the five style specs are reference files it reads, not separate skills.
+description: Use when writing a new song lyric for any of the six bands (Guessed, Laundry, Lucy Might, Purple Dog, The Bell Knows My Name, Coase Guard). Triggered by requests like "song for Guessed", "another laundry track", "make new song for purple-dog", "another gypsy-emo song", "write me a lucy-might song", "a Coase Guard track", or a bare theme with no style named (in which case ask which band). This is the only entry point for song requests — the six style specs are reference files it reads, not separate skills.
 ---
 
 # write-song
@@ -20,6 +20,7 @@ aliases — users may say either):
 | `lucy-might`               | Lucy Might                                                   |
 | `purple-dog`                | Purple Dog, institutional-hardcore, institutional hardcore    |
 | `the-bell-knows-my-name`   | The Bell Knows My Name, gypsy-emo, gypsy emo                 |
+| `coase-guard`               | Coase Guard, industrial hip-hop, the Foreman, the Quartermaster |
 
 If the request names a theme but no band and it isn't clear from context, ask which band before
 doing anything else.
