@@ -109,7 +109,23 @@ not listed here. Everything logged from this point forward (new songs written vi
   noise; the narrator ultimately believes the graph over the day he's actually having.
 - Example: laundry/the-app-says-im-resting
 
+### "say sorry, mean nothing, wipe your face, keep walking" — apology-that-can't-land consumption-imperative hook opener
+- Laundry's imperative-opener slot filled with apology/repair verbs undercut by
+  dismissal/erasure verbs.
+- Example: laundry/sorry-spider
+
+### "message not delivered" — failed-communication mantra
+- The phone/text-message failure notification repurposed as the chanted mantra for an apology
+  that has no addressee capable of receiving it (interspecies, here — but portable to any
+  unreachable listener).
+- Example: laundry/sorry-spider
+
 ## Phrases
+
+### "I don't think 'sorry' travels across phyla."
+- The flash-of-legibility line, dry and factual: a plain admission that an apology has no
+  biological channel to travel down.
+- Example: laundry/sorry-spider
 
 ### "Six hours of light sleep, the graph says. I didn't sleep at all."
 - The flash-of-legibility line: a flat factual contradiction between tracked data and lived
