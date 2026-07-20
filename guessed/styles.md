@@ -23,10 +23,14 @@ Test before you paste: **read only the un-bracketed text and ask whether you'd b
 - **Theremin was getting overused** — it was sitting in the default block below, so it got
   copy-pasted into most songs' prompts regardless of fit. It's one texture in the palette, not
   a fixed ingredient: use it when a song specifically wants that wavering, spectral edge, and
-  reach for tremolo guitar, spy-film strings, Rhodes, synth drone, or **Trautonium** (confirmed
-  working in Suno — same eerie spectral-glide territory as theremin, e.g. the *The Birds*
-  sound, and a good alternate pick when a song wants that texture without reaching for theremin
-  again) the rest of the time so the catalogue's texture actually varies.
+  reach for tremolo guitar, spy-film strings, Rhodes, synth drone, or one of the eerie
+  alternates the rest of the time so the catalogue's texture actually varies. Eerie-texture
+  alternates to rotate through instead of always reaching for theremin: **Trautonium**
+  (spectral glide, e.g. the *The Birds* sound), **Ondes Martenot** (same vintage electronic
+  glide lineage as theremin/Trautonium, warmer and more melodic, classic film-score sound),
+  **musical saw** (wavering, vocal-adjacent, mournful), **waterphone** (metallic, unsettling,
+  scraped/bowed resonance — colder and more unsettled than the others, good for the frozen end
+  of the dial).
 - Style prompt for the **dusty Dummy-era core** (recommended default):
   ```
   trip hop, slow dusty breakbeat behind the beat, vinyl crackle, Rhodes piano, tremolo guitar, spy-film strings, melancholic minor key, thin close-miked fragile female vocal, dry vocal against heavy reverb, sparse, unresolved, no backing vocals, no gang vocals
