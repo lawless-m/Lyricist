@@ -1,11 +1,11 @@
 ---
 name: write-song
-description: Use when writing a new song lyric for any of the six bands (Guessed, Laundry, Lucy Might, Purple Dog, The Bell Knows My Name, Coase Guard). Triggered by requests like "song for Guessed", "another laundry track", "make new song for purple-dog", "another gypsy-emo song", "write me a lucy-might song", "a Coase Guard track", or a bare theme with no style named (in which case ask which band). This is the only entry point for song requests — the six style specs are reference files it reads, not separate skills.
+description: Use when writing a new song lyric for any of the seven bands (Guessed, Laundry, Lucy Might, Purple Dog, The Bell Knows My Name, Coase Guard, Ultracoase). Triggered by requests like "song for Guessed", "another laundry track", "make new song for purple-dog", "another gypsy-emo song", "write me a lucy-might song", "a Coase Guard track", "an Ultracoase song", or a bare theme with no style named (in which case ask which band). This is the only entry point for song requests — the seven style specs are reference files it reads, not separate skills.
 ---
 
 # write-song
 
-Writes a new song for one of the six bands, checks it against the shared trope library so
+Writes a new song for one of the seven bands, checks it against the shared trope library so
 nothing gets reused across the catalog, and saves it using the existing file convention.
 
 ## Band lookup
@@ -21,6 +21,7 @@ aliases — users may say either):
 | `purple-dog`                | Purple Dog, institutional-hardcore, institutional hardcore    |
 | `the-bell-knows-my-name`   | The Bell Knows My Name, gypsy-emo, gypsy emo                 |
 | `coase-guard`               | Coase Guard, industrial hip-hop, the Foreman, the Quartermaster |
+| `ultracoase`                | Ultracoase, synth new wave, Ultravox-adjacent                |
 
 If the request names a theme but no band and it isn't clear from context, ask which band before
 doing anything else.
@@ -40,7 +41,7 @@ doing anything else.
 6. Pick the appropriate style-prompt variant from `styles.md` (or adapt it to the song's dial
    position, following that file's own guidance), and save both output files:
    - `<band>/<slug>.txt` — the lyric, where `<slug>` is a short kebab-case phrase drawn from
-     the song (matching the existing convention already used across all five band folders).
+     the song (matching the existing convention already used across all other band folders).
    - `<band>/<slug>.style.txt` — the flat, single-paragraph Suno style prompt. No markdown,
      no headers — just the prompt text itself, exactly as it will be pasted into Suno.
 7. Log the new song's notable devices into `.claude/tropes/library.md`: add each one under the
