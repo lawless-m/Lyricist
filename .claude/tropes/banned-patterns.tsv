@@ -1,0 +1,211 @@
+# Mechanical subset of the trope library (see library.md — the human record stays there).
+# Format: SEVERITY <TAB> extended-regex (case-insensitive) <TAB> source/note
+# BAN   = any hit in a new draft means the draft changes. No exceptions.
+# WATCH = a hit is allowed only with a stated, song-specific justification — never as a reflex.
+# Patterns are anchors, not full lines: distinctive substrings of logged phrases, or regex
+# skeletons of logged constructions. A miss here proves nothing about constructions-with-slots
+# or imagery motifs — those stay in the fuzzy check (library.md Constructions + Imagery).
+# Checked by check.sh against a draft lyric before saving. Maintained by write-song step 7:
+# every newly logged phrase-kind device adds a line here in the same commit.
+#
+# --- Constructions with mechanical skeletons ---
+BAN	where [a-z' ]{1,25} should	inventory-of-loss couplet (library #1)
+BAN	nobody'?s? (ever |never |once )?asked	unacknowledged-expertise tic
+BAN	(fold|buckle)s? in on	mechanical-collapse fold/buckle variants
+BAN	you trust the [a-z]+, not the	accusatory parallel — purple-dog/no-show
+BAN	so (who|what|why|where|when|how) (was|did) i	retired guessed question skeleton
+BAN	so tell me, [a-z]+, tell me	retired bell repeated-address skeleton
+BAN	(didn'?t|never) (fix|save)d? me	final-chorus landing formula (3-band leak)
+BAN	but god	bell shout-back pivot shape
+BAN	never once [a-z]+e?d? myself	reflexive-verb mismatch — ultracoase/delivered-unread
+BAN	i know the [a-z' ]{1,25}, not the	I-know-X-not-Y couplet — ultracoase/forge
+BAN	or did i just	either/or question — guessed/the-wanderer
+BAN	was any of it ever about	yes/no question — guessed/let-it-lie
+BAN	i said yes to a	small-invitation reveal — guessed/the-second-chair
+BAN	grandmothers?'?s? grandmother	ancestral-lineage motif anchor
+#
+# --- Stock count-words / day-words / image-words ---
+BAN	\btwice\b	stock precision count (guessed saturation)
+BAN	\bnine\b	stock effort count (banned pre-emptively; also catches "the ninth")
+WATCH	\bforty-one\b	reflex precise-sounding number (laundry/all-clear)
+WATCH	four hundred	reflex large-count number (5 songs)
+WATCH	\btuesday\b	reflex arbitrary-day marker (2 ultracoase songs)
+WATCH	\bfrost\b	ultracoase reflex season-adversity image (the-frost-finds-the-line)
+#
+# --- Chant hooks / law-statements (coase-guard) ---
+BAN	nobody built it	spontaneous-order chant — no-blueprint
+BAN	we run on a name	identity-over-schedule chant — the-day-we-turned-it-off
+BAN	to have said	myth-serves-the-need wink — the-day-we-turned-it-off
+BAN	you work, you eat	earn-it chant — you-work-you-eat
+BAN	the whole of the law	earn-it chant second clause
+BAN	that'?s arithmetic	cold-math reframe — you-work-you-eat
+BAN	who the fuck are you	ownership-challenge chant
+BAN	bought a piece of paper	paper-claim contrast
+BAN	didn'?t buy this place	paper-claim contrast second clause
+BAN	never leaked once	clipboard-inspector exemplar — no-blueprint
+BAN	six mouths, four hands	headcount tally — who-eats fragment
+BAN	withholding care	welfare-office motif anchor — you-work-you-eat
+#
+# --- Laundry imperative openers (each spent verbatim) ---
+BAN	pin the face, mute the room	pin-her-video
+BAN	count the sheep, scroll the feed	the-app-says-im-resting
+BAN	say sorry, mean nothing	sorry-spider
+BAN	spin it out, wring it dry	unbalanced-load
+BAN	read the card, hold the mic	second-draft
+BAN	post the req, water the plant	the-graveyard-is-full
+BAN	cast the wind, work the tree line	all-clear
+BAN	walk it, heel it	good-dog (doubled shape retired)
+BAN	queue the take, tag the mood	click-regenerate
+BAN	clock in, bank the hours	rest-when-im-dead
+BAN	label it, litigate it	oats-do-not-have-nipples
+BAN	raise the ticket, flag the risk	no-blockers
+BAN	part it out	part-it-out (opener + mantra)
+#
+# --- Laundry mantras / spikes ---
+BAN	can everyone see my screen	pin-her-video mantra
+BAN	the app says i'?m resting	quantified-self mantra
+BAN	message not delivered	sorry-spider mantra
+BAN	wash, rinse, repeat	unbalanced-load mantra
+BAN	to the happy couple	second-draft mantra
+BAN	in-dispensable	the-graveyard-is-full self-negating mantra
+BAN	\ball clear\b	all-clear mantra
+BAN	gets the emotions	machine-emotions spike — second-draft
+BAN	no blockers	no-blockers mantra
+BAN	click regenerate	click-regenerate mantra
+BAN	rest when i'?m dead	rest-when-im-dead mantra
+BAN	oats do not have nipples	oats mantra
+BAN	unbalanced load	error-code spike — unbalanced-load
+BAN	across phyla	sorry-spider spike
+BAN	six hours of light sleep	app-says-im-resting spike
+BAN	full of indispensable	graveyard aphorism spike
+BAN	as the news says	all-clear spike
+BAN	zero bodies	all-clear tally
+BAN	better than i would have	click-regenerate spike
+BAN	delilah	no-blockers spike + Samson motif
+BAN	same card as the chair	rest-when-im-dead spike
+BAN	keep up with demand	oats spike
+BAN	freezes mid-laugh	pin-her-video frozen-tile motif anchor
+BAN	the calendar invite	graveyard recurring-invite motif anchor
+#
+# --- Laundry mechanical-collapse pre-hook phrasings (all five spent) ---
+BAN	stutter, catch	click-regenerate pre-hook
+BAN	second kit drops out	no-blockers pre-hook
+BAN	ticking hi-hat	no-blockers pre-hook
+BAN	half-beat late	rest-when-im-dead pre-hook
+BAN	hi-hat splits in two	oats pre-hook
+#
+# --- Guessed quoted instructions / spikes / shrugs ---
+BAN	act like it'?s news	four-minute-fix instruction
+BAN	be happy for her	be-happy-for-her instruction
+BAN	don'?t correct a compliment	the-version-she-liked instruction
+BAN	focus on the story	focus-on-the-story instruction
+BAN	let it lie	let-it-lie instruction
+BAN	come back to us	the-wanderer instruction
+BAN	be nice about it	handle instruction
+BAN	a word i made up	handle one-line-that-lands
+BAN	bought the card before	be-happy-for-her spike
+BAN	clapped the loudest	be-happy-for-her drop-out
+BAN	was a gift and i said yes	is-it-a-gift spike
+BAN	i'?d wear it to	is-it-a-gift drop-out
+BAN	i said thank you	verbatim-duplicated shrug (2 songs)
+BAN	kindest thing he ever did	he-meant-it-kindly drop-out
+BAN	i filed them	the-version-she-liked drop-out
+BAN	who'?s actually looking	focus-on-the-story drop-out
+BAN	lip-read the bit	focus-on-the-story expertise line
+BAN	four-minute fix	four-minute-fix spike
+BAN	two thousand and nine	four-minute-fix drop-out (also nine ban)
+BAN	in the room to be finished	let-it-lie spike
+BAN	know where my clothes are	let-it-lie drop-out
+BAN	pinned him across	the-wanderer spike
+BAN	not allowed to face	the-wanderer spike
+BAN	never has to explain	the-wanderer drop-out
+BAN	eleven seconds	be-happy-for-her timing motif
+BAN	three cups on the table	the-second-chair ambush motif anchor
+#
+# --- Lucy Might ---
+BAN	closer than that	9-song leak from ask-me-again
+BAN	smell my promises	ask-me-again scent line
+BAN	sit closer	ask-me-again invitation imperative
+BAN	ask me again	ask-me-again hook (title phrase)
+#
+# --- Bell pre-chorus personifications (all four spent) ---
+BAN	fiddle starts confessing	5 uses
+BAN	violin remembers	the-graves-i-didnt-dig
+BAN	stops its weeping	i-was-here-before-your-fathers
+BAN	strings go quiet	the-birds-have-stopped-singing
+#
+# --- Bell hooks / questions ---
+BAN	gave the birds my grief	the-birds-have-stopped-singing couplet
+BAN	ahead of that bargain	the-birds-have-stopped-singing couplet
+BAN	does the quiet keep better count	the-birds-have-stopped-singing question
+BAN	hush it low, hush it holy	the-birds-have-stopped-singing opener
+BAN	play it quick, play it broken	wheels-where-i-should-kneel opener
+BAN	dig it slow, dig it holy	the-graves-i-didnt-dig opener
+#
+# --- Ultracoase intros / winks / hook exemplars ---
+BAN	nobody rang the bell	forge intro
+BAN	staying meant becoming him	forge wink
+BAN	kept the fire lit	forge anaphora
+BAN	tiger doesn'?t knock	ashes intro
+BAN	the way he showed me	ashes wink
+BAN	learn to ride, or you rust	ashes hook
+BAN	the sea doesn'?t remember	the-third-time intro
+BAN	counted the sails	the-third-time wink
+BAN	standing here is where i'?ve always been	the-third-time hook
+BAN	tilbury	tilbury intro (named anchor)
+BAN	heart of a king	tilbury hook
+BAN	picks the moment, not the crowd	tilbury hook
+BAN	keep the ninth	tilbury wink (also nine ban)
+BAN	t-minus ten	escape-velocity intro
+BAN	counting down to an ending	escape-velocity intro
+BAN	counting up to a landing	escape-velocity hook
+BAN	just unclaimed	escape-velocity hook
+BAN	scheduled for a tuesday	escape-velocity wink (also tuesday watch)
+BAN	already knows the route	autopilot intro
+BAN	where i actually want to go	autopilot intro
+BAN	typed home into	autopilot wink
+BAN	nobody optimized what for	autopilot hook
+BAN	hospital bracelet	delivered-unread wink
+BAN	granola bars	delivered-unread wink
+BAN	four thousand of them	delivered-unread hook
+BAN	delivered, unread	delivered-unread status motif
+BAN	cursor blinks	delivered-unread spike
+BAN	cuts a graft	frost-finds-the-line intro
+BAN	same length, the same edge	frost-finds-the-line intro
+BAN	take my truck	frost-finds-the-line wink
+BAN	as far as the crossing	frost-finds-the-line wink
+BAN	stayed quiet that week	frost-finds-the-line wink
+BAN	splits along the graft	frost-finds-the-line hook
+BAN	bind the wound again	frost-finds-the-line hook
+BAN	graves are hungry	graves-are-hungry intro (title phrase)
+BAN	mean it as a metaphor	graves-are-hungry intro
+BAN	i dug hers myself	graves-are-hungry wink
+BAN	four foot, not six	graves-are-hungry wink
+BAN	feed it a	graves-are-hungry hook
+BAN	hungry again	graves-are-hungry hook
+BAN	dig it just as deep	graves-are-hungry hook
+BAN	eleven inches	door-standing-open hook
+BAN	sandbag the toe	door-standing-open wink
+BAN	signed the roster	door-standing-open wink
+BAN	paid for the sky	door-standing-open hook
+BAN	file it again	door-standing-open hook
+BAN	left half-shut	two-hundred-yards hook
+BAN	doesn'?t care if i do	two-hundred-yards hook
+BAN	two hundred yards past	two-hundred-yards wink
+BAN	checked the distance after	two-hundred-yards wink
+BAN	walk it alone forever	two-hundred-yards hook
+BAN	programs the robots	who-programs-the-robots hook (title phrase)
+BAN	the room points at	who-programs-the-robots hook
+BAN	forty milliseconds	who-programs-the-robots wink
+BAN	wasn'?t the sensor	who-programs-the-robots wink
+BAN	hedge went quiet	which-of-us-it-was hook
+BAN	audiogram	which-of-us-it-was hook
+BAN	which of us it was	which-of-us-it-was hook (title phrase)
+BAN	walks the transect	which-of-us-it-was wink
+BAN	r(ü|u)ckenfigur	ruckenfigur intro (title word)
+BAN	weight on the back foot	ruckenfigur technique refrain
+BAN	three hundred and sixty-two	ruckenfigur count
+BAN	never painted her face	ruckenfigur wink
+BAN	asked her to turn around	ruckenfigur wink
+BAN	stand where (she|they) stood	ruckenfigur hook
+BAN	colour of her eyes	ruckenfigur hook

@@ -182,6 +182,19 @@ per-band. Not required by anything above. Scoping and checking layer only.
    step was being skipped. Applied: SKILL.md step 6 now requires stating the dial position
    and either what changed from the base variant or why the base fits exactly, before saving.
 
+## Step 2 — COMPLETED 2026-07-24
+
+The mechanical subset (~170 patterns) extracted into `.claude/tropes/banned-patterns.tsv`,
+checked by `.claude/tropes/check.sh` (case-insensitive ERE per line, tested against synthetic
+dirty/clean drafts and against source songs). Two severities, matching the library's own
+language: **BAN** (hit = draft changes, exit 1) and **WATCH** (frost/Tuesday/forty-one/four
+hundred — allowed only with stated justification, exit 0 with warning). SKILL.md step 5 is
+now two-layer (script first, then fuzzy read of Constructions + Imagery only) and step 7
+requires mirroring new greppable entries into the TSV in the same commit. library.md header
+documents the split and the sync rule (library wins on disagreement). The WATCH tier also
+pre-builds the vocabulary step 3 (decay) needs — a cooled entry is one demoted BAN→WATCH→gone
+by songs-since, per the resolved open decision 2.
+
 ## Step 1 — COMPLETED 2026-07-24
 
 All seven templates scanned against the library. Finding 3's closing-line formula turned out

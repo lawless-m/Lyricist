@@ -34,10 +34,18 @@ doing anything else.
 3. Read `.claude/tropes/library.md`.
 4. Draft the song per `template.md`, picking a fresh theme/dial/arrangement per its own
    "don't let it calcify" guidance.
-5. Check every notable device in the draft — constructions, distinctive phrases, imagery
-   motifs — against every entry in `.claude/tropes/library.md`. **Any match, in any category,
-   means revise the draft to avoid it, then re-check.** A device only needs to appear once in
-   the library to be off-limits; there is no "safe to use twice" tier.
+5. Two-layer trope check, both mandatory:
+   - **Mechanical (deterministic):** run `.claude/tropes/check.sh <draft-file>` on the draft.
+     A **BAN** hit means the draft changes — revise and re-run until it exits clean. A
+     **WATCH** hit (stock words like frost/Tuesday/forty-one) is allowed only with a stated,
+     song-specific justification in the conversation — never as an unexamined reflex.
+   - **Fuzzy (judgement):** check the draft's constructions-with-slots and imagery motifs
+     against the **Constructions** and **Imagery / Motifs** sections of
+     `.claude/tropes/library.md`. The mechanical pass only covers exact anchors — a fresh
+     sentence in a retired grammatical shape or a re-instantiated motif will pass the script
+     and still must be caught here. **Any match, in any category, means revise the draft to
+     avoid it, then re-check.** A device only needs to appear once in the library to be
+     off-limits; there is no "safe to use twice" tier.
 6. Build the style prompt from `styles.md` and the song's dial position, and **state the
    adaptation decision out loud before saving**: name the dial position, then either (a) what
    you changed from the base variant and why, or (b) why the base variant already fits this
@@ -64,8 +72,13 @@ doing anything else.
      no headers — just the prompt text itself, exactly as it will be pasted into Suno.
 7. Log the new song's notable devices into `.claude/tropes/library.md`: add each one under the
    right category (Constructions / Phrases / Imagery / Motifs) with a one-line description, one
-   example, and the source song — following the exact entry format already in the file. This is
-   what makes the *next* song's check in step 5 catch a second use.
+   example, and the source song — following the exact entry format already in the file. **Then
+   mirror every entry that has a greppable anchor into `.claude/tropes/banned-patterns.tsv`**
+   (severity `BAN`, or `WATCH` only for stock-word-style flags): a distinctive substring for
+   exact phrases, a regex skeleton for mechanically-expressible constructions. An entry logged
+   in the library but not mirrored into the TSV is invisible to the next song's deterministic
+   check — the two files update together, in the same commit. This is what makes the *next*
+   song's check in step 5 catch a second use.
 
 ## Trope library discipline
 

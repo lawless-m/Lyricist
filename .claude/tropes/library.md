@@ -13,6 +13,17 @@ catalog of every line ever written — devices used only once in the pre-existin
 not listed here. Everything logged from this point forward (new songs written via
 `write-song`) is added on its *first* use, so it's caught on any second use anywhere.
 
+**Enforcement is split in two layers (2026-07-24, refactor step 2).** This file remains the
+human record — full context, provenance, every entry. Alongside it, `banned-patterns.tsv`
+holds the *mechanical subset*: exact-phrase anchors and regex-expressible construction
+skeletons, checked deterministically by `check.sh` before any save (write-song step 5). The
+Constructions and Imagery / Motifs sections are the *fuzzy remainder* — shapes and motifs a
+grep can't catch — and they are what write-time judgement now concentrates on. Two upkeep
+rules: (1) every newly logged entry with a greppable anchor is mirrored into the TSV in the
+same commit — an unmirrored entry is invisible to the deterministic check; (2) the TSV is
+derived from this file, never the reverse — if they disagree, this file wins and the TSV
+gets fixed.
+
 ## Constructions
 
 ### "I've got [X] where [Y] should be" / "I've got [X] where [Y] was" — inventory-of-loss couplet
