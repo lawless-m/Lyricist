@@ -89,7 +89,7 @@ The **drop-out is the signature move** — the direct equivalent of gypsy-emo's 
 - **Refusing the noun** — count the words, don't quote them; describe the shape, don't name the act.
 - **The dated specific** — a year, a number, a count. Flat and factual against everything oblique.
 - **The unspent expertise** — one line, dropped without emphasis, showing she knows the room better than anyone in it: she can name every person in the thread, she's read the whole thing twice, she knew the answer, she was better than him. Never stated as a complaint. It's the lurker's particular ache — total attendance, zero standing — and it does more damage delivered as a shrug than as a grievance. **The construction *"nobody['s] [ever/never] asked"* is banned** — it recurred across enough songs (unflagged until now) to be the second nod this style keeps defaulting to. Show the zero-standing ache through a concrete detail instead of stating that nobody asked.
-- **The one line that lands** — one line per song, third in the hook, that says the thing plainly amid everything oblique. **The construction *"___ where ___ should ___"* is banned** — it was the nod shared across all four sibling specs and it is now used up; if a draft reaches for it, cut the line and find another shape. Fill the slot fresh every song: a plain admission (*"I answer to a word I made up"*), a fact stated once and dropped, a number read out flat, a thing she has never told anyone said as though it were nothing. Never twice the same shape.
+- **The one line that lands** — one line per song, third in the hook, that says the thing plainly amid everything oblique. **The construction *"___ where ___ should ___"* is banned** — it was the nod shared across all four sibling specs and it is now used up; if a draft reaches for it, cut the line and find another shape. Fill the slot fresh every song: a plain admission, a fact stated once and dropped, a number read out flat, a thing she has never told anyone said as though it were nothing. Never the same shape two songs running. (*"I answer to a word I made up"* belongs to "Handle" and is logged — don't offer it again.)
 - **The question she already knows the answer to** — near the end of the hook, repeated twice, unanswered. Not to a lover (emo), not to authority (hardcore), not to nobody about his own body (dissoc) — this one is aimed at **her own past self**, and the answer is available and unbearable. *"So who was I keeping quiet for?"*
 - **The drop-out** — beat cuts, one naked line, loop returns indifferent.
 - **The doubled voice instead of a crowd** — never gang vocals. See the "no crowd" section.
@@ -186,6 +186,13 @@ so who was I keeping quiet for
 [Outro — loop runs four bars alone, vinyl crackle continues after the music stops, no ending]
 ```
  
+**A note on the reference example:** "Handle" is the founding recording and it models the exact
+lines the checklist above now bans — *"and nobody's ever asked"* (the retired
+unacknowledged-expertise construction), *"so who was I keeping quiet for"* (the retired "so +
+wh-word + was/did I" skeleton; this example is why it calcified), plus the spent *"be nice
+about it"* instruction and *"I answer to a word I made up"* (see trope library). Imitate its
+shape, not its lines.
+
 Companion pieces written to the same spec:
  
 - **"Thirty-Nine"** — the career/children ledger, pulled to the sparse acoustic variant, warm and much more exposed. Quoted instruction: *"you've got time"*. The dated specific is a consultant's appointment. The drop-out line names a child who doesn't exist, once, and never again. The wit beat is her being good at her job.

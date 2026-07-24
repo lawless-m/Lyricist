@@ -38,8 +38,26 @@ doing anything else.
    motifs — against every entry in `.claude/tropes/library.md`. **Any match, in any category,
    means revise the draft to avoid it, then re-check.** A device only needs to appear once in
    the library to be off-limits; there is no "safe to use twice" tier.
-6. Pick the appropriate style-prompt variant from `styles.md` (or adapt it to the song's dial
-   position, following that file's own guidance), and save both output files:
+6. Build the style prompt from `styles.md` and the song's dial position, and **state the
+   adaptation decision out loud before saving**: name the dial position, then either (a) what
+   you changed from the base variant and why, or (b) why the base variant already fits this
+   specific song exactly. The `.style.txt` is always saved per song — it's the paste-target
+   Suno actually uses, so an unchanged default still gets its own copy, and identical files
+   across songs are fine *when considered*. What's not fine is skipping the consideration:
+   a variant pasted wholesale with no stated justification is a skipped step, not a default.
+
+   Adaptation is graduated — reach for the lightest rung that fits:
+   - **Reorder** (the usual move): Suno appears to weight terms by position — front-loaded
+     terms dominate, and very long prompts risk losing the tail — so moving this song's lead
+     texture to the front of the *same* term list changes the emphasis without changing the
+     band's vocabulary. A wink-heavy song leads with the spoken-breakdown term; a
+     chant-forward song leads with the gang-hook term; the default order is itself a
+     statement that the song sits dead-centre.
+   - **Swap or add a term** when the dial position needs a texture the base list lacks (or
+     needs one removed) — per that band's own styles.md rotation guidance.
+   - **Rewrite** only when a song genuinely departs from the band's core sound.
+
+   Then save both output files:
    - `<band>/<slug>.txt` — the lyric, where `<slug>` is a short kebab-case phrase drawn from
      the song (matching the existing convention already used across all other band folders).
    - `<band>/<slug>.style.txt` — the flat, single-paragraph Suno style prompt. No markdown,

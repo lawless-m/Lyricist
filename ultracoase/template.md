@@ -9,18 +9,15 @@ of the reference example.
 
 ## The core idea
 
-Ultracoase isn't a fusion of themes — it's a fusion of *technique*, and it turns out the
-technique carries a philosophical angle none of its parent bands quite land on their own.
-Coase Guard's four ideas (Hayek, Coase, Schmitt, Sorel) are all about *collective* order —
-Ultracoase's narrator is always alone, so none of them transfer directly. What actually
-differentiates the reference song from both parents:
+Ultracoase is a one-narrator band: a single person telling their own specific story with
+machine precision, owning every part of it, over a propulsive minor-key synth pulse. Four
+pillars define the voice:
 
-- **Radical self-ownership, no myth required** (existentialist, Sartre-adjacent) — The
-  Foreman's wink softens the origin story but keeps telling it because the *crew* needs the
-  myth to hold together. Ultracoase's wink has no audience to serve — no crew, no household,
-  nobody it's for. So it can't soften anything, and it doesn't get to explain itself either
-  (see the fourth point). The engine: the wink must cost the narrator something and change
-  nothing — no redemption offered, none taken.
+- **Radical self-ownership, no myth required** (existentialist, Sartre-adjacent) — the
+  narrator's wink has no audience to serve — no crew, no household, nobody it's for. So it
+  can't soften anything, and it doesn't get to explain itself either (see the fourth
+  point). The engine: the wink must cost the narrator something and change nothing — no
+  redemption offered, none taken.
 - **Tacit knowledge over narrated knowledge** (Polanyi's "tacit knowing" / Hayek's
   local-knowledge problem, redirected inward from the crew to a single body) — the narrator
   always knows the thing they did with their hands better than any story — including their
@@ -30,28 +27,28 @@ differentiates the reference song from both parents:
   into regret or redemption, it loops back to affirming the choice *including* its price.
   "I traded both for distance, and I'd do it all again" is the shape: not because it was free,
   but because owning the cost cleanly is the only way to hold the choice at all.
-- **The gap is the listener's to fill** — this is what actually pulls Ultracoase away from
-  Coase Guard's narrative fullness and back toward [[guessed]] and [[laundry]]'s restraint.
-  Coase Guard states the psychological truth outright (the wink *tells you* what it means).
-  Guessed and Laundry never do that — their flash-of-legibility line ("I didn't lose them. I
-  filed them." / "Error code UE. Unbalanced load. It knows before I do.") hands over a concrete
-  fact or action and stops, trusting the listener's own life to supply the *why*. Ultracoase
-  keeps Coase Guard's cold, chanted machinery but borrows Guessed/Laundry's discipline: **the
-  wink is evidence, not analysis.** State the fact. Never narrate the feeling underneath it —
-  that's the audience's work, and leaving it undone is what lets a listener connect it to their
-  own specific loss instead of just receiving the narrator's.
+- **The gap is the listener's to fill** — the flash-of-legibility discipline this band
+  shares with [[guessed]] and [[laundry]]: hand over a concrete fact or action and stop,
+  trusting the listener's own life to supply the *why*. **The wink is evidence, not
+  analysis.** State the fact. Never narrate the feeling underneath it — that's the
+  audience's work, and leaving it undone is what lets a listener connect it to their own
+  specific loss instead of just receiving the narrator's.
 
 The rule that keeps it a genre and not just a mashup: **the narrator is always one person
 telling their own specific story — never a crew, never a household, never an institution.**
-Ultracoase keeps Coase Guard's precision-verse/chanted-hook/wink *machinery* but drops its
-Foreman/Quartermaster personas and its us-vs-institution friend/enemy framing entirely. It
-keeps The Bell Knows My Name's confessional, first-person, one-real-loss-grounds-it core, but
-drops the violin-confession pre-chorus and the half-time-to-double-time bridge — the synth
-pulse carries the propulsion instead. Any theme is fair game as long as it's personal and
-specific, not communal or institutional. Machine precision is what makes the withholding work:
+The machinery is the band's own: clipped precision verses, a stacked chanted hook, exactly
+one flat spoken wink, and a synth pulse carrying the propulsion. Any theme is fair game as
+long as it's personal and specific, not communal or institutional. Machine precision is what
+makes the withholding work:
 a warm, sung delivery narrating a feeling reads as sincerity offered; a cold, clipped, spoken
 delivery stating a bare fact reads as sincerity *withheld* — which is what actually gets a
 listener to lean in and finish the thought themselves.
+
+*Origin, for provenance only:* the band began when a The Bell Knows My Name draft was
+rewritten around Coase Guard's chanted-hook/spoken-wink structure (the cross-band graft is
+logged in the trope library). That's history, not hierarchy — this spec stands on its own
+terms; neither band is this one's parent, and their specs are not required reading to write
+an Ultracoase song.
 
 ---
 
@@ -196,7 +193,12 @@ a real drop in temperature, not just a quieter line.
 
 **A note on the reference example's wink:** "Truth is I left because staying meant becoming
 him. Doesn't make the leaving right. Just makes it mine to carry." is more explanatory than the
-target — it states the psychological reason and the moral verdict outright, closer to Coase
-Guard's register than Guessed/Laundry's. It's kept as the reference because everything else
-about the song is dialed in, but new songs should push further toward a bare fact or image
-(Guessed/Laundry's move) and resist the urge to spell out what it means.
+target — it states the psychological reason and the moral verdict outright, breaking the
+band's own evidence-not-analysis rule. It's kept as the reference because everything else
+about the song is dialed in, but new songs should push toward a bare fact or image and resist
+the urge to spell out what it means.
+
+**And a note on its final line:** "and the leaving didn't save me, but the leaving wears my
+name" was one of three founding-recording closers across the house sharing the *"and the [X]
+didn't/never [save/fix] me…"* landing formula, now retired (see trope library). Final hooks
+land a fresh shape.

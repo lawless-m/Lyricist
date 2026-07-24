@@ -184,13 +184,19 @@ love is the kitchen. The ledger's what we eat.
 Six mouths, four hands, one bag of flour left — that's not a feeling, that's Thursday.
 ```
 
+**A note on the reference material:** the hook *"Nobody built it — it just runs"*, the
+clipboard-inspector verse, and the Quartermaster's *"six mouths, four hands"* tally are all
+logged in the trope library from these examples. The modes and slots stay; those fillings are
+spent.
+
 ---
 
 ## When writing a new one
 
 Pick the persona and mode first (Foreman/What We Have, Foreman/Where We Came From, or
-Quartermaster/Who Eats). Pick a fresh **competent inventory** and a fresh institutional
-**enemy** — never reuse the clipboard inspector or the six-mouths-four-hands tally verbatim.
+Quartermaster/Who Eats). Pick a fresh **competent inventory**, a fresh **chant hook**, and a
+fresh institutional **enemy** — never reuse the "Nobody built it" chant, the clipboard
+inspector, or the six-mouths-four-hands tally verbatim.
 Keep the wink/tally to exactly one per song, and make sure it actually lands as a tonal break,
 not just a quieter verse. Keep the enemy institutional and the violence stylized, per the
 guardrail at the top of this document — that constraint doesn't loosen as the catalog grows.

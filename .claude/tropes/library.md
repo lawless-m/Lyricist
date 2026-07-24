@@ -495,7 +495,37 @@ not listed here. Everything logged from this point forward (new songs written vi
   technique, nothing more to it... I'd paint the same back again tomorrow, and I still couldn't
   tell you the colour of her eyes." — ultracoase/ruckenfigur
 
+### "and the [abstract noun] didn't/never [fix/save] me, [but/so] [reclaim clause]" — final-chorus landing formula
+- A three-band leak that lived entirely in template reference examples, caught during the
+  2026-07-24 template-vs-library scan (the templates had never been scanned; the library was
+  seeded from songs only). The same closing move landed the final chorus of three bands'
+  founding recordings. Retired permanently — this is the family-nod situation again,
+  calcified across the house before anyone logged it.
+- Example: "and the wandering didn't fix me, but the wandering feels real" —
+  the-bell-knows-my-name/wheels-where-i-should-kneel (template.md reference example)
+- Also seen: "and the leaving didn't save me, but the leaving wears my name" —
+  ultracoase/the-forge-doesnt-wait-for-me (template.md reference example); "and the quiet
+  never saved me, so I'm done being quiet" — purple-dog template.md reference example
+  ("I'm Fine")
+
+### "but God, [pronoun] [verb] …" — shout-back pivot shape
+- The gypsy-emo communal shout-back's "but God," pivot — the emotional payload delivered as
+  a swearing-on-it reversal. Used in the template reference example and again in
+  old-dogs-choose-to-go; two uses plus the template model. Logged during the 2026-07-24
+  template scan so a third use is caught.
+- Example: "I was never made for staying — but God, I stayed a while" —
+  the-bell-knows-my-name/wheels-where-i-should-kneel (template.md reference example)
+- Also seen: "and the whistle never found her — but God, she taught me how to feel" —
+  the-bell-knows-my-name/old-dogs-choose-to-go
+
 ## Phrases
+
+### "I answer to a word I made up"
+- The one-line-that-lands from the band's founding recording. Was also being offered in
+  guessed/template.md's device text as a *suggested* slot-filling for future songs, which
+  would have re-spent it — removed from the spec and logged here during the 2026-07-24
+  template scan.
+- Example: guessed/handle-where-a-name-should-be
 
 ### "be happy for her"
 - Guessed's quoted-instruction hook opener for this song — the plain social script she's

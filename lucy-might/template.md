@@ -196,6 +196,11 @@ ask me tomorrow
 [Outro — the trumpet takes a phrase and doesn't finish it. Band plays on for another table. No resolving chord, no ending.]
 ```
 
+**A note on the reference example:** two lines in "Ask Me Again" are spent catalogue-wide —
+*"Closer than that"* (it leaked into nine Lucy Might songs by being copy-read from this example
+before anyone caught it; see trope library) and *"Bad news. You said it twice."* (the retired
+stock-count word "twice"). Like *"smell my promises"*, they belong to this song and stay here.
+
 Companion pieces written to the same spec:
 
 - **"Save Room"** — the mark wants to be forgiven. Pulled to the sparse piano-and-voice variant, the warmest and most exposed thing in the catalogue. Invitation imperative: *"tell me the rest"*. The hunger is absolution and she is genuinely kind about it, which is worse. The near-yes is her hand on the back of a chair. The closing line is the softest in the catalogue and lands hardest.

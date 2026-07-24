@@ -17,8 +17,8 @@ The other half of the trick is the crowd. Emo is usually alone-in-your-bedroom l
 ## Song structure (the template)
  
 1. **Verse 1** — slow, intimate, rubato, solo violin. A confession. First person. Quiet.
-2. **Pre-chorus** — building, accordion swells in. Two short lines where *the violin/fiddle* says what the narrator's mouth can't ("and the fiddle starts confessing / what my mouth could never say").
-3. **Chorus** — opens with a **band-instruction imperative** to the players or the road (verb it, break it): *"play it quick, play it broken…"* / *"dig it slow, dig it holy…"*. Contains the signature parallel line and a direct question to a person.
+2. **Pre-chorus** — building, accordion swells in. Two short lines where *the violin/fiddle* says what the narrator's mouth can't. The personification is the device; the phrasing rotates per song — "and the fiddle starts confessing", "and the violin remembers", "and the fiddle stops its weeping" and "and the strings go quiet too" are all spent (see trope library). Invent a fresh one, ideally tied to the song's own subject.
+3. **Chorus** — opens with a **band-instruction imperative** to the players or the road (verb it, break it): *"play it quick, play it broken…"* / *"dig it slow, dig it holy…"*. Contains the emotional-thesis couplet (fresh grammatical shape per song — see the checklist) and a direct question to a person.
 4. **Verse 2** — slow again. A **specific human loss** — an ancestor, a sibling, a named grief. Grounds the wandering in a real body.
 5. **Bridge** — half-time, sparse. A *"maybe X was never Y / maybe…"* meditation. Then the violin builds, **the tempo doubles**, handed off on a stretched vowel (*"so let it gooo—"* / *"so sing them hooome—"*).
 6. **Final chorus** — the biggest. Gang vocals on the last line. Ends on the communal shout-back line.
@@ -31,9 +31,9 @@ The **half-time-to-double-time bridge is the signature move** — it's the momen
 A new song should hit most of these:
  
 - **Band-instruction chorus opener** — an imperative to the musicians/road: two verbs, two textures (*play it quick, play it broken*). Invert the tempo word to match the mood (darker = *dig it slow, dig it holy*).
-- **The "I've got ___ where ___ should ___" parallel** — the emotional thesis as a mismatched couplet: *"dust where my heart goes, wheels where I should kneel"* / *"graves where my step should be, ghosts where I should grieve."*
-- **A direct question to a person** near the end of the chorus — *"is the leaving how you heal?"* / *"do the dead forgive the ones who leave?"*
-- **A specific named loss in verse 2** — grandmother's grandmother, a brother lost to fever. One real human, not abstract sorrow.
+- **The emotional-thesis mismatch couplet** — a two-clause parallel carrying the chorus's thesis, in a **fresh grammatical shape every song**. The original *"I've got ___ where ___ should ___"* construction is retired catalogue-wide (see trope library — eight Bell songs are listed as offenders), and each replacement shape is itself spent after one use (the reciprocal-trade "I gave the birds my grief, and the birds gave me their silence" shape is already gone). The slot is mandatory; no filling ever recurs.
+- **A direct question to a person** near the end of the chorus — *"is the leaving how you heal?"* / *"do the dead forgive the ones who leave?"*. The *"so tell me, [address], tell me —"* scaffold is retired (10 of 10 pre-existing songs used it — see trope library); the question stays, that syntax doesn't.
+- **A specific named loss in verse 2** — a brother lost to fever, a named grief. One real human, not abstract sorrow. (The grandmother's-grandmother ancestral-lineage shape is a retired motif — see trope library.)
 - **Stretched-vowel handoff** into the double-time bridge.
 - **One communal shout-back line** in the final chorus, built to be caught and repeated by a crowd — the emotional payload (*"but God, I stayed a while"* / *"but tonight, boys, let them leave"*).
 - **Minor / harmonic minor** tonality throughout.
@@ -83,6 +83,15 @@ I've got dust where my heart goes, I've got wheels where I should kneel
 and the wandering didn't fix me, but the wandering feels real
 ```
  
+**A note on the reference example (read before imitating it):** this is the band's founding
+recording and five of its devices are now spent catalogue-wide — the *"dust where my heart
+goes / wheels where I should kneel"* couplet (the retired *where/should* construction), the
+*"so tell me, someone, tell me"* question scaffold, the *"and the fiddle starts confessing"*
+pre-chorus line, the *"but God, I stayed a while"* shout-back pivot, and the closing *"and
+the wandering didn't fix me, but the wandering feels real"* landing formula (see the trope
+library for all five). The example shows how the devices *land*; a new song fills every one
+of those slots with a fresh shape.
+
 Companion piece written to the same spec: **"Every Grave I Didn't Dig"** (the dead the narrator never had time to bury) — same devices, tempo pulled the darker way (*dig it slow, dig it holy*), shout-back line *"but tonight, boys, let them leave."*
  
 ---
