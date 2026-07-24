@@ -229,6 +229,15 @@ not listed here. Everything logged from this point forward (new songs written vi
   and not manage everything.
 - Example: guessed/let-it-lie
 
+### "Did I [verb] X, or did I just [verb] Y?" — self-directed either/or question
+- The "question she already knows the answer to" device, filled with a third distinct
+  grammatical shape after both the "so + wh-word + was/did I" skeleton and the "Was any of it
+  ever about X" yes/no shape above were used up. This one poses two possible readings of her own
+  past behaviour and refuses to pick between them. The final-hook variant swaps the second half
+  for a fresh verb, reframing the ending in one substitution.
+- Example: "did I lose the thought, or did I just stop saying it out loud" / "...or did I just
+  stop facing the window at all" — guessed/the-wanderer
+
 ### "Was any of it ever about [X]" — self-directed yes/no question, one word changes for the final hook
 - The "question she already knows the answer to" device, filled with a fresh grammatical shape
   (yes/no, not wh-inverted) after the "so + wh-word + was/did I" skeleton above was retired. The
@@ -236,10 +245,36 @@ not listed here. Everything logged from this point forward (new songs written vi
 - Example: "was any of it ever about the clothes" / "was any of it ever about him" —
   guessed/let-it-lie
 
+### "come back to us"
+- Guessed's quoted-instruction hook opener for this song — something said to her (or to a
+  version of her, drifting off/thinking too big in a meeting) now repeated to herself as a
+  standing correction whenever she catches her own attention wandering.
+- Example: guessed/the-wanderer
+
+### "I pinned him across from my desk, facing the window I'm not allowed to face."
+- The one-line-that-lands: a plain admission that the postcard occupies the literal physical
+  privilege (facing the window) that she's denied at her own desk.
+- Example: guessed/the-wanderer
+
+### "The man in the painting never has to explain what he's looking at."
+- The drop-out's naked admission — the flash of legibility, stated once, plain, and left alone.
+- Example: guessed/the-wanderer
+
 ### "queue the take, tag the mood, spend the tokens, hit regenerate" — AI-generation-pipeline consumption-imperative hook opener
 - Laundry's imperative-opener slot filled with AI-song-generation-pipeline verbs (queue/tag/spend
   tokens) fused with the literal UI command that closes it.
 - Example: laundry/click-regenerate
+
+### "the kick starts arriving a half-beat late and never catches up" — mechanical-collapse pre-hook line
+- A fourth distinct phrasing for the pre-hook's textural build, coined after the "fold/buckle",
+  "stutter/catch/click", and "second kit drops out" shapes above were all used. Logged so this
+  one doesn't become the next reflex either — invent a fresh one again next time.
+- Example: laundry/rest-when-im-dead
+
+### "the hi-hat splits in two and the halves won't agree on the beat" — mechanical-collapse pre-hook line
+- A fifth distinct phrasing for the pre-hook's textural build. Logged so this one doesn't become
+  the next reflex either — invent a fresh one again next time.
+- Example: laundry/oats-do-not-have-nipples
 
 ### "the drums stutter, catch, and lock into a click" — mechanical-collapse pre-hook line
 - A fresh way of describing the pre-hook's textural drum-and-sampler build, coined specifically
@@ -252,6 +287,16 @@ not listed here. Everything logged from this point forward (new songs written vi
   were both retired. Logged so this one doesn't become the next reflex either — invent a fresh
   one again next time.
 - Example: laundry/no-blockers
+
+### "clock in, bank the hours, spend the sleep later, sign here" — grind-culture consumption-imperative hook opener
+- Laundry's imperative-opener slot filled with productivity/hustle-culture verbs (clocking in,
+  banking hours, deferring rest) fused with the closing instruction to sign a form.
+- Example: laundry/rest-when-im-dead
+
+### "label it, litigate it, pump it, ship it" — dairy-labeling-dispute consumption-imperative hook opener
+- Laundry's imperative-opener slot filled with regulatory/legal verbs (labeling, litigating) fused
+  with the narrator's own literal breastfeeding-logistics verbs (pumping, shipping).
+- Example: laundry/oats-do-not-have-nipples
 
 ### "raise the ticket, flag the risk, burn the buffer, ship it anyway" — agile/PM-jargon consumption-imperative hook opener
 - Laundry's imperative-opener slot filled with corporate project-management verbs (raise a
@@ -284,6 +329,37 @@ not listed here. Everything logged from this point forward (new songs written vi
   originally used "so tell me, someone, tell me — does the fire forgive a name?" — revised to a
   direct address without the repeated "tell me" scaffold ("brother, does the forge forgive a
   name?") before this entry was logged.
+
+### "I gave [nature/world] my [loss], and [it] gave me [X] back. Some [mornings/nights] I still think I came out ahead of that bargain." — reciprocal-trade mismatch couplet
+- The Bell Knows My Name's replacement for the retired "I've got X where Y should be"
+  inventory-of-loss couplet, after that construction was banned band-wide. A different
+  grammatical shape than Ultracoase's own replacement ("I know X, not Y") — this one frames the
+  loss as an uneven trade with the world itself, and questions on the record whether the
+  narrator actually got the better end of it.
+- Example: "I gave the birds my grief, and the birds gave me their silence — some mornings I
+  still think I came out ahead of that bargain." — the-bell-knows-my-name/the-birds-have-stopped-singing
+
+### "does the quiet keep better count than we do?" — direct-question chorus closer, no repeated-address scaffold
+- The Bell Knows My Name's replacement for the retired "so tell me, [address], tell me — [question]?"
+  skeleton — a direct question aimed outward (here, at the silence itself) with no "tell me"
+  repetition at all.
+- Example: the-bell-knows-my-name/the-birds-have-stopped-singing
+
+### "and the strings go quiet too, for the words I'll never say" — pre-chorus violin-personification line
+- A fourth distinct phrasing for the pre-chorus's "violin says what the mouth can't" beat, after
+  "and the fiddle starts confessing" (5 uses), "and the violin remembers" (1 use), and "and the
+  fiddle stops its weeping" (1 use, from i-was-here-before-your-fathers, previously unflagged)
+  were all already spent. This one ties the device directly to the song's own bird-silence theme
+  rather than reusing a generic confession/memory frame — invent a fresh tie-in again next time
+  rather than reaching for any of these four.
+- Example: the-bell-knows-my-name/the-birds-have-stopped-singing
+
+### A named sibling's trade/craft abandoned by the natural world itself after their death, not just by the narrator
+- The specific-named-loss requirement filled with a brother (not the retired grandmother's-
+  grandmother ancestral-lineage shape) whose literal trade (trapping) depended on the birds that
+  then stopped coming after his death — the loss registers as an environmental fact, not just a
+  personal one, without ever stating that connection outright.
+- Example: the-bell-knows-my-name/the-birds-have-stopped-singing
 
 ### "I know [X], not [Y]" — mismatched-knowledge couplet
 - A fresh replacement for the retired "I've got [X] where [Y] should be" inventory-of-loss
@@ -339,6 +415,13 @@ not listed here. Everything logged from this point forward (new songs written vi
   counting down from a wreck. I'm counting up to a landing... turns out the void's not empty.
   It's just unclaimed." — ultracoase/escape-velocity
 
+### "I've [verb]ed [X], and I never once [same verb, reflexive] myself" — reflexive-verb mismatch couplet
+- Ultracoase's seventh hook-couplet shape: a single verb repeated across the couplet, first
+  transitive (done to others, at scale) then reflexive (never done to the self) — the mismatch
+  is carried entirely by the verb's two senses rather than by two different nouns/clauses.
+- Example: "I've delivered four thousand of them, and I never once delivered myself." —
+  ultracoase/delivered-unread
+
 ### "It knows [X]. It's never once asked me why. [Institution/system] optimized [Y] — nobody optimized what for." — automation-without-purpose hook thesis
 - Ultracoase's sixth hook-couplet shape: a system that has perfected the *how* of something
   while nobody — including the narrator — has kept track of the *why*. Distinct from the
@@ -347,6 +430,70 @@ not listed here. Everything logged from this point forward (new songs written vi
 - Example: "It knows every bend in the road. It's never once asked me why. Optimized the route
   to the minute — nobody optimized what for... The miles keep adding up. Nothing's adding up to
   a place I know." — ultracoase/autopilot
+
+### "It grows as one tree in [calm] — it splits along the graft when [stress]" — conditional-unity hook thesis
+- Ultracoase's eighth hook-couplet shape: a grafted union that holds only under mild conditions
+  and fails under stress, closing on an amor-fati commitment to keep repeating the doomed repair
+  rather than resolving into hope or despair outright.
+- Example: "grows as one tree in the calm, splits along the graft when the weather turns... I'd
+  bind the wound again every March, and watch it open again every time" —
+  ultracoase/the-frost-finds-the-line
+- Watch for "frost" specifically recurring as Ultracoase's reflex season-adversity image — this
+  song's hook payoff *is* frost ("the frost always finds the line"). Caught and avoided during
+  drafting: ultracoase/the-graves-are-hungry originally used "the frost put us three plots
+  behind" (intro) and "frost line's eighteen inches" (verse 1) as its backlog cause — revised to
+  clay hardness and burial volume ("three came due in the same week... the clay wouldn't give an
+  inch") before this note was logged. If frost genuinely earns its way into a future song, treat
+  it the same way "twice"/"nine" were treated: a real image, not a reflex default.
+
+### "Feed it [X], it don't ask [Y]. [Insatiable subject] was hungry before [origin], and it'll be hungry again." — insatiable-appetite hook thesis
+- Ultracoase's ninth hook-couplet shape: personifies the recurring toll of the narrator's own
+  trade as a literal appetite that was never satisfiable to begin with, closing on an amor-fati
+  commitment to keep feeding it regardless of who it takes next.
+- Example: "Feed it a name, it don't ask whose. Feed it a hundred, it don't say when. The ground
+  was hungry before I was born, and it'll be hungry again." — ultracoase/the-graves-are-hungry
+
+### "We paid for [the symbolic/global fix] and left [the literal/local one] standing open" — misallocated-effort hook thesis
+- Ultracoase's tenth hook-couplet shape: names the gap between a funded, visible, symbolic
+  response and the unfunded, literal, local one that actually needed the money — closing on the
+  narrator's own repeated, futile-but-owned act (not anyone else's decision) as the amor-fati
+  commitment.
+- Example: "We paid for the sky and left the door standing open... and I'll measure the same
+  eleven inches every March, and I'd file it again." — ultracoase/the-door-standing-open
+
+### "Nobody [suffers] from [the dramatic cause] — they [suffer] from [the one small skipped step]. I don't [do the discipline] because [belief], I do it because [indifferent reality] doesn't care if I do." — discipline-precedes-belief hook thesis
+- Ultracoase's eleventh hook-couplet shape: rejects the idea that a maintained standard needs a
+  reason or a witness to be worth keeping — the narrator keeps it because the underlying physical
+  reality is indifferent to motive, not because of faith, pride, or an audience.
+- Example: "Nobody drowns from the storm that's coming — they drown from the gate somebody left
+  half-shut. I don't check it because I trust the water, I check it because the water doesn't
+  care if I do." — ultracoase/two-hundred-yards
+
+### "Ask who [is responsible] and the room points at [an institution, a committee, a policy] — I don't point anywhere. It was me, [specific mundane setting], one [decision] off the top of my head." — refuses-institutional-deflection hook thesis
+- Ultracoase's twelfth hook-couplet shape and its most direct statement yet of the band's own
+  "radical self-ownership, no myth required" core idea — explicitly rejects the instinct to
+  diffuse responsibility onto a company/committee/policy, naming the self as sole author instead.
+- Example: "Ask who programs the robots and the room points at a company, a committee, a policy —
+  I don't point anywhere. It was me, alone, at a desk, one number off the top of my head." —
+  ultracoase/who-programs-the-robots
+
+### "I can't tell if [the world] went quiet or [I] did — [evidence supports both]. [technical decline stat]. I'll [keep the duty] anyway, and I still won't know which of us it was." — unknowable-self-attribution hook thesis
+- Ultracoase's thirteenth hook-couplet shape: the narrator's own failing instrument (here: aging
+  ears) is entangled with the phenomenon they're measuring, so the decline can't be cleanly
+  attributed to the world or the self — and the commitment is to keep the record honest about
+  that uncertainty rather than resolve it either way.
+- Example: "I can't tell if the hedge went quiet or my ears did — the audiogram says both are
+  true... I'll walk the same six hundred metres every May, and I still won't know which of us it
+  was." — ultracoase/which-of-us-it-was
+
+### "I [do the craft] so you can [stand where they stood] — that's the whole of the technique, nothing more to it. [technical craft fact]. It was about you, not [the missing subject]. I'd do it again tomorrow, and I still [couldn't do the one thing that mattered]." — craft-explains-itself-then-betrays-the-craftsman hook thesis
+- Ultracoase's fourteenth hook-couplet shape: the narrator states their signature technique
+  plainly as a gift to the audience/viewer, then reveals in the same breath that the technique
+  cost them the one specific, irreplaceable thing it was quietly built to avoid ever having to
+  render.
+- Example: "I paint the back so you can stand where she stood — that's the whole of the
+  technique, nothing more to it... I'd paint the same back again tomorrow, and I still couldn't
+  tell you the colour of her eyes." — ultracoase/ruckenfigur
 
 ## Phrases
 
@@ -417,6 +564,12 @@ not listed here. Everything logged from this point forward (new songs written vi
   reaction" self-surveillance motif below (that one clocks response time to good news; this
   one counts failed searches for a body).
 - Example: laundry/all-clear
+- Watch "forty-one" specifically as a reflex "sounds precise/large enough to be real" number —
+  caught cross-band during drafting: ultracoase/which-of-us-it-was originally used "forty-one
+  species" (twice: verse 1 and hook) as the pre-decline baseline count — revised to
+  "thirty-seven" before this note was logged, after the user flagged the repeat directly. Same
+  family as the "twice"/"nine"/"frost"/"Tuesday" reflexes above — any of these numbers/words can
+  still be used again if the song actually earns it, just not reached for by default.
 
 ### "closer than that"
 - A response/refrain line that has become a stock line in nearly every lucy-might song,
@@ -470,6 +623,17 @@ not listed here. Everything logged from this point forward (new songs written vi
   whole pre-chorus/violin-confession beat was then cut entirely when the song's structure was
   rewritten around Coase Guard's chanted-hook/spoken-wink template instead (see the cross-band
   fusion entry under Imagery/Motifs), so no replacement phrase from this song is logged here.
+
+### "four hundred" as a stock large-but-specific-sounding count
+- Not a single phrase but a specific number reused as a reflex "this sounds precise enough to be
+  real" quantity across bands — found in laundry/carry-the-one (twice), laundry/same-for-everyone,
+  laundry/turn-it-down, laundry/not-this-one, and ultracoase/tilbury ("over four hundred years
+  back"), before it was caught. Same family as "twice"/"nine"/"forty-one" above. Caught and
+  avoided during drafting: ultracoase/ruckenfigur originally used "four hundred" for the count of
+  paintings (four times across the song) — revised to "three hundred and sixty-two" before this
+  entry was logged.
+- Also seen: laundry/carry-the-one, laundry/same-for-everyone, laundry/turn-it-down,
+  laundry/not-this-one, ultracoase/tilbury
 
 ### "Nobody rang the bell when I left. The forge doesn't wait for anyone — least of all me."
 - Ultracoase's cold spoken intro, Coase Guard-style, adapted from The Bell Knows My Name's
@@ -529,6 +693,13 @@ not listed here. Everything logged from this point forward (new songs written vi
   itself (a father's inattention, discovered too late to undo) does the work the narrator won't
   narrate.
 - Example: ultracoase/escape-velocity
+- Watch "Tuesday" specifically as a reflex arbitrary-day marker — now used here and in
+  ultracoase/autopilot ("I typed home into the app last Tuesday"), the same two-uses-before-
+  anyone-notices pattern that got "twice" and "frost" flagged. Caught and avoided during
+  drafting: ultracoase/who-programs-the-robots originally anchored its hook/verse callback in
+  "one Tuesday, one coffee gone cold" — revised to "alone, at a desk" before this note was
+  logged. If "Tuesday" specifically is reached for again, treat it as a real choice, not a
+  default.
 
 ### "The car already knows the route. It's never once asked me where I actually want to go."
 - Ultracoase's sixth cold-spoken-intro — plays a literal fact (route optimization) against the
@@ -565,6 +736,27 @@ not listed here. Everything logged from this point forward (new songs written vi
   the clothes on the floor, the one true thing she'd never say out loud.
 - Example: guessed/let-it-lie
 
+### "oats do not have nipples" — literalized-culture-war-argument mantra
+- A real dairy-industry regulatory talking point (used against "oat milk"/"almond milk" labeling)
+  taken at face value and chanted until it degrades to noise.
+- Example: laundry/oats-do-not-have-nipples
+
+### "I've got actual nipples and still can't keep up with demand."
+- The flash-of-legibility line: a flat, plain, funny-sad admission that her own body's real
+  biological authenticity does nothing to make the exhausting logistics of it any easier.
+- Example: laundry/oats-do-not-have-nipples
+
+### "rest when I'm dead" — literalized-idiom mantra
+- The ubiquitous grind-culture idiom, taken at its literal word and repurposed as the chanted
+  mantra, degrading toward noise across the final hook — the whole song exists to make the cliché
+  literally true rather than hyperbolic.
+- Example: laundry/rest-when-im-dead
+
+### "I financed the funeral on the same card as the chair."
+- The flash-of-legibility line: a flat, plain admission that pre-need funeral costs and office
+  ergonomics were paid for on the same credit card, with no further comment.
+- Example: laundry/rest-when-im-dead
+
 ### "click regenerate" — UI-command-degraded-to-mantra
 - A literal generation-pipeline button label repurposed as the chanted mantra, degrading toward
   noise across the final hook.
@@ -584,6 +776,61 @@ not listed here. Everything logged from this point forward (new songs written vi
 - The flash-of-legibility line: a flat admission that the self-sabotage was entirely
   self-authored, no external betrayer required.
 - Example: laundry/no-blockers
+
+### "The blade that cuts a graft and the blade that clears a boundary line are the same length, the same edge. Some years, so was the reason we picked it up."
+- Ultracoase's seventh cold-spoken-intro double meaning: a single tool serving both a
+  cultivating use and a violent one, with the line refusing to say which use it's about.
+- Example: ultracoase/the-frost-finds-the-line
+
+### "I told him to take my truck. I didn't go with them as far as the crossing. My side of the valley stayed quiet that week."
+- An elliptical wink in the band's corrected register — a bare fact (helped him leave, didn't
+  go himself, stayed safe) that implies self-preservation over solidarity without narrating any
+  guilt or justification.
+- Example: ultracoase/the-frost-finds-the-line
+
+### "My father used to say the graves are hungry, back when the frost put us three plots behind. He didn't mean it as a metaphor. Neither did I, the year it turned out to be true."
+- Ultracoase's eighth cold-spoken-intro double meaning: an inherited trade saying (a workload
+  complaint) that later becomes literally true of the narrator's own life, without the line
+  explaining how.
+- Example: ultracoase/the-graves-are-hungry
+
+### "I dug hers myself. Four foot, not six. I didn't let anyone else near the spade that day."
+- An elliptical wink per the band's corrected register — bare facts (a depth, an exclusion of
+  help) that reveal a parent buried their own child without narrating any grief at all.
+- Example: ultracoase/the-graves-are-hungry
+
+### "I trained him on that stretch of wall myself. He went out to sandbag the toe the night it went. I signed the roster that put him there."
+- An elliptical wink per the band's corrected register — bare facts (trained him, rostered him,
+  he died where the narrator's own reports said the failure would happen) with no stated guilt
+  or blame attached.
+- Example: ultracoase/the-door-standing-open
+
+### "My sister's cottage sat two hundred yards past his gate, not mine. She got out with the dog and nothing else. I checked the distance after. Like it would have made a difference."
+- An elliptical wink per the band's corrected register — bare facts (a distance measured after
+  the fact, a survivor who lost everything but not her life) with no stated guilt or anger
+  attached. A living cost rather than a death, for variety after two consecutive Ultracoase songs
+  built around a death (ultracoase/the-graves-are-hungry, ultracoase/the-door-standing-open).
+- Example: ultracoase/two-hundred-yards
+
+### "Forty milliseconds. That's how long the arm waited before it caught her hand. The report called it a sensor fault. It wasn't the sensor. It was my number. I'd shared a break room with her every week for six years and never told her which number I'd picked for her hand."
+- An elliptical wink per the band's corrected register — bare facts (a threshold value, a
+  misattributed cause, a years-long casual acquaintance never told the truth) with no stated
+  guilt. An injury, not a death, for variety after three consecutive Ultracoase songs built
+  around a death or a total loss (ultracoase/the-graves-are-hungry, ultracoase/the-door-standing-open,
+  ultracoase/two-hundred-yards).
+- Example: ultracoase/who-programs-the-robots
+
+### "My wife walks the transect behind me most mornings now, twenty minutes back, same route. I've never asked her what she hears that I don't. She's never told me."
+- An elliptical wink per the band's corrected register — bare facts (a spouse quietly re-doing
+  his work, a mutual unspoken agreement not to surface what she finds) with no stated grief. A
+  living, ongoing kindness/cost between two people still together, not a death or an injury.
+- Example: ultracoase/which-of-us-it-was
+
+### "She modelled for three hundred and sixty-two of them. I never painted her face. She never asked me to, and I never asked her to turn around."
+- An elliptical wink per the band's corrected register — bare facts (an exact count, a mutual
+  unspoken agreement never examined) with no stated regret, until the cost surfaces later in the
+  song entirely through absence (no face to remember her by).
+- Example: ultracoase/ruckenfigur
 
 ## Imagery / Motifs
 
@@ -642,6 +889,14 @@ not listed here. Everything logged from this point forward (new songs written vi
 - Example: "Says he's got forty percent now, says it like a fact he found... You bought a piece
   of paper. You didn't buy this place." — coase-guard/who-the-fuck-are-you
 
+### A postcard/print of a famous Rückenfigur-pose painting kept as a private stand-in for an authority she's denied
+- She keeps an image of a solitary figure surveying a landscape (unnamed as "art" in the lyric
+  beyond describing the image itself) pinned somewhere that holds the literal physical privilege
+  — facing a window, facing a view — that she herself is denied at her own desk. When she
+  performs the identical pose or delivers the identical insight, it's read as distraction; when
+  a male colleague does, it's read as vision.
+- Example: guessed/the-wanderer
+
 ### The friend-arranged ambush disguised as an ordinary invitation
 - A friend invites the narrator to something low-stakes (coffee, a catch-up) and has actually
   arranged a romantic setup — a partner and a single third party already seated, uninvited and
@@ -683,6 +938,21 @@ not listed here. Everything logged from this point forward (new songs written vi
   than the sanctioned focal figure the room assumes she'd choose — recognition withheld because
   naming it would out her as the same kind of unregistered watcher.
 - Example: guessed/focus-on-the-story
+
+### A regulatory "what counts as real" labeling dispute (oat milk vs. dairy) colliding with the narrator's own literal, exhausted body being implicitly subject to the same authenticity test
+- A real consumer-goods labeling controversy (does a plant beverage get to be called "milk") is
+  reported flat and factual alongside the narrator's own postpartum breastfeeding logistics —
+  pump schedules, a baby preferring the bottle, a grocery aisle sign — so that the absurd
+  corporate argument about nipples starts to read as a proxy for questions being asked about her
+  own body's authenticity and output, without the song ever stating the parallel outright.
+- Example: laundry/oats-do-not-have-nipples
+
+### Onboarding paperwork and pre-need funeral paperwork sharing the same identity-verification fields, filled in on the same lunch break
+- The gravity well made literal: HR's new-hire beneficiary form and a funeral home's pre-need
+  contract ask the same six questions, and the narrator answers both from memory in the same
+  sitting — identity/theft-of-self worn casually through bureaucratic overlap rather than a
+  stated point about surveillance, per the style's own guidance.
+- Example: laundry/rest-when-im-dead
 
 ### Screenshotting proof of someone else's overlooked competence, then never sharing it
 - The disproportionate shrug rendered as a digital non-action: she captures evidence that
@@ -793,3 +1063,100 @@ not listed here. Everything logged from this point forward (new songs written vi
   announced, just noticed once it's already complete. A second instantiation of the band's
   tacit-knowledge core idea, this time as loss rather than pride.
 - Example: "I used to know the way by the charging stations. Now I don't know the way at all." — ultracoase/autopilot
+
+### A maternity-ward nurse who relinquished her own child as a teenager, now catching/delivering thousands of other people's
+- The narrator's professional competence (obstetric delivery, at institutional scale) is set
+  directly against the one delivery she never got to keep — a teenage relinquishment, not a
+  death, with the given-up child still alive and having recently made first contact. The
+  declining-birth-rate backdrop (the ward's own bookings and rooms shrinking year over year)
+  stays personal/institutional-backdrop rather than a communal or political statement, per the
+  band's one-person-only rule.
+- Example: ultracoase/delivered-unread
+
+### A birth mother keeping her own hospital delivery bracelet for decades, stored somewhere mundane
+- The wink's bare fact: the narrator still possesses and keeps close (a locker, not a keepsake
+  box) the ID bracelet from her own delivery as a birth mother, unexplained and undramatized —
+  evidence of a still-live orbit around the relinquishment, not narrated grief.
+- Example: "I still have my own hospital bracelet from that night. Not hers — mine. It's in my
+  locker, second shelf, behind the granola bars." — ultracoase/delivered-unread
+
+### A drafted reply left unsent, visualized as a blinking cursor in an empty box
+- The flash-of-legibility line: a plain admission that a short, easy reply is composed
+  mentally but never typed — the empty text box and its blinking cursor stand in for the
+  avoidance itself, no reason narrated.
+- Example: "Four words would close it. I could type them in my sleep, but the cursor blinks in
+  the empty box, and some nights I let it." — ultracoase/delivered-unread
+
+### A cross-community orchard partnership, built over decades, severed in days by communal violence — the narrator stayed safe, the partner fled
+- Two people from different, unnamed sides of a divide build something together (here: a
+  grafted orchard) for twenty years, indistinguishable in the finished work — then unrest
+  arrives and unravels it in days, not decades. The narrator survives by staying out of it,
+  helps the partner flee but doesn't go with him, and keeps tending the partner's half of the
+  work alone afterward. No ethnic, national, or religious group is named; the violence is
+  glimpsed only through a shared tool's double use, never depicted directly, and the narrator is
+  a bystander who chose self-preservation, never a perpetrator — same guardrail as the
+  civilizational-collapse and recurring-historical-pattern motifs above (no glorified violence,
+  no named real-world group, no present-tense call to action).
+- Example: ultracoase/the-frost-finds-the-line
+
+### A gravedigger's trade-knowledge (depths, frost lines, drainage) set against digging their own child's grave by hand, refusing help
+- The narrator's tacit, technical competence in a body-disposal trade (exact depths, ground
+  hardness, which plots drain or flood) is the same competence turned on their own loss — they
+  dig their own child's grave personally rather than let anyone else do it, and keep working
+  the trade on schedule afterward, burying strangers the same week. No cause of death stated;
+  the grief is carried entirely by the technical detail and the refusal of help, never narrated.
+- Example: ultracoase/the-graves-are-hungry
+
+### A near-future climate-flood engineer whose years of ignored structural warnings are vindicated only after a preventable death
+- A coastal/structural engineer files the same precise technical warning (a measurement, not a
+  prediction) year after year; the institution funds a visible, symbolic global response instead
+  of the literal local fix, someone the narrator trained dies in the exact failure the reports
+  predicted, and the local fix only gets funded the week after. What actually drives the
+  underlying climate change is deliberately never stated or explained — the song's target is
+  the gap between funded appearance and unfunded substance, not a claim about causation.
+- Example: ultracoase/the-door-standing-open
+
+### A discipline-holds-the-system-together theme carried entirely through literal maintenance procedure, no place/institution named
+- A narrator whose job is a strict, literal, physically-necessary procedure (here: canal lock
+  checks) keeps to it without exception while a neighboring counterpart lets it lapse, and the
+  cost lands on someone the narrator loves, not the negligent party. The "without discipline it
+  falls apart" thesis is proven mechanically (skipped maintenance steps causing real physical
+  failure) rather than asserted as a claim about any named place, people, or era — deliberately
+  anonymized per the same guardrail as the civilizational-collapse motifs above, after a version
+  of this prompt naming a real country was declined and reworked into this fully anonymized form.
+- Example: ultracoase/two-hundred-yards
+
+### An arbitrary safety threshold, picked from gut instinct in one sitting, propagated unverified across many systems, later causing a harm traced back to its uncredited original author
+- A programmer sets a life-safety numeric threshold (here: a robot arm's reaction-time cutoff)
+  from personal judgment rather than rigorous study, and it gets silently copy-pasted into many
+  other systems over the years with no one ever checking back with the original author. When it
+  eventually fails, the institutional inquiry blames a component (a sensor) rather than the
+  human judgment call actually responsible, and only the narrator knows the difference.
+- Example: ultracoase/who-programs-the-robots
+
+### A field surveyor's own failing sense organ confounding the very decline they've spent decades measuring
+- A narrator with real tacit expertise (identifying species by ear on a fixed survey route,
+  decades of data) develops a sensory decline (hearing loss) that overlaps exactly with the
+  frequencies/signals they rely on professionally, so they can no longer cleanly separate "the
+  world changed" from "I changed" — submits the ambiguity itself to the record rather than
+  picking a side. No environmental cause is asserted or implied; the mystery stays personal and
+  epistemic, not a claim about why.
+- Example: ultracoase/which-of-us-it-was
+
+### A signature artistic technique (never showing the subject's face, so the viewer projects themselves into the frame) that costs the narrator their own ability to remember a real face
+- A painter's professional device — literalized from the real art-historical Rückenfigur
+  technique (a figure shown from behind, inviting the viewer to stand in their place) — turns out
+  to have been applied so consistently to a specific loved one that the narrator has no image of
+  her actual face left anywhere, public or private. The craft's whole selling point (the viewer
+  gets to fill the gap) becomes the narrator's own private tragedy (he can't fill it either). A
+  direct, named literalization of the band's own "the gap is the listener's to fill" core idea
+  (see template.md) rather than just an instance of it.
+- Example: ultracoase/ruckenfigur
+
+### A text message's "delivered, unread" status as the unanswered-contact motif
+- A read-receipt/delivery-status indicator on a phone repurposed as the visible, ongoing proof
+  of an estranged relationship's stalled first contact — distinct from laundry's "message not
+  delivered" mantra (that one is a failed-send notification for an unreachable listener; this
+  one succeeds at delivery and stalls on the human response instead).
+- Example: "the message still reads delivered, unread, since the second week of July." —
+  ultracoase/delivered-unread

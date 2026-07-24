@@ -55,23 +55,74 @@ listener to lean in and finish the thought themselves.
 
 ---
 
-## Song structure (the template)
+## Song structure (a flexible palette, not a fixed order)
 
-1. **Cold spoken intro** — one flat, low line establishing the scene. Often plays the literal
-   and figurative meanings of an ordinary object or phrase against each other.
-2. **Verse 1** — clipped, technical, controlled. First-person narration, precise diction, no
-   melodic swell yet.
-3. **Hook — chanted, stacked.** Contains the chorus's mismatched-knowledge or parallel couplet
-   as its emotional thesis (fresh construction each time — check the trope library; the
-   inventory-of-loss and "I know X, not Y" shapes are both already spent).
-4. **Verse 2** — escalation. One concrete, specific human detail or loss. Grounds the story in
-   a real body, same as The Bell Knows My Name's own verse-2 rule.
-5. **The wink** — spoken, flat, cold. Exactly one per song. Not a confession that explains
-   itself — a single concrete fact or image, stated and left alone, that implies something less
-   flattering than the story the verses have been telling. Don't narrate what it means or how
-   it feels. The listener does that work, not the narrator.
-6. **Final hook** — chanted, weightier, one all-caps callback line landing the wink's admission
-   inside the hook's original claim.
+For its first 7 songs, Ultracoase used the exact same skeleton every time (cold spoken intro →
+verse 1 → hook → verse 2 → spoken wink → final hook) until it read as a formula regardless of
+the story inside it. The devices below are what make a song Ultracoase — they're still
+mandatory. The *order, count, and placement* of sections around them is not, and should be
+decided fresh per song.
+
+**Locked (every song needs these, in whatever arrangement fits the story):**
+
+- **A fresh chanted-hook couplet** — the mismatched-knowledge or parallel-thesis line, a new
+  grammatical shape each time (check the trope library — several shapes are already spent).
+- **Exactly one wink** — spoken, flat, cold. Not a confession that explains itself — a single
+  concrete fact or image, stated and left alone, that implies something less flattering than
+  the story around it. Don't narrate what it means or how it feels; the listener does that work.
+- **One concrete, specific, living human detail or loss** — grounds the story in a real body
+  (a dead mentor/parent is retired — see trope library).
+- **Minor key, propulsive synth pulse** — pep and drive, not industrial grind, not string swell.
+
+**Flexible (choose deliberately, don't default):**
+
+- **Opener** — a cold spoken line (literal/figurative double meaning) is one option, not the
+  default. A song can just as easily open cold on verse 1, or on a non-spoken chanted fragment.
+- **Verse count** — one to three, wherever the story needs a beat, not locked to exactly two.
+- **Wink placement** — free. It doesn't have to land right before the final hook. It can open
+  the song, split two verses, or close it entirely.
+- **Closer** — a chanted final hook (weightier, one all-caps callback line landing the wink's
+  admission inside the hook's original claim) is the default closer, but a stripped-down
+  callback fragment or the wink itself can close the song instead.
+
+Before drafting, pick a one-line skeleton (e.g. "wink-first, no intro, three verses") and check
+it against the structural-shape log below — don't repeat a shape that's already logged.
+
+### Structural-shape log
+
+- **Intro → verse → hook → verse → wink → hook** (the original default) — used by ashes,
+  autopilot, escape-velocity, the-forge-doesnt-wait-for-me, the-third-time, and tilbury
+  (6 songs straight). Retired as the default; still usable if a story genuinely earns it, but
+  shouldn't be the reflex choice again for a long while.
+- **Wink-first (no separate intro) → verse → hook → verse → verse → stripped closer** — opens
+  cold on the wink itself instead of a scene-setting intro line, runs three verses instead of
+  two, and closes on a hushed stripped fragment rather than a full gang-vocal final hook.
+  Example: ultracoase/delivered-unread.
+- **Intro → verse → verse → hook → wink → hook** — front-loads both verses before the first
+  hook payoff (instead of splitting them around it), so the story is fully laid out before the
+  chorus lands, then keeps the wink in its usual pre-final-hook slot. Example:
+  ultracoase/the-frost-finds-the-line.
+- **Intro → verse → wink → hook → verse → hook** — moves the wink up front, right after the
+  first verse and before the first hook, so the reveal lands early and the first hook already
+  carries its full weight; verse 2 then plays out the aftermath before the final hook repeats.
+  Example: ultracoase/the-graves-are-hungry.
+- **No intro (cold open on verse 1) → verse → wink → verse → hook → hook** — skips the
+  cold-spoken opener entirely, going straight into the clipped technical verse; the wink lands
+  between the two verses instead of near the end. Example: ultracoase/the-door-standing-open.
+- **Intro → verse → hook → wink → verse → hook** — the wink lands after the first hook instead
+  of before it, so the chorus's claim is stated once "clean" before the reveal recontextualizes
+  it; verse 2 then plays out the aftermath before the final hook. Example:
+  ultracoase/two-hundred-yards.
+- **Intro → hook → verse → verse → wink → hook** — the hook lands second, right after the
+  intro, so the thesis is declared up front before either verse has justified it; both verses
+  then build the case, and the wink lands last, right before the final hook repeats it with
+  the reveal folded in. Example: ultracoase/who-programs-the-robots.
+- **Intro → verse → hook → verse → wink (closer)** — the first time the wink itself closes the
+  song outright, with no final-hook reprise after it at all; the band drops to a bare pulse and
+  stops on the cold spoken admission. Example: ultracoase/which-of-us-it-was.
+- **Intro → verse → wink → verse → verse → hook (single, final)** — only one hook in the whole
+  song, saved entirely for the climax; three verses build the story first, and the wink lands
+  early (right after verse 1) instead of near the end. Example: ultracoase/ruckenfigur.
 
 ---
 
@@ -79,10 +130,10 @@ listener to lean in and finish the thought themselves.
 
 A new song should hit most of these:
 
-- **Cold spoken intro** that turns on a literal/figurative double meaning.
 - **A fresh mismatched or parallel couplet** as the hook's thesis — invent a new grammatical
   shape each time; don't reuse a prior song's construction.
-- **One specific named human loss/detail in verse 2** — a person, not an abstraction.
+- **One specific named living human loss/detail** grounding the story in a real body — no fixed
+  verse slot required (see "Song structure" above for placement).
 - **Exactly one wink** — flat, cold, a real tonal break from the verses/hook around it.
   Evidence, not analysis: a stated fact or image, not a stated psychological reason.
 - **Stacked/chanted hook**, escalating to full gang-vocal weight in the final hook.
@@ -138,9 +189,10 @@ and the leaving didn't save me, but the leaving wears my name.
 Pick a fresh, specific personal story — any theme, as long as it's one person's and grounded
 in a real loss, not a crew's pride or a household's ledger (that territory stays Coase Guard's)
 and not exile/road/caravan imagery by default (that stays The Bell Knows My Name's default,
-though Ultracoase can visit it if the story earns it). Invent a new hook couplet shape and a
-new cold-intro double-meaning each time. Keep the wink to exactly one, and make sure it lands
-as a real drop in temperature, not just a quieter line.
+though Ultracoase can visit it if the story earns it). Invent a new hook couplet shape each
+time, and pick a fresh structural skeleton per the log above — if it opens cold, invent a new
+double-meaning rather than reusing one. Keep the wink to exactly one, and make sure it lands as
+a real drop in temperature, not just a quieter line.
 
 **A note on the reference example's wink:** "Truth is I left because staying meant becoming
 him. Doesn't make the leaving right. Just makes it mine to carry." is more explanatory than the
