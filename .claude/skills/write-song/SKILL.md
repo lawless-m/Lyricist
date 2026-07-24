@@ -36,8 +36,9 @@ doing anything else.
    "don't let it calcify" guidance.
 5. Two-layer trope check, both mandatory:
    - **Mechanical (deterministic):** run `.claude/tropes/check.sh <draft-file>` on the draft.
-     A **BAN** hit means the draft changes — revise and re-run until it exits clean. A
-     **WATCH** hit (stock words like frost/Tuesday/forty-one) is allowed only with a stated,
+     A **PERM** or **BAN** hit means the draft changes — revise and re-run until it exits
+     clean. A **WATCH** or **COOLED** hit (stock words like frost/Tuesday, or a ban whose
+     last use is 60+ songs back — the script computes this) is allowed only with a stated,
      song-specific justification in the conversation — never as an unexamined reflex.
    - **Fuzzy (judgement):** check the draft's constructions-with-slots and imagery motifs
      against the **Constructions** and **Imagery / Motifs** sections of
@@ -72,13 +73,16 @@ doing anything else.
      no headers — just the prompt text itself, exactly as it will be pasted into Suno.
 7. Log the new song's notable devices into `.claude/tropes/library.md`: add each one under the
    right category (Constructions / Phrases / Imagery / Motifs) with a one-line description, one
-   example, and the source song — following the exact entry format already in the file. **Then
-   mirror every entry that has a greppable anchor into `.claude/tropes/banned-patterns.tsv`**
-   (severity `BAN`, or `WATCH` only for stock-word-style flags): a distinctive substring for
-   exact phrases, a regex skeleton for mechanically-expressible constructions. An entry logged
-   in the library but not mirrored into the TSV is invisible to the next song's deterministic
-   check — the two files update together, in the same commit. This is what makes the *next*
-   song's check in step 5 catch a second use.
+   example, the source song, and a **"Logged at catalog size N."** line (N = current lyric-file
+   count across all seven band folders — `check.sh` prints it on every run) — following the
+   exact entry format already in the file. **Then mirror every entry that has a greppable
+   anchor into `.claude/tropes/banned-patterns.tsv`** (severity `BAN` with LOGGED_AT = N, or
+   `WATCH` only for stock-word-style flags; `PERM` is reserved for devices that calcify across
+   multiple songs, never a first use): a distinctive substring for exact phrases, a regex
+   skeleton for mechanically-expressible constructions. An entry logged in the library but not
+   mirrored into the TSV is invisible to the next song's deterministic check — the two files
+   update together, in the same commit. This is what makes the *next* song's check in step 5
+   catch a second use, and the LOGGED_AT value is what lets it cool 60 songs later.
 
 ## Trope library discipline
 

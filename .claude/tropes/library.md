@@ -3,9 +3,28 @@
 Shared across every band. Consult before finalizing any song; log after.
 
 **Rule: any device below has already been used once. A second use of it — in any band,
-in any song — is not allowed.** There is no "used once, still fine" state: being in this
-file at all means it's retired. Check every notable construction, distinctive phrase, and
-imagery motif in a draft against this file before saving.
+in any song — is not allowed while the entry is live.** Check every notable construction,
+distinctive phrase, and imagery motif in a draft against this file before saving.
+
+**Decay (2026-07-24, refactor step 3).** Fatigue decays; permanent retirement on first use
+was the wrong model for one listener with a normal memory. Entries now carry a class:
+
+- **Permanent** — the calcified house-style devices; never cool. The permanent set:
+  the `where/should` inventory-of-loss couplet, `nobody asked`, the `fold/buckle` collapse
+  lines, the `so + wh-word + was/did I` skeleton, the `so tell me, X, tell me` skeleton,
+  the `didn't/never fix/save me` closing formula, `twice`, `nine`, `closer than that`,
+  `and the fiddle starts confessing`, and the grandmother's-grandmother lineage motif.
+- **Cooling** — everything else, which is the default. A cooling entry is fully banned
+  until **60 songs** (tunable, catalogue-wide count — songs-written-since-last-use, not
+  elapsed time) have been added since its last use; after that it demotes to advisory —
+  usable again with a stated, song-specific justification, never as a reflex. `check.sh`
+  computes this automatically for the mechanical subset from the TSV's LOGGED_AT column;
+  for fuzzy entries (constructions/motifs), judge songs-since from the entry's logged
+  catalog size, noted on entries from this point forward.
+
+New entries record the catalog song-count at logging time (a "Logged at catalog size N."
+line here, and the LOGGED_AT column in the TSV). Existing entries were backfilled
+approximately by era — 73 (seed), 95 (post-seed sessions), 108 (the 2026-07-24 batch).
 
 Seeded 2026-07-19 from a scan of the 73 pre-existing songs across all five bands. That scan
 was targeted at things already repeating 2+ times in the existing catalog, not an exhaustive

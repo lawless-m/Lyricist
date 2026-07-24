@@ -182,6 +182,22 @@ per-band. Not required by anything above. Scoping and checking layer only.
    step was being skipped. Applied: SKILL.md step 6 now requires stating the dial position
    and either what changed from the base variant or why the base fits exactly, before saving.
 
+## Step 3 — COMPLETED 2026-07-24
+
+Decay added on top of step 2's severity tiers, per resolved decision 2 (songs-since only).
+The TSV gained a LOGGED_AT column (catalog song-count at last use; existing entries
+backfilled approximately by era: 73 seed / 95 post-seed / 108 this week — precision is
+irrelevant below the threshold) and a **PERM** severity for the eleven calcified devices
+(where/should, nobody-asked, fold/buckle, so-wh-was/did-I, so-tell-me, the closing formula,
+twice, nine, closer-than-that, fiddle-starts-confessing, grandmother's-grandmother), which
+never cool. `check.sh` counts the live catalog on every run and demotes a BAN to **COOLED**
+(advisory, justification required — same handling as WATCH) once songs-since ≥ threshold.
+Threshold: **60 songs**, tunable via `TROPE_COOL_THRESHOLD`, chosen generous — at 60,
+nothing has cooled yet (oldest bucket cools when the catalog reaches 133). Verified: BAN
+blocks at default, demotes to COOLED at a forced-low threshold, PERM never moves. New
+library entries record "Logged at catalog size N."; step 7 updated accordingly. Fuzzy
+entries (constructions/motifs) use the same rule by judgement.
+
 ## Step 2 — COMPLETED 2026-07-24
 
 The mechanical subset (~170 patterns) extracted into `.claude/tropes/banned-patterns.tsv`,
