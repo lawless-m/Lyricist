@@ -892,6 +892,27 @@ gets fixed.
   song entirely through absence (no face to remember her by).
 - Example: ultracoase/ruckenfigur
 
+### "Germaine says these are fuck-me shoes. / That's why I bought them." — condemnation-as-endorsement chant hook
+- A named public critic's famous disapproval quoted straight, then answered with a purchase —
+  the hook's whole joke is the non-sequitur between the citation and the conclusion drawn from
+  it. Distinct from Guessed's quoted-instruction hook openers (those are internalised scripts
+  aimed at the self); this one cites an outside authority and gleefully misreads her.
+- Example: girlboss/thats-why-i-bought-them
+- Logged at catalog size 111.
+
+### "I don't argue with the literature."
+- The offer-by-citation line: the named proposition delivered entirely by deferring to a
+  published source, so the crudeness is outsourced to the citation and she never says it herself.
+- Example: "They're called what they're called, love. I don't argue with the literature." —
+  girlboss/thats-why-i-bought-them
+- Logged at catalog size 111.
+
+### "She said what would we do without you. I let the question answer itself."
+- A compliment received mid-deception and left hanging as its own reply — the deflected-praise
+  close of a two-register lie scene.
+- Example: girlboss/thats-why-i-bought-them
+- Logged at catalog size 111.
+
 ## Imagery / Motifs
 
 ### Grandmother's-grandmother ancestral lineage (naming an ancestor two generations back doing something to the land)
@@ -1220,3 +1241,29 @@ gets fixed.
   one succeeds at delivery and stalls on the human response instead).
 - Example: "the message still reads delivered, unread, since the second week of July." —
   ultracoase/delivered-unread
+
+### A hostile published review laminated and displayed at the point of sale as a testimonial
+- A critic's condemnation (column, review, complaint) physically enshrined where the condemned
+  thing is sold — cut out, laminated, kept "by the till like scripture" — and openly credited as
+  the best advertising the product ever got. The critique's content is never disputed, only
+  repurposed.
+- Example: "I cut it out and laminated it. It lives by the till now, like scripture. / Best
+  advert the brand never paid for." — girlboss/thats-why-i-bought-them
+- Logged at catalog size 111.
+
+### The visiting auditor's count deteriorating as the seduction scoreboard
+- An outside official arrives to count/verify and the tally itself becomes the evidence of his
+  state: a new number every pass, the same box scanned until the machine relents, an apology
+  addressed to shelving. Distinct from the clipboard-inspector motif (paperwork hypocrisy from
+  an official citing procedure) — here the official's *procedure itself* degrades, and no one
+  ever criticizes anyone.
+- Example: "He scanned the same box till it beeped at him out of pity. He apologised to a
+  shelf." — girlboss/thats-why-i-bought-them
+- Logged at catalog size 111.
+
+### An unused return ticket left behind as the implied-result evidence
+- A day-return ticket sitting in a drawer, dated, unclaimed — the single flat deniable detail
+  proving someone never made the journey home, with no arrow drawn.
+- Example: "There's a day-return to the city in the till drawer, dated audit day. Unused.
+  Nobody's come for it." — girlboss/thats-why-i-bought-them
+- Logged at catalog size 111.
