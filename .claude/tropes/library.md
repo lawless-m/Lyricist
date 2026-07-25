@@ -907,6 +907,19 @@ gets fixed.
   girlboss/thats-why-i-bought-them
 - Logged at catalog size 111.
 
+### "Whatever she's having — make it a double." — bar-call-as-claim chant hook
+- A stock drinks order repurposed as the chanted thesis: the rival's performed act is the
+  single measure, and the narrator orders the real, full-strength version of it. The hook only
+  turns filthy once the verses establish what "she's having" actually is.
+- Example: girlboss/make-it-a-double
+- Logged at catalog size 111.
+
+### "Weights and Measures came in undercover once. They left a tip."
+- The flat-deadpan competence credential: a regulatory inspection recast as an ovation,
+  delivered as plain fact.
+- Example: girlboss/make-it-a-double
+- Logged at catalog size 111.
+
 ### "She said what would we do without you. I let the question answer itself."
 - A compliment received mid-deception and left hanging as its own reply — the deflected-praise
   close of a two-register lie scene.
@@ -1259,6 +1272,30 @@ gets fixed.
   ever criticizes anyone.
 - Example: "He scanned the same box till it beeped at him out of pity. He apologised to a
   shelf." — girlboss/thats-why-i-bought-them
+- Logged at catalog size 111.
+
+### A rival's performative act framed as a short/watered-down measure, called out by doing the real thing full-strength
+- An extended honest-trading metaphor: someone else's fake display (here: a for-the-lads
+  faux-lesbian routine) is treated as selling watered-down stock labelled top shelf, and the
+  narrator's public bluff-call (a real grab-and-kiss, "long enough to check her measure") is
+  framed as consumer protection, never jealousy. Includes the "I run the optics — both kinds"
+  bar-spout/appearances double meaning.
+- Example: girlboss/make-it-a-double
+- Logged at catalog size 111.
+
+### The performer's act collapsing when the real thing arrives — "the act forgot its lines"
+- The bluff-called performer's deterioration rendered as her routine losing its script: the
+  performance has no contingency for the genuine version of what it imitates.
+- Example: "And the act forgot its lines. There's no script for the real thing, is there." —
+  girlboss/make-it-a-double
+- Logged at catalog size 111.
+
+### A shift-rota change with an innocent cover story as the implied-result evidence
+- The flat post-cutaway detail is a staffing schedule: the other party moves all their shifts
+  to the narrator's, and the person who owns the stakes is given (and believes) a professional
+  explanation for it.
+- Example: "All her shifts are mine now — her Dean thinks it's for the mentoring." —
+  girlboss/make-it-a-double
 - Logged at catalog size 111.
 
 ### An unused return ticket left behind as the implied-result evidence
