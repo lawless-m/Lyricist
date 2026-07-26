@@ -120,6 +120,10 @@ it against the structural-shape log below — don't repeat a shape that's alread
 - **Intro → verse → wink → verse → verse → hook (single, final)** — only one hook in the whole
   song, saved entirely for the climax; three verses build the story first, and the wink lands
   early (right after verse 1) instead of near the end. Example: ultracoase/ruckenfigur.
+- **Hook-first cold open (no intro) → verse → wink → verse → final hook** — the song opens
+  directly on the stacked chant, so the thesis lands before any verse has justified it; the
+  wink splits the two verses, and the final hook carries the all-caps callback. Example:
+  ultracoase/one-wet-spring.
 
 ---
 

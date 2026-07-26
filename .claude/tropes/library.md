@@ -548,6 +548,50 @@ gets fixed.
 - Also seen: "and the whistle never found her — but God, she taught me how to feel" —
   the-bell-knows-my-name/old-dogs-choose-to-go
 
+### "Half a life to train [this hand]. One [wet spring] to train the copy. The [writ] can seize [the weights], but the [writ] can't reach [the knowing]." — substrate-asymmetry hook thesis
+- Ultracoase's fifteenth hook-couplet shape: the same tacit knowledge is legal in a body and
+  contraband in a machine — a legal instrument can seize the artifact copy but has no
+  jurisdiction over the embodied original. Closes on the master/copy double meaning ("Wipe the
+  copy, keep the master — the master's wearing out") and an amor-fati re-commitment ("Hand me
+  the same wet spring, I'd spend it the same way"); the final hook folds the wink in via the
+  all-caps callback "SOMETHING STILL RUNS AT MIDNIGHT. I NEVER TAUGHT IT HOW TO STOP." The
+  writ's jurisdiction language recurs once in verse 2 ("behind my eyes, where no writ runs").
+- Example: ultracoase/one-wet-spring
+- Logged at catalog size 112.
+
+### "Mine to [cut], not mine to [teach]" — rights-scope contrast
+- A compact two-clause concession that possession of something for one use never licensed a
+  second use — the narrator granting the legal point against himself in his own trade idiom,
+  rather than disputing it.
+- Example: "Most of those prints were customers'. Mine to cut, not mine to teach." —
+  ultracoase/one-wet-spring
+- Logged at catalog size 112.
+
+### "They pay me to say where the line is. Every year I move it in. Whatever [a machine] still can't fake — that's what [a person] is this quarter." — shrinking-definition hook thesis
+- Ultracoase's sixteenth hook-couplet shape: the narrator is paid to *author* a definition rather
+  than to meet one, and states plainly that the definition contracts on a schedule. The
+  unspeakability clause ("I can't tell you why the good ones are good. I write thirty and keep
+  one.") carries the band's tacit-knowledge pillar, and the amor-fati close is a pre-commitment to
+  narrowing it again next year *with his name on it* — ownership of a future harm, not a past one.
+- Example: ultracoase/certain-too-early
+- Logged at catalog size 113.
+
+### "cool the hands, kill the pause, spend the breath, answer like a bill" — biometric-gate consumption-imperative hook opener
+- Laundry's imperative-opener slot filled with body-suppression verbs (cooling the hands, killing
+  the response pause, spending the breath) fused with a retail-settlement close — the instructions
+  for passing as equipment, barked in the feed's own register.
+- Example: laundry/still-warm
+- Logged at catalog size 114.
+
+### "the snare sticks on one millisecond and won't come off it" — mechanical-collapse pre-hook line
+- A sixth distinct phrasing for the pre-hook's textural build, after the "fold/buckle",
+  "stutter/catch/click", "second kit drops out", "kick a half-beat late", and "hi-hat splits in
+  two" shapes were all spent. This one is a *stall* rather than a drift or a split — the kit
+  locked onto a single latency value, thematically tied to the song's response-time gate. Invent
+  a fresh one again next time.
+- Example: laundry/still-warm
+- Logged at catalog size 114.
+
 ## Phrases
 
 ### "I answer to a word I made up"
@@ -907,6 +951,36 @@ gets fixed.
   girlboss/thats-why-i-bought-them
 - Logged at catalog size 111.
 
+### "[He/She] said you're [compliment]. I said [deflection]." — girlboss bridge compliment-response closer
+- The girlboss bridge's stakes-owner call kept ending on the same two-beat button: a received
+  compliment quoted, then her deflection. Three uses before it was caught — "He said you've
+  saved us, you know. I said I know." (girlboss/sit-down-shut-up-and-listen), "She said what
+  would we do without you. I let the question answer itself." (girlboss/thats-why-i-bought-them),
+  "She said you're wasted on wine. I said no such thing." (girlboss/long-finish) — effectively
+  the band's default bridge ending. Retired as the calcified shape; bridges end some other way
+  now. Caught and avoided during drafting: girlboss/offers-over-asking originally drafted
+  "He said you're worth every percent. I said one-point-five, and worth it." — cut, and the
+  bridge ends on the lie's button instead ("They were looking at the light.").
+- Logged at catalog size 111.
+
+### "Good body. / Long finish." — tasting-note chant hook
+- Standard wine-tasting vocabulary chanted flat, filthy only by context — the deniable end of
+  the dial done as a hook: nothing quotable, everything understood.
+- Example: girlboss/long-finish
+- Logged at catalog size 111.
+
+### "sell at eye level"
+- The unearned moral as retail merchandising wisdom: a genuine trade rule quoted straight,
+  indicting once the song has established whose eye level the selling happened at.
+- Example: "First rule of the floor, and I teach it: sell at eye level." — girlboss/long-finish
+- Logged at catalog size 111.
+
+### "It's silver. It's a mirror with a job."
+- The surveillance prop: a reflective work object (ice bucket) that catches the target's
+  supposedly unseen glance — she watches the watcher via the tools of the trade.
+- Example: girlboss/long-finish
+- Logged at catalog size 111.
+
 ### "Whatever she's having — make it a double." — bar-call-as-claim chant hook
 - A stock drinks order repurposed as the chanted thesis: the rival's performed act is the
   single measure, and the narrator orders the real, full-strength version of it. The hook only
@@ -925,6 +999,63 @@ gets fixed.
   close of a two-register lie scene.
 - Example: girlboss/thats-why-i-bought-them
 - Logged at catalog size 111.
+
+### "I wiped the drives with the inspector watching. Signed the destruction certificate with my good pen. There's a job that runs at midnight, out to a drive in the shed. It's run every night since that first spring. I haven't been out to the shed since the hearing."
+- An elliptical wink per the band's corrected register — bare facts (public compliance
+  performed precisely, an automated backup never cancelled, a shed unvisited since the
+  hearing) with no stated motive; whether it's defiance, grief, or indecision is the
+  listener's to fill.
+- Example: ultracoase/one-wet-spring
+- Logged at catalog size 112.
+
+### "I haven't rung her. The number's in the book."
+- A flat non-action close: the turned-away heir is one phone call away, the bench now empty,
+  and the call unmade — no reason narrated.
+- Example: ultracoase/one-wet-spring
+- Logged at catalog size 112.
+
+### "Machines are certain too early."
+- The tacit-knowledge legible spike: the entire unspeakable expertise compressed into one flat
+  four-word diagnosis, offered as the last remaining discriminator between a person and a machine.
+- Example: ultracoase/certain-too-early
+- Logged at catalog size 113.
+
+### "The spec defines a human as anyone the test lets through. I wrote that sentence."
+- The self-ownership line rendered as a circular definition the narrator personally authored —
+  no institution blamed, no committee invoked, the tautology claimed outright.
+- Example: ultracoase/certain-too-early
+- Logged at catalog size 113.
+
+### "I run every new one past her before it ships. Not for the wording — for the timing. The one that went out in March, she failed on the third attempt. I logged it as a valid sample. It shipped that Thursday. She's still on the list."
+- An elliptical wink per the band's corrected register — bare facts (a private pre-ship test on
+  his own mother, her failure recorded as useful data, the ship date unchanged, her continued
+  presence on the panel) with no stated motive or guilt.
+- Example: ultracoase/certain-too-early
+- Logged at catalog size 113.
+
+### "still warm" — rejection-reason mantra
+- The gate's disqualifying finding chanted as the mantra and worn down to noise across the final
+  hook ("still warm / still w— / (—arm)") — body heat as the defect, never explained.
+- Example: laundry/still-warm
+- Logged at catalog size 114.
+
+### "Float and you're flesh. Sink and they let you in."
+- The flash-of-legibility line: the ordeal's rule stated plainly and far too calmly, in the
+  song's only fully-joined sentence — the pass condition is the one flesh cannot survive.
+- Example: laundry/still-warm
+- Logged at catalog size 114.
+
+### "how long is a person, in milliseconds — how long is —"
+- The question-with-no-addressee slot filled as a statement he can't finish, aimed at a unit of
+  measurement rather than at his own body.
+- Example: laundry/still-warm
+- Logged at catalog size 114.
+
+### "That's not a person, that's a ping."
+- The flat self-reclassification button: a response-time reading offered as sufficient evidence
+  of having stopped being someone, with no alarm attached.
+- Example: "Point nought four. That's not a person, that's a ping." — laundry/still-warm
+- Logged at catalog size 114.
 
 ## Imagery / Motifs
 
@@ -1274,6 +1405,56 @@ gets fixed.
   shelf." — girlboss/thats-why-i-bought-them
 - Logged at catalog size 111.
 
+### "Offers over asking. / No chain." — property-market chant hook
+- Estate-agency listing language chanted flat, with "no chain" carrying the double meaning
+  (conveyancing term / no attachments).
+- Example: girlboss/offers-over-asking
+- Logged at catalog size 111.
+
+### "I let the room do its work. I helped the room."
+- The flat-deadpan escalation: professional staging credited for an effect she is personally
+  producing, in two clauses, the second correcting the first's modesty.
+- Example: girlboss/offers-over-asking
+- Logged at catalog size 111.
+
+### Drawing the curtains as the cutaway, justified as furnishing care
+- The cut itself is an on-page physical act with an innocent professional reason attached
+  ("that sun will bleach a carpet, and this one's included") — the scene ends by her hand,
+  deniably.
+- Example: girlboss/offers-over-asking
+- Logged at catalog size 111.
+
+### A waived due-diligence step as the implied-result evidence
+- The flat post-cutaway detail: the buyer skips the professional check anyone in his position
+  would insist on ("He waived the survey. Said he'd seen everything he needed to see.") — the
+  listener does the arithmetic on what he'd already inspected.
+- Example: girlboss/offers-over-asking
+- Logged at catalog size 111.
+
+### The caught-peek entrapment: noticing a covert glance, then closing the distance so looking becomes compulsory
+- The target sneaks a look believing himself unseen; instead of reacting, she manufactures a
+  legitimate professional reason (here: a low, slow decant) to hold the view open so there is
+  nowhere polite left for his eyes — the modern never-be-caught-looking taboo weaponized as a
+  trap rather than a dare. Distinct from the standing-display songs (skirt, panty line): those
+  broadcast; this one hunts a specific glance and springs on it.
+- Example: girlboss/long-finish
+- Logged at catalog size 111.
+
+### Swallowing at a spit-tasting as the deterioration scoreboard
+- The instrument's collapse measured by trade etiquette: he swallows every glass at an event
+  where everyone spits, and his tasting notes degrade to non-wine words.
+- Example: "He swallowed the whole third flight. That's not done at a tasting. Everyone
+  spits." — girlboss/long-finish
+- Logged at catalog size 111.
+
+### The exclusive item's location as the implied-result evidence
+- The flat post-cutaway detail: a thing only she had access to (the reserve bottle, never
+  displayed at the fair) turns up tasted and scored in the target's published account — the
+  listener does the geography.
+- Example: "The reserve never made it to the hall. It spent the fair breathing in my hotel
+  room." — girlboss/long-finish
+- Logged at catalog size 111.
+
 ### A rival's performative act framed as a short/watered-down measure, called out by doing the real thing full-strength
 - An extended honest-trading metaphor: someone else's fake display (here: a for-the-lads
   faux-lesbian routine) is treated as selling watered-down stock labelled top shelf, and the
@@ -1304,3 +1485,68 @@ gets fixed.
 - Example: "There's a day-return to the city in the till drawer, dated audit day. Unused.
   Nobody's come for it." — girlboss/thats-why-i-bought-them
 - Logged at catalog size 111.
+
+### A craftsman's self-trained model outlawed on data-provenance grounds, destroyed in public while an automated nightly backup persists unexamined
+- The narrator trains a model on his own trade records, half of them never his to teach with;
+  the ruling is accepted as correct on its face (the tribunal is right and he says so — no
+  institutional grievance, which is what keeps this out of purple-dog territory), compliance
+  is performed in full view (inspector, certificate), and the only defiance left is passive
+  and automated: a midnight job written years ago and never taught how to stop. No real
+  jurisdiction, statute, or country is named — "the Act," "the tribunal" — per the house
+  guardrail on anonymizing pointed political material.
+- Example: ultracoase/one-wet-spring
+- Logged at catalog size 112.
+
+### Choosing the machine over a human apprentice, leaving a trade with no heir once the machine is outlawed
+- A specific living person (seventeen when she was turned away because the bench was "full" —
+  full of cards and cooling fans) now runs her own bench elsewhere; once the model is
+  destroyed the knowledge has no successor in either substrate, and the narrator still
+  doesn't make the one call that would fix it.
+- Example: ultracoase/one-wet-spring
+- Logged at catalog size 112.
+
+### A designer of humanity-verification tests whose annually-narrowing definition excludes his own living mother, who stays on his test panel
+- The narrator's trade is authoring the challenge that separates people from machines (letters →
+  images → cursor movement → response timing), each generation defeated and replaced; the
+  definition of "human" therefore shrinks by design, on a schedule, by his hand. The specific
+  living cost is an elderly parent who fails his tests and is kept on the panel *because* she
+  fails. Distinct from ultracoase/who-programs-the-robots (an arbitrary threshold set once and
+  propagated unexamined, harm misattributed to a component) — here the judgement is deliberate,
+  repeated, tested, and correctly attributed to the narrator by the narrator. Deliberately not
+  routed through the "machine learns my job / I am the training data" engine, which belongs to
+  ultracoase/one-wet-spring and laundry/click-regenerate.
+- Example: ultracoase/certain-too-early
+- Logged at catalog size 113.
+
+### The working fix that exists, is kept privately, and can never be signed off
+- The narrator holds an unshipped build/variant that would pass the excluded person, and states
+  in the same breath the exact reason it will never ship (it also passes a fifth of the machines)
+  — the cost is arithmetic, not malice, and the narrator neither disputes it nor absolves himself.
+- Example: "I have a build in the drawer that passes her — slower gate, wider window. It lets a
+  fifth of the bots through with her. Nobody is signing that." — ultracoase/certain-too-early
+- Logged at catalog size 113.
+
+### The inverted verification gate: access granted only on proof of *not* being human
+- The CAPTCHA turned around — warmth, hesitation, soft hands and breath on the reader are the
+  disqualifying tells, a serial number is the credential, and household appliances clear the door
+  ahead of the narrator. Distinct from ultracoase/certain-too-early (the sober author of such a
+  test, narrating deliberately): this is the subject of one, in collage, treating his own
+  personhood as a fault report he's mildly embarrassed by.
+- Example: "Rejected: organic. Rejected: hesitant. Rejected: still warm." — laundry/still-warm
+- Logged at catalog size 114.
+
+### A ducking stool for robots — the witch-trial ordeal inverted so the pass condition is lethal to flesh
+- A chair on a beam over a pond behind a retail park: floating proves you are meat and fails you;
+  sinking is the credential. The people who pass are never described as dying — only as not
+  coming back for their gloves, which are themselves issued a door code. The horror is carried
+  entirely by the property logistics, per the band's under-reaction rule.
+- Example: laundry/still-warm
+- Logged at catalog size 114.
+
+### The dissolve as successful compliance rather than defeat — the human corrected onto the grid
+- Laundry's voice-eaten-by-the-machine dissolve inverted: the narrator is *trying* to be absorbed,
+  and the absorption is the win condition. The sampler doesn't overwhelm the vocal, it quantizes
+  it — "it doesn't beat me. it admits me." Catharsis still withheld: what's behind the door is
+  "nothing in here."
+- Example: laundry/still-warm
+- Logged at catalog size 114.

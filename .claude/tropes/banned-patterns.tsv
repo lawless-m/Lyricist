@@ -225,3 +225,48 @@ BAN	111	run the optics	girlboss optics double-meaning
 BAN	111	check her measure	girlboss measure-motif kiss line
 BAN	111	(the )?act forgot its lines	girlboss performer-collapse motif
 BAN	111	thinks it'?s for the mentoring	girlboss rota implied-result
+BAN	111	good body	girlboss tasting-note chant hook
+BAN	111	long finish	girlboss tasting-note chant hook
+BAN	111	sell at eye level	girlboss eye-level moral
+BAN	111	mirror with a job	girlboss surveillance-prop line
+BAN	111	everyone spits	girlboss swallowed-at-tasting scoreboard
+BAN	111	in my hotel room	girlboss reserve-location implied-result
+PERM	-	said you'?re [a-z', -]+\. i (said|let)	girlboss bridge compliment-response closer (3 uses)
+BAN	111	offers over asking	girlboss property chant hook
+BAN	111	no chain	girlboss property chant hook
+BAN	111	helped the room	girlboss staging deadpan
+BAN	111	bleach a carpet	girlboss curtains cutaway
+BAN	111	waived the survey	girlboss implied-result
+BAN	111	smooth as fresh paint	girlboss fluency tag
+BAN	111	looking at the light	girlboss bridge button
+BAN	111	lot of house for one	girlboss proposition line
+BAN	112	to train the copy	substrate-asymmetry hook — ultracoase/one-wet-spring
+BAN	112	wipe the copy, keep the master	hook payoff double meaning — ultracoase/one-wet-spring
+BAN	112	taught it how to stop	all-caps wink callback — ultracoase/one-wet-spring
+BAN	112	wet spring	title/hook seasonal anchor — ultracoase/one-wet-spring
+BAN	112	mine to [a-z]+, not mine to	rights-scope contrast skeleton — ultracoase/one-wet-spring
+BAN	112	where no writ runs	jurisdiction-of-the-body line — ultracoase/one-wet-spring
+BAN	112	with my good pen	wink anchor — ultracoase/one-wet-spring
+BAN	112	number'?s in the book	unmade-call non-action close — ultracoase/one-wet-spring
+BAN	113	pay me to say where the line is	shrinking-definition hook thesis — ultracoase/certain-too-early
+BAN	113	still can'?t fake	hook thesis clause — ultracoase/certain-too-early
+BAN	113	is this quarter	hook definition-clock clause — ultracoase/certain-too-early
+BAN	113	write thirty and keep one	unspeakability/selection clause — ultracoase/certain-too-early
+BAN	113	certain too early	tacit-knowledge legible spike — ultracoase/certain-too-early
+BAN	113	anyone the test lets through	self-authored circular definition — ultracoase/certain-too-early
+BAN	113	logged it as a valid sample	wink anchor — ultracoase/certain-too-early
+BAN	113	(build|version) in the drawer	unshippable private fix — ultracoase/certain-too-early
+BAN	113	slower gate, wider window	accessibility-tradeoff spec detail — ultracoase/certain-too-early
+BAN	113	still on the list	wink close / panel-retention beat — ultracoase/certain-too-early
+BAN	114	cool the hands, kill the pause	biometric-gate imperative opener — laundry/still-warm
+BAN	114	answer like a bill	imperative-opener close — laundry/still-warm
+BAN	114	snare sticks on one millisecond	mechanical-collapse pre-hook line — laundry/still-warm
+BAN	114	still warm	rejection-reason mantra — laundry/still-warm
+BAN	114	float and you'?re flesh	flash of legibility — laundry/still-warm
+BAN	114	sink and they let you in	flash of legibility — laundry/still-warm
+BAN	114	how long is a person, in milliseconds	question with no addressee — laundry/still-warm
+BAN	114	that'?s not a person, that'?s a ping	self-reclassification button — laundry/still-warm
+BAN	114	rejected: organic	inverted-gate rejection stack — laundry/still-warm
+BAN	114	don'?t come back for their gloves	ducking-stool aftermath detail — laundry/still-warm
+BAN	114	it doesn'?t beat me\. it admits me	dissolve-as-compliance line — laundry/still-warm
+BAN	114	thermal paste on the wrists	passing-as-equipment prop — laundry/still-warm
