@@ -17,277 +17,277 @@ PERM	-	(fold|buckle)s? in on	mechanical-collapse fold/buckle variants
 PERM	-	so (who|what|why|where|when|how) (was|did) i	retired guessed question skeleton (7 uses)
 PERM	-	so tell me, [a-z]+, tell me	retired bell repeated-address skeleton (10/10 songs)
 PERM	-	(didn'?t|never) (fix|save)d? me	final-chorus landing formula (3-band leak)
-BAN	95	you trust the [a-z]+, not the	accusatory parallel — purple-dog/no-show
-BAN	73	but god	bell shout-back pivot shape (last use old-dogs)
-BAN	108	never once [a-z]+e?d? myself	reflexive-verb mismatch — ultracoase/delivered-unread
-BAN	95	i know the [a-z' ]{1,25}, not the	I-know-X-not-Y couplet — ultracoase/forge
-BAN	108	or did i just	either/or question — guessed/the-wanderer
-BAN	95	was any of it ever about	yes/no question — guessed/let-it-lie
-BAN	95	i said yes to a	small-invitation reveal — guessed/the-second-chair
+BAN	107	you trust the [a-z]+, not the	accusatory parallel — purple-dog/no-show
+BAN	85	but god	bell shout-back pivot shape (last use old-dogs)
+BAN	120	never once [a-z]+e?d? myself	reflexive-verb mismatch — ultracoase/delivered-unread
+BAN	107	i know the [a-z' ]{1,25}, not the	I-know-X-not-Y couplet — ultracoase/forge
+BAN	120	or did i just	either/or question — guessed/the-wanderer
+BAN	107	was any of it ever about	yes/no question — guessed/let-it-lie
+BAN	107	i said yes to a	small-invitation reveal — guessed/the-second-chair
 PERM	-	grandmothers?'?s? grandmother	ancestral-lineage motif anchor (4 songs)
 #
 # --- Stock count-words / day-words / image-words ---
 PERM	-	\btwice\b	stock precision count (guessed saturation, 12+ songs)
 PERM	-	\bnine\b	stock effort count (banned pre-emptively by the user; also catches "the ninth")
-WATCH	95	\bforty-one\b	reflex precise-sounding number (laundry/all-clear)
-WATCH	108	four hundred	reflex large-count number (5 songs)
-WATCH	108	\btuesday\b	reflex arbitrary-day marker (2 ultracoase songs)
-WATCH	108	\bfrost\b	ultracoase reflex season-adversity image (the-frost-finds-the-line)
+WATCH	107	\bforty-one\b	reflex precise-sounding number (laundry/all-clear)
+WATCH	120	four hundred	reflex large-count number (5 songs)
+WATCH	120	\btuesday\b	reflex arbitrary-day marker (2 ultracoase songs)
+WATCH	120	\bfrost\b	ultracoase reflex season-adversity image (the-frost-finds-the-line)
 #
 # --- Chant hooks / law-statements (coase-guard) ---
-BAN	95	nobody built it	spontaneous-order chant — no-blueprint
-BAN	95	we run on a name	identity-over-schedule chant — the-day-we-turned-it-off
-BAN	95	to have said	myth-serves-the-need wink — the-day-we-turned-it-off
-BAN	95	you work, you eat	earn-it chant — you-work-you-eat
-BAN	95	the whole of the law	earn-it chant second clause
-BAN	95	that'?s arithmetic	cold-math reframe — you-work-you-eat
-BAN	95	who the fuck are you	ownership-challenge chant
-BAN	95	bought a piece of paper	paper-claim contrast
-BAN	95	didn'?t buy this place	paper-claim contrast second clause
-BAN	95	never leaked once	clipboard-inspector exemplar — no-blueprint
-BAN	95	six mouths, four hands	headcount tally — who-eats fragment
-BAN	95	withholding care	welfare-office motif anchor — you-work-you-eat
+BAN	107	nobody built it	spontaneous-order chant — no-blueprint
+BAN	107	we run on a name	identity-over-schedule chant — the-day-we-turned-it-off
+BAN	107	to have said	myth-serves-the-need wink — the-day-we-turned-it-off
+BAN	107	you work, you eat	earn-it chant — you-work-you-eat
+BAN	107	the whole of the law	earn-it chant second clause
+BAN	107	that'?s arithmetic	cold-math reframe — you-work-you-eat
+BAN	107	who the fuck are you	ownership-challenge chant
+BAN	107	bought a piece of paper	paper-claim contrast
+BAN	107	didn'?t buy this place	paper-claim contrast second clause
+BAN	107	never leaked once	clipboard-inspector exemplar — no-blueprint
+BAN	107	six mouths, four hands	headcount tally — who-eats fragment
+BAN	107	withholding care	welfare-office motif anchor — you-work-you-eat
 #
 # --- Laundry imperative openers (each spent verbatim) ---
-BAN	95	pin the face, mute the room	pin-her-video
-BAN	95	count the sheep, scroll the feed	the-app-says-im-resting
-BAN	95	say sorry, mean nothing	sorry-spider
-BAN	95	spin it out, wring it dry	unbalanced-load
-BAN	95	read the card, hold the mic	second-draft
-BAN	95	post the req, water the plant	the-graveyard-is-full
-BAN	95	cast the wind, work the tree line	all-clear
-BAN	95	walk it, heel it	good-dog (doubled shape retired)
-BAN	95	queue the take, tag the mood	click-regenerate
-BAN	108	clock in, bank the hours	rest-when-im-dead
-BAN	108	label it, litigate it	oats-do-not-have-nipples
-BAN	95	raise the ticket, flag the risk	no-blockers
-BAN	73	part it out	part-it-out (opener + mantra)
+BAN	107	pin the face, mute the room	pin-her-video
+BAN	107	count the sheep, scroll the feed	the-app-says-im-resting
+BAN	107	say sorry, mean nothing	sorry-spider
+BAN	107	spin it out, wring it dry	unbalanced-load
+BAN	107	read the card, hold the mic	second-draft
+BAN	107	post the req, water the plant	the-graveyard-is-full
+BAN	107	cast the wind, work the tree line	all-clear
+BAN	107	walk it, heel it	good-dog (doubled shape retired)
+BAN	107	queue the take, tag the mood	click-regenerate
+BAN	120	clock in, bank the hours	rest-when-im-dead
+BAN	120	label it, litigate it	oats-do-not-have-nipples
+BAN	107	raise the ticket, flag the risk	no-blockers
+BAN	85	part it out	part-it-out (opener + mantra)
 #
 # --- Laundry mantras / spikes ---
-BAN	95	can everyone see my screen	pin-her-video mantra
-BAN	95	the app says i'?m resting	quantified-self mantra
-BAN	95	message not delivered	sorry-spider mantra
-BAN	95	wash, rinse, repeat	unbalanced-load mantra
-BAN	95	to the happy couple	second-draft mantra
-BAN	95	in-dispensable	the-graveyard-is-full self-negating mantra
-BAN	95	\ball clear\b	all-clear mantra
-BAN	95	gets the emotions	machine-emotions spike — second-draft
-BAN	95	no blockers	no-blockers mantra
-BAN	95	click regenerate	click-regenerate mantra
-BAN	108	rest when i'?m dead	rest-when-im-dead mantra
-BAN	108	oats do not have nipples	oats mantra
-BAN	95	unbalanced load	error-code spike — unbalanced-load
-BAN	95	across phyla	sorry-spider spike
-BAN	95	six hours of light sleep	app-says-im-resting spike
-BAN	95	full of indispensable	graveyard aphorism spike
-BAN	95	as the news says	all-clear spike
-BAN	95	zero bodies	all-clear tally
-BAN	95	better than i would have	click-regenerate spike
-BAN	95	delilah	no-blockers spike + Samson motif
-BAN	108	same card as the chair	rest-when-im-dead spike
-BAN	108	keep up with demand	oats spike
-BAN	95	freezes mid-laugh	pin-her-video frozen-tile motif anchor
-BAN	95	the calendar invite	graveyard recurring-invite motif anchor
+BAN	107	can everyone see my screen	pin-her-video mantra
+BAN	107	the app says i'?m resting	quantified-self mantra
+BAN	107	message not delivered	sorry-spider mantra
+BAN	107	wash, rinse, repeat	unbalanced-load mantra
+BAN	107	to the happy couple	second-draft mantra
+BAN	107	in-dispensable	the-graveyard-is-full self-negating mantra
+BAN	107	\ball clear\b	all-clear mantra
+BAN	107	gets the emotions	machine-emotions spike — second-draft
+BAN	107	no blockers	no-blockers mantra
+BAN	107	click regenerate	click-regenerate mantra
+BAN	120	rest when i'?m dead	rest-when-im-dead mantra
+BAN	120	oats do not have nipples	oats mantra
+BAN	107	unbalanced load	error-code spike — unbalanced-load
+BAN	107	across phyla	sorry-spider spike
+BAN	107	six hours of light sleep	app-says-im-resting spike
+BAN	107	full of indispensable	graveyard aphorism spike
+BAN	107	as the news says	all-clear spike
+BAN	107	zero bodies	all-clear tally
+BAN	107	better than i would have	click-regenerate spike
+BAN	107	delilah	no-blockers spike + Samson motif
+BAN	120	same card as the chair	rest-when-im-dead spike
+BAN	120	keep up with demand	oats spike
+BAN	107	freezes mid-laugh	pin-her-video frozen-tile motif anchor
+BAN	107	the calendar invite	graveyard recurring-invite motif anchor
 #
 # --- Laundry mechanical-collapse pre-hook phrasings (all five spent) ---
-BAN	95	stutter, catch	click-regenerate pre-hook
-BAN	95	second kit drops out	no-blockers pre-hook
-BAN	95	ticking hi-hat	no-blockers pre-hook
-BAN	108	half-beat late	rest-when-im-dead pre-hook
-BAN	108	hi-hat splits in two	oats pre-hook
+BAN	107	stutter, catch	click-regenerate pre-hook
+BAN	107	second kit drops out	no-blockers pre-hook
+BAN	107	ticking hi-hat	no-blockers pre-hook
+BAN	120	half-beat late	rest-when-im-dead pre-hook
+BAN	120	hi-hat splits in two	oats pre-hook
 #
 # --- Guessed quoted instructions / spikes / shrugs ---
-BAN	95	act like it'?s news	four-minute-fix instruction
-BAN	95	be happy for her	be-happy-for-her instruction
-BAN	95	don'?t correct a compliment	the-version-she-liked instruction
-BAN	95	focus on the story	focus-on-the-story instruction
-BAN	95	let it lie	let-it-lie instruction
-BAN	108	come back to us	the-wanderer instruction
-BAN	73	be nice about it	handle instruction
-BAN	73	a word i made up	handle one-line-that-lands
-BAN	95	bought the card before	be-happy-for-her spike
-BAN	95	clapped the loudest	be-happy-for-her drop-out
-BAN	95	was a gift and i said yes	is-it-a-gift spike
-BAN	95	i'?d wear it to	is-it-a-gift drop-out
-BAN	73	i said thank you	verbatim-duplicated shrug (2 songs)
-BAN	95	kindest thing he ever did	he-meant-it-kindly drop-out
-BAN	95	i filed them	the-version-she-liked drop-out
-BAN	95	who'?s actually looking	focus-on-the-story drop-out
-BAN	95	lip-read the bit	focus-on-the-story expertise line
-BAN	95	four-minute fix	four-minute-fix spike
-BAN	95	two thousand and nine	four-minute-fix drop-out (also nine ban)
-BAN	95	in the room to be finished	let-it-lie spike
-BAN	95	know where my clothes are	let-it-lie drop-out
-BAN	108	pinned him across	the-wanderer spike
-BAN	108	not allowed to face	the-wanderer spike
-BAN	108	never has to explain	the-wanderer drop-out
-BAN	95	eleven seconds	be-happy-for-her timing motif
-BAN	95	three cups on the table	the-second-chair ambush motif anchor
+BAN	107	act like it'?s news	four-minute-fix instruction
+BAN	107	be happy for her	be-happy-for-her instruction
+BAN	107	don'?t correct a compliment	the-version-she-liked instruction
+BAN	107	focus on the story	focus-on-the-story instruction
+BAN	107	let it lie	let-it-lie instruction
+BAN	120	come back to us	the-wanderer instruction
+BAN	85	be nice about it	handle instruction
+BAN	85	a word i made up	handle one-line-that-lands
+BAN	107	bought the card before	be-happy-for-her spike
+BAN	107	clapped the loudest	be-happy-for-her drop-out
+BAN	107	was a gift and i said yes	is-it-a-gift spike
+BAN	107	i'?d wear it to	is-it-a-gift drop-out
+BAN	85	i said thank you	verbatim-duplicated shrug (2 songs)
+BAN	107	kindest thing he ever did	he-meant-it-kindly drop-out
+BAN	107	i filed them	the-version-she-liked drop-out
+BAN	107	who'?s actually looking	focus-on-the-story drop-out
+BAN	107	lip-read the bit	focus-on-the-story expertise line
+BAN	107	four-minute fix	four-minute-fix spike
+BAN	107	two thousand and nine	four-minute-fix drop-out (also nine ban)
+BAN	107	in the room to be finished	let-it-lie spike
+BAN	107	know where my clothes are	let-it-lie drop-out
+BAN	120	pinned him across	the-wanderer spike
+BAN	120	not allowed to face	the-wanderer spike
+BAN	120	never has to explain	the-wanderer drop-out
+BAN	107	eleven seconds	be-happy-for-her timing motif
+BAN	107	three cups on the table	the-second-chair ambush motif anchor
 #
 # --- Lucy Might ---
 PERM	-	closer than that	9-song leak from ask-me-again
-BAN	73	smell my promises	ask-me-again scent line
-BAN	73	sit closer	ask-me-again invitation imperative
-BAN	73	ask me again	ask-me-again hook (title phrase)
+BAN	85	smell my promises	ask-me-again scent line
+BAN	85	sit closer	ask-me-again invitation imperative
+BAN	85	ask me again	ask-me-again hook (title phrase)
 #
 # --- Bell pre-chorus personifications (all four spent) ---
 PERM	-	fiddle starts confessing	5 uses
-BAN	73	violin remembers	the-graves-i-didnt-dig
-BAN	73	stops its weeping	i-was-here-before-your-fathers
-BAN	108	strings go quiet	the-birds-have-stopped-singing
+BAN	85	violin remembers	the-graves-i-didnt-dig
+BAN	85	stops its weeping	i-was-here-before-your-fathers
+BAN	120	strings go quiet	the-birds-have-stopped-singing
 #
 # --- Bell hooks / questions ---
-BAN	108	gave the birds my grief	the-birds-have-stopped-singing couplet
-BAN	108	ahead of that bargain	the-birds-have-stopped-singing couplet
-BAN	108	does the quiet keep better count	the-birds-have-stopped-singing question
-BAN	108	hush it low, hush it holy	the-birds-have-stopped-singing opener
-BAN	73	play it quick, play it broken	wheels-where-i-should-kneel opener
-BAN	73	dig it slow, dig it holy	the-graves-i-didnt-dig opener
+BAN	120	gave the birds my grief	the-birds-have-stopped-singing couplet
+BAN	120	ahead of that bargain	the-birds-have-stopped-singing couplet
+BAN	120	does the quiet keep better count	the-birds-have-stopped-singing question
+BAN	120	hush it low, hush it holy	the-birds-have-stopped-singing opener
+BAN	85	play it quick, play it broken	wheels-where-i-should-kneel opener
+BAN	85	dig it slow, dig it holy	the-graves-i-didnt-dig opener
 #
 # --- Ultracoase intros / winks / hook exemplars ---
-BAN	95	nobody rang the bell	forge intro
-BAN	95	staying meant becoming him	forge wink
-BAN	95	kept the fire lit	forge anaphora
-BAN	95	tiger doesn'?t knock	ashes intro
-BAN	95	the way he showed me	ashes wink
-BAN	95	learn to ride, or you rust	ashes hook
-BAN	95	the sea doesn'?t remember	the-third-time intro
-BAN	95	counted the sails	the-third-time wink
-BAN	95	standing here is where i'?ve always been	the-third-time hook
-BAN	95	tilbury	tilbury intro (named anchor)
-BAN	95	heart of a king	tilbury hook
-BAN	95	picks the moment, not the crowd	tilbury hook
-BAN	95	keep the ninth	tilbury wink (also nine ban)
-BAN	95	t-minus ten	escape-velocity intro
-BAN	95	counting down to an ending	escape-velocity intro
-BAN	95	counting up to a landing	escape-velocity hook
-BAN	95	just unclaimed	escape-velocity hook
-BAN	95	scheduled for a tuesday	escape-velocity wink (also tuesday watch)
-BAN	95	already knows the route	autopilot intro
-BAN	95	where i actually want to go	autopilot intro
-BAN	95	typed home into	autopilot wink
-BAN	95	nobody optimized what for	autopilot hook
-BAN	108	hospital bracelet	delivered-unread wink
-BAN	108	granola bars	delivered-unread wink
-BAN	108	four thousand of them	delivered-unread hook
-BAN	108	delivered, unread	delivered-unread status motif
-BAN	108	cursor blinks	delivered-unread spike
-BAN	108	cuts a graft	frost-finds-the-line intro
-BAN	108	same length, the same edge	frost-finds-the-line intro
-BAN	108	take my truck	frost-finds-the-line wink
-BAN	108	as far as the crossing	frost-finds-the-line wink
-BAN	108	stayed quiet that week	frost-finds-the-line wink
-BAN	108	splits along the graft	frost-finds-the-line hook
-BAN	108	bind the wound again	frost-finds-the-line hook
-BAN	108	graves are hungry	graves-are-hungry intro (title phrase)
-BAN	108	mean it as a metaphor	graves-are-hungry intro
-BAN	108	i dug hers myself	graves-are-hungry wink
-BAN	108	four foot, not six	graves-are-hungry wink
-BAN	108	feed it a	graves-are-hungry hook
-BAN	108	hungry again	graves-are-hungry hook
-BAN	108	dig it just as deep	graves-are-hungry hook
-BAN	108	eleven inches	door-standing-open hook
-BAN	108	sandbag the toe	door-standing-open wink
-BAN	108	signed the roster	door-standing-open wink
-BAN	108	paid for the sky	door-standing-open hook
-BAN	108	file it again	door-standing-open hook
-BAN	108	left half-shut	two-hundred-yards hook
-BAN	108	doesn'?t care if i do	two-hundred-yards hook
-BAN	108	two hundred yards past	two-hundred-yards wink
-BAN	108	checked the distance after	two-hundred-yards wink
-BAN	108	walk it alone forever	two-hundred-yards hook
-BAN	108	programs the robots	who-programs-the-robots hook (title phrase)
-BAN	108	the room points at	who-programs-the-robots hook
-BAN	108	forty milliseconds	who-programs-the-robots wink
-BAN	108	wasn'?t the sensor	who-programs-the-robots wink
-BAN	108	hedge went quiet	which-of-us-it-was hook
-BAN	108	audiogram	which-of-us-it-was hook
-BAN	108	which of us it was	which-of-us-it-was hook (title phrase)
-BAN	108	walks the transect	which-of-us-it-was wink
-BAN	108	r(ü|u)ckenfigur	ruckenfigur intro (title word)
-BAN	108	weight on the back foot	ruckenfigur technique refrain
-BAN	108	three hundred and sixty-two	ruckenfigur count
-BAN	108	never painted her face	ruckenfigur wink
-BAN	108	asked her to turn around	ruckenfigur wink
-BAN	108	stand where (she|they) stood	ruckenfigur hook
-BAN	108	colour of her eyes	ruckenfigur hook
-BAN	111	fuck-?me shoes	girlboss condemnation-as-endorsement hook
-BAN	111	that'?s why i bought them	girlboss condemnation-as-endorsement hook
-BAN	111	argue with the literature	girlboss offer-by-citation line
-BAN	111	let the question answer itself	girlboss deflected-praise close
-BAN	111	best advert	girlboss laminated-review-as-testimonial motif
-BAN	111	day-?return	girlboss unused-ticket implied-result motif
-BAN	111	apologi[sz]ed to (a|the) shelf	girlboss auditor-count-deteriorating motif
-BAN	111	make it a double	girlboss bar-call chant hook
-BAN	111	whatever she'?s having	girlboss bar-call chant hook
-BAN	111	came in undercover	girlboss weights-and-measures deadpan
-BAN	111	run the optics	girlboss optics double-meaning
-BAN	111	check her measure	girlboss measure-motif kiss line
-BAN	111	(the )?act forgot its lines	girlboss performer-collapse motif
-BAN	111	thinks it'?s for the mentoring	girlboss rota implied-result
-BAN	111	good body	girlboss tasting-note chant hook
-BAN	111	long finish	girlboss tasting-note chant hook
-BAN	111	sell at eye level	girlboss eye-level moral
-BAN	111	mirror with a job	girlboss surveillance-prop line
-BAN	111	everyone spits	girlboss swallowed-at-tasting scoreboard
-BAN	111	in my hotel room	girlboss reserve-location implied-result
+BAN	107	nobody rang the bell	forge intro
+BAN	107	staying meant becoming him	forge wink
+BAN	107	kept the fire lit	forge anaphora
+BAN	107	tiger doesn'?t knock	ashes intro
+BAN	107	the way he showed me	ashes wink
+BAN	107	learn to ride, or you rust	ashes hook
+BAN	107	the sea doesn'?t remember	the-third-time intro
+BAN	107	counted the sails	the-third-time wink
+BAN	107	standing here is where i'?ve always been	the-third-time hook
+BAN	107	tilbury	tilbury intro (named anchor)
+BAN	107	heart of a king	tilbury hook
+BAN	107	picks the moment, not the crowd	tilbury hook
+BAN	107	keep the ninth	tilbury wink (also nine ban)
+BAN	107	t-minus ten	escape-velocity intro
+BAN	107	counting down to an ending	escape-velocity intro
+BAN	107	counting up to a landing	escape-velocity hook
+BAN	107	just unclaimed	escape-velocity hook
+BAN	107	scheduled for a tuesday	escape-velocity wink (also tuesday watch)
+BAN	107	already knows the route	autopilot intro
+BAN	107	where i actually want to go	autopilot intro
+BAN	107	typed home into	autopilot wink
+BAN	107	nobody optimized what for	autopilot hook
+BAN	120	hospital bracelet	delivered-unread wink
+BAN	120	granola bars	delivered-unread wink
+BAN	120	four thousand of them	delivered-unread hook
+BAN	120	delivered, unread	delivered-unread status motif
+BAN	120	cursor blinks	delivered-unread spike
+BAN	120	cuts a graft	frost-finds-the-line intro
+BAN	120	same length, the same edge	frost-finds-the-line intro
+BAN	120	take my truck	frost-finds-the-line wink
+BAN	120	as far as the crossing	frost-finds-the-line wink
+BAN	120	stayed quiet that week	frost-finds-the-line wink
+BAN	120	splits along the graft	frost-finds-the-line hook
+BAN	120	bind the wound again	frost-finds-the-line hook
+BAN	120	graves are hungry	graves-are-hungry intro (title phrase)
+BAN	120	mean it as a metaphor	graves-are-hungry intro
+BAN	120	i dug hers myself	graves-are-hungry wink
+BAN	120	four foot, not six	graves-are-hungry wink
+BAN	120	feed it a	graves-are-hungry hook
+BAN	120	hungry again	graves-are-hungry hook
+BAN	120	dig it just as deep	graves-are-hungry hook
+BAN	120	eleven inches	door-standing-open hook
+BAN	120	sandbag the toe	door-standing-open wink
+BAN	120	signed the roster	door-standing-open wink
+BAN	120	paid for the sky	door-standing-open hook
+BAN	120	file it again	door-standing-open hook
+BAN	120	left half-shut	two-hundred-yards hook
+BAN	120	doesn'?t care if i do	two-hundred-yards hook
+BAN	120	two hundred yards past	two-hundred-yards wink
+BAN	120	checked the distance after	two-hundred-yards wink
+BAN	120	walk it alone forever	two-hundred-yards hook
+BAN	120	programs the robots	who-programs-the-robots hook (title phrase)
+BAN	120	the room points at	who-programs-the-robots hook
+BAN	120	forty milliseconds	who-programs-the-robots wink
+BAN	120	wasn'?t the sensor	who-programs-the-robots wink
+BAN	120	hedge went quiet	which-of-us-it-was hook
+BAN	120	audiogram	which-of-us-it-was hook
+BAN	120	which of us it was	which-of-us-it-was hook (title phrase)
+BAN	120	walks the transect	which-of-us-it-was wink
+BAN	120	r(ü|u)ckenfigur	ruckenfigur intro (title word)
+BAN	120	weight on the back foot	ruckenfigur technique refrain
+BAN	120	three hundred and sixty-two	ruckenfigur count
+BAN	120	never painted her face	ruckenfigur wink
+BAN	120	asked her to turn around	ruckenfigur wink
+BAN	120	stand where (she|they) stood	ruckenfigur hook
+BAN	120	colour of her eyes	ruckenfigur hook
+BAN	123	fuck-?me shoes	girlboss condemnation-as-endorsement hook
+BAN	123	that'?s why i bought them	girlboss condemnation-as-endorsement hook
+BAN	123	argue with the literature	girlboss offer-by-citation line
+BAN	123	let the question answer itself	girlboss deflected-praise close
+BAN	123	best advert	girlboss laminated-review-as-testimonial motif
+BAN	123	day-?return	girlboss unused-ticket implied-result motif
+BAN	123	apologi[sz]ed to (a|the) shelf	girlboss auditor-count-deteriorating motif
+BAN	123	make it a double	girlboss bar-call chant hook
+BAN	123	whatever she'?s having	girlboss bar-call chant hook
+BAN	123	came in undercover	girlboss weights-and-measures deadpan
+BAN	123	run the optics	girlboss optics double-meaning
+BAN	123	check her measure	girlboss measure-motif kiss line
+BAN	123	(the )?act forgot its lines	girlboss performer-collapse motif
+BAN	123	thinks it'?s for the mentoring	girlboss rota implied-result
+BAN	123	good body	girlboss tasting-note chant hook
+BAN	123	long finish	girlboss tasting-note chant hook
+BAN	123	sell at eye level	girlboss eye-level moral
+BAN	123	mirror with a job	girlboss surveillance-prop line
+BAN	123	everyone spits	girlboss swallowed-at-tasting scoreboard
+BAN	123	in my hotel room	girlboss reserve-location implied-result
 PERM	-	said you'?re [a-z', -]+\. i (said|let)	girlboss bridge compliment-response closer (3 uses)
-BAN	111	offers over asking	girlboss property chant hook
-BAN	111	no chain	girlboss property chant hook
-BAN	111	helped the room	girlboss staging deadpan
-BAN	111	bleach a carpet	girlboss curtains cutaway
-BAN	111	waived the survey	girlboss implied-result
-BAN	111	smooth as fresh paint	girlboss fluency tag
-BAN	111	looking at the light	girlboss bridge button
-BAN	111	lot of house for one	girlboss proposition line
-BAN	112	to train the copy	substrate-asymmetry hook — ultracoase/one-wet-spring
-BAN	112	wipe the copy, keep the master	hook payoff double meaning — ultracoase/one-wet-spring
-BAN	112	taught it how to stop	all-caps wink callback — ultracoase/one-wet-spring
-BAN	112	wet spring	title/hook seasonal anchor — ultracoase/one-wet-spring
-BAN	112	mine to [a-z]+, not mine to	rights-scope contrast skeleton — ultracoase/one-wet-spring
-BAN	112	where no writ runs	jurisdiction-of-the-body line — ultracoase/one-wet-spring
-BAN	112	with my good pen	wink anchor — ultracoase/one-wet-spring
-BAN	112	number'?s in the book	unmade-call non-action close — ultracoase/one-wet-spring
-BAN	113	pay me to say where the line is	shrinking-definition hook thesis — ultracoase/certain-too-early
-BAN	113	still can'?t fake	hook thesis clause — ultracoase/certain-too-early
-BAN	113	is this quarter	hook definition-clock clause — ultracoase/certain-too-early
-BAN	113	write thirty and keep one	unspeakability/selection clause — ultracoase/certain-too-early
-BAN	113	certain too early	tacit-knowledge legible spike — ultracoase/certain-too-early
-BAN	113	anyone the test lets through	self-authored circular definition — ultracoase/certain-too-early
-BAN	113	logged it as a valid sample	wink anchor — ultracoase/certain-too-early
-BAN	113	(build|version) in the drawer	unshippable private fix — ultracoase/certain-too-early
-BAN	113	slower gate, wider window	accessibility-tradeoff spec detail — ultracoase/certain-too-early
-BAN	113	still on the list	wink close / panel-retention beat — ultracoase/certain-too-early
-BAN	114	cool the hands, kill the pause	biometric-gate imperative opener — laundry/still-warm
-BAN	114	answer like a bill	imperative-opener close — laundry/still-warm
-BAN	114	snare sticks on one millisecond	mechanical-collapse pre-hook line — laundry/still-warm
-BAN	114	still warm	rejection-reason mantra — laundry/still-warm
-BAN	114	float and you'?re flesh	flash of legibility — laundry/still-warm
-BAN	114	sink and they let you in	flash of legibility — laundry/still-warm
-BAN	114	how long is a person, in milliseconds	question with no addressee — laundry/still-warm
-BAN	114	that'?s not a person, that'?s a ping	self-reclassification button — laundry/still-warm
-BAN	114	rejected: organic	inverted-gate rejection stack — laundry/still-warm
-BAN	114	don'?t come back for their gloves	ducking-stool aftermath detail — laundry/still-warm
-BAN	114	it doesn'?t beat me\. it admits me	dissolve-as-compliance line — laundry/still-warm
-BAN	114	thermal paste on the wrists	passing-as-equipment prop — laundry/still-warm
-BAN	114	best deal on the yard	labour-tally chant hook — girlboss/best-deal-on-the-yard
-BAN	114	mucks out four	hook tally line — girlboss/best-deal-on-the-yard
-BAN	114	never paid a groom	verbatim-echo deadpan — girlboss/best-deal-on-the-yard
-BAN	114	bringing her on	task double-entendre — girlboss/best-deal-on-the-yard
-BAN	114	buy that kind of work ethic	unearned moral — girlboss/best-deal-on-the-yard
-BAN	114	something to look up to	unearned moral close — girlboss/best-deal-on-the-yard
-BAN	114	here'?s the wage	praise-as-payslip inventory — girlboss/best-deal-on-the-yard
-BAN	114	turning into a job	stakes-owner payment interruption — girlboss/best-deal-on-the-yard
-BAN	114	turned down the garden centre	declined-paid-job evidence — girlboss/best-deal-on-the-yard
-BAN	114	she'?s needed here	declined-paid-job button — girlboss/best-deal-on-the-yard
-BAN	114	doing sundays as well	clean-exit ask-for-more close — girlboss/best-deal-on-the-yard
-BAN	114	had it insulated	idiom-renovated chant hook — girlboss/had-it-insulated
-BAN	114	in the doghouse	hook idiom anchor — girlboss/had-it-insulated
-BAN	114	raise my voice about an income	flat-deadpan grievance-as-revenue — girlboss/had-it-insulated
-BAN	114	fix everything he can reach	unearned moral — girlboss/had-it-insulated
-BAN	114	every marriage runs on something	unearned-moral button — girlboss/had-it-insulated
-BAN	114	he didn'?t get up	bridge button after stakes-owner call — girlboss/had-it-insulated
-BAN	114	the man about the boiler	comic cutaway — girlboss/had-it-insulated
-BAN	114	spare room'?s been made up	maintained-prop evidence — girlboss/had-it-insulated
-BAN	114	nobody'?s slept in it	maintained-prop evidence — girlboss/had-it-insulated
-BAN	114	standing tariff	reparations inventory opener — girlboss/had-it-insulated
+BAN	123	offers over asking	girlboss property chant hook
+BAN	123	no chain	girlboss property chant hook
+BAN	123	helped the room	girlboss staging deadpan
+BAN	123	bleach a carpet	girlboss curtains cutaway
+BAN	123	waived the survey	girlboss implied-result
+BAN	123	smooth as fresh paint	girlboss fluency tag
+BAN	123	looking at the light	girlboss bridge button
+BAN	123	lot of house for one	girlboss proposition line
+BAN	124	to train the copy	substrate-asymmetry hook — ultracoase/one-wet-spring
+BAN	124	wipe the copy, keep the master	hook payoff double meaning — ultracoase/one-wet-spring
+BAN	124	taught it how to stop	all-caps wink callback — ultracoase/one-wet-spring
+BAN	124	wet spring	title/hook seasonal anchor — ultracoase/one-wet-spring
+BAN	124	mine to [a-z]+, not mine to	rights-scope contrast skeleton — ultracoase/one-wet-spring
+BAN	124	where no writ runs	jurisdiction-of-the-body line — ultracoase/one-wet-spring
+BAN	124	with my good pen	wink anchor — ultracoase/one-wet-spring
+BAN	124	number'?s in the book	unmade-call non-action close — ultracoase/one-wet-spring
+BAN	125	pay me to say where the line is	shrinking-definition hook thesis — ultracoase/certain-too-early
+BAN	125	still can'?t fake	hook thesis clause — ultracoase/certain-too-early
+BAN	125	is this quarter	hook definition-clock clause — ultracoase/certain-too-early
+BAN	125	write thirty and keep one	unspeakability/selection clause — ultracoase/certain-too-early
+BAN	125	certain too early	tacit-knowledge legible spike — ultracoase/certain-too-early
+BAN	125	anyone the test lets through	self-authored circular definition — ultracoase/certain-too-early
+BAN	125	logged it as a valid sample	wink anchor — ultracoase/certain-too-early
+BAN	125	(build|version) in the drawer	unshippable private fix — ultracoase/certain-too-early
+BAN	125	slower gate, wider window	accessibility-tradeoff spec detail — ultracoase/certain-too-early
+BAN	125	still on the list	wink close / panel-retention beat — ultracoase/certain-too-early
+BAN	126	cool the hands, kill the pause	biometric-gate imperative opener — laundry/still-warm
+BAN	126	answer like a bill	imperative-opener close — laundry/still-warm
+BAN	126	snare sticks on one millisecond	mechanical-collapse pre-hook line — laundry/still-warm
+BAN	126	still warm	rejection-reason mantra — laundry/still-warm
+BAN	126	float and you'?re flesh	flash of legibility — laundry/still-warm
+BAN	126	sink and they let you in	flash of legibility — laundry/still-warm
+BAN	126	how long is a person, in milliseconds	question with no addressee — laundry/still-warm
+BAN	126	that'?s not a person, that'?s a ping	self-reclassification button — laundry/still-warm
+BAN	126	rejected: organic	inverted-gate rejection stack — laundry/still-warm
+BAN	126	don'?t come back for their gloves	ducking-stool aftermath detail — laundry/still-warm
+BAN	126	it doesn'?t beat me\. it admits me	dissolve-as-compliance line — laundry/still-warm
+BAN	126	thermal paste on the wrists	passing-as-equipment prop — laundry/still-warm
+BAN	126	best deal on the yard	labour-tally chant hook — girlboss/best-deal-on-the-yard
+BAN	126	mucks out four	hook tally line — girlboss/best-deal-on-the-yard
+BAN	126	never paid a groom	verbatim-echo deadpan — girlboss/best-deal-on-the-yard
+BAN	126	bringing her on	task double-entendre — girlboss/best-deal-on-the-yard
+BAN	126	buy that kind of work ethic	unearned moral — girlboss/best-deal-on-the-yard
+BAN	126	something to look up to	unearned moral close — girlboss/best-deal-on-the-yard
+BAN	126	here'?s the wage	praise-as-payslip inventory — girlboss/best-deal-on-the-yard
+BAN	126	turning into a job	stakes-owner payment interruption — girlboss/best-deal-on-the-yard
+BAN	126	turned down the garden centre	declined-paid-job evidence — girlboss/best-deal-on-the-yard
+BAN	126	she'?s needed here	declined-paid-job button — girlboss/best-deal-on-the-yard
+BAN	126	doing sundays as well	clean-exit ask-for-more close — girlboss/best-deal-on-the-yard
+BAN	126	had it insulated	idiom-renovated chant hook — girlboss/had-it-insulated
+BAN	126	in the doghouse	hook idiom anchor — girlboss/had-it-insulated
+BAN	126	raise my voice about an income	flat-deadpan grievance-as-revenue — girlboss/had-it-insulated
+BAN	126	fix everything he can reach	unearned moral — girlboss/had-it-insulated
+BAN	126	every marriage runs on something	unearned-moral button — girlboss/had-it-insulated
+BAN	126	he didn'?t get up	bridge button after stakes-owner call — girlboss/had-it-insulated
+BAN	126	the man about the boiler	comic cutaway — girlboss/had-it-insulated
+BAN	126	spare room'?s been made up	maintained-prop evidence — girlboss/had-it-insulated
+BAN	126	nobody'?s slept in it	maintained-prop evidence — girlboss/had-it-insulated
+BAN	126	standing tariff	reparations inventory opener — girlboss/had-it-insulated
