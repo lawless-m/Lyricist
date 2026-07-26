@@ -622,6 +622,29 @@ gets fixed.
 - Example: girlboss/had-it-insulated
 - Logged at catalog size 126.
 
+### "Every word on that pack is true, and I wrote half of them myself. [quantified transformation] — the difference is [what I taught it to do]. You haven't got [the additive] in your cupboard. Nobody's been lied to. Nobody's been fed." — everything-declared hook thesis
+- Ultracoase's seventeenth hook-couplet shape: the narrator's defence is total factual compliance
+  — every claim on the label is accurate and he authored the accurate claims — so there is no
+  deception to expose and no institution to blame, only a gap between what is true and what is
+  nourishing. The inaccessibility clause (the domestic kitchen cannot obtain the working
+  ingredient) is what makes it a trade rather than a recipe, and the closing paired negation
+  refuses both exoneration and accusation before the amor-fati line re-commits to Monday.
+- Example: ultracoase/e451
+- Logged at catalog size 127.
+
+### "[His/Her] [mother/mum] rang[, + politeness qualifier]" — stakes-owner-call bridge opener
+- The girlboss bridge requires the straight world to interrupt mid-transgression, and the caller
+  being a parent is a natural fit — which is exactly why it calcified immediately. Two consecutive
+  songs opened the bridge the same way: "Her mum rang Sunday. Very polite." (girlboss/best-deal-on-the-yard)
+  and "His mother rang. Pauline. Wanted to know, delicately..." (girlboss/had-it-insulated).
+  Caught by the user, not by the fuzzy pass, which had checked the bridge's *ending* (the retired
+  compliment-and-deflection button) and never looked at its opening. The device stays; a parent
+  ringing, and this "[possessive] mother rang + politeness adverb" shape, are retired. Rotate the
+  caller: girlboss/had-it-insulated was revised to Fiona, the hostess whose table the offence
+  happened at, which also ties the bridge to that song's own callback.
+- Example: girlboss/best-deal-on-the-yard (the use that stands)
+- Logged at catalog size 127.
+
 ## Phrases
 
 ### "I answer to a word I made up"
@@ -1119,12 +1142,43 @@ gets fixed.
 - Example: girlboss/had-it-insulated
 - Logged at catalog size 126.
 
-### "I said say hello to your mother. He said hello, Mum. He didn't get up."
+### "I said Fiona sends her love. He said tell her thanks. He didn't get up."
 - The bridge button after the stakes-owner call: obedience demonstrated in a three-beat
   stage direction rather than a compliment-and-deflection, coined specifically to replace the
   retired "[He/She] said you're [compliment]. I said [deflection]." closer.
 - Example: girlboss/had-it-insulated
 - Logged at catalog size 126.
+
+### "Yield, in this trade, means what comes back out heavier than it went in. My father used the word the other way round. He meant giving in."
+- Ultracoase's ninth cold-spoken-intro double meaning: a single trade word carrying an industrial
+  sense (weight recovered) against an older personal sense (capitulation), with the generational
+  split stated as vocabulary rather than as conflict.
+- Example: ultracoase/e451
+- Logged at catalog size 127.
+
+### "There's a bird in my own oven most Sundays. A proper one, from the farm shop at Ashby... Then I drive a pack of ours up to my father's and put it in his fridge."
+- An elliptical wink per the band's corrected register — bare facts (what he cooks for himself,
+  what he delivers to his father) with no comparison drawn and no motive stated. Deliberately not
+  built on withholding a truth from an elderly parent, which ultracoase/certain-too-early already
+  spent; here nothing is concealed at all, and the exemption does the work.
+- Example: ultracoase/e451
+- Logged at catalog size 127.
+
+### "Nobody's been lied to. Nobody's been fed."
+- The paired negation that closes the hook: two flat denials that cancel each other, refusing the
+  fraud reading and the innocence reading in the same breath. Distinct from the anaphoric
+  possession-parallel of ultracoase/the-forge-doesnt-wait-for-me ("Brother kept the fire lit.
+  Brother kept the name.") — that one names what a rival retained; this one withdraws both
+  available verdicts.
+- Example: ultracoase/e451
+- Logged at catalog size 127.
+
+### "So I stop it exactly where it stops looking like water."
+- The tacit-knowledge spike relocated to a *limit* rather than a craft: the expertise is knowing
+  precisely how far adulteration can be pushed before it becomes visible, stated without defence
+  and immediately owned ("That is the only thing I have ever been genuinely good at").
+- Example: ultracoase/e451
+- Logged at catalog size 127.
 
 ## Imagery / Motifs
 
@@ -1671,3 +1725,30 @@ gets fixed.
   reserve bottle and the declined job.
 - Example: girlboss/had-it-insulated
 - Logged at catalog size 126.
+
+### A food-industry technologist who authors a fully-legal product and quietly exempts himself from eating it
+- Every claim is declared, in order of weight, in the font the law specifies, and the narrator
+  says so with pride and has never failed a check — so there is no concealment anywhere in the
+  song and no institutional villain, which is what keeps it out of purple-dog territory. The
+  transgression is entirely internal: he cooks a real bird for himself and delivers the industrial
+  pack to his father. No claim is made about health, regulation or corporate motive; the target is
+  the distance between "true" and "food".
+- Example: ultracoase/e451
+- Logged at catalog size 127.
+
+### The domestic kitchen's missing ingredient as the whole moat
+- The industrial process is separated from home cooking not by skill or scale but by one
+  unobtainable input ("You haven't got E451 in your cupboard"), which reframes the trade as
+  access rather than craft — and lets the narrator claim authorship without claiming artistry.
+- Example: ultracoase/e451
+- Logged at catalog size 127.
+
+### A living parent's obsolete hand-skill set against the narrator's marketable industrial one
+- The specific-living-human requirement filled by a father still alive and still capable — he can
+  bone out a shoulder in under a minute — whose competence simply has no buyer, while the son's
+  ability to make a hundred kilos weigh a hundred and twenty-eight does. Explicitly not a death
+  (the dead-mentor device stays retired) and not an abandonment-for-the-road story like
+  ultracoase/the-forge-doesnt-wait-for-me: the son stayed in the same trade and industrialised it.
+- Example: "He can take a shoulder apart in under a minute. There's nobody left paying for that." —
+  ultracoase/e451
+- Logged at catalog size 127.
