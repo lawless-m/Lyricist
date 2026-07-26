@@ -592,6 +592,29 @@ gets fixed.
 - Example: laundry/still-warm
 - Logged at catalog size 114.
 
+### "She mucks out four. I ride one. / Best deal on the yard." — labour-tally chant hook
+- Girlboss's hook slot filled with a bare work tally answered by a market verdict — the
+  imbalance stated as arithmetic and immediately priced as a bargain, with no one criticised.
+  Distinct from the band's other hooks (a quoted critic, a tasting note, listing language, a
+  bar call): this one is a ledger.
+- Example: girlboss/best-deal-on-the-yard
+- Logged at catalog size 114.
+
+### "I've never paid a groom in my life. / Well. I've never paid a groom." — verbatim-echo deadpan
+- A boast repeated word for word instead of corrected, so the second pass carries the opposite
+  meaning to the first. Distinct from the two-clause self-correcting deadpan of
+  girlboss/offers-over-asking ("I let the room do its work. I helped the room.") — nothing is
+  corrected here; the same sentence is simply said again once it can be heard properly.
+- Example: girlboss/best-deal-on-the-yard
+- Logged at catalog size 114.
+
+### "He's in the doghouse. / I've had it insulated." — idiom-renovated chant hook
+- Girlboss's hook slot filled by taking a stock domestic idiom literally and improving the
+  premises — the punishment reframed as a property she maintains, which states the indefinite
+  sentence without ever complaining about the offence.
+- Example: girlboss/had-it-insulated
+- Logged at catalog size 114.
+
 ## Phrases
 
 ### "I answer to a word I made up"
@@ -1055,6 +1078,45 @@ gets fixed.
 - The flat self-reclassification button: a response-time reading offered as sufficient evidence
   of having stopped being someone, with no alarm attached.
 - Example: "Point nought four. That's not a person, that's a ping." — laundry/still-warm
+- Logged at catalog size 114.
+
+### "I'm bringing her on. That's what you say about a young horse. It's what I say about her."
+- The task double-entendre for this song: a stable-yard verb for developing a young animal,
+  applied to a person, with the narrator naming the transfer herself and finding it flattering.
+- Example: girlboss/best-deal-on-the-yard
+- Logged at catalog size 114.
+
+### "You cannot buy that kind of work ethic. You have to give them something to look up to."
+- The unearned moral: unpaid labour reframed as a gift of inspiration, delivered as management
+  wisdom immediately after the evidence of what it actually cost the other party.
+- Example: girlboss/best-deal-on-the-yard
+- Logged at catalog size 114.
+
+### "And here's the wage: I tell her she's got an eye."
+- The itemised-competence inventory turned into a payslip — praise and arena time listed as
+  literal remuneration, flat, with no defence offered.
+- Example: girlboss/best-deal-on-the-yard
+- Logged at catalog size 114.
+
+### "I have not raised my voice about it once, because why would I raise my voice about an income."
+- The flat deadpan: the grievance named as a revenue stream in the same breath as the restraint,
+  so the calm reads as asset management rather than forbearance. Keeps the narrator clear of any
+  wound — she is not hurt, she is invoicing.
+- Example: girlboss/had-it-insulated
+- Logged at catalog size 114.
+
+### "A man will fix everything he can reach if you never quite tell him it's fixed."
+- The unearned moral as household lore: an openly instrumental rule for extracting indefinite
+  labour, delivered as ordinary domestic wisdom and immediately made specific ("Every marriage
+  runs on something. Ours runs on Fiona's dinner party.").
+- Example: girlboss/had-it-insulated
+- Logged at catalog size 114.
+
+### "I said say hello to your mother. He said hello, Mum. He didn't get up."
+- The bridge button after the stakes-owner call: obedience demonstrated in a three-beat
+  stage direction rather than a compliment-and-deflection, coined specifically to replace the
+  retired "[He/She] said you're [compliment]. I said [deflection]." closer.
+- Example: girlboss/had-it-insulated
 - Logged at catalog size 114.
 
 ## Imagery / Motifs
@@ -1549,4 +1611,56 @@ gets fixed.
   it — "it doesn't beat me. it admits me." Catharsis still withheld: what's behind the door is
   "nothing in here."
 - Example: laundry/still-warm
+- Logged at catalog size 114.
+
+### Devotion as the currency — hero-worship spent instead of sex, with mentorship as the deniable cover
+- Girlboss's covert trust-transgression run with the raunch dial at zero: the instrument is not
+  seduced, she is *admired into working for nothing*, and the professional cover story
+  ("experience", "I'm putting her in for her Stage Two") is sincere enough to survive being
+  said out loud to her mother. The exploited party stays specific, capable and never mocked —
+  the cruelty is entirely structural, per the band's rule about the trusting third party.
+- Example: girlboss/best-deal-on-the-yard
+- Logged at catalog size 114.
+
+### A declined paid job as the implied-result evidence
+- The flat post-cutaway detail is an opportunity cost: the other party turns down real wages
+  ("Twelve pound an hour, Saturdays, her mate had got her the interview") to keep doing the
+  unpaid version, and the narrator reports it as weather. Fresh evidence-category after the
+  unused return ticket, the waived survey, the shift rota and the reserve bottle.
+- Example: girlboss/best-deal-on-the-yard
+- Logged at catalog size 114.
+
+### The stakes-owner asking, politely, whether it might become a job — answered with an invoice for the privilege
+- Girlboss's interruption device with the straight world raising *payment* rather than
+  suspicion; the lie is an over-detailed valuation of the unpaid position ("there are working
+  pupils in Newmarket paying for this, paying"), and it closes on the narrator writing the next
+  week's chore list while still being thanked.
+- Example: girlboss/best-deal-on-the-yard
+- Logged at catalog size 114.
+
+### A trivial social offence kept unforgiven because the reparations are worth more than the apology
+- The transgression is not hers — it is the *withholding of a resolution* she could grant at any
+  time. The offence is deliberately tiny and instantly apologised for (he answered a question
+  asked of her, at a dinner party); she never disputes his remorse, never raises her voice, and
+  simply declines to close the matter while the flowers, the school runs and the skirting boards
+  keep arriving. Distinct from the band's seduction premises: the instrument here volunteers,
+  repeatedly, and believes he is winning.
+- Example: girlboss/had-it-insulated
+- Logged at catalog size 114.
+
+### The named offer answered by a comic cutaway — the doorbell, and a long conversation about a boiler
+- The band's cutaway discipline at the brazen end: the terms are stated out loud, in one
+  sentence, "using the words, no euphemism", and the song immediately hands the scene to an
+  unrelated tradesman. Nothing is staged; the interruption itself is the joke, and the
+  instrument's deterioration is measured by how badly he wants the boiler conversation to end.
+- Example: girlboss/had-it-insulated
+- Logged at catalog size 114.
+
+### The maintained prop that proves the punishment is theatre — a spare room made up and never slept in
+- The implied-result evidence as an object kept in readiness for a fiction: fresh sheets weekly
+  on a bed nobody uses, cheerfully done by the narrator herself. Deniable in isolation, and it
+  quietly establishes that the exile the whole song is built on has never once been served.
+  Fresh evidence-category after the unused return ticket, the waived survey, the shift rota, the
+  reserve bottle and the declined job.
+- Example: girlboss/had-it-insulated
 - Logged at catalog size 114.
