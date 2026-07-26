@@ -29,9 +29,14 @@ THRESHOLD="${TROPE_COOL_THRESHOLD:-60}"
 [ -f "$PATTERNS" ] || { echo "missing $PATTERNS" >&2; exit 2; }
 
 # Current catalogue-wide song count (lyric files only, not style/stand sidecars).
+# Band folders are discovered by their template.md rather than listed here — the hardcoded
+# list silently undercounted by a whole band when girlboss was added, which shortens every
+# cooling deadline computed against it.
 catalog=0
-for d in guessed laundry lucy-might purple-dog the-bell-knows-my-name coase-guard ultracoase; do
-  n=$(ls "$REPO/$d"/*.txt 2>/dev/null | grep -vc -e '\.style\.txt' -e '\.stand\.txt')
+for t in "$REPO"/*/template.md; do
+  [ -f "$t" ] || continue
+  d="$(dirname "$t")"
+  n=$(ls "$d"/*.txt 2>/dev/null | grep -vc -e '\.style\.txt' -e '\.stand\.txt')
   catalog=$((catalog + n))
 done
 
