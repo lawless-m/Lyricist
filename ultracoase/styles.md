@@ -24,8 +24,12 @@
   correction is what took the first take from a "Vienna"-style swell to the reference example's
   actual sound.
 - The reference recording used a custom Suno voice persona (not a generic default AI voice) for
-  the vocal — if a saved persona is available, apply it; a generic voice preset alone won't
-  reproduce the "even better, not because it sounds like me" result.
+  the vocal — apply the saved **Ultracoase** voice (`tools/suno-voice.py Ultracoase`); a generic
+  voice preset alone won't reproduce the "even better, not because it sounds like me" result.
+  Clear it again for any other band (`tools/suno-voice.py --off`) — the form keeps the last
+  voice across generations, so it will otherwise carry over silently. After generating, the
+  clip's `metadata.persona_id` is the only proof it actually applied
+  (Ultracoase = `dca2e5ed-5fa5-45fb-8311-e8991c599ae7`).
 
 Core instrument/texture palette to draw from: analog synth pads and arpeggiators, Roland-style
 drum machine, synth bass, stabbing synth brass, violin as a sharp accent (not a swelling lead) —
