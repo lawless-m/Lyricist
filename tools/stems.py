@@ -1,7 +1,7 @@
 #!/usr/bin/env -S uv run --script
 # /// script
 # requires-python = ">=3.11"
-# dependencies = ["librosa", "soundfile", "numpy"]
+# dependencies = ["librosa", "soundfile", "numpy", "essentia"]
 # ///
 """Separate stems via the Demucks server, then derive the bar grid the mixer needs.
 
@@ -19,10 +19,13 @@ kept separate from audio/analysis.json so the existing tooling is untouched.
 
 Why this exists rather than extending analyse.py: bar arithmetic needs a beat grid
 you can extrapolate, and librosa's per-frame beat list drifts and contains inserted
-and dropped beats. Here the period comes from Demucks' tempo-cnn sidecar and only
-the phase is fitted, against an isolated drum stem rather than a full mix. The same
+and dropped beats. Here the period comes from essentia's PercivalBpmEstimator and
+only the phase is fitted, against an isolated drum stem rather than a full mix. That
 isolation is what makes downbeat detection possible at all — kick-on-one is a strong
 signal once the guitars are gone and a hopeless one before.
+
+Tempo is the part that fought back; see the comment on PERCIVAL below for the two
+approaches that were tried and thrown away before this one.
 """
 
 import argparse
@@ -44,6 +47,32 @@ START_HINT = ("Demucks is not answering on 127.0.0.1:8766. Start it with:\n"
 HOP = 512
 WANT = ("drums", "vocals", "other")   # bass is unused; see the design doc
 MODEL = "htdemucs_ft"                 # slower than htdemucs, cleaner stems, one-off cost
+
+# Tempo. Three sources disagreed and none could be trusted alone: librosa read
+# part-it-out as 129 (its grid scores 1.08, i.e. noise) but scroll-up correctly at
+# 152; tempo-cnn read part-it-out correctly at 98 but halved scroll-up to 76, and
+# read finna-retard as 184 against a hand check of 93.
+#
+# Octave error is not cosmetic. At 184 instead of 92 the period is 0.33s, so a "bar"
+# is 1.3s of a real 2.6s bar: filler lengths halve, the downbeat search finds
+# half-bars, and ordering flings the track to the fast extreme and manufactures a
+# cliff either side of it.
+#
+# Settled by using the same estimator the user's reference tool uses. tunebat.com's
+# Analyzer has no upload API because it runs entirely in the browser; its worker is
+# fifteen lines and calls essentia's PercivalBpmEstimator at these exact parameters.
+# So we run the identical algorithm locally instead of posting anything anywhere.
+# It returns 91.5 where tunebat showed 93, and settles the other two disputes in
+# opposite directions.
+#
+# Two earlier attempts were thrown away and are recorded so they are not retried:
+# folding into a canonical band (cannot tell a real 76 from a halved 152, and cannot
+# reach the 3:2 error in finna-retard), and scoring a kick-on-1-and-3 backbeat over
+# candidate octaves (scored 0.24-0.45 against 0.25 for chance — this material puts
+# the kick on one class, not two, so the test measured nothing).
+PERCIVAL = dict(frameSize=1024, frameSizeOSS=2048, hopSize=128, hopSizeOSS=128,
+                maxBPM=210, minBPM=50, sampleRate=16000)
+OVERRIDES = AUDIO / "bpm-overrides.json"   # {clip_id: bpm}, wins over everything
 
 # Vocal activity thresholds. Tuned so a held note and the gap before the next line
 # stay in one span, rather than shattering every phrase into fragments.
@@ -98,7 +127,7 @@ GRID_WIN = 0.05        # +/- seconds around a beat that counts as "on the grid"
 
 
 def fit_grid(onset, sr, bpm, duration):
-    """Period from tempo-cnn; fit only the phase, by maximising on-grid onset energy.
+    """Period comes in decided; fit only the phase, maximising on-grid onset energy.
 
     Returns (t0, period, score, contrast).
 
@@ -114,8 +143,7 @@ def fit_grid(onset, sr, bpm, duration):
     NEITHER number may be used to choose a tempo. Enrichment still prefers 49 over
     the true 98 (1.97 vs 1.66), and always will: a half-time grid is a subset of the
     real one in which every point is a strong downbeat, so precision-style metrics
-    reward it for the beats it never has to explain. tempo-cnn owns the tempo — it
-    read 98 where librosa read 129 and scored 1.08, i.e. noise.
+    reward it for the beats it never has to explain. Percival owns the tempo.
 
     Contrast is best-phase over median-phase enrichment at the *same* period, which
     is scale-fair because it never compares two tempos. It answers the only question
@@ -149,20 +177,52 @@ def fit_grid(onset, sr, bpm, duration):
     return best[0], period, round(best[1], 3), round(best[1] / max(median, 1e-9), 3)
 
 
-def downbeat_phase(y, sr, t0, period, duration):
-    """Which beat index mod 4 carries the kick. Needs the isolated drums."""
+KICK_HZ = (0, 120)          # kick fundamental
+def kick_band(y, sr):
+    """Kick onset envelope from an isolated drums stem."""
     import librosa
     import numpy as np
-    mel = librosa.feature.melspectrogram(y=y, sr=sr, hop_length=HOP, n_mels=64, fmax=400)
-    freqs = librosa.mel_frequencies(n_mels=64, fmax=400)
-    low = mel[freqs < 150].sum(axis=0)
-    kick = np.maximum(0.0, np.diff(low, prepend=low[0]))
-    beats = np.arange(t0, duration, period)
-    idx = np.round(beats * sr / HOP).astype(int)
-    keep = idx < len(kick)
-    idx, beats = idx[keep], beats[keep]
-    scores = [float(kick[idx[n::4]].sum()) for n in range(4)]
-    return int(np.argmax(scores)), [round(s, 1) for s in scores]
+    mel = librosa.feature.melspectrogram(y=y, sr=sr, hop_length=HOP, n_mels=96, fmax=4000)
+    freqs = librosa.mel_frequencies(n_mels=96, fmax=4000)
+
+    def env(lo, hi):
+        band = mel[(freqs >= lo) & (freqs < hi)].sum(axis=0)
+        return np.maximum(0.0, np.diff(band, prepend=band[0]))
+
+    return env(*KICK_HZ)
+
+
+def downbeat_phase(kick, sr, t0, period, duration):
+    """Which beat class mod 4 carries the kick, from the isolated drums.
+
+    Plain kick concentration. This part works and works decisively — part-it-out
+    profiles as [0.21, 0.59, 0.02, 0.19], an unambiguous winner. It is only the
+    tempo octave that resisted every measurement; the downbeat never did, and the
+    two are separable problems.
+    """
+    import numpy as np
+    idx = np.round(np.arange(t0, duration, period) * sr / HOP).astype(int)
+    idx = idx[(idx >= 0) & (idx < len(kick))]
+    if idx.size < 8:
+        return 0, [0.0] * 4
+    k = np.array([kick[idx[n::4]].mean() for n in range(4)])
+    k = k / (k.sum() or 1e-9)
+    return int(np.argmax(k)), [round(float(x), 3) for x in k]
+
+
+def percival_bpm(path):
+    """tunebat.com/Analyzer's estimator, at tunebat.com/Analyzer's parameters."""
+    import essentia.standard as es
+    audio = es.MonoLoader(filename=str(path), sampleRate=PERCIVAL["sampleRate"])()
+    return float(es.PercivalBpmEstimator(**PERCIVAL)(audio))
+
+
+def essentia_key(path):
+    """-> (key, scale, strength). Replaces the Krumhansl correlation in analyse.py."""
+    import essentia.standard as es
+    audio = es.MonoLoader(filename=str(path), sampleRate=16000)()
+    k, scale, strength = es.KeyExtractor(sampleRate=16000)(audio)
+    return k, scale, round(float(strength), 3)
 
 
 def vocal_spans(y, sr):
@@ -208,15 +268,29 @@ def bar_energy(y, sr, t0, period, phase):
     return first, out
 
 
-def analyse(stem_paths, bpm):
+def analyse(stem_paths, bpm, cnn_bpm=None):
+    """Tempo is decided before we get here; fit the phase and the bar to it."""
     import librosa
-    import numpy as np
 
     drums, sr = librosa.load(str(stem_paths["drums"]), mono=True)
     duration = len(drums) / sr
+    kick = kick_band(drums, sr)
+
+    # Fit the phase to the KICK, not the general onset envelope. On dense electronic
+    # material the onset envelope has energy on every 8th and 16th, so sliding the
+    # grid half a beat still lands on hits and the fit barely peaks — contrast sat at
+    # 1.04-1.15 on 28 of 37 tracks. The kick is sparse and decisive. Switching lifted
+    # part-it-out from 1.06 to 1.61 and moved its phase 130ms; the-app-says-im-resting
+    # moved 390ms, two thirds of a beat, i.e. the old grid was simply in the wrong
+    # place. Fall back to onsets only where the kick is too quiet to fit.
     onset = librosa.onset.onset_strength(y=drums, sr=sr, hop_length=HOP)
-    t0, period, score, contrast = fit_grid(onset, sr, bpm, duration)
-    phase, phase_scores = downbeat_phase(drums, sr, t0, period, duration)
+    envelope, basis = (kick, "kick") if kick.sum() > 0 else (onset, "onset")
+    t0, period, score, contrast = fit_grid(envelope, sr, bpm, duration)
+    if contrast < 1.05 and basis == "kick":
+        t0b, _, scoreb, contrastb = fit_grid(onset, sr, bpm, duration)
+        if contrastb > contrast:
+            t0, score, contrast, basis = t0b, scoreb, contrastb, "onset"
+    phase, phase_scores = downbeat_phase(kick, sr, t0, period, duration)
     first_downbeat, bars = bar_energy(drums, sr, t0, period, phase)
 
     vox, _ = librosa.load(str(stem_paths["vocals"]), mono=True)
@@ -224,18 +298,47 @@ def analyse(stem_paths, bpm):
     sung = sum(b - a for a, b in spans)
 
     return {
-        "bpm_cnn": round(float(bpm), 2),
+        "bpm": round(float(bpm), 2),            # what the mixer uses
+        "bpm_cnn": round(float(cnn_bpm), 2) if cnn_bpm else None,   # kept for comparison
         "duration": round(duration, 3),
         "grid": {"t0": round(t0, 4), "period": round(period, 6)},
         "grid_score": score,
         "grid_contrast": contrast,
+        "grid_basis": basis,
         "downbeat_phase": phase,
-        "downbeat_scores": phase_scores,
+        "kick_profile": phase_scores,
         "first_downbeat": round(first_downbeat, 4),
         "vocal_spans": spans,
         "vocal_density": round(sung / duration, 3) if duration else 0.0,
         "bar_energy": bars,
     }
+
+
+def run_analysis(cid, track, kept, cnn_bpm, overrides):
+    """Override wins, else Percival on the original mix. -> (analysis, note)."""
+    if cid in overrides:
+        bpm, note = float(overrides[cid]), f"override {float(overrides[cid]):.0f}"
+    else:
+        bpm = percival_bpm(track)
+        note = f"cnn said {cnn_bpm:.0f}" if cnn_bpm and abs(bpm - cnn_bpm) > 1.0 else ""
+    a = analyse(kept, bpm, cnn_bpm=cnn_bpm)
+    a["key"], a["scale"], a["key_strength"] = essentia_key(track)
+    return a, note
+
+
+def suspect(cid, a, librosa_bpm):
+    """Why this track is worth pasting into tunebat.com/Analyzer. '' if it isn't."""
+    reasons = []
+    if a["grid_contrast"] < 1.3:
+        reasons.append(f"weak grid ({a['grid_contrast']:.2f})")
+    if abs(a["bpm"] - a["bpm_cnn"]) > 0.5:
+        reasons.append(f"cnn said {a['bpm_cnn']:.0f}")
+    old = librosa_bpm.get(cid)
+    if old:
+        r = a["bpm"] / old
+        if not any(abs(r - k) < 0.04 for k in (0.25, 0.5, 1.0, 2.0, 4.0)):
+            reasons.append(f"librosa said {old:.0f}")
+    return "; ".join(reasons)
 
 
 def main():
@@ -246,9 +349,52 @@ def main():
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--limit", type=int)
     ap.add_argument("--show", metavar="SOURCE")
+    ap.add_argument("--reanalyse", action="store_true",
+                    help="redo the analysis from cached stems; no GPU, no Demucks")
+    ap.add_argument("--check", action="store_true",
+                    help="list tracks whose tempo is worth verifying by hand")
     args = ap.parse_args()
 
     cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
+    overrides = json.loads(OVERRIDES.read_text()) if OVERRIDES.exists() else {}
+    old_cache = AUDIO / "analysis.json"
+    librosa_bpm = {k: v["bpm"] for k, v in json.loads(old_cache.read_text()).items()
+                   if v.get("bpm")} if old_cache.exists() else {}
+
+    if args.check:
+        tracks = sources().get(args.source) or sys.exit(f"no such source: {args.source}")
+        rows = [(t, cache[clip_id(t)]) for t in tracks if clip_id(t) in cache]
+        flagged = [(t, a, r) for t, a in rows if (r := suspect(clip_id(t), a, librosa_bpm))]
+        print(f"{len(rows)} analysed, {len(flagged)} worth checking on tunebat.com/Analyzer\n")
+        for t, a, r in flagged:
+            print(f"  {a['bpm']:6.1f}bpm  {t.stem[:44]:44}  {r}")
+        if flagged:
+            print(f"\nPut corrections in {OVERRIDES.relative_to(REPO)} as "
+                  '{"<clipid>": 93.0} then: tools/stems.py --reanalyse')
+        return
+
+    if args.reanalyse:
+        tracks = sources().get(args.source) or sys.exit(f"no such source: {args.source}")
+        done = 0
+        for t in tracks:
+            cid = clip_id(t)
+            a = cache.get(cid)
+            if not a or "stems" not in a:
+                continue
+            kept = {k: REPO / v for k, v in a["stems"].items()}
+            if not kept.get("drums", Path("/nonexistent")).exists():
+                print(f"  ! stems missing for {t.stem}", file=sys.stderr)
+                continue
+            new, note = run_analysis(cid, t, kept, a.get("bpm_cnn"), overrides)
+            new["stems"] = a["stems"]
+            cache[cid] = new
+            done += 1
+            print(f"  {t.stem[:44]:44} {new['bpm']:6.1f}bpm  grid {new['grid_score']:.2f}/"
+                  f"{new['grid_contrast']:.2f}  db {new['downbeat_phase']}"
+                  + (f"  {note}" if note else ""))
+        CACHE.write_text(json.dumps(cache, indent=1))
+        print(f"reanalysed {done} tracks from cached stems (no GPU touched)")
+        return
 
     if args.show:
         tracks = sources().get(args.show)
@@ -273,10 +419,6 @@ def main():
         urllib.request.urlopen(DEMUCKS + "/healthz", timeout=5).read()
     except (urllib.error.URLError, OSError):
         sys.exit(START_HINT)
-
-    old_cache = AUDIO / "analysis.json"
-    librosa_bpm = {k: v["bpm"] for k, v in json.loads(old_cache.read_text()).items()
-                   if v.get("bpm")} if old_cache.exists() else {}
 
     keep = [k.strip() for k in args.keep.split(",") if k.strip()]
     todo = [t for t in tracks if args.force or clip_id(t) not in cache]
@@ -312,23 +454,17 @@ def main():
                 src.unlink(missing_ok=True)
 
         try:
-            a = analyse(kept, bpm)
+            a, _ = run_analysis(cid, track, kept, bpm, overrides)
         except Exception as e:
             print(f"    analysis failed: {e}", file=sys.stderr)
             continue
         a["stems"] = {k: str(v.relative_to(REPO)) for k, v in kept.items()}
         cache[cid] = a
         CACHE.write_text(json.dumps(cache, indent=1))
-        # Flag where tempo-cnn and librosa disagree by something other than an
-        # octave — those are the tracks the old mix was beat-matching wrongly.
-        old = librosa_bpm.get(cid)
-        drift = ""
-        if old:
-            r = a["bpm_cnn"] / old
-            if not any(abs(r - k) < 0.04 for k in (0.25, 0.5, 1.0, 2.0, 4.0)):
-                drift = f"  (librosa said {old:.0f})"
-        print(f"    {a['bpm_cnn']:.1f}bpm  grid {a['grid_score']:.2f}/{a['grid_contrast']:.2f}  "
-              f"downbeat {a['downbeat_phase']}  vox {a['vocal_density']*100:.0f}%{drift}")
+        flag = suspect(cid, a, librosa_bpm)
+        print(f"    {a['bpm']:.1f}bpm  grid {a['grid_score']:.2f}/{a['grid_contrast']:.2f}  "
+              f"downbeat {a['downbeat_phase']}  vox {a['vocal_density']*100:.0f}%"
+              + (f"  [{flag}]" if flag else ""))
 
     try:
         post("/request-unload", {}, timeout=60)

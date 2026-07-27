@@ -61,6 +61,45 @@ are adjacent collisions, and the opening six tracks form an unbroken chain:
 
 No amount of beatmatching touches this. It needs an ordering term.
 
+## What the separation pass actually found
+
+Run over all 37 on 2026-07-27. Three results change decisions made above.
+
+**tempo-cnn was wrong on 20 of 37.** Mostly doubled — 176-191 where the truth is
+88-95 — plus `keep-it-warm` halved to 61 from 121 and `four-degrees` off by 4:3.
+Building on it would have given over half the mix wrong bar lengths. Tempo now comes
+from essentia's `PercivalBpmEstimator` at tunebat's exact parameters; see the comment
+block in `stems.py`.
+
+**Laundry is essentially one tempo and one key.** 29 of 37 tracks sit between 82 and
+104bpm, with only `121, 136, 147, 147, 153, 153` above. And **21 of 37 are F minor**,
+with nothing else above three.
+
+Both of those reshape the ordering:
+
+- The harmonic term is close to vestigial. With 57% of the catalogue in one key,
+  `camelot_distance` is zero for most pairs and can't discriminate. Weight it low and
+  let tempo and trope repulsion do the work; keep the term for the F#/Eb minority.
+- The arc is not a smooth curve, it's a plateau with one excursion. 31 tracks in a
+  22bpm band, then a short climb through 121 and 136 to a four-track peak at 147-153.
+  Order the plateau on trope spacing (tempo can barely order it), then climb, peak,
+  and drag back down.
+- **The `drag` filler has an obvious home**: 153 → 96 off the back of the peak, a 37%
+  deceleration into the plateau. That is exactly the "long stretch from fast to slow"
+  this was asked for, and the material has precisely one place to put it.
+
+**Vocal density spreads 0.68 to 0.97, median 0.84.** Enough range for intensity debt
+to discriminate after all — the concern that it would degenerate into a fixed interval
+was wrong. A 0.97 track banks nearly three times the debt of a 0.68 one.
+
+**Grid phase must be fitted to the kick, not the onset envelope.** On this material
+the onset envelope carries energy on every 8th and 16th, so the fit barely peaks:
+contrast sat below 1.3 on 28 of 37. Fitting to the isolated kick moved that to 11 of
+37 and lifted the median from ~1.13 to 1.46. It also moved phases materially —
+`the-app-says-im-resting` by 390ms, two thirds of a beat — so the earlier grids were
+not merely uncertain, they were wrong. All 37 fit on kick; the onset fallback never
+fired.
+
 ## Non-goals
 
 - Other bands. Laundry only until the engine is proven. `the-bell` and `the-forge`
