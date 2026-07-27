@@ -523,6 +523,26 @@ def band_chain(tag, band, fades, delay_s, gain=GAIN):
     return f"[{tag}{band}_]" + ",".join(chain)
 
 
+def render_loopcut(a, b, plan, tmpdir, idx):
+    """A plays out, its own outro loops N bars ramping to B's tempo, then a hard cut.
+
+    No overlap at any point: A ends, the loop runs, B starts. Every blended bed tried
+    before this stood out — a foreign loop, A's own loop under A, A's own loop after
+    A — while the two joins that always worked were the hard-ish ones. So nothing
+    crossfades here. The loop is A's own final bars, so the kit and the room do not
+    change, and it accelerates to B's tempo so the cut lands on B's beat rather than
+    merely near it.
+    """
+    src = plan["ramp"]
+    out = Path(tmpdir) / f"trans-{idx:03d}.wav"
+    run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", str(src),
+         "-af", f"afade=t=in:st=0:d={DROP_IN},"
+                f"afade=t=out:st={max(0.0, duration(src) - DROP_IN):.4f}:d={DROP_IN},"
+                f"volume={GAIN}",
+         "-c:a", "pcm_s16le", str(out)])
+    return out, duration(out), 0.0, 0.0
+
+
 def render_transition(a, b, plan, tmpdir, idx):
     """Render one join. Returns (path, seconds, a_tail_secs, b_head_secs).
 
@@ -662,12 +682,17 @@ def plan_joins(order, bank, args):
         # A fixed length was wrong both ways: too short for the tracks that do fade out
         # instrumentally, and impossible for the ones that sing to the last beat.
         blend = max(args.join_bars, min(args.max_blend, a["tail_avail"]))
-        if kind == "bridge" and args.no_bed:
-            kind = "cut"
+        if kind == "bridge":
+            kind = "cut" if args.no_bed else "loopcut"
         p = {"kind": kind, "a_tail_bars": blend if kind == "direct" else args.join_bars,
              "b_head_bars": blend if kind == "direct" else args.join_bars}
         if kind == "cut":
             p.update(a_tail_bars=1, b_head_bars=1)
+        if kind == "loopcut":
+            # Nothing of either track is consumed: A plays to its end, the loop runs
+            # between them, B starts from its first sample.
+            p.update(a_tail_bars=0, b_head_bars=0, loop=4,
+                     out_bars=args.loop_bars, solo_bars=args.loop_bars)
         if kind == "drag":
             p.update(loop=8, out_bars=16, solo_bars=args.drag_solo)
         elif kind == "rest":
@@ -743,7 +768,10 @@ def render(order, joins, args):
                     del recent[RECENT_KEEP:]
                 else:
                     plan["kind"] = "direct"
-            p, dur, ta, tb = render_transition(a, b, plan, tmpdir, i)
+            if plan["kind"] == "loopcut" and plan.get("ramp"):
+                p, dur, ta, tb = render_loopcut(a, b, plan, tmpdir, i)
+            else:
+                p, dur, ta, tb = render_transition(a, b, plan, tmpdir, i)
             trans.append({"path": p, "dur": dur, "ta": ta, "tb": tb,
                           "kind": plan["kind"], "filler": plan.get("filler")})
             print(f"  join {i+1:2}/{len(joins)}  {plan['kind']:6} "
@@ -841,7 +869,9 @@ def main():
     # drag are both liked. --no-bed replaces bridges with a bar-aligned cut: A plays
     # out, B drops in on the next downbeat, nothing between them.
     ap.add_argument("--no-bed", action="store_true",
-                    help="replace bridges with hard bar-aligned cuts")
+                    help="bar-aligned cut with no loop at all")
+    ap.add_argument("--loop-bars", type=int, default=4,
+                    help="bars of A's own outro looped between tracks (default 4)")
     # Bars the bed plays ALONE. Total join = 2 (A's tail) + solo + 2 (B's head), so a
     # bridge at solo=2 is 6 bars, about 16s at 88bpm. It was 4, i.e. 8 bars and 23s,
     # which read as too long: a bare drum loop needs less room than a musical break
