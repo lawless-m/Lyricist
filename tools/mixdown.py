@@ -30,14 +30,19 @@ Ordering has three terms, and on this material they are very unequally useful:
 
 import argparse
 import json
+import math
 import re
+import shutil
 import sys
+import tempfile
 from difflib import get_close_matches
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 AUDIO = REPO / "audio"
 STEMS = AUDIO / "stems.json"
+FILLERS = AUDIO / "fillers"
+MIXES = AUDIO / "mixes"
 TROPES = REPO / ".claude" / "tropes" / "banned-patterns.tsv"
 
 # The three terms are NOT in the same units and the defaults account for it. Tempo
@@ -230,6 +235,331 @@ def improve(slots, targets, tropes, args, passes=40):
     return slots
 
 
+# ----------------------------------------------------------------- rendering
+
+XOVER_HZ = 180          # where the bass swap splits the band
+GAIN = 0.85             # per-participant headroom before the limiter
+DRUM_FLOOR = 0.25       # bar counts as "drums playing" above this share of median
+
+
+def bar_seconds(a):
+    return a["grid"]["period"] * 4
+
+
+def mix_points(a, tail_bars, head_bars):
+    """Where this track enters and leaves the mix, both on downbeats.
+
+    Out: the first downbeat at least a bar after the last vocal ends, so the mix-out
+    never talks over the closing sung line — which is exactly what a fixed offset
+    from the end does, and why the old mix kept fading over the last words.
+
+    In: skip a dead intro and enter where the drums do, unless the vocal is already
+    going by then, in which case enter at the first downbeat so nothing is clipped.
+
+    Returns `tail_clean`: whether we actually got a bar of instrumental after the last
+    vocal. That flag, not anything about the incoming track, is what decides a bridge.
+
+    Measured on laundry: the median instrumental outro is 1.1 bars and 17 of 37 tracks
+    sing to the last beat; the median internal gap in the back half is 2.8 bars and
+    only 11 of 37 reach four. At 84% median vocal density there is nowhere in this
+    material to hide a join, which is why the filler bed is needed far more often than
+    "for the odd vocal intro" — the tracks contain no instrumental space, so the mix
+    has to supply it.
+
+    The obvious rule — "bridge when the NEXT track has a vocal intro" — was written
+    first and is wrong twice over. It fired on 33 of 37 tracks, because laundry starts
+    singing immediately and `drum_bar` is 0 nearly everywhere, so "vocal before drums"
+    can never discriminate. More importantly it solves a problem that no longer
+    exists: the out-point above already lands after A's last vocal, so A's tail is
+    instrumental and B's vocal arriving over it is an ordinary handover. The case that
+    genuinely needs a bed is the reverse — A singing to the very last bar, leaving
+    nothing instrumental to hand over from.
+    """
+    import statistics
+    bar = bar_seconds(a)
+    first = a["first_downbeat"]
+    dur = a["duration"]
+    bars = a.get("bar_energy") or []
+
+    drum_bar = 0
+    if bars:
+        med = statistics.median([b for b in bars if b > 0] or [0]) or 0
+        for i, b in enumerate(bars):
+            if b > med * DRUM_FLOOR:
+                drum_bar = i
+                break
+    drums_at = first + drum_bar * bar
+    vox_at = a["vocal_spans"][0][0] if a["vocal_spans"] else drums_at
+
+    in_point = first if vox_at < drums_at else drums_at
+
+    last_vox = a["vocal_spans"][-1][1] if a["vocal_spans"] else dur
+    n = math.ceil((last_vox + bar - first) / bar)
+    out_point = first + n * bar
+    latest = first + math.floor((dur - first) / bar) * bar
+    tail_clean = out_point <= latest
+    if not tail_clean:
+        out_point = latest
+    if out_point - in_point < (tail_bars + head_bars + 4) * bar:
+        out_point = latest
+    # The tail is only usable if the whole of it sits after the last sung note.
+    if out_point - tail_bars * bar < last_vox:
+        tail_clean = False
+    return in_point, out_point, tail_clean
+
+
+def pick_filler(bank, bars, from_bpm, to_bpm):
+    """Closest to the midpoint of the two tempos, so neither end stretches far."""
+    cands = [f for f in bank if f["bars"] == bars]
+    if not cands:
+        return None
+    mid = (from_bpm + to_bpm) / 2
+    return min(cands, key=lambda f: (abs(f["bpm"] - mid), -f["score"]))
+
+
+def render_ramp(filler, out_bars, from_bpm, to_bpm, tmpdir, tag):
+    """Render the loop for out_bars, changing tempo bar by bar.
+
+    Bar-by-bar because atempo is constant per invocation. At 4- or 8-bar granularity
+    a 96->123 ramp steps by 3-7bpm, which is audible as a lurch; per bar it is under
+    1bpm and inaudible. This is also what lets the drag exceed the +/-12% stretch
+    clamp on purpose — a drum loop is the one thing that survives 153->96.
+    """
+    src = FILLERS / filler["file"]
+    src_bar = 60.0 * 4 / filler["bpm"]
+    parts = []
+    for k in range(out_bars):
+        frac = k / max(1, out_bars - 1)
+        target = from_bpm + (to_bpm - from_bpm) * frac
+        ratio = target / filler["bpm"]
+        ratio = min(max(ratio, 0.5), 2.0)
+        off = (k % filler["bars"]) * src_bar
+        p = Path(tmpdir) / f"ramp-{tag}-{k:03d}.wav"
+        run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y",
+             "-ss", f"{off:.5f}", "-t", f"{src_bar:.5f}", "-i", str(src),
+             "-filter:a", f"atempo={ratio:.6f}", "-c:a", "pcm_s16le", str(p)])
+        parts.append(p)
+
+    lst = Path(tmpdir) / f"ramp-{tag}.txt"
+    lst.write_text("".join(f"file '{p}'\n" for p in parts))
+    out = Path(tmpdir) / f"ramp-{tag}.wav"
+    run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-f", "concat",
+         "-safe", "0", "-i", str(lst), "-c:a", "pcm_s16le", str(out)])
+    return out, duration(out)
+
+
+def run(cmd):
+    import subprocess
+    subprocess.run(cmd, check=True, capture_output=True)
+
+
+def duration(path):
+    import subprocess
+    out = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+         "-of", "default=nw=1:nk=1", str(path)],
+        capture_output=True, text=True, check=True)
+    return float(out.stdout.strip())
+
+
+def band_chain(idx, band, fades, delay_s, gain=GAIN):
+    """One participant's low or high band: split, fade, position, attenuate."""
+    f = "lowpass" if band == "low" else "highpass"
+    chain = [f"{f}=f={XOVER_HZ}"]
+    for kind, st, d in fades:
+        chain.append(f"afade=t={kind}:st={max(0.0, st):.4f}:d={max(0.01, d):.4f}:curve=tri")
+    chain.append(f"volume={gain}")
+    if delay_s > 0:
+        ms = int(round(delay_s * 1000))
+        chain.append(f"adelay={ms}|{ms}")
+    return f"[{idx}]" + ",".join(chain)
+
+
+def render_transition(a, b, plan, tmpdir, idx):
+    """Render one join. Returns (path, seconds, a_tail_secs, b_head_secs).
+
+    Both join shapes run the SAME bass swap, which is the single biggest audible
+    change here: acrossfade ran both tracks full-band, so every join stacked two kicks
+    and two basslines and turned to mud. Splitting at 180Hz and handing the low end
+    over at a defined bar is what makes a join read as a mix rather than a dissolve.
+    """
+    ta = plan["a_tail_bars"] * bar_seconds(a["an"])
+    tb = plan["b_head_bars"] * bar_seconds(b["an"])
+    ramp, solo = plan.get("ramp"), plan.get("solo_secs", 0.0)
+    b_start = (ta + solo) if ramp else 0.0
+    total = b_start + tb
+
+    cmd = ["ffmpeg", "-nostdin", "-loglevel", "error", "-y",
+           "-ss", f"{plan['a_from']:.5f}", "-t", f"{ta:.5f}", "-i", str(a["path"])]
+    if ramp:
+        cmd += ["-t", f"{total:.5f}", "-i", str(ramp)]
+    cmd += ["-ss", f"{plan['b_from']:.5f}", "-t", f"{tb:.5f}", "-i", str(b["path"])]
+
+    bi = 2 if ramp else 1
+    parts, labels = [], []
+
+    if ramp:
+        # A leaves early; the filler takes the low end at A's swap and holds it until
+        # B is established, so the bottom never drops out and never doubles.
+        parts.append(band_chain(0, "low", [("out", ta * 0.5, ta * 0.3)], 0) + "[alo]")
+        parts.append(band_chain(0, "high", [("out", ta * 0.5, ta * 0.5)], 0) + "[ahi]")
+        parts.append(band_chain(1, "low",
+                                [("in", ta * 0.5, ta * 0.3),
+                                 ("out", b_start + tb * 0.5, tb * 0.3)], 0) + "[flo]")
+        parts.append(band_chain(1, "high",
+                                [("in", 0, ta * 0.4), ("out", total - tb * 0.4, tb * 0.4)],
+                                0) + "[fhi]")
+        parts.append(band_chain(bi, "low", [("in", tb * 0.5, tb * 0.3)], b_start) + "[blo]")
+        parts.append(band_chain(bi, "high", [("in", 0, tb * 0.4)], b_start) + "[bhi]")
+        labels = ["alo", "ahi", "flo", "fhi", "blo", "bhi"]
+    else:
+        # Straight overlap: highs cross the whole join, lows trade at the midpoint.
+        parts.append(band_chain(0, "low", [("out", ta * 0.5, ta * 0.25)], 0) + "[alo]")
+        parts.append(band_chain(0, "high", [("out", ta * 0.5, ta * 0.5)], 0) + "[ahi]")
+        parts.append(band_chain(bi, "low", [("in", tb * 0.5, tb * 0.25)], 0) + "[blo]")
+        parts.append(band_chain(bi, "high", [("in", 0, tb * 0.5)], 0) + "[bhi]")
+        labels = ["alo", "ahi", "blo", "bhi"]
+
+    mix = "".join(f"[{l}]" for l in labels)
+    parts.append(f"{mix}amix=inputs={len(labels)}:normalize=0,alimiter=limit=0.97[out]")
+
+    out = Path(tmpdir) / f"trans-{idx:03d}.wav"
+    cmd += ["-filter_complex", ";".join(parts), "-map", "[out]",
+            "-c:a", "pcm_s16le", str(out)]
+    run(cmd)
+    return out, duration(out), ta, tb
+
+
+def plan_joins(order, bank, args):
+    """Decide each join's shape. Fillers only where they earn their place."""
+    joins = []
+    drops = [(order[i]["bpm"] / order[i + 1]["bpm"], i) for i in range(len(order) - 1)]
+    drag_at = max(drops)[1] if drops and max(drops)[0] > 1.15 else -1
+
+    debt = 0.0
+    for i in range(len(order) - 1):
+        a, b = order[i], order[i + 1]
+        debt += max(0.0, a["density"] - args.rest_baseline)
+        kind = "direct"
+        if i == drag_at and not args.no_drag:
+            kind = "drag"
+        elif debt >= args.rest_debt:
+            kind, debt = "rest", 0.0
+        elif not a["tail_clean"]:
+            kind = "bridge"
+
+        p = {"kind": kind, "a_tail_bars": args.join_bars, "b_head_bars": args.join_bars}
+        if kind == "drag":
+            p.update(loop=8, out_bars=16, solo_bars=8)
+        elif kind == "rest":
+            p.update(loop=8, out_bars=8, solo_bars=4)
+        elif kind == "bridge":
+            p.update(loop=4, out_bars=8, solo_bars=2)
+        joins.append(p)
+    return joins
+
+
+def hms(s, hours=False):
+    s = int(s)
+    if s >= 3600 or hours:
+        return f"{s // 3600}:{(s % 3600) // 60:02d}:{s % 60:02d}"
+    return f"{s // 60}:{s % 60:02d}"
+
+
+def render(order, joins, args):
+    bank = json.loads((FILLERS / "index.json").read_text()) \
+        if (FILLERS / "index.json").exists() else []
+    if not bank and any(j["kind"] != "direct" for j in joins):
+        sys.exit("no filler bank — run tools/fillers.py --bars 4 and --bars 8")
+
+    tmpdir = tempfile.mkdtemp(prefix="mixdown-")
+    MIXES.mkdir(parents=True, exist_ok=True)
+    out = MIXES / f"{args.band}-dj{args.suffix}.{'wav' if args.wav else 'mp3'}"
+
+    try:
+        # Build the transitions first: each one tells us how much of the tracks
+        # either side it consumes, which is what bounds the solo bodies.
+        trans = []
+        for i, j in enumerate(joins):
+            a, b = order[i], order[i + 1]
+            plan = dict(j)
+            plan["a_from"] = a["out"] - j["a_tail_bars"] * bar_seconds(a["an"])
+            plan["b_from"] = b["in"]
+            if j["kind"] != "direct":
+                f = pick_filler(bank, j["loop"], a["bpm"], b["bpm"])
+                if f:
+                    ta = j["a_tail_bars"] * bar_seconds(a["an"])
+                    tb = j["b_head_bars"] * bar_seconds(b["an"])
+                    solo = j["solo_bars"] * bar_seconds(a["an"])
+                    need = ta + solo + tb
+                    nbars = max(2, math.ceil(need / (60.0 * 4 / a["bpm"])))
+                    ramp, rdur = render_ramp(f, nbars, a["bpm"], b["bpm"], tmpdir, i)
+                    plan["ramp"], plan["solo_secs"], plan["filler"] = ramp, solo, f
+                else:
+                    plan["kind"] = "direct"
+            p, dur, ta, tb = render_transition(a, b, plan, tmpdir, i)
+            trans.append({"path": p, "dur": dur, "ta": ta, "tb": tb,
+                          "kind": plan["kind"], "filler": plan.get("filler")})
+            print(f"  join {i+1:2}/{len(joins)}  {plan['kind']:6} "
+                  f"{a['bpm']:5.1f}->{b['bpm']:5.1f}  {dur:5.1f}s", flush=True)
+
+        pieces, rows, clock = [], [], 0.0
+        for i, t in enumerate(order):
+            head = trans[i - 1]["tb"] if i > 0 else 0.0
+            tail = trans[i]["ta"] if i < len(trans) else 0.0
+            start, stop = t["in"] + head, t["out"] - tail
+            if stop <= start:
+                stop = start + bar_seconds(t["an"])
+            body = Path(tmpdir) / f"body-{i:03d}.wav"
+            run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y",
+                 "-ss", f"{start:.5f}", "-t", f"{stop - start:.5f}",
+                 "-i", str(t["path"]), "-c:a", "pcm_s16le", str(body)])
+
+            # The listener hears the track from where its body starts, but the
+            # transition before it already brought the vocal in, so the chapter
+            # mark belongs at the start of that transition, not the body.
+            rows.append((clock - (trans[i - 1]["tb"] if i > 0 else 0.0), t, i))
+            pieces.append(body)
+            clock += duration(body)
+            if i < len(trans):
+                pieces.append(trans[i]["path"])
+                clock += trans[i]["dur"]
+
+        lst = Path(tmpdir) / "concat.txt"
+        lst.write_text("".join(f"file '{p}'\n" for p in pieces))
+        enc = ["-c:a", "pcm_s16le"] if args.wav else ["-c:a", "libmp3lame", "-b:a", "320k"]
+        run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-f", "concat",
+             "-safe", "0", "-i", str(lst)] + enc + [str(out)])
+
+        total = duration(out)
+        chapters = [f"{hms(max(0.0, t0))} {t['slug'].partition('-')[2].replace('-',' ').title()}"
+                    for t0, t, _ in rows]
+        notes = []
+        for (t0, t, i), j in zip(rows, list(joins) + [None]):
+            n = (f"{hms(max(0.0, t0))} {t['slug']}  [{t['bpm']:.1f}bpm {t['camelot']} "
+                 f"vox {t['density']*100:.0f}% ctr {t['contrast']:.2f}]")
+            if i < len(trans):
+                tr = trans[i]
+                n += f"  -> {tr['kind']}"
+                if tr["filler"]:
+                    n += f" on {tr['filler']['source']}"
+            notes.append(n)
+
+        head = (f"{args.band} — {len(order)} tracks, {hms(total, hours=True)}   "
+                f"arc order, peak {args.peak}")
+        kinds = {}
+        for tr in trans:
+            kinds[tr["kind"]] = kinds.get(tr["kind"], 0) + 1
+        out.with_suffix(".txt").write_text(
+            head + "\n\n" + "\n".join(chapters)
+            + "\n\n--- notes (not for the description) ---\n"
+            + f"joins: {kinds}\n" + "\n".join(notes) + "\n")
+        print(f"\n{hms(total, hours=True)} -> {out.relative_to(REPO)}")
+        print(f"joins: {kinds}")
+    finally:
+        shutil.rmtree(tmpdir, ignore_errors=True)
+
+
 def collisions(order, tropes, within):
     """Pairs sharing a trope that end up within `within` positions of each other."""
     out = []
@@ -251,6 +581,17 @@ def main():
     ap.add_argument("--w-trope", type=float, default=W_TROPE)
     ap.add_argument("--within", type=int, default=3, help="collision reporting window")
     ap.add_argument("--plan", action="store_true")
+    ap.add_argument("--render", action="store_true")
+    ap.add_argument("--join-bars", type=int, default=2,
+                    help="bars of each track consumed by a join (default 2 -> ~10s)")
+    ap.add_argument("--rest-baseline", type=float, default=0.80,
+                    help="vocal density above which a track banks rest debt")
+    ap.add_argument("--rest-debt", type=float, default=0.55,
+                    help="debt at which a rest is spent")
+    ap.add_argument("--no-drag", action="store_true")
+    ap.add_argument("--limit", type=int, help="render only the first N tracks")
+    ap.add_argument("--wav", action="store_true")
+    ap.add_argument("--suffix", default="")
     args = ap.parse_args()
 
     if not STEMS.exists():
@@ -267,11 +608,13 @@ def main():
         a = cache.get(cid)
         if not a:
             continue
+        in_p, out_p, tail_clean = mix_points(a, args.join_bars, args.join_bars)
         tracks.append({
-            "clip": cid, "slug": w.stem.split("--")[0], "path": w,
+            "clip": cid, "slug": w.stem.split("--")[0], "path": w, "an": a,
             "bpm": a["bpm"], "camelot": camelot(a["key"], a["scale"]),
             "key": f"{a['key']} {a['scale']}", "density": a["vocal_density"],
             "duration": a["duration"], "contrast": a["grid_contrast"],
+            "in": in_p, "out": out_p, "tail_clean": tail_clean,
         })
     if not tracks:
         sys.exit("no analysed tracks — run tools/stems.py")
@@ -304,6 +647,13 @@ def main():
             for a, b, n, gap in sorted(c, key=lambda x: x[3])[:6]:
                 print(f"  {order[a-1]['slug']}  <-{gap}->  {order[b-1]['slug']}"
                       f"   ({n} shared)")
+
+    if args.render:
+        if args.limit:
+            order = order[:args.limit]
+        joins = plan_joins(order, None, args)
+        print(f"rendering {len(order)} tracks, {len(joins)} joins")
+        render(order, joins, args)
 
 
 if __name__ == "__main__":
