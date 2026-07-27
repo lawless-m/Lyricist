@@ -347,6 +347,12 @@ def mix_points(a, tail_bars, head_bars):
     vox_at = a["vocal_spans"][0][0] if a["vocal_spans"] else drums_at
 
     in_point = first if vox_at < drums_at else drums_at
+    # Where B's GROOVE starts — the downbeat the drums arrive on. That, not the first
+    # downbeat, is what must land on the grid. Most of these tracks open with a vocal
+    # intro (finna-retard's runs 4.5s), so aligning the first downbeat drops the beat
+    # a bar or two late; aligning the drum entry puts the beat exactly on the bar and
+    # lets the intro run in over whatever is still playing.
+    groove_at = drums_at
 
     # Play the track OUT. Cutting after the last vocal plus a bar sounded like the
     # song being interrupted, because the join then consumes bars from before that
@@ -366,7 +372,7 @@ def mix_points(a, tail_bars, head_bars):
     # blend length is taken per track rather than fixed.
     last_vox = a["vocal_spans"][-1][1] if a["vocal_spans"] else dur
     avail = int((out_point - last_vox) // bar)
-    return in_point, out_point, max(0, avail)
+    return in_point, out_point, max(0, avail), groove_at
 
 
 def pick_filler(bank, bars, from_bpm, to_bpm, recent, exclude):
@@ -543,6 +549,12 @@ def render_transition(a, b, plan, tmpdir, idx):
     # fades against a_src_dur*stretch, as an earlier version did) makes the tail ~5.6%
     # too long with its fades misplaced, which breaks bar alignment by construction —
     # the tempo is matched and the bars still collide.
+    # B plays from its FIRST SAMPLE, not from its first downbeat. These tracks open
+    # with a pickup before the downbeat — 1.4 to 2.3 seconds of it — and starting at
+    # the downbeat threw that away on every track in the set. Instead B is placed so
+    # its downbeat lands on the grid and the pickup runs in ahead of it, over whatever
+    # is still playing, which is what a DJ does with an intro.
+    lead = b["groove"]
     a_src_dur = plan["a_tail_bars"] * bar_seconds(a["an"])
     stretch = b["bpm"] / a["bpm"] if not ramp else 1.0
     if not (0.94 <= stretch <= 1.06):
@@ -554,8 +566,20 @@ def render_transition(a, b, plan, tmpdir, idx):
     cmd = ["ffmpeg", "-nostdin", "-loglevel", "error", "-y",
            "-ss", f"{plan['a_from']:.5f}", "-t", f"{a_src_dur:.5f}", "-i", str(a["path"])]
     if ramp:
-        cmd += ["-t", f"{total:.5f}", "-i", str(ramp)]
-    cmd += ["-ss", f"{plan['b_from']:.5f}", "-t", f"{tb:.5f}", "-i", str(b["path"])]
+        cmd += ["-t", f"{max(0.1, total - plan.get('bed_delay', 0.0)):.5f}", "-i", str(ramp)]
+    # B's downbeat target: the bed's bar line where there is a bed, otherwise one bar
+    # into the join so the pickup has somewhere to live.
+    # The target must leave room for the whole intro, rounded up to a whole bar of A
+    # so the drop still lands on a bar line.
+    bar_a = bar_seconds(a["an"])
+    b_target = b_start if ramp else bar_a * max(1, math.ceil(lead / bar_a))
+    if b_target < lead:
+        b_target = bar_a * math.ceil(lead / bar_a)
+    b_delay = max(0.0, b_target - lead)
+    b_take = lead + tb
+    b_start = b_delay + lead                     # where B's downbeat actually lands
+    total = max(total, b_delay + b_take)
+    cmd += ["-ss", "0", "-t", f"{b_take:.5f}", "-i", str(b["path"])]
 
     bi = 2 if ramp else 1
     parts, labels = [], []
@@ -568,32 +592,40 @@ def render_transition(a, b, plan, tmpdir, idx):
 
     if ramp:
         # A is NOT faded out. It plays its ending in full and simply stops on a
-        # downbeat; the bed underneath carries the seam. Fading A across its own last
-        # line is what made good-dog sound cut off. Only A's low end steps aside, so
-        # the filler's kick has room rather than doubling with it.
+        # downbeat; the bed carries the seam from there. Fading A across its own last
+        # line is what made good-dog sound cut off.
         #
-        # B DROPS IN. A vocal that fades up sounds weak and wrong, and this material
-        # starts singing at bar one, so any fade lands on a voice. DROP_IN is a click
-        # guard, not a musical fade.
+        # A SELF-BED STARTS WHERE A ENDS — it must not overlap A at all. Fading it in
+        # underneath meant A's real drums played against a copy of A's drums lifted
+        # from four bars earlier: the same kit at two offsets, which flanges the song
+        # against itself. That is what "slightly clashy" and "doesn't line up" were.
+        # [loop left running, faded, no ending] means the drums carry on AFTER the
+        # song stops, not alongside it. A foreign bed (the drag) still enters early,
+        # because there it is a device and there is no copy to collide with.
+        bed_at = plan.get("bed_delay", 0.0)
+        f_in = DROP_IN if bed_at else ta * 0.5
         parts += parts_pre + [split_bands(a_src, "a"), split_bands(1, "f"), split_bands(bi, "b")]
-        parts.append(band_chain("a", "lo", [("out", ta * 0.6, ta * 0.4)], 0) + "[alo]")
+        a_lo_out = (ta - DROP_IN, DROP_IN) if bed_at else (ta * 0.6, ta * 0.4)
+        parts.append(band_chain("a", "lo", [("out", *a_lo_out)], 0) + "[alo]")
         parts.append(band_chain("a", "hi", [("out", ta - DROP_IN, DROP_IN)], 0) + "[ahi]")
         parts.append(band_chain("f", "lo",
-                                [("in", ta * 0.6, ta * 0.4),
-                                 ("out", b_start + tb * 0.4, tb * 0.4)], 0) + "[flo]")
+                                [("in", 0 if bed_at else ta * 0.6, f_in),
+                                 ("out", b_start - bed_at + tb * 0.4, tb * 0.4)],
+                                bed_at) + "[flo]")
         parts.append(band_chain("f", "hi",
-                                [("in", 0, ta * 0.5), ("out", b_start + tb * 0.4, tb * 0.4)],
-                                0) + "[fhi]")
-        parts.append(band_chain("b", "lo", [("in", 0, DROP_IN)], b_start) + "[blo]")
-        parts.append(band_chain("b", "hi", [("in", 0, DROP_IN)], b_start) + "[bhi]")
+                                [("in", 0, f_in),
+                                 ("out", b_start - bed_at + tb * 0.4, tb * 0.4)],
+                                bed_at) + "[fhi]")
+        parts.append(band_chain("b", "lo", [("in", 0, DROP_IN)], b_delay) + "[blo]")
+        parts.append(band_chain("b", "hi", [("in", 0, DROP_IN)], b_delay) + "[bhi]")
         labels = ["alo", "ahi", "flo", "fhi", "blo", "bhi"]
     else:
         # Straight overlap: highs cross the whole join, lows trade at the midpoint.
         parts += parts_pre + [split_bands(a_src, "a"), split_bands(bi, "b")]
         parts.append(band_chain("a", "lo", [("out", ta * 0.5, ta * 0.25)], 0) + "[alo]")
         parts.append(band_chain("a", "hi", [("out", ta - DROP_IN, DROP_IN)], 0) + "[ahi]")
-        parts.append(band_chain("b", "lo", [("in", tb * 0.5, tb * 0.25)], 0) + "[blo]")
-        parts.append(band_chain("b", "hi", [("in", 0, DROP_IN)], 0) + "[bhi]")
+        parts.append(band_chain("b", "lo", [("in", tb * 0.5, tb * 0.25)], b_delay) + "[blo]")
+        parts.append(band_chain("b", "hi", [("in", 0, DROP_IN)], b_delay) + "[bhi]")
         labels = ["alo", "ahi", "blo", "bhi"]
 
     mix = "".join(f"[{l}]" for l in labels)
@@ -605,7 +637,7 @@ def render_transition(a, b, plan, tmpdir, idx):
     run(cmd)
     # a_src_dur, not ta: the body is cut from A's file at A's own speed, so what the
     # transition consumes from A is the SOURCE length, not the stretched output.
-    return out, duration(out), a_src_dur, tb
+    return out, duration(out), a_src_dur, b_take
 
 
 def plan_joins(order, bank, args):
@@ -630,8 +662,12 @@ def plan_joins(order, bank, args):
         # A fixed length was wrong both ways: too short for the tracks that do fade out
         # instrumentally, and impossible for the ones that sing to the last beat.
         blend = max(args.join_bars, min(args.max_blend, a["tail_avail"]))
+        if kind == "bridge" and args.no_bed:
+            kind = "cut"
         p = {"kind": kind, "a_tail_bars": blend if kind == "direct" else args.join_bars,
              "b_head_bars": blend if kind == "direct" else args.join_bars}
+        if kind == "cut":
+            p.update(a_tail_bars=1, b_head_bars=1)
         if kind == "drag":
             p.update(loop=8, out_bars=16, solo_bars=args.drag_solo)
         elif kind == "rest":
@@ -667,8 +703,8 @@ def render(order, joins, args):
             a, b = order[i], order[i + 1]
             plan = dict(j)
             plan["a_from"] = a["out"] - j["a_tail_bars"] * bar_seconds(a["an"])
-            plan["b_from"] = b["in"]
-            if j["kind"] != "direct":
+            plan["b_from"] = 0.0
+            if j["kind"] not in ("direct", "cut"):
                 if j["kind"] == "drag":
                     # The drag is audibly a device, so a foreign loop is fine there —
                     # it was the one transition reported as excellent.
@@ -684,11 +720,25 @@ def render(order, joins, args):
                     solo = j["solo_bars"] * bar_seconds(a["an"])
                     need = ta + solo + tb
                     nbars = max(2, math.ceil(need / (60.0 * 4 / a["bpm"])))
-                    hold = max(1, round(ta / (60.0 * 4 / a["bpm"])))
+                    # A self-bed starts after A, so it holds no bars under A and can
+                    # begin ramping immediately; a foreign bed enters under A and must
+                    # stay at A's tempo until A is gone.
+                    self_bed_used = bool(f.get("self"))
+                    hold = 0 if self_bed_used else max(1, round(ta / (60.0 * 4 / a["bpm"])))
                     sched = ramp_schedule(nbars, hold, max(1, j["solo_bars"]),
                                           a["bpm"], b["bpm"])
                     ramp, rdur = render_ramp(f, sched, tmpdir, i)
+
+                    # B enters on a bar line OF THE BED, computed from the bed's own
+                    # ramped timeline. Using solo_bars * A's bar length is wrong: the
+                    # bed is accelerating through those bars, so its bars are not A's
+                    # bars any more and B drops in between beats. The bed can be
+                    # perfectly BPM-matched and B still lands off it.
+                    bar_secs = [60.0 * 4 / t for t in sched]
+                    n_hold = hold if not self_bed_used else 0
+                    solo = sum(bar_secs[n_hold:n_hold + max(1, j["solo_bars"])])
                     plan["ramp"], plan["solo_secs"], plan["filler"] = ramp, solo, f
+                    plan["bed_delay"] = ta if self_bed_used else 0.0
                     recent.insert(0, f["clip"])
                     del recent[RECENT_KEEP:]
                 else:
@@ -703,7 +753,8 @@ def render(order, joins, args):
         for i, t in enumerate(order):
             head = trans[i - 1]["tb"] if i > 0 else 0.0
             tail = trans[i]["ta"] if i < len(trans) else 0.0
-            start, stop = t["in"] + head, t["out"] - tail
+            start = head if i > 0 else t["in"]
+            stop = t["out"] - tail
             if stop <= start:
                 stop = start + bar_seconds(t["an"])
             body = Path(tmpdir) / f"body-{i:03d}.wav"
@@ -785,6 +836,12 @@ def main():
     ap.add_argument("--rest-debt", type=float, default=0.55,
                     help="debt at which a rest is spent")
     ap.add_argument("--no-drag", action="store_true")
+    # Every bed variant tried so far has been heard as standing out: a foreign loop,
+    # the track's own loop under it, and the track's own loop after it. Blends and the
+    # drag are both liked. --no-bed replaces bridges with a bar-aligned cut: A plays
+    # out, B drops in on the next downbeat, nothing between them.
+    ap.add_argument("--no-bed", action="store_true",
+                    help="replace bridges with hard bar-aligned cuts")
     # Bars the bed plays ALONE. Total join = 2 (A's tail) + solo + 2 (B's head), so a
     # bridge at solo=2 is 6 bars, about 16s at 88bpm. It was 4, i.e. 8 bars and 23s,
     # which read as too long: a bare drum loop needs less room than a musical break
@@ -816,13 +873,13 @@ def main():
         a = cache.get(cid)
         if not a:
             continue
-        in_p, out_p, avail = mix_points(a, args.join_bars, args.join_bars)
+        in_p, out_p, avail, groove = mix_points(a, args.join_bars, args.join_bars)
         tracks.append({
             "clip": cid, "slug": w.stem.split("--")[0], "path": w, "an": a,
             "bpm": a["bpm"], "camelot": camelot(a["key"], a["scale"]),
             "key": f"{a['key']} {a['scale']}", "density": a["vocal_density"],
             "duration": a["duration"], "contrast": a["grid_contrast"],
-            "in": in_p, "out": out_p, "tail_avail": avail,
+            "in": in_p, "out": out_p, "tail_avail": avail, "groove": groove,
         })
     if not tracks:
         sys.exit("no analysed tracks — run tools/stems.py")
