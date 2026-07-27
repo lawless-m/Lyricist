@@ -10,6 +10,7 @@ Usage:
   tools/mixdown.py --plan --order tempo      # compare against a plain tempo sort
   tools/mixdown.py --plan --peak 0.6         # move the arc's peak earlier
   tools/mixdown.py --plan --w-trope 0        # what the order looks like ignoring tropes
+  tools/mixdown.py --plan --pin part-it-out:first    # fix a track's position
 
 Needs tools/stems.py to have run. See docs/superpowers/specs/2026-07-27-dj-mixdown-design.md.
 
@@ -151,6 +152,37 @@ def arc_targets(bpms, peak):
     return sorted(up) + sorted(down, reverse=True)
 
 
+def resolve_pins(tracks, specs):
+    """--pin part-it-out:1 / :first / :last -> {position index: track}.
+
+    Ordering is blind to what a track means. Part It Out is the song the band is
+    named after and states its whole premise, and the arc buried it at position 20
+    because it is 98.7bpm and F minor like a dozen others. Chronology had it first
+    for a reason the cost function cannot see, so it gets told.
+    """
+    n = len(tracks)
+    pins = {}
+    for spec in specs or []:
+        name, _, where = spec.rpartition(":")
+        if not name:
+            name, where = spec, "first"
+        hits = [t for t in tracks if name in t["slug"]]
+        if not hits:
+            sys.exit(f"--pin {spec}: no track matching '{name}'")
+        if len(hits) > 1:
+            sys.exit(f"--pin {spec}: '{name}' matches {[h['slug'] for h in hits]}")
+        pos = {"first": 1, "last": n}.get(where)
+        if pos is None:
+            try:
+                pos = int(where)
+            except ValueError:
+                sys.exit(f"--pin {spec}: position must be a number, 'first' or 'last'")
+        if not 1 <= pos <= n:
+            sys.exit(f"--pin {spec}: position {pos} outside 1..{n}")
+        pins[pos - 1] = hits[0]
+    return pins
+
+
 def order_tracks(tracks, tropes, args):
     import math
     if args.order == "playlist":
@@ -158,9 +190,22 @@ def order_tracks(tracks, tropes, args):
     if args.order == "tempo":
         return sorted(tracks, key=lambda t: t["bpm"])
 
-    targets = arc_targets([t["bpm"] for t in tracks], args.peak)
-    n = len(targets)
-    median = sorted(targets)[n // 2]
+    pins = resolve_pins(tracks, args.pin)
+    n = len(tracks)
+    free_pos = [i for i in range(n) if i not in pins]
+    free = [t for t in tracks if t not in pins.values()]
+
+    # Deal the arc across the free positions only, from the free tempos only, so a
+    # pinned track neither claims a target nor distorts the shape around it.
+    free_targets = arc_targets([t["bpm"] for t in free], args.peak) if free else []
+    targets = [0.0] * n
+    for pos, tgt in zip(free_pos, free_targets):
+        targets[pos] = tgt
+    for pos, t in pins.items():
+        targets[pos] = t["bpm"]        # pinned track sits at zero tempo cost
+
+    median = sorted(t for t in targets if t) or [1.0]
+    median = median[len(median) // 2]
 
     # Fill the tempo extremes first, plateau last. Filling left-to-right strands them:
     # the fastest track has only a couple of slots that suit it, trope repulsion pulls
@@ -168,10 +213,12 @@ def order_tracks(tracks, tropes, args):
     # position happens to be — which put a 153bpm track at position 37, after the set
     # had already come down to 81. A plateau track fits almost anywhere, so it can
     # afford to wait; an extreme cannot.
-    fill = sorted(range(n), key=lambda i: -abs(math.log2(targets[i] / median)))
+    fill = sorted(free_pos, key=lambda i: -abs(math.log2(targets[i] / median)))
 
     slots = [None] * n
-    remaining = list(tracks)
+    for pos, t in pins.items():
+        slots[pos] = t
+    remaining = list(free)
     for pos in fill:
         target = targets[pos]
         best, best_cost = None, None
@@ -191,7 +238,7 @@ def order_tracks(tracks, tropes, args):
                 best, best_cost = t, cost
         remaining.remove(best)
         slots[pos] = best
-    return improve(slots, targets, tropes, args)
+    return improve(slots, targets, tropes, args, frozen=set(pins))
 
 
 def total_cost(slots, targets, tropes, args):
@@ -209,7 +256,7 @@ def total_cost(slots, targets, tropes, args):
     return c
 
 
-def improve(slots, targets, tropes, args, passes=40):
+def improve(slots, targets, tropes, args, passes=40, frozen=frozenset()):
     """Pairwise-swap hill climb over the whole arrangement.
 
     Greedy placement cannot undo an earlier choice, and that strands scarce tempos:
@@ -223,7 +270,11 @@ def improve(slots, targets, tropes, args, passes=40):
     for _ in range(passes):
         improved = False
         for i in range(len(slots)):
+            if i in frozen:
+                continue
             for j in range(i + 1, len(slots)):
+                if j in frozen:
+                    continue
                 slots[i], slots[j] = slots[j], slots[i]
                 c = total_cost(slots, targets, tropes, args)
                 if c < best - 1e-9:
@@ -589,6 +640,9 @@ def main():
     ap.add_argument("--rest-debt", type=float, default=0.55,
                     help="debt at which a rest is spent")
     ap.add_argument("--no-drag", action="store_true")
+    ap.add_argument("--pin", action="append", metavar="SLUG:POS",
+                    help="fix a track to a position: --pin part-it-out:first, "
+                         "--pin oats:last, --pin breeder:12 (repeatable)")
     ap.add_argument("--limit", type=int, help="render only the first N tracks")
     ap.add_argument("--wav", action="store_true")
     ap.add_argument("--suffix", default="")
