@@ -645,6 +645,43 @@ gets fixed.
 - Example: girlboss/best-deal-on-the-yard (the use that stands)
 - Logged at catalog size 127.
 
+### "They never made it illegal to [X]. They made it illegal to [Y]. So I am not a man who [X]s. I am a man who [Z]." — statutory-distinction hook thesis
+- Ultracoase's eighteenth hook-couplet shape: the narrator reads the ban precisely, finds the
+  exemption it left standing, and re-describes himself into it — not defiance and not evasion,
+  but exact compliance used as a route. Closes on an amor-fati re-commitment to the qualification
+  itself ("I'd sit the exam again in the morning. I'd sit it in the rain.") rather than to the
+  appetite underneath it.
+- Example: ultracoase/on-the-register
+- Logged at catalog size 128.
+
+### "[X] answers before [the question is finished]" — response-latency-as-tell image
+- Answer timing used as the thing that separates person from machine. Originates in
+  ultracoase/autopilot ("My daughter asks 'are we there yet' out of habit — the dash answers
+  before she's done asking"), then recurred twice in one day: ultracoase/certain-too-early
+  ("reads the question before she answers it") and laundry/still-warm ("Practice: answer before
+  the question finishes"). Caught by the user, not by the fuzzy pass. The *thesis* that latency
+  reveals the machine stays available — it is certain-too-early's entire hook ("Machines are
+  certain too early") — but this before-the-question-ends image is spent. certain-too-early was
+  revised to a physical detail ("checks the screen after every word"), which is better anyway,
+  since restating the thesis in a character detail was redundant.
+- Example: ultracoase/autopilot (the use that stands)
+- Logged at catalog size 128.
+
+### "peel the fruit, lose the pip, open the jaw, keep it coming" — table-service consumption-imperative hook opener
+- Laundry's imperative-opener slot filled with fruit-preparation verbs that turn into
+  instructions issued *about* the narrator rather than by him — the last clause hands control to
+  the machine. Deliberately not the retired doubled "verb it, verb it" shape.
+- Example: laundry/instructions-unclear
+- Logged at catalog size 129.
+
+### "and the toms come loose from the count and roll off under the couch" — mechanical-collapse pre-hook line
+- A seventh distinct phrasing for the pre-hook's textural build, after fold/buckle,
+  stutter-catch-click, second-kit-drops-out, kick-a-half-beat-late, hi-hat-splits-in-two and
+  snare-stuck-on-one-millisecond. This one scatters rather than stalls, and borrows the song's own
+  rolling-fruit image. Invent a fresh one again next time.
+- Example: laundry/instructions-unclear
+- Logged at catalog size 129.
+
 ## Phrases
 
 ### "I answer to a word I made up"
@@ -1179,6 +1216,52 @@ gets fixed.
   and immediately owned ("That is the only thing I have ever been genuinely good at").
 - Example: ultracoase/e451
 - Logged at catalog size 127.
+
+### "Field dressing is the part nobody puts in the brochure. It's not difficult. It is not nothing, either."
+- The tacit-knowledge spike that declines to dramatise itself: a plain refusal to call the work
+  either hard or weightless, leaving the listener to decide which it is.
+- Example: ultracoase/on-the-register
+- Logged at catalog size 128.
+
+### "Ruth's been vegetarian since before we met... She signed the witness section on my application without reading past the first page."
+- An elliptical wink per the band's corrected register — bare facts (a spouse's decades-old
+  position, her unread signature on the form that enabled this, a freezer that is his, a back
+  door opened so the house doesn't smell) with no motive stated and no conflict narrated.
+- Example: ultracoase/on-the-register
+- Logged at catalog size 128.
+
+### "SHE FRAMED THE CERTIFICATE."
+- The all-caps final-hook callback landing on the other person's gesture rather than the
+  narrator's admission: her public pride in the qualification set directly against the private
+  concealment it licences, with the joke from verse 1 turning over on second hearing.
+- Example: ultracoase/on-the-register
+- Logged at catalog size 128.
+
+### "say when" — permission-phrase mantra
+- The stock phrase a person says to stop a pour, chanted and worn to noise — the joke being that
+  the machine is waiting for a stop-word the narrator has given up producing. Degrades as
+  "say when / say wh— / (—en)".
+- Example: laundry/instructions-unclear
+- Logged at catalog size 129.
+
+### "I could stand up. The couch is not locked."
+- The flash-of-legibility line: a flat statement that nothing is physically preventing escape,
+  which removes every explanation except the one the song refuses to name.
+- Example: laundry/instructions-unclear
+- Logged at catalog size 129.
+
+### "at some point somebody should probably—"
+- The question-with-no-addressee slot filled as an unfinished appeal to nobody in particular,
+  passive voice, trailing off rather than resolving. Distinct from the unfinished-measurement
+  shape of laundry/still-warm.
+- Example: laundry/instructions-unclear
+- Logged at catalog size 129.
+
+### "I said when. I said it quite clearly. It heard “one”."
+- The mishearing that starts the disaster, reported without complaint — a homophone failure
+  standing in for every interface that takes an instruction and returns a quantity.
+- Example: laundry/instructions-unclear
+- Logged at catalog size 129.
 
 ## Imagery / Motifs
 
@@ -1752,3 +1835,41 @@ gets fixed.
 - Example: "He can take a shoulder apart in under a minute. There's nobody left paying for that." —
   ultracoase/e451
 - Logged at catalog size 127.
+
+### Becoming the licensed exception rather than breaking the law — compliance as the extreme measure
+- A prohibition leaves a management/professional exemption standing, and the narrator qualifies
+  into it: coaching, written exam, practical, name and address on a public register. Deliberately
+  NOT the covert-continuation engine of ultracoase/one-wet-spring (a banned thing quietly kept
+  running); here every step is lawful, documented and checkable, and the narrator says so with
+  pride. What he had to become in order to stay lawful is the cost. No real statute, jurisdiction
+  or campaign is named, per the house guardrail on pointed political material — the ban's merits
+  are never argued, only its wording.
+- Example: ultracoase/on-the-register
+- Logged at catalog size 128.
+
+### The spouse who signs the enabling form without reading it
+- The specific-living-human requirement filled by a partner of decades whose own position on the
+  matter is lifelong and unspoken, and whose signature — given on trust, unread — is what made
+  the narrator's route possible. She is never argued with, never mocked, and never told; the
+  concealment is domestic and olfactory (a back door opened, cooking timed to her shifts) rather
+  than legal.
+- Example: ultracoase/on-the-register
+- Logged at catalog size 128.
+\n\n### Being served past the point of appetite — abundance as burial, with the machine never at fault
+- The grotesque palette is table service run without a stop condition: peeled grapes, stalks in
+  the collar, pulp to the second cushion, juice in the socket, fermentation at the bottom of the
+  pile and wasps at the window "doing the arithmetic". Nothing menaces the narrator; he is being
+  looked after, continuously, and the horror is entirely in the accumulation and in his not
+  standing up. The machine is described warmly throughout ("It's a lovely trolley") — the band's
+  under-reaction rule applied to an object that is burying him.
+- Example: laundry/instructions-unclear
+- Logged at catalog size 129.
+
+### The dissolve as a swallowed stop-word — the machine loops the syllable that would have halted it
+- Laundry's voice-eaten-by-the-machine dissolve where the eaten word is specifically the
+  instruction to stop: "when" is chopped into the beat and becomes rhythm instead of command, and
+  the arm does not miss a stroke. Distinct from laundry/still-warm's compliance dissolve — there
+  the narrator wanted absorption; here he is trying to speak and the machine metabolises the
+  attempt.
+- Example: laundry/instructions-unclear
+- Logged at catalog size 129.
