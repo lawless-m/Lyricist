@@ -494,37 +494,42 @@ def render_transition(a, b, plan, tmpdir, idx):
     and two basslines and turned to mud. Splitting at 180Hz and handing the low end
     over at a defined bar is what makes a join read as a mix rather than a dissolve.
     """
-    ta = plan["a_tail_bars"] * bar_seconds(a["an"])
     tb = plan["b_head_bars"] * bar_seconds(b["an"])
     ramp, solo = plan.get("ramp"), plan.get("solo_secs", 0.0)
+
+    # BEATMATCH the overlap by stretching A's tail to B's tempo. Without it a direct
+    # join runs two records at slightly different speeds — 86.7 against 88.1 is 1.6%,
+    # which drifts ~90ms across the join and flams. A's tail is stretched rather than
+    # B's head because A is ending: nobody hears 1.6% over its final bars, whereas
+    # stretching B would alter the whole song or leave a speed step where its body
+    # begins. Both sides start on a downbeat, so matching tempo holds them locked.
+    #
+    # THE ARITHMETIC MATTERS AND WAS WRONG ONCE. atempo=r turns an input of length L
+    # into an output of L/r. We want A's final N bars — exactly a_src_dur seconds of
+    # source, untouched — to come out lasting N of B's bars. So the input length is
+    # a_src_dur and the OUTPUT length is a_src_dur/stretch, which equals tb when the
+    # bar counts match. Taking a_src_dur/stretch of input instead (and timing the
+    # fades against a_src_dur*stretch, as an earlier version did) makes the tail ~5.6%
+    # too long with its fades misplaced, which breaks bar alignment by construction —
+    # the tempo is matched and the bars still collide.
+    a_src_dur = plan["a_tail_bars"] * bar_seconds(a["an"])
+    stretch = b["bpm"] / a["bpm"] if not ramp else 1.0
+    if not (0.94 <= stretch <= 1.06):
+        stretch = 1.0
+    ta = a_src_dur / stretch          # length of A's tail in the OUTPUT timeline
     b_start = (ta + solo) if ramp else 0.0
     total = b_start + tb
 
-    # BEATMATCH the overlap by stretching A's tail to B's tempo. Without this a
-    # direct join runs two records at slightly different speeds — 86.7 against 88.1
-    # is 1.6%, which drifts ~90ms across a 5.5s join and flams. A's tail is stretched
-    # rather than B's head because A is ending: nobody hears a 1.6% change in a final
-    # two bars, whereas stretching B would either alter the whole song or leave a
-    # speed step where its body begins. Both sides start on a downbeat, so matching
-    # the tempo keeps them locked for the whole overlap.
-    stretch = b["bpm"] / a["bpm"] if not ramp else 1.0
-    a_dur = ta * stretch if 0.94 <= stretch <= 1.06 else ta
-    a_filter = []
-    if a_dur != ta:
-        a_filter = [True]
-        ta = ta / stretch          # take more source so the output lasts ta seconds
     cmd = ["ffmpeg", "-nostdin", "-loglevel", "error", "-y",
-           "-ss", f"{plan['a_from']:.5f}", "-t", f"{ta:.5f}", "-i", str(a["path"])]
+           "-ss", f"{plan['a_from']:.5f}", "-t", f"{a_src_dur:.5f}", "-i", str(a["path"])]
     if ramp:
         cmd += ["-t", f"{total:.5f}", "-i", str(ramp)]
     cmd += ["-ss", f"{plan['b_from']:.5f}", "-t", f"{tb:.5f}", "-i", str(b["path"])]
 
-    if a_filter:
-        ta = a_dur              # fade times are on the stretched output timeline
     bi = 2 if ramp else 1
     parts, labels = [], []
 
-    if a_filter:
+    if stretch != 1.0:
         parts_pre = [f"[0]atempo={stretch:.6f}[a0]"]
         a_src = "a0"
     else:
@@ -567,7 +572,9 @@ def render_transition(a, b, plan, tmpdir, idx):
     cmd += ["-filter_complex", ";".join(parts), "-map", "[out]",
             "-c:a", "pcm_s16le", str(out)]
     run(cmd)
-    return out, duration(out), ta, tb
+    # a_src_dur, not ta: the body is cut from A's file at A's own speed, so what the
+    # transition consumes from A is the SOURCE length, not the stretched output.
+    return out, duration(out), a_src_dur, tb
 
 
 def plan_joins(order, bank, args):
