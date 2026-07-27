@@ -400,6 +400,37 @@ def pick_filler(bank, bars, from_bpm, to_bpm, recent, exclude):
     return min(cands, key=cost)
 
 
+def self_bed(track, bars, tmpdir, tag):
+    """Loop a track's OWN final drum bars into the outro Suno didn't render.
+
+    Bedding a join on another song's loop does not work — it stands out, however
+    well aligned, because it is a different kit in a different room arriving for
+    sixteen seconds and leaving. The drag gets away with it only because a 153->96
+    deceleration is audibly a device rather than glue.
+
+    A track's own drums have none of that problem: same kit, same production, same
+    mix. It reads as the ending continuing rather than as something else starting.
+    This is exactly the [loop left running, faded, no ending] instruction the lyrics
+    ask for and Suno honours about half the time — done in post, for the 30 tracks
+    that didn't get it.
+
+    Taken from the last bars before the mix-out point so it continues the ending
+    rather than quoting an earlier section back at the listener.
+    """
+    stem = REPO / track["an"]["stems"]["drums"]
+    if not stem.exists():
+        return None
+    bar = bar_seconds(track["an"])
+    start = max(0.0, track["out"] - bars * bar)
+    out = Path(tmpdir) / f"bed-{tag}.wav"
+    run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y",
+         "-ss", f"{start:.5f}", "-t", f"{bars * bar:.5f}", "-i", str(stem),
+         "-af", "afade=t=in:st=0:d=0.01", "-c:a", "pcm_s16le", str(out)])
+    return {"file": out.name, "path": out, "clip": track["clip"],
+            "bpm": track["bpm"], "bars": bars, "score": 1.0,
+            "source": track["slug"], "self": True}
+
+
 def ramp_schedule(out_bars, hold_a, ramp_bars, from_bpm, to_bpm):
     """Per-bar target tempo: flat under A, ramp through the solo, flat under B.
 
@@ -427,7 +458,7 @@ def render_ramp(filler, schedule, tmpdir, tag):
     1bpm and inaudible. This is also what lets the drag exceed the +/-12% stretch
     clamp on purpose — a drum loop is the one thing that survives 153->96.
     """
-    src = FILLERS / filler["file"]
+    src = filler.get("path") or (FILLERS / filler["file"])
     src_bar = 60.0 * 4 / filler["bpm"]
     parts = []
     for k, target in enumerate(schedule):
@@ -638,10 +669,15 @@ def render(order, joins, args):
             plan["a_from"] = a["out"] - j["a_tail_bars"] * bar_seconds(a["an"])
             plan["b_from"] = b["in"]
             if j["kind"] != "direct":
-                # Exclude a window either side, not just the pair. A filler cut from
-                # a track two positions ahead is a pre-echo of a song not yet heard.
-                near = {t["clip"] for t in order[max(0, i - NEAR): i + NEAR + 2]}
-                f = pick_filler(bank, j["loop"], a["bpm"], b["bpm"], recent, near)
+                if j["kind"] == "drag":
+                    # The drag is audibly a device, so a foreign loop is fine there —
+                    # it was the one transition reported as excellent.
+                    near = {t["clip"] for t in order[max(0, i - NEAR): i + NEAR + 2]}
+                    f = pick_filler(bank, j["loop"], a["bpm"], b["bpm"], recent, near)
+                else:
+                    f = self_bed(a, j["loop"], tmpdir, f"{i:03d}") \
+                        or pick_filler(bank, j["loop"], a["bpm"], b["bpm"], recent,
+                                       {t["clip"] for t in order[max(0, i - NEAR): i + NEAR + 2]})
                 if f:
                     ta = j["a_tail_bars"] * bar_seconds(a["an"])
                     tb = j["b_head_bars"] * bar_seconds(b["an"])
