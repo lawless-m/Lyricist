@@ -360,9 +360,13 @@ def mix_points(a, tail_bars, head_bars):
     latest = first + math.floor((dur - first) / bar) * bar
     out_point = max(in_point + 4 * bar, min(out_point, latest))
 
+    # How many whole bars of instrumental sit between the last sung note and the end.
+    # This varies hugely (0 to 7 bars) because it depends on whether the lyric carried
+    # a [loop left running, faded, no ending] tag and whether Suno honoured it, so the
+    # blend length is taken per track rather than fixed.
     last_vox = a["vocal_spans"][-1][1] if a["vocal_spans"] else dur
-    tail_clean = (out_point - tail_bars * bar) >= last_vox
-    return in_point, out_point, tail_clean
+    avail = int((out_point - last_vox) // bar)
+    return in_point, out_point, max(0, avail)
 
 
 def pick_filler(bank, bars, from_bpm, to_bpm, recent, exclude):
@@ -496,14 +500,35 @@ def render_transition(a, b, plan, tmpdir, idx):
     b_start = (ta + solo) if ramp else 0.0
     total = b_start + tb
 
+    # BEATMATCH the overlap by stretching A's tail to B's tempo. Without this a
+    # direct join runs two records at slightly different speeds — 86.7 against 88.1
+    # is 1.6%, which drifts ~90ms across a 5.5s join and flams. A's tail is stretched
+    # rather than B's head because A is ending: nobody hears a 1.6% change in a final
+    # two bars, whereas stretching B would either alter the whole song or leave a
+    # speed step where its body begins. Both sides start on a downbeat, so matching
+    # the tempo keeps them locked for the whole overlap.
+    stretch = b["bpm"] / a["bpm"] if not ramp else 1.0
+    a_dur = ta * stretch if 0.94 <= stretch <= 1.06 else ta
+    a_filter = []
+    if a_dur != ta:
+        a_filter = [True]
+        ta = ta / stretch          # take more source so the output lasts ta seconds
     cmd = ["ffmpeg", "-nostdin", "-loglevel", "error", "-y",
            "-ss", f"{plan['a_from']:.5f}", "-t", f"{ta:.5f}", "-i", str(a["path"])]
     if ramp:
         cmd += ["-t", f"{total:.5f}", "-i", str(ramp)]
     cmd += ["-ss", f"{plan['b_from']:.5f}", "-t", f"{tb:.5f}", "-i", str(b["path"])]
 
+    if a_filter:
+        ta = a_dur              # fade times are on the stretched output timeline
     bi = 2 if ramp else 1
     parts, labels = [], []
+
+    if a_filter:
+        parts_pre = [f"[0]atempo={stretch:.6f}[a0]"]
+        a_src = "a0"
+    else:
+        parts_pre, a_src = [], "0"
 
     if ramp:
         # A is NOT faded out. It plays its ending in full and simply stops on a
@@ -514,7 +539,7 @@ def render_transition(a, b, plan, tmpdir, idx):
         # B DROPS IN. A vocal that fades up sounds weak and wrong, and this material
         # starts singing at bar one, so any fade lands on a voice. DROP_IN is a click
         # guard, not a musical fade.
-        parts += [split_bands(0, "a"), split_bands(1, "f"), split_bands(bi, "b")]
+        parts += parts_pre + [split_bands(a_src, "a"), split_bands(1, "f"), split_bands(bi, "b")]
         parts.append(band_chain("a", "lo", [("out", ta * 0.6, ta * 0.4)], 0) + "[alo]")
         parts.append(band_chain("a", "hi", [("out", ta - DROP_IN, DROP_IN)], 0) + "[ahi]")
         parts.append(band_chain("f", "lo",
@@ -528,7 +553,7 @@ def render_transition(a, b, plan, tmpdir, idx):
         labels = ["alo", "ahi", "flo", "fhi", "blo", "bhi"]
     else:
         # Straight overlap: highs cross the whole join, lows trade at the midpoint.
-        parts += [split_bands(0, "a"), split_bands(bi, "b")]
+        parts += parts_pre + [split_bands(a_src, "a"), split_bands(bi, "b")]
         parts.append(band_chain("a", "lo", [("out", ta * 0.5, ta * 0.25)], 0) + "[alo]")
         parts.append(band_chain("a", "hi", [("out", ta - DROP_IN, DROP_IN)], 0) + "[ahi]")
         parts.append(band_chain("b", "lo", [("in", tb * 0.5, tb * 0.25)], 0) + "[blo]")
@@ -560,16 +585,21 @@ def plan_joins(order, bank, args):
             kind = "drag"
         elif debt >= args.rest_debt:
             kind, debt = "rest", 0.0
-        elif not a["tail_clean"]:
+        elif a["tail_avail"] < args.join_bars:
             kind = "bridge"
 
-        p = {"kind": kind, "a_tail_bars": args.join_bars, "b_head_bars": args.join_bars}
+        # Blend for as long as A's own outro allows, between join_bars and max_blend.
+        # A fixed length was wrong both ways: too short for the tracks that do fade out
+        # instrumentally, and impossible for the ones that sing to the last beat.
+        blend = max(args.join_bars, min(args.max_blend, a["tail_avail"]))
+        p = {"kind": kind, "a_tail_bars": blend if kind == "direct" else args.join_bars,
+             "b_head_bars": blend if kind == "direct" else args.join_bars}
         if kind == "drag":
-            p.update(loop=8, out_bars=16, solo_bars=12)
+            p.update(loop=8, out_bars=16, solo_bars=args.drag_solo)
         elif kind == "rest":
-            p.update(loop=8, out_bars=8, solo_bars=8)
+            p.update(loop=8, out_bars=8, solo_bars=args.rest_solo)
         elif kind == "bridge":
-            p.update(loop=4, out_bars=8, solo_bars=4)
+            p.update(loop=4, out_bars=8, solo_bars=args.bridge_solo)
         joins.append(p)
     return joins
 
@@ -712,6 +742,15 @@ def main():
     ap.add_argument("--rest-debt", type=float, default=0.55,
                     help="debt at which a rest is spent")
     ap.add_argument("--no-drag", action="store_true")
+    # Bars the bed plays ALONE. Total join = 2 (A's tail) + solo + 2 (B's head), so a
+    # bridge at solo=2 is 6 bars, about 16s at 88bpm. It was 4, i.e. 8 bars and 23s,
+    # which read as too long: a bare drum loop needs less room than a musical break
+    # would. The rest and the drag are meant to be events and stay longer.
+    ap.add_argument("--max-blend", type=int, default=6,
+                    help="longest direct blend when a track's outro allows it")
+    ap.add_argument("--bridge-solo", type=int, default=2)
+    ap.add_argument("--rest-solo", type=int, default=6)
+    ap.add_argument("--drag-solo", type=int, default=10)
     ap.add_argument("--pin", action="append", metavar="SLUG:POS",
                     help="fix a track to a position: --pin part-it-out:first, "
                          "--pin oats:last, --pin breeder:12 (repeatable)")
@@ -734,13 +773,13 @@ def main():
         a = cache.get(cid)
         if not a:
             continue
-        in_p, out_p, tail_clean = mix_points(a, args.join_bars, args.join_bars)
+        in_p, out_p, avail = mix_points(a, args.join_bars, args.join_bars)
         tracks.append({
             "clip": cid, "slug": w.stem.split("--")[0], "path": w, "an": a,
             "bpm": a["bpm"], "camelot": camelot(a["key"], a["scale"]),
             "key": f"{a['key']} {a['scale']}", "density": a["vocal_density"],
             "duration": a["duration"], "contrast": a["grid_contrast"],
-            "in": in_p, "out": out_p, "tail_clean": tail_clean,
+            "in": in_p, "out": out_p, "tail_avail": avail,
         })
     if not tracks:
         sys.exit("no analysed tracks — run tools/stems.py")
