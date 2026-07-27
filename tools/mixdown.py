@@ -296,6 +296,16 @@ RECENT_KEEP = 6         # how many past fillers stay penalised
 NEAR = 2                # never bed a join on a filler from a track this close by
 DROP_IN = 0.03          # click guard on a hard entry, NOT a musical fade (seconds)
 
+# Below this kick phase-lock the grid is not describing the music, so nothing may be
+# beatmatched, looped or stretched against it — such a join falls back to a plain cut.
+# Laundry runs 0.10 min, 0.39 median, so this passes all of it. It exists for the
+# other bands: the-bell and the-forge are rubato accordion with no kick at all, where
+# refine_grid finds nothing, returns the tempo unrefined and reports lock 0.0. Without
+# a floor the tool would confidently beatmatch against a grid that means nothing —
+# which is the failure analyse.py already warns about in its own docstring, "beat
+# tracking on rubato accordion is confident nonsense".
+LOCK_FLOOR = 0.15
+
 
 def bar_seconds(a):
     return a["grid"]["period"] * 4
@@ -671,6 +681,10 @@ def plan_joins(order, bank, args):
         a, b = order[i], order[i + 1]
         debt += max(0.0, a["density"] - args.rest_baseline)
         kind = "direct"
+        readable = (a["lock"] >= args.lock_floor and b["lock"] >= args.lock_floor)
+        if not readable:
+            joins.append({"kind": "cut", "a_tail_bars": 1, "b_head_bars": 1})
+            continue
         if i == drag_at and not args.no_drag:
             kind = "drag"
         elif debt >= args.rest_debt:
@@ -870,6 +884,8 @@ def main():
     # out, B drops in on the next downbeat, nothing between them.
     ap.add_argument("--no-bed", action="store_true",
                     help="bar-aligned cut with no loop at all")
+    ap.add_argument("--lock-floor", type=float, default=LOCK_FLOOR,
+                    help="minimum kick phase-lock before a join may be beatmatched")
     ap.add_argument("--loop-bars", type=int, default=4,
                     help="bars of A's own outro looped between tracks (default 4)")
     # Bars the bed plays ALONE. Total join = 2 (A's tail) + solo + 2 (B's head), so a
@@ -910,6 +926,7 @@ def main():
             "key": f"{a['key']} {a['scale']}", "density": a["vocal_density"],
             "duration": a["duration"], "contrast": a["grid_contrast"],
             "in": in_p, "out": out_p, "tail_avail": avail, "groove": groove,
+            "lock": a.get("grid_lock", 0.0),
         })
     if not tracks:
         sys.exit("no analysed tracks — run tools/stems.py")
