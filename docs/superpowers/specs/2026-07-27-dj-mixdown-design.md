@@ -186,7 +186,17 @@ jump, which is the entire point. They will sound leaner than a full production;
 that is correct for a break.
 
 Re-runnable against the stem cache, which is what makes tuning the scoring
-practical.
+practical. The bank holds two loop lengths — 4-bar for bridges, 8-bar for rests and
+the drag — merged into one index.
+
+**Two of the three scoring terms turned out not to discriminate.** Across all 37
+tracks `similar` runs 0.91-1.00 and `steady` 0.77-0.99, so the ranking is effectively
+`busy` alone — which is the failure the scoring was written to avoid, since the
+loudest eight bars of a track are as likely to be a fill as a groove. The terms are
+kept because they cost nothing and would catch a genuinely bad window, but they are
+not doing the work they were meant to. If the top-ranked loops don't audibly beat the
+bottom-ranked ones, this needs a different signal — onset-pattern self-similarity
+between bars rather than energy statistics over them.
 
 ## 3. `tools/mixdown.py`
 
@@ -244,11 +254,18 @@ right.
 There are **three roles**, with three different triggers, lengths and treatments.
 They are not interchangeable.
 
-| role | trigger | bars | ramp |
-|---|---|---|---|
-| `bridge` | B has a vocal intro, or the tempo gap can't be stretched | 24 | A's BPM → B's BPM |
-| `rest` | intensity debt crossed the threshold | 16 | none |
-| `drag` | the arc turns from ascent to descent | 32 | large, deliberate |
+| role | trigger | loop | total bars | ≈ seconds | ramp |
+|---|---|---|---|---|---|
+| `bridge` | B has a vocal intro | 4-bar | 8 | 19 | A's BPM → B's BPM |
+| `bridge` (long) | tempo gap too wide to stretch | 4-bar | 16 | 39 | as above, more room |
+| `rest` | intensity debt crossed the threshold | 8-bar | 8 | 19 | none |
+| `drag` | the arc turns from ascent to descent | 8-bar | 16 | ~32 | large, deliberate |
+
+**These are down from 24/16/32 bars.** The original figures were sized against an
+assumed 123bpm; the catalogue actually runs at 98, where a bar is 2.43s, so every
+bar-counted structure was about 25% longer than intended and a 24-bar bridge came to
+58 seconds. Bridges are short by default and long only where the tempo ramp needs the
+room. The seconds column is the number to sanity-check against, not the bars.
 
 **bridge** is the original case. Its tempo justification is weaker than it first
 appeared — with 37 tracks a BPM sort already puts 36/36 joins inside the clamp — so
