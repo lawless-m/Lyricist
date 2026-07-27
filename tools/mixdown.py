@@ -291,6 +291,9 @@ def improve(slots, targets, tropes, args, passes=40, frozen=frozenset()):
 XOVER_HZ = 180          # where the bass swap splits the band
 GAIN = 0.85             # per-participant headroom before the limiter
 DRUM_FLOOR = 0.25       # bar counts as "drums playing" above this share of median
+RECENT_PENALTY = 25.0   # bpm-equivalent cost of reusing a recent filler
+RECENT_KEEP = 6         # how many past fillers stay penalised
+NEAR = 2                # never bed a join on a filler from a track this close by
 
 
 def bar_seconds(a):
@@ -359,17 +362,58 @@ def mix_points(a, tail_bars, head_bars):
     return in_point, out_point, tail_clean
 
 
-def pick_filler(bank, bars, from_bpm, to_bpm):
-    """Closest to the midpoint of the two tempos, so neither end stretches far."""
-    cands = [f for f in bank if f["bars"] == bars]
+def pick_filler(bank, bars, from_bpm, to_bpm, recent, exclude):
+    """Closest to the midpoint of the two tempos, minus anything we just used.
+
+    Two rules beyond tempo, both learned by listening to the first render:
+
+    Never bed a track on a filler cut from a track adjacent to the join. The mix put
+    good-dog's own drum loop under good-dog's outro, so the song appeared to get
+    stuck rather than hand over.
+
+    Penalise recently-used loops. With twenty-odd plateau tracks at 93-96bpm, closest
+    to the midpoint returned the same loop three joins running, which is precisely the
+    tic the fillers exist to avoid. The penalty is in bpm units so it trades against
+    tempo distance rather than overriding it.
+    """
+    cands = [f for f in bank if f["bars"] == bars and f["clip"] not in exclude]
+    if not cands:
+        cands = [f for f in bank if f["bars"] == bars]
     if not cands:
         return None
     mid = (from_bpm + to_bpm) / 2
-    return min(cands, key=lambda f: (abs(f["bpm"] - mid), -f["score"]))
+
+    def cost(f):
+        try:
+            penalty = RECENT_PENALTY / (recent.index(f["clip"]) + 1)
+        except ValueError:
+            penalty = 0.0
+        return (abs(f["bpm"] - mid) + penalty, -f["score"])
+
+    return min(cands, key=cost)
 
 
-def render_ramp(filler, out_bars, from_bpm, to_bpm, tmpdir, tag):
-    """Render the loop for out_bars, changing tempo bar by bar.
+def ramp_schedule(out_bars, hold_a, ramp_bars, from_bpm, to_bpm):
+    """Per-bar target tempo: flat under A, ramp through the solo, flat under B.
+
+    Ramping across the whole transition — which is what this did first — starts the
+    filler drifting away from A the moment it enters, so two kits play at diverging
+    tempos under the outgoing track. The filler may only move while it is alone.
+    """
+    out = []
+    for k in range(out_bars):
+        if k < hold_a:
+            out.append(from_bpm)
+        elif k < hold_a + ramp_bars:
+            f = (k - hold_a + 1) / max(1, ramp_bars)
+            out.append(from_bpm + (to_bpm - from_bpm) * f)
+        else:
+            out.append(to_bpm)
+    return out
+
+
+def render_ramp(filler, schedule, tmpdir, tag):
+    """Render the loop for len(schedule) bars, one bar per entry at its own tempo.
 
     Bar-by-bar because atempo is constant per invocation. At 4- or 8-bar granularity
     a 96->123 ramp steps by 3-7bpm, which is audible as a lurch; per bar it is under
@@ -379,9 +423,7 @@ def render_ramp(filler, out_bars, from_bpm, to_bpm, tmpdir, tag):
     src = FILLERS / filler["file"]
     src_bar = 60.0 * 4 / filler["bpm"]
     parts = []
-    for k in range(out_bars):
-        frac = k / max(1, out_bars - 1)
-        target = from_bpm + (to_bpm - from_bpm) * frac
+    for k, target in enumerate(schedule):
         ratio = target / filler["bpm"]
         ratio = min(max(ratio, 0.5), 2.0)
         off = (k % filler["bars"]) * src_bar
@@ -413,17 +455,28 @@ def duration(path):
     return float(out.stdout.strip())
 
 
-def band_chain(idx, band, fades, delay_s, gain=GAIN):
-    """One participant's low or high band: split, fade, position, attenuate."""
-    f = "lowpass" if band == "low" else "highpass"
-    chain = [f"{f}=f={XOVER_HZ}"]
+def split_bands(idx, tag):
+    """Linkwitz-Riley split so the two bands sum back to the original signal.
+
+    NOT lowpass=f=180 plus highpass=f=180. Complementary Butterworth filters do not
+    reconstruct: summing them measured -35.0dB at 180Hz, -5.9dB at 120 and -6.5dB at
+    260. That notch sat on every one of the 36 joins and on the whole filler bed,
+    scooping out exactly where kick body, bass fundamentals and vocal chest live.
+    acrossover is a Linkwitz-Riley bank and nulls to 0.0dB at every frequency tested.
+    """
+    return f"[{idx}]acrossover=split={XOVER_HZ}:order=4th[{tag}lo_][{tag}hi_]"
+
+
+def band_chain(tag, band, fades, delay_s, gain=GAIN):
+    """Shape one band of an already-split participant: fade, attenuate, position."""
+    chain = []
     for kind, st, d in fades:
         chain.append(f"afade=t={kind}:st={max(0.0, st):.4f}:d={max(0.01, d):.4f}:curve=tri")
     chain.append(f"volume={gain}")
     if delay_s > 0:
         ms = int(round(delay_s * 1000))
         chain.append(f"adelay={ms}|{ms}")
-    return f"[{idx}]" + ",".join(chain)
+    return f"[{tag}{band}_]" + ",".join(chain)
 
 
 def render_transition(a, b, plan, tmpdir, idx):
@@ -452,23 +505,25 @@ def render_transition(a, b, plan, tmpdir, idx):
     if ramp:
         # A leaves early; the filler takes the low end at A's swap and holds it until
         # B is established, so the bottom never drops out and never doubles.
-        parts.append(band_chain(0, "low", [("out", ta * 0.5, ta * 0.3)], 0) + "[alo]")
-        parts.append(band_chain(0, "high", [("out", ta * 0.5, ta * 0.5)], 0) + "[ahi]")
-        parts.append(band_chain(1, "low",
+        parts += [split_bands(0, "a"), split_bands(1, "f"), split_bands(bi, "b")]
+        parts.append(band_chain("a", "lo", [("out", ta * 0.5, ta * 0.3)], 0) + "[alo]")
+        parts.append(band_chain("a", "hi", [("out", ta * 0.5, ta * 0.5)], 0) + "[ahi]")
+        parts.append(band_chain("f", "lo",
                                 [("in", ta * 0.5, ta * 0.3),
                                  ("out", b_start + tb * 0.5, tb * 0.3)], 0) + "[flo]")
-        parts.append(band_chain(1, "high",
+        parts.append(band_chain("f", "hi",
                                 [("in", 0, ta * 0.4), ("out", total - tb * 0.4, tb * 0.4)],
                                 0) + "[fhi]")
-        parts.append(band_chain(bi, "low", [("in", tb * 0.5, tb * 0.3)], b_start) + "[blo]")
-        parts.append(band_chain(bi, "high", [("in", 0, tb * 0.4)], b_start) + "[bhi]")
+        parts.append(band_chain("b", "lo", [("in", tb * 0.5, tb * 0.3)], b_start) + "[blo]")
+        parts.append(band_chain("b", "hi", [("in", 0, tb * 0.4)], b_start) + "[bhi]")
         labels = ["alo", "ahi", "flo", "fhi", "blo", "bhi"]
     else:
         # Straight overlap: highs cross the whole join, lows trade at the midpoint.
-        parts.append(band_chain(0, "low", [("out", ta * 0.5, ta * 0.25)], 0) + "[alo]")
-        parts.append(band_chain(0, "high", [("out", ta * 0.5, ta * 0.5)], 0) + "[ahi]")
-        parts.append(band_chain(bi, "low", [("in", tb * 0.5, tb * 0.25)], 0) + "[blo]")
-        parts.append(band_chain(bi, "high", [("in", 0, tb * 0.5)], 0) + "[bhi]")
+        parts += [split_bands(0, "a"), split_bands(bi, "b")]
+        parts.append(band_chain("a", "lo", [("out", ta * 0.5, ta * 0.25)], 0) + "[alo]")
+        parts.append(band_chain("a", "hi", [("out", ta * 0.5, ta * 0.5)], 0) + "[ahi]")
+        parts.append(band_chain("b", "lo", [("in", tb * 0.5, tb * 0.25)], 0) + "[blo]")
+        parts.append(band_chain("b", "hi", [("in", 0, tb * 0.5)], 0) + "[bhi]")
         labels = ["alo", "ahi", "blo", "bhi"]
 
     mix = "".join(f"[{l}]" for l in labels)
@@ -530,22 +585,30 @@ def render(order, joins, args):
     try:
         # Build the transitions first: each one tells us how much of the tracks
         # either side it consumes, which is what bounds the solo bodies.
-        trans = []
+        trans, recent = [], []
         for i, j in enumerate(joins):
             a, b = order[i], order[i + 1]
             plan = dict(j)
             plan["a_from"] = a["out"] - j["a_tail_bars"] * bar_seconds(a["an"])
             plan["b_from"] = b["in"]
             if j["kind"] != "direct":
-                f = pick_filler(bank, j["loop"], a["bpm"], b["bpm"])
+                # Exclude a window either side, not just the pair. A filler cut from
+                # a track two positions ahead is a pre-echo of a song not yet heard.
+                near = {t["clip"] for t in order[max(0, i - NEAR): i + NEAR + 2]}
+                f = pick_filler(bank, j["loop"], a["bpm"], b["bpm"], recent, near)
                 if f:
                     ta = j["a_tail_bars"] * bar_seconds(a["an"])
                     tb = j["b_head_bars"] * bar_seconds(b["an"])
                     solo = j["solo_bars"] * bar_seconds(a["an"])
                     need = ta + solo + tb
                     nbars = max(2, math.ceil(need / (60.0 * 4 / a["bpm"])))
-                    ramp, rdur = render_ramp(f, nbars, a["bpm"], b["bpm"], tmpdir, i)
+                    hold = max(1, round(ta / (60.0 * 4 / a["bpm"])))
+                    sched = ramp_schedule(nbars, hold, max(1, j["solo_bars"]),
+                                          a["bpm"], b["bpm"])
+                    ramp, rdur = render_ramp(f, sched, tmpdir, i)
                     plan["ramp"], plan["solo_secs"], plan["filler"] = ramp, solo, f
+                    recent.insert(0, f["clip"])
+                    del recent[RECENT_KEEP:]
                 else:
                     plan["kind"] = "direct"
             p, dur, ta, tb = render_transition(a, b, plan, tmpdir, i)
