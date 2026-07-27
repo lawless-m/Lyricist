@@ -680,7 +680,10 @@ def plan_joins(order, bank, args):
     for i in range(len(order) - 1):
         a, b = order[i], order[i + 1]
         debt += max(0.0, a["density"] - args.rest_baseline)
-        kind = "direct"
+        kind, long_rest = "direct", False
+        if args.album:
+            joins.append({"kind": "gap", "a_tail_bars": 0, "b_head_bars": 0})
+            continue
         readable = (a["lock"] >= args.lock_floor and b["lock"] >= args.lock_floor)
         if not readable:
             joins.append({"kind": "cut", "a_tail_bars": 1, "b_head_bars": 1})
@@ -688,6 +691,9 @@ def plan_joins(order, bank, args):
         if i == drag_at and not args.no_drag:
             kind = "drag"
         elif debt >= args.rest_debt:
+            # A rest is a longer loopcut, not a blended bed. "Apart from the drag"
+            # applies here too: it is still A's own outro looping and then cutting,
+            # just with more room before the cut.
             kind, debt = "rest", 0.0
         elif a["tail_avail"] < args.join_bars:
             kind = "bridge"
@@ -696,7 +702,8 @@ def plan_joins(order, bank, args):
         # A fixed length was wrong both ways: too short for the tracks that do fade out
         # instrumentally, and impossible for the ones that sing to the last beat.
         blend = max(args.join_bars, min(args.max_blend, a["tail_avail"]))
-        if kind == "bridge":
+        if kind in ("bridge", "rest"):
+            long_rest = kind == "rest"
             kind = "cut" if args.no_bed else "loopcut"
         p = {"kind": kind, "a_tail_bars": blend if kind == "direct" else args.join_bars,
              "b_head_bars": blend if kind == "direct" else args.join_bars}
@@ -705,8 +712,8 @@ def plan_joins(order, bank, args):
         if kind == "loopcut":
             # Nothing of either track is consumed: A plays to its end, the loop runs
             # between them, B starts from its first sample.
-            p.update(a_tail_bars=0, b_head_bars=0, loop=4,
-                     out_bars=args.loop_bars, solo_bars=args.loop_bars)
+            n = args.rest_loop_bars if long_rest else args.loop_bars
+            p.update(a_tail_bars=0, b_head_bars=0, loop=4, out_bars=n, solo_bars=n)
         if kind == "drag":
             p.update(loop=8, out_bars=16, solo_bars=args.drag_solo)
         elif kind == "rest":
@@ -732,7 +739,8 @@ def render(order, joins, args):
 
     tmpdir = tempfile.mkdtemp(prefix="mixdown-")
     MIXES.mkdir(parents=True, exist_ok=True)
-    out = MIXES / f"{args.band}-dj{args.suffix}.{'wav' if args.wav else 'mp3'}"
+    style = "album" if args.album else "dj"
+    out = MIXES / f"{args.band}-{style}{args.suffix}.{'wav' if args.wav else 'mp3'}"
 
     try:
         # Build the transitions first: each one tells us how much of the tracks
@@ -743,7 +751,7 @@ def render(order, joins, args):
             plan = dict(j)
             plan["a_from"] = a["out"] - j["a_tail_bars"] * bar_seconds(a["an"])
             plan["b_from"] = 0.0
-            if j["kind"] not in ("direct", "cut"):
+            if j["kind"] not in ("direct", "cut", "gap"):
                 if j["kind"] == "drag":
                     # The drag is audibly a device, so a foreign loop is fine there —
                     # it was the one transition reported as excellent.
@@ -782,10 +790,17 @@ def render(order, joins, args):
                     del recent[RECENT_KEEP:]
                 else:
                     plan["kind"] = "direct"
-            if plan["kind"] == "loopcut" and plan.get("ramp"):
-                p, dur, ta, tb = render_loopcut(a, b, plan, tmpdir, i)
+            if plan["kind"] == "gap":
+                g = Path(tmpdir) / f"trans-{i:03d}.wav"
+                run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-f", "lavfi",
+                     "-i", f"anullsrc=r=44100:cl=stereo", "-t", f"{args.gap:.3f}",
+                     "-c:a", "pcm_s16le", str(g)])
+                p_, dur, ta, tb = g, args.gap, 0.0, 0.0
+            elif plan["kind"] == "loopcut" and plan.get("ramp"):
+                p_, dur, ta, tb = render_loopcut(a, b, plan, tmpdir, i)
             else:
-                p, dur, ta, tb = render_transition(a, b, plan, tmpdir, i)
+                p_, dur, ta, tb = render_transition(a, b, plan, tmpdir, i)
+            p = p_
             trans.append({"path": p, "dur": dur, "ta": ta, "tb": tb,
                           "kind": plan["kind"], "filler": plan.get("filler")})
             print(f"  join {i+1:2}/{len(joins)}  {plan['kind']:6} "
@@ -816,9 +831,12 @@ def render(order, joins, args):
 
         lst = Path(tmpdir) / "concat.txt"
         lst.write_text("".join(f"file '{p}'\n" for p in pieces))
+        # Limit the whole thing, not just each segment: per-segment limiting leaves
+        # the concatenated result free to touch 0dBFS, which it did (-0.0 peak).
         enc = ["-c:a", "pcm_s16le"] if args.wav else ["-c:a", "libmp3lame", "-b:a", "320k"]
         run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-f", "concat",
-             "-safe", "0", "-i", str(lst)] + enc + [str(out)])
+             "-safe", "0", "-i", str(lst), "-af", "alimiter=limit=0.89:level=disabled"]
+            + enc + [str(out)])
 
         total = duration(out)
         chapters = [f"{hms(max(0.0, t0))} {t['slug'].partition('-')[2].replace('-',' ').title()}"
@@ -834,8 +852,11 @@ def render(order, joins, args):
                     n += f" on {tr['filler']['source']}"
             notes.append(n)
 
+        shape = (f"album, {args.gap:.1f}s between tracks" if args.album
+                 else f"arc order, peak {args.peak}")
         head = (f"{args.band} — {len(order)} tracks, {hms(total, hours=True)}   "
-                f"arc order, peak {args.peak}")
+                f"{args.order} order" + ("" if args.album else f", peak {args.peak}")
+                + (f", {args.gap:.1f}s gaps" if args.album else ""))
         kinds = {}
         for tr in trans:
             kinds[tr["kind"]] = kinds.get(tr["kind"], 0) + 1
@@ -886,6 +907,16 @@ def main():
                     help="bar-aligned cut with no loop at all")
     ap.add_argument("--lock-floor", type=float, default=LOCK_FLOOR,
                     help="minimum kick phase-lock before a join may be beatmatched")
+    # Album style: whole tracks, a breath between them, nothing beatmatched. For
+    # material with no usable pulse — the-bell-knows-my-name and the-forge are rubato
+    # accordion — where every device in this tool is the wrong device. Needs no stems,
+    # so it runs on any band without a separation pass.
+    ap.add_argument("--album", action="store_true",
+                    help="whole tracks with a short pause; no grid, no stems needed")
+    ap.add_argument("--gap", type=float, default=1.2,
+                    help="seconds of silence between tracks in album mode")
+    ap.add_argument("--rest-loop-bars", type=int, default=8,
+                    help="loop bars for a rest (a longer breather)")
     ap.add_argument("--loop-bars", type=int, default=4,
                     help="bars of A's own outro looped between tracks (default 4)")
     # Bars the bed plays ALONE. Total join = 2 (A's tail) + solo + 2 (B's head), so a
@@ -905,21 +936,38 @@ def main():
     ap.add_argument("--suffix", default="")
     args = ap.parse_args()
 
-    if not STEMS.exists():
-        sys.exit("no audio/stems.json — run tools/stems.py first")
-    cache = json.loads(STEMS.read_text())
+    cache = json.loads(STEMS.read_text()) if STEMS.exists() else {}
+    if not cache and not args.album:
+        sys.exit("no audio/stems.json — run tools/stems.py first, or use --album")
 
     src = AUDIO / "playlists" / args.band
     if not src.is_dir():
         sys.exit(f"no such source: {src.relative_to(REPO)}")
 
+    # Album mode falls back to the librosa cache, which covers every band, so a band
+    # that has never been through stems.py can still be sequenced.
+    fallback = {}
+    old_cache = AUDIO / "analysis.json"
+    if args.album and old_cache.exists():
+        fallback = json.loads(old_cache.read_text())
+
     tracks = []
     for w in sorted(src.glob("*.wav")):
         cid = w.stem.rsplit("--", 1)[-1]
         a = cache.get(cid)
+        if not a and args.album and cid in fallback:
+            f = fallback[cid]
+            a = {"bpm": f.get("bpm", 100.0), "key": "C", "scale": "major",
+                 "vocal_density": 0.0, "duration": f.get("duration", 0.0),
+                 "grid_contrast": 0.0, "grid_lock": 0.0, "vocal_spans": [],
+                 "grid": {"t0": 0.0, "period": 0.6}, "first_downbeat": 0.0,
+                 "bar_energy": [], "stems": {}}
         if not a:
             continue
-        in_p, out_p, avail, groove = mix_points(a, args.join_bars, args.join_bars)
+        if args.album:
+            in_p, out_p, avail, groove = 0.0, a["duration"], 0, 0.0
+        else:
+            in_p, out_p, avail, groove = mix_points(a, args.join_bars, args.join_bars)
         tracks.append({
             "clip": cid, "slug": w.stem.split("--")[0], "path": w, "an": a,
             "bpm": a["bpm"], "camelot": camelot(a["key"], a["scale"]),
