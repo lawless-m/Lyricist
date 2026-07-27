@@ -294,6 +294,7 @@ DRUM_FLOOR = 0.25       # bar counts as "drums playing" above this share of medi
 RECENT_PENALTY = 25.0   # bpm-equivalent cost of reusing a recent filler
 RECENT_KEEP = 6         # how many past fillers stay penalised
 NEAR = 2                # never bed a join on a filler from a track this close by
+DROP_IN = 0.03          # click guard on a hard entry, NOT a musical fade (seconds)
 
 
 def bar_seconds(a):
@@ -347,18 +348,20 @@ def mix_points(a, tail_bars, head_bars):
 
     in_point = first if vox_at < drums_at else drums_at
 
-    last_vox = a["vocal_spans"][-1][1] if a["vocal_spans"] else dur
-    n = math.ceil((last_vox + bar - first) / bar)
-    out_point = first + n * bar
+    # Play the track OUT. Cutting after the last vocal plus a bar sounded like the
+    # song being interrupted, because the join then consumes bars from before that
+    # point and fades A across its own closing line — good-dog was cut mid-ending.
+    # These songs have no outros to mix over (median 1.1 bars), so the honest move is
+    # to let them finish and let the bed cover the seam.
+    last_bar = len(bars) - 1
+    while last_bar > 0 and bars[last_bar] <= 0:      # trim trailing silence only
+        last_bar -= 1
+    out_point = min(first + (last_bar + 1) * bar, dur)
     latest = first + math.floor((dur - first) / bar) * bar
-    tail_clean = out_point <= latest
-    if not tail_clean:
-        out_point = latest
-    if out_point - in_point < (tail_bars + head_bars + 4) * bar:
-        out_point = latest
-    # The tail is only usable if the whole of it sits after the last sung note.
-    if out_point - tail_bars * bar < last_vox:
-        tail_clean = False
+    out_point = max(in_point + 4 * bar, min(out_point, latest))
+
+    last_vox = a["vocal_spans"][-1][1] if a["vocal_spans"] else dur
+    tail_clean = (out_point - tail_bars * bar) >= last_vox
     return in_point, out_point, tail_clean
 
 
@@ -503,27 +506,33 @@ def render_transition(a, b, plan, tmpdir, idx):
     parts, labels = [], []
 
     if ramp:
-        # A leaves early; the filler takes the low end at A's swap and holds it until
-        # B is established, so the bottom never drops out and never doubles.
+        # A is NOT faded out. It plays its ending in full and simply stops on a
+        # downbeat; the bed underneath carries the seam. Fading A across its own last
+        # line is what made good-dog sound cut off. Only A's low end steps aside, so
+        # the filler's kick has room rather than doubling with it.
+        #
+        # B DROPS IN. A vocal that fades up sounds weak and wrong, and this material
+        # starts singing at bar one, so any fade lands on a voice. DROP_IN is a click
+        # guard, not a musical fade.
         parts += [split_bands(0, "a"), split_bands(1, "f"), split_bands(bi, "b")]
-        parts.append(band_chain("a", "lo", [("out", ta * 0.5, ta * 0.3)], 0) + "[alo]")
-        parts.append(band_chain("a", "hi", [("out", ta * 0.5, ta * 0.5)], 0) + "[ahi]")
+        parts.append(band_chain("a", "lo", [("out", ta * 0.6, ta * 0.4)], 0) + "[alo]")
+        parts.append(band_chain("a", "hi", [("out", ta - DROP_IN, DROP_IN)], 0) + "[ahi]")
         parts.append(band_chain("f", "lo",
-                                [("in", ta * 0.5, ta * 0.3),
-                                 ("out", b_start + tb * 0.5, tb * 0.3)], 0) + "[flo]")
+                                [("in", ta * 0.6, ta * 0.4),
+                                 ("out", b_start + tb * 0.4, tb * 0.4)], 0) + "[flo]")
         parts.append(band_chain("f", "hi",
-                                [("in", 0, ta * 0.4), ("out", total - tb * 0.4, tb * 0.4)],
+                                [("in", 0, ta * 0.5), ("out", b_start + tb * 0.4, tb * 0.4)],
                                 0) + "[fhi]")
-        parts.append(band_chain("b", "lo", [("in", tb * 0.5, tb * 0.3)], b_start) + "[blo]")
-        parts.append(band_chain("b", "hi", [("in", 0, tb * 0.4)], b_start) + "[bhi]")
+        parts.append(band_chain("b", "lo", [("in", 0, DROP_IN)], b_start) + "[blo]")
+        parts.append(band_chain("b", "hi", [("in", 0, DROP_IN)], b_start) + "[bhi]")
         labels = ["alo", "ahi", "flo", "fhi", "blo", "bhi"]
     else:
         # Straight overlap: highs cross the whole join, lows trade at the midpoint.
         parts += [split_bands(0, "a"), split_bands(bi, "b")]
         parts.append(band_chain("a", "lo", [("out", ta * 0.5, ta * 0.25)], 0) + "[alo]")
-        parts.append(band_chain("a", "hi", [("out", ta * 0.5, ta * 0.5)], 0) + "[ahi]")
+        parts.append(band_chain("a", "hi", [("out", ta - DROP_IN, DROP_IN)], 0) + "[ahi]")
         parts.append(band_chain("b", "lo", [("in", tb * 0.5, tb * 0.25)], 0) + "[blo]")
-        parts.append(band_chain("b", "hi", [("in", 0, tb * 0.5)], 0) + "[bhi]")
+        parts.append(band_chain("b", "hi", [("in", 0, DROP_IN)], 0) + "[bhi]")
         labels = ["alo", "ahi", "blo", "bhi"]
 
     mix = "".join(f"[{l}]" for l in labels)
@@ -556,11 +565,11 @@ def plan_joins(order, bank, args):
 
         p = {"kind": kind, "a_tail_bars": args.join_bars, "b_head_bars": args.join_bars}
         if kind == "drag":
-            p.update(loop=8, out_bars=16, solo_bars=8)
+            p.update(loop=8, out_bars=16, solo_bars=12)
         elif kind == "rest":
-            p.update(loop=8, out_bars=8, solo_bars=4)
+            p.update(loop=8, out_bars=8, solo_bars=8)
         elif kind == "bridge":
-            p.update(loop=4, out_bars=8, solo_bars=2)
+            p.update(loop=4, out_bars=8, solo_bars=4)
         joins.append(p)
     return joins
 
