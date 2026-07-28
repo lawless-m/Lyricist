@@ -295,6 +295,7 @@ RECENT_PENALTY = 25.0   # bpm-equivalent cost of reusing a recent filler
 RECENT_KEEP = 6         # how many past fillers stay penalised
 NEAR = 2                # never bed a join on a filler from a track this close by
 DROP_IN = 0.03          # click guard on a hard entry, NOT a musical fade (seconds)
+BED_SILENCE = 0.01      # a loop this silent reads as the mix stopping, not as a bar
 
 # Below this kick phase-lock the grid is not describing the music, so nothing may be
 # beatmatched, looped or stretched against it — such a join falls back to a plain cut.
@@ -416,8 +417,59 @@ def pick_filler(bank, bars, from_bpm, to_bpm, recent, exclude):
     return min(cands, key=cost)
 
 
+def silent_spans(stem, floor=-45.0, minlen=0.15):
+    """Silent intervals in a stem, in one pass, as (start, end) seconds."""
+    import subprocess
+    p = subprocess.run(
+        ["ffmpeg", "-nostdin", "-loglevel", "info", "-i", str(stem),
+         "-af", f"silencedetect=noise={floor}dB:d={minlen}", "-f", "null", "-"],
+        capture_output=True, text=True)
+    txt = p.stdout + p.stderr
+    starts = [float(m) for m in re.findall(r"silence_start:\s*(-?[\d.]+)", txt)]
+    ends = [float(m) for m in re.findall(r"silence_end:\s*([\d.]+)", txt)]
+    return list(zip(starts, ends + [float("inf")] * (len(starts) - len(ends))))
+
+
+def silent_in(spans, start, end):
+    """Seconds of silence inside [start, end)."""
+    return sum(max(0.0, min(e, end) - max(s, start)) for s, e in spans)
+
+
+def bed_window(track, bars, back=32):
+    """Where to cut the loop from — the latest clean bars, not simply the last ones.
+
+    Taking the final bars before the mix-out point is the obvious choice and it is
+    wrong, because the mix-out point is the end of the song. Suno endings thin out:
+    across laundry, 19 of 37 tracks are more than 15% silent in their last four bars
+    and no-blockers is 98% silent. Looping that turns a ragged ending into a
+    rhythmic hole, which is exactly the dead air heard at ten of twenty joins —
+    the silence arrives once per loop, on the bar, so it reads as the mix stopping.
+
+    So walk backwards a bar at a time and take the first window that is essentially
+    continuous, preferring later windows so the loop still continues the ending
+    rather than quoting an earlier section back at the listener. If the track has no
+    clean window anywhere, take the least bad one.
+    """
+    an = track["an"]
+    stem = REPO / an["stems"]["drums"]
+    bar = bar_seconds(an)
+    spans = silent_spans(stem)
+    width = bars * bar
+    best = None
+    for k in range(back + 1):
+        start = track["out"] - width - k * bar
+        if start < an["first_downbeat"]:
+            break
+        frac = silent_in(spans, start, start + width) / width
+        if frac <= BED_SILENCE:
+            return start, frac
+        if best is None or frac < best[1]:
+            best = (start, frac)
+    return best if best else (max(0.0, track["out"] - width), 1.0)
+
+
 def self_bed(track, bars, tmpdir, tag):
-    """Loop a track's OWN final drum bars into the outro Suno didn't render.
+    """Loop a track's OWN drum bars into the outro Suno didn't render.
 
     Bedding a join on another song's loop does not work — it stands out, however
     well aligned, because it is a different kit in a different room arriving for
@@ -430,21 +482,22 @@ def self_bed(track, bars, tmpdir, tag):
     ask for and Suno honours about half the time — done in post, for the 30 tracks
     that didn't get it.
 
-    Taken from the last bars before the mix-out point so it continues the ending
-    rather than quoting an earlier section back at the listener.
+    Taken from the latest CLEAN bars before the mix-out point — see bed_window, and
+    do not "simplify" this back to the final bars, which is where the dead air came
+    from.
     """
     stem = REPO / track["an"]["stems"]["drums"]
     if not stem.exists():
         return None
     bar = bar_seconds(track["an"])
-    start = max(0.0, track["out"] - bars * bar)
+    start, frac = bed_window(track, bars)
     out = Path(tmpdir) / f"bed-{tag}.wav"
     run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y",
          "-ss", f"{start:.5f}", "-t", f"{bars * bar:.5f}", "-i", str(stem),
          "-af", "afade=t=in:st=0:d=0.01", "-c:a", "pcm_s16le", str(out)])
     return {"file": out.name, "path": out, "clip": track["clip"],
             "bpm": track["bpm"], "bars": bars, "score": 1.0,
-            "source": track["slug"], "self": True}
+            "source": track["slug"], "self": True, "silence": round(frac, 3)}
 
 
 def ramp_schedule(out_bars, hold_a, ramp_bars, from_bpm, to_bpm):
@@ -493,6 +546,79 @@ def render_ramp(filler, schedule, tmpdir, tag):
     run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-f", "concat",
          "-safe", "0", "-i", str(lst), "-c:a", "pcm_s16le", str(out)])
     return out, duration(out)
+
+
+def spinback_rates(steps, ratio=2.0):
+    """Rates rising 1.0 -> R, where R makes the whole gesture `ratio` times shorter
+    than its source. Solved rather than guessed: playing 2 bars back in 1 bar means
+    the MEAN rate is 2, so the top rate has to be well above it (~3.5 at 12 steps).
+    Picking a round-looking top rate instead leaves the spinback the wrong length and
+    B lands off the bar.
+    """
+    want = steps / ratio                      # sum of 1/r must equal this
+    lo, hi = 1.0, 64.0
+    for _ in range(60):
+        R = (lo + hi) / 2
+        tot = sum(1.0 / (1 + (R - 1) * k / max(1, steps - 1)) for k in range(steps))
+        lo, hi = (R, hi) if tot > want else (lo, R)
+    R = (lo + hi) / 2
+    return [1 + (R - 1) * k / max(1, steps - 1) for k in range(steps)]
+
+
+def spinback_steps(a_bpm, b_bpm, override=None):
+    """Coarser stepping for bigger jumps — the gesture should be as blatant as the
+    problem it is covering. At 4 steps each chunk holds one pitch long enough to hear
+    it as a discrete tone, so a 40% jump reads as a stepped siren rather than glue.
+    """
+    if override:
+        return override
+    jump = abs(a_bpm / b_bpm - 1)
+    return 4 if jump >= 0.25 else 8 if jump >= 0.10 else 12
+
+
+def render_spinback(a, b, plan, tmpdir, idx, steps=None):
+    """A's last two bars pulled backwards off the platter, then a hard cut to B.
+
+    asetrate, not atempo: a record dragged backwards rises in pitch AND speed
+    together, and holding the pitch would make it a time-stretch, which is the one
+    thing this is not. The source is A's own audio, so the gesture starts at exactly
+    the sample A ended on and at exactly A's speed — no seam at the top of it.
+
+    Length is solved to exactly one bar of A so B still cuts in on a downbeat. Chunk
+    edges get the same click guard as any other hard entry; at four steps those edges
+    are 0.6s apart and would otherwise tick.
+    """
+    n = spinback_steps(a["bpm"], b["bpm"], steps)
+    bar = bar_seconds(a["an"])
+    src_len = 2 * bar
+    start = max(0.0, a["out"] - src_len)
+
+    rev = Path(tmpdir) / f"spin-{idx:03d}-rev.wav"
+    run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y",
+         "-ss", f"{start:.5f}", "-t", f"{src_len:.5f}", "-i", str(a["path"]),
+         "-af", "areverse", "-ar", "44100", "-c:a", "pcm_s16le", str(rev)])
+
+    chunk = src_len / n
+    parts = []
+    for k, r in enumerate(spinback_rates(n)):
+        p = Path(tmpdir) / f"spin-{idx:03d}-{k:02d}.wav"
+        held = chunk / r                      # this chunk's length after speeding up
+        edge = min(DROP_IN / 2, held / 4)
+        run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y",
+             "-ss", f"{k * chunk:.5f}", "-t", f"{chunk:.5f}", "-i", str(rev),
+             "-af", f"asetrate=44100*{r:.6f},aresample=44100,"
+                    f"afade=t=in:st=0:d={edge:.4f},"
+                    f"afade=t=out:st={max(0.0, held - edge):.4f}:d={edge:.4f}",
+             "-c:a", "pcm_s16le", str(p)])
+        parts.append(p)
+
+    lst = Path(tmpdir) / f"spin-{idx:03d}.txt"
+    lst.write_text("".join(f"file '{p}'\n" for p in parts))
+    out = Path(tmpdir) / f"trans-{idx:03d}.wav"
+    run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-f", "concat",
+         "-safe", "0", "-i", str(lst), "-af", f"volume={GAIN}",
+         "-c:a", "pcm_s16le", str(out)])
+    return out, duration(out), 0.0, 0.0
 
 
 def run(cmd):
@@ -676,6 +802,18 @@ def plan_joins(order, bank, args):
     drops = [(order[i]["bpm"] / order[i + 1]["bpm"], i) for i in range(len(order) - 1)]
     drag_at = max(drops)[1] if drops and max(drops)[0] > 1.15 else -1
 
+    # Scratch the joins with the largest tempo discontinuity — the ones where no
+    # amount of beatmatching helps, so the honest move is to make the jump audible
+    # on purpose. Never where the drag already is, and never on a grid we cannot
+    # read, since the source is two bars measured off that grid.
+    jumps = sorted(
+        (abs(order[i]["bpm"] / order[i + 1]["bpm"] - 1), i)
+        for i in range(len(order) - 1)
+        if i != drag_at
+        and order[i]["lock"] >= args.lock_floor
+        and order[i + 1]["lock"] >= args.lock_floor)
+    scratch_at = {i for _, i in jumps[-args.scratch:]} if args.scratch else set()
+
     debt = 0.0
     for i in range(len(order) - 1):
         a, b = order[i], order[i + 1]
@@ -687,6 +825,11 @@ def plan_joins(order, bank, args):
         readable = (a["lock"] >= args.lock_floor and b["lock"] >= args.lock_floor)
         if not readable:
             joins.append({"kind": "cut", "a_tail_bars": 1, "b_head_bars": 1})
+            continue
+        if i in scratch_at:
+            # Consumes nothing of either track: A plays out, the spinback runs
+            # between them, B starts from its first sample. Same contract as loopcut.
+            joins.append({"kind": "scratch", "a_tail_bars": 0, "b_head_bars": 0})
             continue
         if i == drag_at and not args.no_drag:
             kind = "drag"
@@ -751,7 +894,7 @@ def render(order, joins, args):
             plan = dict(j)
             plan["a_from"] = a["out"] - j["a_tail_bars"] * bar_seconds(a["an"])
             plan["b_from"] = 0.0
-            if j["kind"] not in ("direct", "cut", "gap"):
+            if j["kind"] not in ("direct", "cut", "gap", "scratch"):
                 if j["kind"] == "drag":
                     # The drag is audibly a device, so a foreign loop is fine there —
                     # it was the one transition reported as excellent.
@@ -796,6 +939,9 @@ def render(order, joins, args):
                      "-i", f"anullsrc=r=44100:cl=stereo", "-t", f"{args.gap:.3f}",
                      "-c:a", "pcm_s16le", str(g)])
                 p_, dur, ta, tb = g, args.gap, 0.0, 0.0
+            elif plan["kind"] == "scratch":
+                p_, dur, ta, tb = render_spinback(a, b, plan, tmpdir, i,
+                                                  args.scratch_steps)
             elif plan["kind"] == "loopcut" and plan.get("ramp"):
                 p_, dur, ta, tb = render_loopcut(a, b, plan, tmpdir, i)
             else:
@@ -899,6 +1045,10 @@ def main():
     ap.add_argument("--rest-debt", type=float, default=0.55,
                     help="debt at which a rest is spent")
     ap.add_argument("--no-drag", action="store_true")
+    ap.add_argument("--scratch", type=int, default=3, metavar="N",
+                    help="spinback the N biggest tempo jumps (0 to disable)")
+    ap.add_argument("--scratch-steps", type=int, metavar="N",
+                    help="force the spinback's step count (default: 4/8/12 by jump)")
     # Every bed variant tried so far has been heard as standing out: a foreign loop,
     # the track's own loop under it, and the track's own loop after it. Blends and the
     # drag are both liked. --no-bed replaces bridges with a bar-aligned cut: A plays
