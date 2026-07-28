@@ -296,7 +296,9 @@ RECENT_KEEP = 6         # how many past fillers stay penalised
 NEAR = 2                # never bed a join on a filler from a track this close by
 DROP_IN = 0.03          # click guard on a hard entry, NOT a musical fade (seconds)
 BED_SILENCE = 0.01      # a loop this silent reads as the mix stopping, not as a bar
-TAIL_FADE = 2.0         # fade every body out: Suno leaves crowd noise on some endings
+TAIL_FADE = 1.0         # fade every body out: Suno leaves crowd noise on some endings.
+                        # 2.0 was audible as a crossover; the cheer it exists to cover
+                        # is only 0.4s of the body, so 1.0 is ample.
 
 # Below this kick phase-lock the grid is not describing the music, so nothing may be
 # beatmatched, looped or stretched against it — such a join falls back to a plain cut.
@@ -311,6 +313,29 @@ LOCK_FLOOR = 0.15
 
 def bar_seconds(a):
     return a["grid"]["period"] * 4
+
+
+def ends_itself(an, floor=-45.0, minlen=1.5):
+    """True if the track keeps sounding after its drums stop — a held chord, a decay,
+    or in back-monday's case a crowd cheering. Such a track has ALREADY ended, so
+    there is no seam at the join for a loop to cover and a bed only delays the next
+    song. Measured on the drums stem against the mix, both to the same floor.
+    """
+    stems = an.get("stems") or {}
+    if "drums" not in stems:
+        return False
+    d = REPO / stems["drums"]
+    if not d.exists():
+        return False
+
+    def last_sound(path):
+        dur = duration(path)
+        for s, e in reversed(silent_spans(path, floor, 0.30)):
+            if e == float("inf") or e >= dur - 0.05:
+                return s
+        return dur
+
+    return (an["duration"] - last_sound(d)) >= minlen
 
 
 def head_energy(track, bars=8):
@@ -902,6 +927,14 @@ def plan_joins(order, bank, args):
         if not readable:
             joins.append({"kind": "cut", "a_tail_bars": 1, "b_head_bars": 1})
             continue
+        if a["ends_itself"]:
+            # A track that ends on something which is not the band has already
+            # finished: 14 of 33 laundry tracks run 2-4s past their last drum, on
+            # crowd noise or a held chord. There is no seam there for a bed to cover,
+            # so cut. The tempo still has to line up — see hardcut in render(), which
+            # trims A so B's groove lands where A's next downbeat would have.
+            joins.append({"kind": "hardcut", "a_tail_bars": 0, "b_head_bars": 0})
+            continue
         if i in scratch_at:
             # Consumes nothing of either track: A plays out, the spinback runs
             # between them, B starts from its first sample. Same contract as loopcut.
@@ -984,7 +1017,7 @@ def render(order, joins, args):
             plan = dict(j)
             plan["a_from"] = a["out"] - j["a_tail_bars"] * bar_seconds(a["an"])
             plan["b_from"] = 0.0
-            if j["kind"] not in ("direct", "cut", "gap", "scratch"):
+            if j["kind"] not in ("direct", "cut", "gap", "scratch", "hardcut"):
                 f = self_bed(a, j["loop"], tmpdir, f"{i:03d}") \
                     or pick_filler(bank, j["loop"], a["bpm"], b["bpm"], recent,
                                    {t["clip"] for t in order[max(0, i - NEAR): i + NEAR + 2]})
@@ -1017,7 +1050,13 @@ def render(order, joins, args):
                     del recent[RECENT_KEEP:]
                 else:
                     plan["kind"] = "direct"
-            if plan["kind"] == "gap":
+            if plan["kind"] == "hardcut":
+                # No insert at all. A is trimmed by however far B's groove sits from
+                # B's start, so B's first drum lands exactly where A's next downbeat
+                # would have — the pulse carries across a join with nothing in it.
+                bar_a = bar_seconds(a["an"])
+                p_, dur, ta, tb = None, 0.0, b["groove"] % bar_a, 0.0
+            elif plan["kind"] == "gap":
                 g = Path(tmpdir) / f"trans-{i:03d}.wav"
                 run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-f", "lavfi",
                      "-i", f"anullsrc=r=44100:cl=stereo", "-t", f"{args.gap:.3f}",
@@ -1052,7 +1091,7 @@ def render(order, joins, args):
             # This is A alone, before its own hard cut, not a crossfade between songs.
             body = Path(tmpdir) / f"body-{i:03d}.wav"
             blen = stop - start
-            fade = min(TAIL_FADE, blen / 4)
+            fade = min(args.tail_fade, blen / 4)
             run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y",
                  "-ss", f"{start:.5f}", "-t", f"{blen:.5f}",
                  "-i", str(t["path"]),
@@ -1065,7 +1104,7 @@ def render(order, joins, args):
             rows.append((clock - (trans[i - 1]["tb"] if i > 0 else 0.0), t, i))
             pieces.append(body)
             clock += duration(body)
-            if i < len(trans):
+            if i < len(trans) and trans[i]["path"] is not None:
                 pieces.append(trans[i]["path"])
                 clock += trans[i]["dur"]
 
@@ -1139,6 +1178,8 @@ def main():
     ap.add_argument("--rest-debt", type=float, default=0.55,
                     help="debt at which a rest is spent")
     ap.add_argument("--no-drag", action="store_true")
+    ap.add_argument("--tail-fade", type=float, default=TAIL_FADE, metavar="SECS",
+                    help="fade at the end of each body (0 to disable)")
     ap.add_argument("--blends", action="store_true",
                     help="restore beatmatched blends where A has an instrumental tail")
     ap.add_argument("--scratch", type=int, default=3, metavar="N",
@@ -1222,6 +1263,7 @@ def main():
             "duration": a["duration"], "contrast": a["grid_contrast"],
             "in": in_p, "out": out_p, "tail_avail": avail, "groove": groove,
             "lock": a.get("grid_lock", 0.0),
+            "ends_itself": (not args.album) and ends_itself(a),
         })
     if not tracks:
         sys.exit("no analysed tracks — run tools/stems.py")
