@@ -682,6 +682,32 @@ gets fixed.
 - Example: laundry/instructions-unclear
 - Logged at catalog size 129.
 
+### "FREE MEANS OURS" — claim-on-abandoned-property chant hook
+- hobo's hook-thesis slot: a two-word legal-sounding claim treating a discarded object's FREE
+  sign as a transfer of title, chanted flat in full harmony with nobody disputing it. Distinct
+  from coase-guard/who-the-fuck-are-you's paper-claim rejection — that one denies an outsider's
+  legitimacy, this one asserts the gang's own, and there is no opponent anywhere in the song.
+- Example: hobo/free-means-ours
+- Logged at catalog size 139.
+
+### "wally wally wonder bin" — nonsense refrain
+- The first filling of hobo's nonsense-refrain slot: real words in a daft order, alliterative,
+  meaningless, sung in full harmony as though it were the title hook of an enormous single, never
+  explained. Arrives intact and leaves *bigger* — deliberately not Laundry's
+  mantra-degraded-to-noise, which erodes into fragments. The slot stays and demands a fresh phrase
+  every song; this filling is spent. Note the band's own constraint on refilling it: real words
+  only, never a coined one, because a coined word reads as a producer tag and gets takes removed.
+- Example: hobo/free-means-ours
+- Logged at catalog size 139.
+
+### "Sixty quid. Eighty. A hundred with the hands on — and the hands are in the freezer, so a hundred." — escalating mis-appraisal
+- hobo's appraisal device: a broken object priced upward in three jumps, the last one justified by
+  a missing part the gang confidently counts as present because they know where it is. The
+  arithmetic is wrong and nobody in the song notices.
+- Example: hobo/free-means-ours
+- Logged at catalog size 139.
+
+
 ## Phrases
 
 ### "I answer to a word I made up"
@@ -1262,6 +1288,73 @@ gets fixed.
   standing in for every interface that takes an instruction and returns a quantity.
 - Example: laundry/instructions-unclear
 - Logged at catalog size 129.
+
+### "good body every night" — scrambled-sign-off mantra
+- The variety-show sign-off "goodnight, everybody" re-ordered into a bedding advertisement, used
+  as the chanted mantra and worn to noise ("good body every / good bo— / (—dy)"). **Deliberate
+  second use of the "good body" anchor**, which `check.sh` correctly flagged as still-cooling
+  (BAN, logged at 123, only 15 songs since) — the user requested this exact rearrangement as the
+  song's premise, so the draft stands and the collision is recorded here rather than hidden. The
+  girlboss entry it collides with ("Good body. / Long finish.", a wine tasting note chanted flat)
+  is untouched and still live; nothing else about the two devices overlaps. Treat a *third* use
+  as a genuine calcification.
+- Example: laundry/good-body-every-night
+- Logged at catalog size 138.
+
+### "cut the wrap, take the trial, sleep the hundred, keep the label on" — mattress-retail consumption-imperative hook opener
+- Laundry's imperative-opener slot filled with bedding-showroom verbs (unwrapping stock, the
+  hundred-night sleep trial) closing on the legally-mandated instruction printed on the tag.
+- Example: laundry/good-body-every-night
+- Logged at catalog size 138.
+
+### "and both kits sag in the middle and never spring back" — mechanical-collapse pre-hook line
+- An eighth distinct phrasing for the pre-hook's textural build, after fold/buckle,
+  stutter-catch-click, second-kit-drops-out, kick-a-half-beat-late, hi-hat-splits-in-two,
+  snare-stuck-on-one-millisecond and toms-roll-under-the-couch. This one *sags* — the kits borrow
+  the song's own worn-foam image and lose their rebound. Invent a fresh one again next time.
+- Example: laundry/good-body-every-night
+- Logged at catalog size 138.
+
+### "does it come in a size that fits the one who left? — it comes in king."
+- The question-with-no-addressee slot filled as a question answered by the sales script instead
+  of by anybody: he asks the room something about a missing person and the retail line closes
+  over it. Distinct from the unfinished-measurement shape (laundry/still-warm) and the trailing
+  passive appeal (laundry/instructions-unclear) — this one completes, and gets the wrong answer.
+- Example: laundry/good-body-every-night
+- Logged at catalog size 138.
+
+### "I take the old ones away. I don't look in the back."
+- The flash-of-legibility line: the removal service stated as a job description, with the one
+  detail that would make it bearable declined in the same breath. Two concrete threads (the
+  impression a body leaves in foam, the van that takes it off) fused into one flat admission.
+- Example: laundry/good-body-every-night
+- Logged at catalog size 138.
+
+### "The mites don't clock off. The mites are on nights."
+- The grotesque non-sequitur as shift-work: the bed's own fauna given a rota, reported with the
+  same flatness as the stock levels.
+- Example: laundry/good-body-every-night
+- Logged at catalog size 138.
+
+### "It doesn't go. It doesn't have to go."
+- The appraisal's waiver of function as irrelevant to value, in two flat clauses — a clock's
+  entire purpose dismissed without argument and without dropping the price.
+- Example: hobo/free-means-ours
+- Logged at catalog size 139.
+
+### "We put a birthday cake in it. There isn't a birthday."
+- hobo's escalation-past-sense for this song: storage performed for an occasion that does not
+  exist, stated in two short sentences with no alarm attached and nobody correcting it.
+- Example: hobo/free-means-ours
+- Logged at catalog size 139.
+
+### "We have not plugged it in. It's cold already."
+- The flat impossible claim, sung sweetly and left standing. Deliberately not the
+  machine-still-running shape of ultracoase/one-wet-spring ("something still runs at midnight") —
+  nothing is running here, and the gang is pleased rather than haunted.
+- Example: hobo/free-means-ours
+- Logged at catalog size 139.
+
 
 ## Imagery / Motifs
 
@@ -1873,3 +1966,44 @@ gets fixed.
   attempt.
 - Example: laundry/instructions-unclear
 - Logged at catalog size 129.
+
+### The mattress showroom as the body's last impression — foam that holds a shape, and a van that takes it away
+- The gravity well (theft/disappearance of a self) carried entirely by bedding retail: the hollow
+  left by the previous sleeper, the tag that may not legally be removed, the bed gaining a pound a
+  year of the sleeper's own body, the collection slot, sixty made beds with nobody in one of them.
+  Nothing is menacing and nobody dies on the page — the horror is stock control, per the band's
+  under-reaction rule. Distinct from laundry/instructions-unclear's abundance-as-burial (there the
+  machine buries him by serving him; here the furniture simply outlives everyone who lies on it).
+- Example: laundry/good-body-every-night
+- Logged at catalog size 138.
+
+### The dissolve as a sign-off scrambled and then accepted — the machine re-orders him and he agrees it scans
+- Laundry's voice-eaten-by-the-machine dissolve where the eaten phrase is the closing courtesy:
+  "goodnight, everybody" is chopped and reassembled in the wrong order, and the narrator's only
+  objection is a metrical one before he concedes the machine's version. Distinct from
+  laundry/still-warm (absorption as the win condition) and laundry/instructions-unclear (the
+  swallowed stop-word) — here the machine edits his manners into a slogan and he ratifies it.
+- Example: laundry/good-body-every-night
+- Logged at catalog size 138.
+
+### A FREE-signed appliance taken off a verge and treated as an inheritance
+- The founding hobo haul: a chest freezer with felt-tip cardboard on it, walked home uphill on a
+  borrowed trolley and immediately treated as an acquisition of standing rather than as rubbish.
+  The junk palette (verge, skip, car boot, gutter) is hobo's, and is fenced off from Laundry's
+  retail/shipping/body-parts palette by design.
+- Example: hobo/free-means-ours
+- Logged at catalog size 139.
+
+### Fittings acquired for a house that doesn't exist — a curtain rail, then a second, with no wall
+- The appetite outrunning the premises: hardware collected for rooms the gang does not have, with
+  the shortfall stated plainly and treated as no obstacle at all. A structural instance of the
+  band's no-comedown rule — the gap is named and then simply not felt.
+- Example: hobo/free-means-ours
+- Logged at catalog size 139.
+
+### Named individuals inside a first-person-plural vocal who never get their own line
+- hobo's workaround for having no lead voice: gang members are named from inside the "we" (Trish
+  has the trolley, Sandra found the rail) so the song gets specificity without ever breaking the
+  all-harmony rule by handing anyone a solo. Trish and Sandra are now spent as names.
+- Example: hobo/free-means-ours
+- Logged at catalog size 139.
