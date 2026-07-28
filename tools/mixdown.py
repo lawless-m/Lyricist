@@ -296,6 +296,7 @@ RECENT_KEEP = 6         # how many past fillers stay penalised
 NEAR = 2                # never bed a join on a filler from a track this close by
 DROP_IN = 0.03          # click guard on a hard entry, NOT a musical fade (seconds)
 BED_SILENCE = 0.01      # a loop this silent reads as the mix stopping, not as a bar
+ENDS_ITSELF = 1.5       # sound after the last drum, past which the track has ended
 TAIL_FADE = 1.0         # fade every body out: Suno leaves crowd noise on some endings.
                         # 2.0 was audible as a crossover; the cheer it exists to cover
                         # is only 0.4s of the body, so 1.0 is ample.
@@ -315,27 +316,22 @@ def bar_seconds(a):
     return a["grid"]["period"] * 4
 
 
-def ends_itself(an, floor=-45.0, minlen=1.5):
-    """True if the track keeps sounding after its drums stop — a held chord, a decay,
-    or in back-monday's case a crowd cheering. Such a track has ALREADY ended, so
-    there is no seam at the join for a loop to cover and a bed only delays the next
-    song. Measured on the drums stem against the mix, both to the same floor.
+def music_end(an, floor=-45.0):
+    """When the band stops, which is not when the file stops. 14 of 33 laundry tracks
+    run 2-4s past their last drum — a held chord, a decay, or in back-monday's case a
+    crowd cheering. Two things need this: such a track has ALREADY ended, so a bed has
+    no seam to cover; and a spinback taken from the file's end would be pulling the
+    crowd backwards off the platter rather than the band.
     """
     stems = an.get("stems") or {}
-    if "drums" not in stems:
-        return False
-    d = REPO / stems["drums"]
+    d = REPO / stems.get("drums", "")
     if not d.exists():
-        return False
-
-    def last_sound(path):
-        dur = duration(path)
-        for s, e in reversed(silent_spans(path, floor, 0.30)):
-            if e == float("inf") or e >= dur - 0.05:
-                return s
-        return dur
-
-    return (an["duration"] - last_sound(d)) >= minlen
+        return an["duration"]
+    dur = duration(d)
+    for s, e in reversed(silent_spans(d, floor, 0.30)):
+        if e == float("inf") or e >= dur - 0.05:
+            return s
+    return dur
 
 
 def head_energy(track, bars=8):
@@ -682,8 +678,9 @@ def render_spinback(a, b, plan, tmpdir, idx, steps=None):
     """
     n = spinback_steps(a["bpm"], b["bpm"], steps)
     bar = bar_seconds(a["an"])
+    end = min(a["out"], a.get("music_end", a["out"]))
     src_len = 2 * bar
-    start = max(0.0, a["out"] - src_len)
+    start = max(0.0, end - src_len)
 
     rev = Path(tmpdir) / f"spin-{idx:03d}-rev.wav"
     run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y",
@@ -898,8 +895,14 @@ def plan_joins(order, bank, args):
     # Decelerating into that was heard as the drag "winding right down" while the next
     # track came in fast and energetic. So score the arrival too, and take the join
     # that both falls and lands quietly.
+    # Only on the descent. Scoring the whole set put the drag on join 1, part-it-out
+    # -> wash, which scores well (19% drop into a soft opening) and is musically
+    # absurd: a long deceleration two minutes in, immediately after the track the
+    # band is named for. The arc peaks at args.peak; a device that winds down belongs
+    # after that, not before the mix has got going.
+    after = int(len(order) * args.peak)
     fits = [(( order[i]["bpm"] / order[i + 1]["bpm"] - 1) * (1 - head_energy(order[i + 1])), i)
-            for i in range(len(order) - 1)
+            for i in range(after, len(order) - 1)
             if order[i]["bpm"] > order[i + 1]["bpm"]]
     drag_at = max(fits)[1] if fits and max(fits)[0] > 0.02 else -1
 
@@ -927,7 +930,18 @@ def plan_joins(order, bank, args):
         if not readable:
             joins.append({"kind": "cut", "a_tail_bars": 1, "b_head_bars": 1})
             continue
-        if a["ends_itself"]:
+        if i in scratch_at:
+            # Ahead of hardcut: a tempo jump is the more urgent problem, and
+            # render_spinback takes its two bars from where the band stops, so a
+            # track ending on crowd noise still spins back on the band.
+            joins.append({"kind": "scratch", "a_tail_bars": 0, "b_head_bars": 0})
+            continue
+        if i == drag_at and not args.no_drag:
+            # Ahead of hardcut too. The drag's bed comes from bed_window, which hunts
+            # for a busy section, not from the ending — so a track that finishes on a
+            # held chord can still carry one.
+            kind = "drag"
+        elif a["duration"] - a["music_end"] >= ENDS_ITSELF:
             # A track that ends on something which is not the band has already
             # finished: 14 of 33 laundry tracks run 2-4s past their last drum, on
             # crowd noise or a held chord. There is no seam there for a bed to cover,
@@ -935,13 +949,6 @@ def plan_joins(order, bank, args):
             # trims A so B's groove lands where A's next downbeat would have.
             joins.append({"kind": "hardcut", "a_tail_bars": 0, "b_head_bars": 0})
             continue
-        if i in scratch_at:
-            # Consumes nothing of either track: A plays out, the spinback runs
-            # between them, B starts from its first sample. Same contract as loopcut.
-            joins.append({"kind": "scratch", "a_tail_bars": 0, "b_head_bars": 0})
-            continue
-        if i == drag_at and not args.no_drag:
-            kind = "drag"
         elif debt >= args.rest_debt:
             # A rest is a longer loopcut, not a blended bed. "Apart from the drag"
             # applies here too: it is still A's own outro looping and then cutting,
@@ -1263,7 +1270,7 @@ def main():
             "duration": a["duration"], "contrast": a["grid_contrast"],
             "in": in_p, "out": out_p, "tail_avail": avail, "groove": groove,
             "lock": a.get("grid_lock", 0.0),
-            "ends_itself": (not args.album) and ends_itself(a),
+            "music_end": a["duration"] if args.album else music_end(a),
         })
     if not tracks:
         sys.exit("no analysed tracks — run tools/stems.py")
@@ -1279,10 +1286,16 @@ def main():
         print(f"{args.band} — {len(order)} tracks, {int(total//60)}:{int(total%60):02d} "
               f"before transitions   (order={args.order}"
               + (f", peak={args.peak}" if args.order == "arc" else "") + ")\n")
+        pj = plan_joins(order, [], args)
         print(f"{'#':>3} {'bpm':>6} {'key':>5} {'vox':>5} {'ctr':>5}  track")
         for i, t in enumerate(order, 1):
+            j = pj[i - 1]["kind"] if i - 1 < len(pj) else ""
             print(f"{i:3} {t['bpm']:6.1f} {t['camelot']:>5} {t['density']*100:4.0f}% "
-                  f"{t['contrast']:5.2f}  {t['slug']}")
+                  f"{t['contrast']:5.2f}  {t['slug']:30} -> {j}")
+        kinds = {}
+        for j in pj:
+            kinds[j["kind"]] = kinds.get(j["kind"], 0) + 1
+        print(f"\njoins: {kinds}")
 
         print()
         for label, o in (("playlist", tracks), (args.order, order)):
