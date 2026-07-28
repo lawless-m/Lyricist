@@ -12,8 +12,9 @@ variants. The head below is pasted **word for word, in this order, at the front 
 ```
 close-harmony female group vocal, three and four part girl-group harmony on every single line,
 all voices singing the same words at the same time, no lead vocal, no solo vocal, no ad-libs,
-sung not rapped, sweet untroubled delivery, fuzz guitar riff backbone, live 90s hip-hop
-breakbeat, big dumb downbeat, 90s alternative hip-hop guitar crossover
+sung not rapped, deadpan delivery, heavy distorted fuzz guitar riff, overdriven guitar, live
+90s hip-hop breakbeat, hard dirty drums, lo-fi 90s alternative hip-hop guitar crossover,
+gritty unpolished production
 ```
 
 Never reordered, reworded, trimmed or swapped — not for emphasis, not for length. These terms
@@ -31,8 +32,8 @@ Append two or three of these per song, after the locked head:
   core by accident (girlboss learned this the hard way with its organ).
 - **The lean** — `riff-forward` for the heavier songs, `sample-forward, looser` for the sparser
   ones.
-- **Key/mood** — `major key hook` by default; a minor-key hook is available when the junk is
-  grimmer, but the delivery stays sweet either way.
+- **Key/mood** — leave key unspecified by default. `major key hook` is available but **handle it
+  carefully**: see the Hanson note below.
 - **The ending** — `hard stop ending`. hobo lands; it does not fade, and it does not loop out.
 
 ## Suno notes
@@ -43,6 +44,16 @@ Append two or three of these per song, after the locked head:
   every time. If a take still comes back with a frontwoman and backing singers, push harder on
   descriptive language (`no lead vocal`, `no solo vocal`, `all voices together`, `unison`) rather
   than reaching for a shortcut.
+- **The grit terms go directly behind the harmony block — never in the tail.** Learned the
+  expensive way on the first generation: the harmony came back perfect and the track came back
+  sounding like bright late-90s family pop. Group harmony plus `sweet untroubled delivery` plus
+  `major key hook` is a straight road to clean, jangly, radio-bright production, and the fuzz and
+  breakbeat terms were sitting at the end of the prompt where Suno drops them. The vocal
+  architecture still leads, but `heavy distorted fuzz guitar riff` now follows it immediately,
+  and the sweetness words are gone from the head.
+- **Sweet is a *delivery* instruction, not a production one.** The unhinged rule needs untroubled
+  voices over deranged content — but say that with `deadpan` and let the band underneath stay
+  dirty. Asking Suno for "sweet" gets you a sweet *record*, which is the wrong half.
 - **Naming real artists is off-limits**, in the prompt and in the lyric. The group-harmony
   reference points that inspired this band cannot be named — the sound has to be carried entirely
   by description.
