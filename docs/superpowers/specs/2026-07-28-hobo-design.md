@@ -167,9 +167,30 @@ girl-group thirds, no solo vocal, no ad-libs — and per the workflow's position
 the harmony terms belong at the **front** of the prompt, not the tail, because they are the
 thing most likely to be dropped.
 
-Following the existing convention, the file offers a small number of named variants rather than
-one fixed prompt — e.g. a riff-forward/heavier variant and a sample-forward/looser variant —
-with rotation guidance.
+**The locked core — this band's rotation guidance is the strictest in the catalog.** hobo has to
+sound like one group across its whole catalogue, not a different band per track, so `styles.md`
+is built as a **fixed head plus a short rotating tail** rather than a set of freely-adapted
+variants:
+
+- **Locked, word-for-word identical in every song's `.style.txt`, always at the front:** the
+  vocal architecture (stacked female harmony, girl-group thirds, no lead vocal, no ad-libs), the
+  fuzz guitar riff, and the live 90s breakbeat. These terms are never reordered, reworded,
+  swapped out or trimmed — not for emphasis, not for length. They *are* the group.
+- **Rotating, and only here:** one cheap sample texture per song (vinyl crackle, horn stab,
+  wrong-speed sample, tambourine, cheap organ) and the tempo/heaviness lean. This is the same
+  discipline `girlboss/styles.md` already uses for its stab texture, including the corollary —
+  don't let any one rotating texture recur often enough to become part of the core by accident.
+
+This deliberately narrows `write-song` step 6 for this band: the graduated
+reorder → swap → rewrite ladder applies **only to the rotating tail**. A hobo song whose style
+prompt reorders or drops a locked term is wrong even if it sounds good on its own, because the
+cost lands on the next song, not that one.
+
+Consistency of the *voice itself* across generations is the part the prompt can only partly
+control. Identical wording every time is the baseline lever; if the Suno tooling in this repo
+supports carrying a persona forward from a generation that landed, that is the stronger lever and
+should be used — to be confirmed against the automation skill at build time rather than assumed
+here.
 
 ### `write-song` integration
 
