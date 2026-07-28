@@ -312,6 +312,19 @@ def bar_seconds(a):
     return a["grid"]["period"] * 4
 
 
+def head_energy(track, bars=8):
+    """How loudly a track opens, as a share of its own typical bar. Below ~0.4 it
+    creeps in; near 1.0 it starts at full power. Read off the cached bar_energy, so
+    it costs nothing — it agrees with a measured RMS ratio to within about 0.09.
+    """
+    import statistics
+    be = track["an"].get("bar_energy") or []
+    if len(be) < bars + 4:
+        return 1.0
+    med = statistics.median([b for b in be if b > 0] or [1]) or 1
+    return statistics.mean(be[:bars]) / med
+
+
 def mix_points(a, tail_bars, head_bars):
     """Where this track enters and leaves the mix, both on downbeats.
 
@@ -445,31 +458,78 @@ def bed_window(track, bars, back=32):
     rhythmic hole, which is exactly the dead air heard at ten of twenty joins —
     the silence arrives once per loop, on the bar, so it reads as the mix stopping.
 
-    So walk backwards a bar at a time and take the first window that is essentially
-    continuous, preferring later windows so the loop still continues the ending
-    rather than quoting an earlier section back at the listener. If the track has no
-    clean window anywhere, take the least bad one.
+    Silence is the constraint; DENSITY is the choice. Taking the first quiet-enough
+    window was still wrong: keep-it-warm's first one sits one bar back and is 34%
+    gaps, half the kick density of the track body, and looping that under a
+    deceleration read as dropping to about 40bpm — half-time, not 17% slower. Eleven
+    bars back the same track has a window with 2% gaps. So gather every window that
+    is continuous enough and take the BUSIEST, breaking ties toward later ones.
+
+    Gaps are measured at -30dB where hard silence is measured at -45dB: a sparse loop
+    is not silent, it just has holes where hits should be, and the -45dB pass cannot
+    see them. This is the `busy` term from fillers.py, which was the only one of its
+    three scores that ever discriminated, and which this function dropped.
     """
     an = track["an"]
     stem = REPO / an["stems"]["drums"]
     bar = bar_seconds(an)
-    spans = silent_spans(stem)
+    hard = silent_spans(stem, -45.0, 0.15)
+    gaps = silent_spans(stem, -30.0, 0.05)
     width = bars * bar
-    best = None
+    ok, fallback = [], None
     for k in range(back + 1):
         start = track["out"] - width - k * bar
         if start < an["first_downbeat"]:
             break
-        frac = silent_in(spans, start, start + width) / width
-        if frac <= BED_SILENCE:
-            return start, frac
-        if best is None or frac < best[1]:
-            best = (start, frac)
-    return best if best else (max(0.0, track["out"] - width), 1.0)
+        h = silent_in(hard, start, start + width) / width
+        g = silent_in(gaps, start, start + width) / width
+        if h <= BED_SILENCE:
+            ok.append((g, k, start, h))
+        if fallback is None or (h, g) < fallback[:2]:
+            fallback = (h, g, start)
+    if ok:
+        g, k, start, h = min(ok)
+        return start, h
+    if fallback:
+        return fallback[2], fallback[0]
+    return max(0.0, track["out"] - width), 1.0
+
+
+_INSTRUMENTAL = {}
+
+
+def instrumental(track, tmpdir):
+    """The track minus its vocal — which is drums AND BASS, and that is the point.
+
+    The bed used the drums stem alone, because tools/stems.py throws the bass away
+    (WANT = drums, vocals, other) on the reasoning that a bed only needs drums. It
+    does not. Stripped of bass, the strongest periodicity in these tracks is the BAR,
+    not the beat: read-the-card measures 1.190s (50bpm) on drums alone against 0.592s
+    (101bpm) in full. So every bed built so far has been playing at a quarter of the
+    apparent tempo, which is what "it goes down to about 40bpm" was hearing.
+
+    Subtracting the vocal recovers the bass without re-separating anything: the saved
+    stems sum to only 53% of the mix and the missing 47% is mostly low end, but the
+    full mix still has it. full - vocals restores the beat exactly.
+    """
+    cid = track["clip"]
+    if cid in _INSTRUMENTAL:
+        return _INSTRUMENTAL[cid]
+    voc = REPO / track["an"]["stems"].get("vocals", "")
+    if not voc.exists():
+        return track["path"]
+    out = Path(tmpdir) / f"instr-{cid}.wav"
+    run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y",
+         "-i", str(track["path"]), "-i", str(voc),
+         "-filter_complex",
+         "[1:a]volume=-1[v];[0:a][v]amix=inputs=2:normalize=0[o]",
+         "-map", "[o]", "-c:a", "pcm_s16le", str(out)])
+    _INSTRUMENTAL[cid] = out
+    return out
 
 
 def self_bed(track, bars, tmpdir, tag):
-    """Loop a track's OWN drum bars into the outro Suno didn't render.
+    """Loop a track's OWN final bars into the outro Suno didn't render.
 
     Bedding a join on another song's loop does not work — it stands out, however
     well aligned, because it is a different kit in a different room arriving for
@@ -485,6 +545,11 @@ def self_bed(track, bars, tmpdir, tag):
     Taken from the latest CLEAN bars before the mix-out point — see bed_window, and
     do not "simplify" this back to the final bars, which is where the dead air came
     from.
+
+    The window is CHOSEN on the drums stem, because rhythmic density is what makes a
+    loop worth looping, but the audio is CUT from the instrumental, because a bed
+    without bass has no beat. Every join is a hard cut, so the melodic content the
+    instrumental carries never overlaps B and cannot clash with it.
     """
     stem = REPO / track["an"]["stems"]["drums"]
     if not stem.exists():
@@ -493,7 +558,8 @@ def self_bed(track, bars, tmpdir, tag):
     start, frac = bed_window(track, bars)
     out = Path(tmpdir) / f"bed-{tag}.wav"
     run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y",
-         "-ss", f"{start:.5f}", "-t", f"{bars * bar:.5f}", "-i", str(stem),
+         "-ss", f"{start:.5f}", "-t", f"{bars * bar:.5f}",
+         "-i", str(instrumental(track, tmpdir)),
          "-af", "afade=t=in:st=0:d=0.01", "-c:a", "pcm_s16le", str(out)])
     return {"file": out.name, "path": out, "clip": track["clip"],
             "bpm": track["bpm"], "bars": bars, "score": 1.0,
@@ -799,8 +865,17 @@ def render_transition(a, b, plan, tmpdir, idx):
 def plan_joins(order, bank, args):
     """Decide each join's shape. Fillers only where they earn their place."""
     joins = []
-    drops = [(order[i]["bpm"] / order[i + 1]["bpm"], i) for i in range(len(order) - 1)]
-    drag_at = max(drops)[1] if drops and max(drops)[0] > 1.15 else -1
+    # A drag needs somewhere worth winding down TO, which tempo alone cannot tell it.
+    # Picking the largest tempo drop put it on keep-it-warm -> read-the-card: the
+    # biggest drop in the mix at 21%, and the worst possible landing, because
+    # read-the-card opens at 0.95 of its own body energy — it starts at full power.
+    # Decelerating into that was heard as the drag "winding right down" while the next
+    # track came in fast and energetic. So score the arrival too, and take the join
+    # that both falls and lands quietly.
+    fits = [(( order[i]["bpm"] / order[i + 1]["bpm"] - 1) * (1 - head_energy(order[i + 1])), i)
+            for i in range(len(order) - 1)
+            if order[i]["bpm"] > order[i + 1]["bpm"]]
+    drag_at = max(fits)[1] if fits and max(fits)[0] > 0.02 else -1
 
     # Scratch the joins with the largest tempo discontinuity — the ones where no
     # amount of beatmatching helps, so the honest move is to make the jump audible
