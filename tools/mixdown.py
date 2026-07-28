@@ -296,6 +296,7 @@ RECENT_KEEP = 6         # how many past fillers stay penalised
 NEAR = 2                # never bed a join on a filler from a track this close by
 DROP_IN = 0.03          # click guard on a hard entry, NOT a musical fade (seconds)
 BED_SILENCE = 0.01      # a loop this silent reads as the mix stopping, not as a bar
+TAIL_FADE = 2.0         # fade every body out: Suno leaves crowd noise on some endings
 
 # Below this kick phase-lock the grid is not describing the music, so nothing may be
 # beatmatched, looped or stretched against it — such a join falls back to a plain cut.
@@ -1043,10 +1044,20 @@ def render(order, joins, args):
             stop = t["out"] - tail
             if stop <= start:
                 stop = start + bar_seconds(t["an"])
+            # Fade the last couple of seconds of every body. Suno tacks things onto
+            # the ends of these tracks that are not the song — back-monday ends with
+            # a crowd cheering, which starts at 168.0s against a mix-out at 168.4s,
+            # so the mix played four tenths of a cheer and then hard-cut. A fade
+            # covers that whole class of artefact without having to detect any of it.
+            # This is A alone, before its own hard cut, not a crossfade between songs.
             body = Path(tmpdir) / f"body-{i:03d}.wav"
+            blen = stop - start
+            fade = min(TAIL_FADE, blen / 4)
             run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y",
-                 "-ss", f"{start:.5f}", "-t", f"{stop - start:.5f}",
-                 "-i", str(t["path"]), "-c:a", "pcm_s16le", str(body)])
+                 "-ss", f"{start:.5f}", "-t", f"{blen:.5f}",
+                 "-i", str(t["path"]),
+                 "-af", f"afade=t=out:st={max(0.0, blen - fade):.4f}:d={fade:.4f}",
+                 "-c:a", "pcm_s16le", str(body)])
 
             # The listener hears the track from where its body starts, but the
             # transition before it already brought the vocal in, so the chapter
