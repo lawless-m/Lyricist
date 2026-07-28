@@ -970,7 +970,18 @@ def plan_joins(order, bank, args):
         blend = max(args.join_bars, min(args.max_blend, a["tail_avail"]))
         if kind in ("bridge", "rest"):
             long_rest = kind == "rest"
-            kind = "cut" if args.no_bed else "loopcut"
+            # Hardcut by default. The bed was the premise of this tool — self_bed,
+            # bed_window and the filler bank all exist to serve it — and it turned out
+            # not to be wanted anywhere in this material. Every version was rejected:
+            # foreign loop, own loop under A, own loop after A, and finally the
+            # loopcut at 4 bars and at 2. These tracks have no instrumental space
+            # (median 1.1-bar outro, 84% vocal density), so a bed has nothing to grow
+            # out of and always sounds like an insert, because it is one.
+            # Kept behind --bed for the electronic bands, which may differ.
+            kind = "loopcut" if args.bed else "hardcut"
+        if kind == "hardcut":
+            joins.append({"kind": "hardcut", "a_tail_bars": 0, "b_head_bars": 0})
+            continue
         p = {"kind": kind, "a_tail_bars": blend if kind == "direct" else args.join_bars,
              "b_head_bars": blend if kind == "direct" else args.join_bars}
         if kind == "cut":
@@ -1197,8 +1208,8 @@ def main():
     # the track's own loop under it, and the track's own loop after it. Blends and the
     # drag are both liked. --no-bed replaces bridges with a bar-aligned cut: A plays
     # out, B drops in on the next downbeat, nothing between them.
-    ap.add_argument("--no-bed", action="store_true",
-                    help="bar-aligned cut with no loop at all")
+    ap.add_argument("--bed", action="store_true",
+                    help="put A's own looped outro between tracks (rejected on laundry)")
     ap.add_argument("--lock-floor", type=float, default=LOCK_FLOOR,
                     help="minimum kick phase-lock before a join may be beatmatched")
     # Album style: whole tracks, a breath between them, nothing beatmatched. For
