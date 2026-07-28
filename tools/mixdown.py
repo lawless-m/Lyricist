@@ -678,7 +678,13 @@ def render_spinback(a, b, plan, tmpdir, idx, steps=None):
     """
     n = spinback_steps(a["bpm"], b["bpm"], steps)
     bar = bar_seconds(a["an"])
+    # Stop A where the BAND stops, on a bar line, and spin back from there. Playing
+    # to the mix-out point first meant turn-it-down's 3.5s of dead tail decayed to
+    # silence and only then did the spinback fire — a gap, then a reversed burst at
+    # full level. Ending here means the gesture rewinds the bars that just played.
+    first = a["an"]["first_downbeat"]
     end = min(a["out"], a.get("music_end", a["out"]))
+    end = max(first + bar, first + math.floor((end - first) / bar) * bar)
     src_len = 2 * bar
     start = max(0.0, end - src_len)
 
@@ -707,7 +713,7 @@ def render_spinback(a, b, plan, tmpdir, idx, steps=None):
     run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-f", "concat",
          "-safe", "0", "-i", str(lst), "-af", f"volume={GAIN}",
          "-c:a", "pcm_s16le", str(out)])
-    return out, duration(out), 0.0, 0.0
+    return out, duration(out), max(0.0, a["out"] - end), 0.0
 
 
 def run(cmd):
@@ -1107,13 +1113,20 @@ def render(order, joins, args):
             # so the mix played four tenths of a cheer and then hard-cut. A fade
             # covers that whole class of artefact without having to detect any of it.
             # This is A alone, before its own hard cut, not a crossfade between songs.
+            # ...but only where nothing carries on from A. A spinback is made of A's
+            # own last two bars and follows immediately, so fading first drops the
+            # mix to silence and then fires a reversed burst at full level — measured
+            # as 1.2s of dead air before the scratch into queue-ahead. Same for the
+            # drag, whose bed also enters at full level.
             body = Path(tmpdir) / f"body-{i:03d}.wav"
             blen = stop - start
-            fade = min(args.tail_fade, blen / 4)
+            nxt = trans[i]["kind"] if i < len(trans) else "hardcut"
+            fade = min(args.tail_fade, blen / 4) if nxt in ("hardcut", "cut", "gap") else 0.0
             run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y",
                  "-ss", f"{start:.5f}", "-t", f"{blen:.5f}",
                  "-i", str(t["path"]),
-                 "-af", f"afade=t=out:st={max(0.0, blen - fade):.4f}:d={fade:.4f}",
+                 *(["-af", f"afade=t=out:st={max(0.0, blen - fade):.4f}:d={fade:.4f}"]
+                   if fade > 0 else []),
                  "-c:a", "pcm_s16le", str(body)])
 
             # The listener hears the track from where its body starts, but the
