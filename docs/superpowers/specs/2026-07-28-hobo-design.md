@@ -24,7 +24,7 @@ Laundry's.
 
 ## Non-goals
 
-- Not drum'n'bass, and not the dry no-guitar indie hip-hop of `girlboss/style.md`.
+- Not drum'n'bass, and not the dry no-guitar indie hip-hop of `girlboss/styles.md`.
 - Not a thesis band. The engine is an appetite, not an argument; nothing here is *about* poverty,
   homelessness or the economy, and no song should read as commentary on any of them.
 - Not restructuring `laundry`, `girlboss`, or the trope library.

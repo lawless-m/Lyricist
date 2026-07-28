@@ -1,11 +1,11 @@
 ---
 name: write-song
-description: Use when writing a new song lyric for any of the seven bands (Guessed, Laundry, Lucy Might, Purple Dog, The Bell Knows My Name, Coase Guard, Ultracoase). Triggered by requests like "song for Guessed", "another laundry track", "make new song for purple-dog", "another gypsy-emo song", "write me a lucy-might song", "a Coase Guard track", "an Ultracoase song", or a bare theme with no style named (in which case ask which band). This is the only entry point for song requests — the seven style specs are reference files it reads, not separate skills.
+description: Use when writing a new song lyric for any of the eight bands (Guessed, Laundry, Lucy Might, Purple Dog, The Bell Knows My Name, Coase Guard, Ultracoase, girlboss). Triggered by requests like "song for Guessed", "another laundry track", "make new song for purple-dog", "another gypsy-emo song", "write me a lucy-might song", "a Coase Guard track", "an Ultracoase song", "a girlboss song", "another references-available track", or a bare theme with no style named (in which case ask which band). This is the only entry point for song requests — the eight style specs are reference files it reads, not separate skills.
 ---
 
 # write-song
 
-Writes a new song for one of the seven bands, checks it against the shared trope library so
+Writes a new song for one of the eight bands, checks it against the shared trope library so
 nothing gets reused across the catalog, and saves it using the existing file convention.
 
 ## Band lookup
@@ -22,6 +22,7 @@ aliases — users may say either):
 | `the-bell-knows-my-name`   | The Bell Knows My Name, gypsy-emo, gypsy emo                 |
 | `coase-guard`               | Coase Guard, industrial hip-hop, the Foreman, the Quartermaster |
 | `ultracoase`                | Ultracoase, synth new wave, Ultravox-adjacent                |
+| `girlboss`                  | girlboss, references-available, references, refs, available   |
 
 If the request names a theme but no band and it isn't clear from context, ask which band before
 doing anything else.
@@ -74,7 +75,7 @@ doing anything else.
 7. Log the new song's notable devices into `.claude/tropes/library.md`: add each one under the
    right category (Constructions / Phrases / Imagery / Motifs) with a one-line description, one
    example, the source song, and a **"Logged at catalog size N."** line (N = current lyric-file
-   count across all seven band folders — `check.sh` prints it on every run) — following the
+   count across all band folders — `check.sh` prints it on every run) — following the
    exact entry format already in the file. **Then mirror every entry that has a greppable
    anchor into `.claude/tropes/banned-patterns.tsv`** (severity `BAN` with LOGGED_AT = N, or
    `WATCH` only for stock-word-style flags; `PERM` is reserved for devices that calcify across
