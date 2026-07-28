@@ -818,7 +818,7 @@ def plan_joins(order, bank, args):
     for i in range(len(order) - 1):
         a, b = order[i], order[i + 1]
         debt += max(0.0, a["density"] - args.rest_baseline)
-        kind, long_rest = "direct", False
+        kind, long_rest = "bridge", False
         if args.album:
             joins.append({"kind": "gap", "a_tail_bars": 0, "b_head_bars": 0})
             continue
@@ -838,7 +838,14 @@ def plan_joins(order, bank, args):
             # applies here too: it is still A's own outro looping and then cutting,
             # just with more room before the cut.
             kind, debt = "rest", 0.0
-        elif a["tail_avail"] < args.join_bars:
+        elif args.blends and a["tail_avail"] >= args.join_bars:
+            kind = "direct"
+        else:
+            # Default. A beatmatched blend was the original shape and it lost: six of
+            # its thirteen joins were heard as clashing or crunchy, against a loopcut
+            # failure rate of four in twenty that turned out to be one bug in the bed
+            # window. It also needs an instrumental tail that only 15 of 37 tracks
+            # have. --blends restores it for material that can carry one.
             kind = "bridge"
 
         # Blend for as long as A's own outro allows, between join_bars and max_blend.
@@ -858,7 +865,14 @@ def plan_joins(order, bank, args):
             n = args.rest_loop_bars if long_rest else args.loop_bars
             p.update(a_tail_bars=0, b_head_bars=0, loop=4, out_bars=n, solo_bars=n)
         if kind == "drag":
-            p.update(loop=8, out_bars=16, solo_bars=args.drag_solo)
+            # Also a loopcut now, just with a much longer ramp. It used a foreign loop
+            # under an exemption granted while it was the one transition that worked;
+            # once the intro-trim bug was fixed that verdict no longer held, and it
+            # was heard as too long and dropping in level — the level being B's own
+            # quiet intro, which the trim had been hiding. Same kit, hard cut, and
+            # short enough to read as a device rather than an interlude.
+            p.update(a_tail_bars=0, b_head_bars=0, loop=8,
+                     out_bars=args.drag_solo, solo_bars=args.drag_solo)
         elif kind == "rest":
             p.update(loop=8, out_bars=8, solo_bars=args.rest_solo)
         elif kind == "bridge":
@@ -895,15 +909,9 @@ def render(order, joins, args):
             plan["a_from"] = a["out"] - j["a_tail_bars"] * bar_seconds(a["an"])
             plan["b_from"] = 0.0
             if j["kind"] not in ("direct", "cut", "gap", "scratch"):
-                if j["kind"] == "drag":
-                    # The drag is audibly a device, so a foreign loop is fine there —
-                    # it was the one transition reported as excellent.
-                    near = {t["clip"] for t in order[max(0, i - NEAR): i + NEAR + 2]}
-                    f = pick_filler(bank, j["loop"], a["bpm"], b["bpm"], recent, near)
-                else:
-                    f = self_bed(a, j["loop"], tmpdir, f"{i:03d}") \
-                        or pick_filler(bank, j["loop"], a["bpm"], b["bpm"], recent,
-                                       {t["clip"] for t in order[max(0, i - NEAR): i + NEAR + 2]})
+                f = self_bed(a, j["loop"], tmpdir, f"{i:03d}") \
+                    or pick_filler(bank, j["loop"], a["bpm"], b["bpm"], recent,
+                                   {t["clip"] for t in order[max(0, i - NEAR): i + NEAR + 2]})
                 if f:
                     ta = j["a_tail_bars"] * bar_seconds(a["an"])
                     tb = j["b_head_bars"] * bar_seconds(b["an"])
@@ -942,7 +950,7 @@ def render(order, joins, args):
             elif plan["kind"] == "scratch":
                 p_, dur, ta, tb = render_spinback(a, b, plan, tmpdir, i,
                                                   args.scratch_steps)
-            elif plan["kind"] == "loopcut" and plan.get("ramp"):
+            elif plan["kind"] in ("loopcut", "drag") and plan.get("ramp"):
                 p_, dur, ta, tb = render_loopcut(a, b, plan, tmpdir, i)
             else:
                 p_, dur, ta, tb = render_transition(a, b, plan, tmpdir, i)
@@ -1045,6 +1053,8 @@ def main():
     ap.add_argument("--rest-debt", type=float, default=0.55,
                     help="debt at which a rest is spent")
     ap.add_argument("--no-drag", action="store_true")
+    ap.add_argument("--blends", action="store_true",
+                    help="restore beatmatched blends where A has an instrumental tail")
     ap.add_argument("--scratch", type=int, default=3, metavar="N",
                     help="spinback the N biggest tempo jumps (0 to disable)")
     ap.add_argument("--scratch-steps", type=int, metavar="N",
@@ -1077,7 +1087,8 @@ def main():
                     help="longest direct blend when a track's outro allows it")
     ap.add_argument("--bridge-solo", type=int, default=2)
     ap.add_argument("--rest-solo", type=int, default=6)
-    ap.add_argument("--drag-solo", type=int, default=10)
+    ap.add_argument("--drag-solo", type=int, default=6,
+                    help="bars of deceleration in the drag (was 10; heard as too long)")
     ap.add_argument("--pin", action="append", metavar="SLUG:POS",
                     help="fix a track to a position: --pin part-it-out:first, "
                          "--pin oats:last, --pin breeder:12 (repeatable)")
