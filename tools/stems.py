@@ -45,7 +45,13 @@ START_HINT = ("Demucks is not answering on 127.0.0.1:8766. Start it with:\n"
               "  cd /home/matt/Git/Demucks && .venv/bin/python run_server.py")
 
 HOP = 512
-WANT = ("drums", "vocals", "other")   # bass is unused; see the design doc
+# Bass is NOT unused, whatever this comment said before. mixdown.py beds joins on
+# the instrumental, and a bed without bass has no beat: stripped of it, the strongest
+# pulse in this material is the bar, not the beat (read-the-card measures 50bpm on
+# drums alone against 101 in full). mixdown.py recovers the bass as full-mix-minus-
+# vocals rather than re-separating everything, so keeping it here is not urgent —
+# but it is the honest stem list, and nothing here should claim bass is unwanted.
+WANT = ("drums", "vocals", "other")
 MODEL = "htdemucs_ft"                 # slower than htdemucs, cleaner stems, one-off cost
 
 # Tempo. Three sources disagreed and none could be trusted alone: librosa read
