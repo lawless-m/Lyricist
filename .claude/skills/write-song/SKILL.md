@@ -1,11 +1,11 @@
 ---
 name: write-song
-description: Use when writing a new song lyric for any of the nine bands (Guessed, Laundry, Lucy Might, Purple Dog, The Bell Knows My Name, Coase Guard, Ultracoase, girlboss, hobo). Triggered by requests like "song for Guessed", "another laundry track", "make new song for purple-dog", "another gypsy-emo song", "write me a lucy-might song", "a Coase Guard track", "an Ultracoase song", "a girlboss song", "another references-available track", "a hobo song", or a bare theme with no style named (in which case ask which band). This is the only entry point for song requests — the nine style specs are reference files it reads, not separate skills.
+description: Use when writing a new song lyric for any of the bands in the roster (Guessed, Laundry, Lucy Might, Purple Dog, The Bell Knows My Name, Coase Guard, Ultracoase, girlboss, hobo, Penny Rich). Triggered by requests like "song for Guessed", "another laundry track", "make new song for purple-dog", "another gypsy-emo song", "write me a lucy-might song", "a Coase Guard track", "an Ultracoase song", "a girlboss song", "another references-available track", "a hobo song", "song for Penny", "a bargain bluegrass track", or a bare theme with no style named (in which case ask which band). This is the only entry point for song requests — the style specs are reference files it reads, not separate skills.
 ---
 
 # write-song
 
-Writes a new song for one of the nine bands, checks it against the shared trope library so
+Writes a new song for one of the bands in the roster, checks it against the shared trope library so
 nothing gets reused across the catalog, and saves it using the existing file convention.
 
 ## Band lookup
@@ -24,6 +24,7 @@ aliases — users may say either):
 | `ultracoase`                | Ultracoase, synth new wave, Ultravox-adjacent                |
 | `girlboss`                  | girlboss, references-available, references, refs, available   |
 | `hobo`                      | hobo, junk swagger, the scavengers, 90s hip-hop guitar crossover |
+| `penny-rich`                | Penny Rich, Penny, bargain bluegrass, banjo vaudeville        |
 
 If the request names a theme but no band and it isn't clear from context, ask which band before
 doing anything else.
