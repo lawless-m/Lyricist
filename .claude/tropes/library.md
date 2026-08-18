@@ -743,6 +743,40 @@ gets fixed.
   through" — that is a circular definition the narrator authored, not a demand aimed at someone else.
 - Logged at catalog size 141.
 
+### "scroll the small print, tick the box, wet the thumb, keep using it" — consent-agreement consumption-imperative hook opener
+- Laundry's imperative-opener slot filled with the physical actions of agreeing to terms (scrolling
+  past the clause body, ticking, wetting a thumb for the print pad) closing on the instruction that
+  is itself the consent mechanism — continued use. Deliberately not the retired doubled
+  "verb it, verb it" shape.
+- Example: laundry/by-continuing
+- Logged at catalog size 142.
+
+### "by continuing" — legal-boilerplate-degraded-to-mantra
+- The two words that do the actual work in every terms-of-service acceptance clause, chanted as the
+  mantra and worn to noise ("by continuing / by contin— / (—uing)"). Distinct from the band's other
+  degraded phrases (a UI command, a standup idiom, a permission phrase, a sign-off) in that this one
+  is not something anybody says out loud — it is the sentence that consents on your behalf while you
+  do nothing.
+- Example: laundry/by-continuing
+- Logged at catalog size 142.
+
+### "and both kits accept the update mid-bar, and the tempo belongs to them now" — mechanical-collapse pre-hook line
+- A ninth distinct phrasing for the pre-hook's textural build, after fold/buckle,
+  stutter-catch-click, second-kit-drops-out, kick-a-half-beat-late, hi-hat-splits-in-two,
+  snare-stuck-on-one-millisecond, toms-roll-under-the-couch and both-kits-sag. This one is a forced
+  version change rather than a drift, stall, split, sag or scatter — the drums are patched without
+  being asked and the song's tempo stops being the band's. Invent a fresh one again next time.
+- Example: laundry/by-continuing
+- Logged at catalog size 142.
+
+### "and who ticked it for me the year I was born?" — question-with-no-addressee, completed-and-unanswered
+- The slot filled with a question that finishes cleanly and simply never gets answered — a fourth
+  shape after the unfinished measurement (laundry/still-warm), the trailing passive appeal
+  (laundry/instructions-unclear) and the question answered by the sales script
+  (laundry/good-body-every-night). Aimed at whoever consented on his behalf before he could read.
+- Example: laundry/by-continuing
+- Logged at catalog size 142.
+
 
 ## Phrases
 
@@ -1429,6 +1463,19 @@ gets fixed.
 - Example: "I was stood in the corridor by the cloakroom with somebody's mess jacket over my arm
   for all of that, and I never put it down." — girlboss/decorations-will-be-worn
 - Logged at catalog size 141.
+
+### "The licence survives termination — seventy years past me, and I'm the temporary part."
+- The flash-of-legibility line: a real copyright-term fact stated far too calmly, in which the
+  narrator ranks himself as the perishable component of his own agreement. No complaint attached.
+- Example: laundry/by-continuing
+- Logged at catalog size 142.
+
+### "I never said yes to any of it and I have never stopped agreeing."
+- The final-hook button: consent framed as something that was never given and has never once
+  lapsed, in one flat self-cancelling sentence. Distinct from the reference example's complicit
+  admissions — nothing is being permitted here, it is simply ongoing.
+- Example: laundry/by-continuing
+- Logged at catalog size 142.
 
 
 ## Imagery / Motifs
@@ -2118,3 +2165,23 @@ gets fixed.
   scheduling document, which the shift rota already spent.
 - Example: girlboss/decorations-will-be-worn
 - Logged at catalog size 141.
+
+### The dissolve as reformatting into clause text — the human filed as a subsection with no name field
+- Laundry's voice-eaten-by-the-machine dissolve where the narrator reads his own terms aloud, the
+  sampler reads them with him half a word ahead, and his sentences acquire clause numbering until he
+  is 7.3(a) and observes there is no name field in it. Distinct from laundry/still-warm (absorption
+  as the win condition), laundry/instructions-unclear (the swallowed stop-word) and
+  laundry/good-body-every-night (the scrambled sign-off he ratifies): here nothing of his is
+  looped or re-ordered — he is simply filed, and the machine does not struggle with him at all.
+- Example: laundry/by-continuing
+- Logged at catalog size 142.
+
+### Life lived in breach of terms nobody read, with consent supplied by continued existence
+- The gravity well carried entirely by agreement paperwork and its physical residue: a hair on the
+  scanner glass logged as his, a clause about the thumbs, cold storage holding the version of him
+  that still had hair, a tick in a box in a country he can't point at, strikes issued for breathing
+  and for smell, a dog admitted as a data subject. Nothing threatens him and no institution is
+  villainised — he is eligible for review throughout. Fenced off from the band's identity-theft well
+  (laundry reference example): nothing of his is stolen, it was granted, and the grant outlives him.
+- Example: laundry/by-continuing
+- Logged at catalog size 142.
