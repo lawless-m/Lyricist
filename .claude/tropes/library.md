@@ -778,6 +778,47 @@ gets fixed.
 - Example: laundry/by-continuing
 - Logged at catalog size 142.
 
+### "Place your bets. / ...No more bets." — betting-window chant hook, the close doubling as the cutaway
+- Girlboss's hook slot filled with the two procedural calls a croupier makes to open and shut a
+  betting window, chanted flat. The second call does structural work no previous girlboss hook has
+  done: it lands the beat after the offer and *is* the cutaway, so the song cuts on its own hook.
+  Distinct from girlboss/make-it-a-double's bar call (a drinks order repurposed as the thesis) and
+  from girlboss/decorations-will-be-worn's invitation instruction (an imperative issued to the
+  reader) — this is a pair, and the pair is a window closing.
+- Example: girlboss/no-more-bets
+- Logged at catalog size 143.
+
+### "People say the house always wins. The house doesn't do anything. Somebody has to deal it."
+- The unearned moral as a corrected proverb: a structural mathematical certainty re-attributed to
+  her personally, so an inevitability becomes a personal achievement. A fifth flavour after the
+  trade rule quoted straight (girlboss/long-finish), the household lore (girlboss/had-it-insulated),
+  the management wisdom (girlboss/best-deal-on-the-yard) and the claimed authorship of an effect
+  (girlboss/decorations-will-be-worn).
+- Example: girlboss/no-more-bets
+- Logged at catalog size 143.
+
+### "Would you like to see my baps? / Freshly baked." — counter-patter chant hook
+- Girlboss's hook slot filled with the shop's own upsell line, and the fresh mechanism is that the
+  filthy sentence is her *mandated job script*: she is required to say it, to everyone, all morning,
+  and it is entirely innocent every time. Distinct from girlboss/long-finish's tasting note (trade
+  vocabulary describing a person), girlboss/make-it-a-double's bar call (an order placed) and
+  girlboss/no-more-bets' betting-window pair (two calls bracketing a window) — this one is a service
+  offer made across a counter to strangers, and the double meaning is in the noun, not the framing.
+- Example: girlboss/freshly-baked
+- Logged at catalog size 144.
+
+### The unearned moral handed down as mentorship to another tradeswoman
+- A sixth flavour after the trade rule quoted straight (girlboss/long-finish), the household lore
+  (girlboss/had-it-insulated), the management wisdom (girlboss/best-deal-on-the-yard), the claimed
+  authorship of an effect (girlboss/decorations-will-be-worn) and the corrected proverb
+  (girlboss/no-more-bets). What is fresh is the vehicle: the lesson is taught to a named third party
+  rather than stated to the listener, and its content (never give anything away free) lands seconds
+  after the song has shown her giving a great deal away. The other woman is not exploited and not
+  mocked — she is simply advised.
+- Example: "I told the girl on the eggs: never mark down before one, they'll only wait you out." —
+  girlboss/freshly-baked
+- Logged at catalog size 144.
+
 ### "I have never once [been late / been over / been out / asked]" — the unblemished-record boast — PERMANENT
 - Every band's default way of establishing competence: a claim of a spotless run, stated in the
   negative, with an optional `once` for emphasis. A phrase-frequency pass (2026-08-18, user-flagged)
@@ -794,6 +835,104 @@ gets fixed.
   girlboss/no-more-bets, guessed/focus-on-the-story, guessed/the-fifty-first, penny-rich/say-i-settled,
   lucy-might/ask-me-again, ultracoase/autopilot
 - Logged at catalog size 144.
+
+### "Everything's negotiable. / Except the spec." — negotiating-position chant hook
+- Girlboss's hook slot filled with a stated commercial position rather than a quotation, a
+  description, a listing or an instruction: two clauses conceding everything and then withdrawing
+  the one thing that matters. Deliberately not built on the word "offer", which would have collided
+  with girlboss/offers-over-asking's estate-agency listing language — the crude noun this song was
+  commissioned around ("we have melons on offer today") is demoted to an agenda item in verse 1 and
+  never made the joke, so the counter-patter mechanism of girlboss/freshly-baked isn't run twice.
+- Example: girlboss/except-the-spec
+- Logged at catalog size 145.
+
+### "The no-gifts clause in the supplier charter is mine. Word for word. I tightened it."
+- The unearned moral as authorship of the exact probity rule she is in the act of bending, quoted
+  with its threshold and its deadline, and considered entirely flattering. A seventh flavour after
+  the trade rule quoted straight, the household lore, the management wisdom, the claimed authorship
+  of an effect, the corrected proverb and the mentorship handed down — this one is a policy she put
+  into the employer's own process.
+- Example: girlboss/except-the-spec
+- Logged at catalog size 145.
+
+### "One careful owner. / That's the car." — disambiguation chant hook
+- Girlboss's hook slot filled with a piece of trade boilerplate followed by a clarification of which
+  of the two "she"s in the song it actually covers. The whole lyric is built on the motor trade's
+  habit of calling a car "she", so every condition claim in verse 1 reads both ways at once and the
+  hook is the only line that separates them — while conceding the other reading outright.
+- Example: girlboss/one-careful-owner
+- Logged at catalog size 146.
+
+### The Carry On homophone answered truthfully in the other sense — the fifth girlboss lie shape
+- The stakes-owner's question contains a word with a trade meaning and a personal one, and she
+  answers the personal one, accurately, on a recorded line. Nothing false is said and nothing is
+  concealed; the recipient simply ticks the box he was always going to tick. A fifth lie shape after
+  the over-detailed valuation, the over-helpful fix list, the perfect omission and the commercial
+  arithmetic. Transposed from Carry On Henry's "Has she been chaste?" / "All over Normandy" rather
+  than reused: the question is genuine compliance vocabulary from this song's own world. Distinct
+  from laundry's retired "I said define X" beat, where a demand for a definition is answered by a
+  bureaucratic misfile — here she is the one doing the mishearing, deliberately, and it flatters her.
+- Example: "and has she been garaged? / And I said: all over the county." — girlboss/one-careful-owner
+- Logged at catalog size 146.
+
+### "You'll be asleep. / I won't." — power-asymmetry chant hook
+- Girlboss's hook slot filled with a bare statement of who is conscious and who isn't, which is also
+  a literal description of the job. Fresh mechanism after the quoted critic, the tasting note, the
+  listing language, the bar call, the labour tally, the renovated idiom, the invitation instruction,
+  the betting-window pair, the counter patter, the negotiating position and the disambiguation.
+- Example: girlboss/first-night-effect
+- Logged at catalog size 147.
+
+### The clinical report as the sixth girlboss lie shape — true in the register, obscene in English
+- The stakes-owner asks for the findings and she reads the scored polysomnography verbatim:
+  prolonged sleep onset, REM latency delayed, frequent arousals throughout the night, spontaneous,
+  not respiratory. Every term is correct technical vocabulary and the report is genuinely good work;
+  it is filthy only once translated. A sixth lie shape after the over-detailed valuation, the
+  over-helpful fix list, the perfect omission, the commercial arithmetic and the homophone answered
+  in the other sense — and the only one in which she says nothing but her professional findings.
+- Example: girlboss/first-night-effect
+- Logged at catalog size 147.
+
+### "Discretion. Patience. / And a deposit." — creed-with-one-item-wrong chant hook
+- Girlboss's hook slot filled with a brochure's list of professional virtues, the last of which is
+  money. Fresh mechanism after the quoted critic, the tasting note, the listing language, the bar
+  call, the labour tally, the renovated idiom, the invitation instruction, the betting-window pair,
+  the counter patter, the negotiating position, the disambiguation and the power asymmetry.
+- Example: girlboss/and-a-deposit
+- Logged at catalog size 148.
+
+### The uncorrected mishearing — he mishears in his own favour and she declines to fix it
+- The third Carry On transposition and deliberately not the mechanism of the first two: in
+  girlboss/one-careful-owner *she* mishears and answers in the wrong sense, and in
+  girlboss/first-night-effect she inverts a refusal — here the mistake is entirely his, made in his
+  own favour, and her whole move is to let it stand. She says a proper sentence, he acts on a filthy
+  one, and nothing is offered by her at any point. Sourced from Carry On Matron's "I want to be
+  wooed" / "you can be as rude as you like", with the misheard word never printed in the lyric.
+- Adjacent to guessed/the-version-she-liked's "don't correct a compliment" (letting a warm wrong
+  assumption stand) — same core, opposite motive: Guessed does it out of self-erasure, this narrator
+  because his version is more useful than hers. Kept deliberately per the user's rule that cross-band
+  device overlap is fine and only audible lyric repeats are not; no line is shared between them.
+- Example: "And he heard a different word... And I let him. Correcting a member is not in the
+  six-month package." — girlboss/and-a-deposit
+- Logged at catalog size 148.
+
+### "Hold it. / Hold it there." — the instruction both jobs require, chant hook
+- Girlboss's hook slot filled with a live spoken command that belongs equally to the deportment
+  lesson and to the photographer shooting it — one sentence doing two people's professional work at
+  once, and filthy in neither of them. Distinct from girlboss/decorations-will-be-worn's invitation
+  instruction, which is lifted off a card and issued to the reader: this one is said aloud to a class
+  and the instrument merely has to be in the room for it.
+- Example: girlboss/hold-it-there
+- Logged at catalog size 149.
+
+### "Module four is how to be looked at. Everything else on that timetable is cutlery."
+- The unearned moral as a curriculum fact: the syllabus itemised, and the one module that actually
+  transfers named flatly, with everything else dismissed in a word. An eleventh flavour after the
+  trade rule quoted straight, the household lore, the management wisdom, the claimed authorship of an
+  effect, the corrected proverb, the mentorship handed down, the authored policy, the itemisation of
+  what was really bought, the confidentiality assurance and the moral misread as modesty.
+- Example: girlboss/hold-it-there
+- Logged at catalog size 149.
 
 
 ## Phrases
@@ -1494,6 +1633,185 @@ gets fixed.
   admissions — nothing is being permitted here, it is simply ongoing.
 - Example: laundry/by-continuing
 - Logged at catalog size 142.
+
+### "Everybody does it. Nobody does it like me."
+- The flat deadpan closing verse 1: a mandatory procedure everyone on the floor performs, claimed
+  as a personal signature in four words, with nothing said about what the difference actually is.
+- Example: girlboss/no-more-bets
+- Logged at catalog size 143.
+
+### "Every number in the right order, and one thing left out of it, and it balanced."
+- The girlboss bridge lie run as the *one perfect omission*: a complete, verifiable, genuinely
+  impressive account with a single item absent, and the books still reconcile. Distinct from the
+  over-detailed valuation (girlboss/best-deal-on-the-yard) and the over-helpful domestic lore
+  (girlboss/had-it-insulated) — nothing here is embellished, and nothing said is false.
+- Example: girlboss/no-more-bets
+- Logged at catalog size 143.
+
+### "And I said the whole of it looking at the dome. Not at him."
+- The girlboss bridge button as a sightline: the account is delivered to the camera rather than to
+  the man who asked for it, which tells the listener who the performance was always for. Fresh
+  after the retired compliment-and-deflection, the stage direction of obedience
+  (girlboss/had-it-insulated) and the object still held (girlboss/decorations-will-be-worn).
+- Example: girlboss/no-more-bets
+- Logged at catalog size 143.
+
+### "break's at two, cage door sticks, come down and lose properly"
+- The named offer made in the setting's own losing/winning vocabulary — unmistakable, said once,
+  never crude, and cut off by the hook on the following line. The verb "lose" carries the whole
+  proposition, so nothing has to be described for it to be understood.
+- Example: girlboss/no-more-bets
+- Logged at catalog size 143.
+
+### "I don't answer Derek, I solve Derek."
+- The girlboss bridge lie run as *over-helpful*: the stakes-owner rings about three things and she
+  volunteers fixes to four more he never raised, closing by taking on extra unpaid work. The third
+  of the template's three lie shapes, after the over-detailed valuation
+  (girlboss/best-deal-on-the-yard) and the perfect omission (girlboss/no-more-bets).
+- Example: girlboss/freshly-baked
+- Logged at catalog size 144.
+
+### "I said no, Derek. That one wasn't for you."
+- The girlboss bridge button as a misdirected line: she says the song's own filthy hook into an open
+  phone line and across the counter simultaneously, so the stakes-owner hears the transgression in
+  full and it registers as shop patter. Fresh after the retired compliment-and-deflection, the stage
+  direction of obedience (girlboss/had-it-insulated), the object still held
+  (girlboss/decorations-will-be-worn) and the sightline (girlboss/no-more-bets).
+- Example: girlboss/freshly-baked
+- Logged at catalog size 144.
+
+### "You cannot rush a prove — the dough knows, and it tells on you later."
+- The task double-entendre stated as a trade fact that also announces the song's own evidence
+  mechanism, before that evidence exists. Nothing is being confessed; it is a baker's true remark
+  about yeast.
+- Example: girlboss/freshly-baked
+- Logged at catalog size 144.
+
+### "I am the reason this end of the market smells like anything at all."
+- The flat deadpan closing the competence inventory: an unfalsifiable claim to have authored the
+  entire sensory experience of a shared workplace, delivered as plain fact.
+- Example: girlboss/freshly-baked
+- Logged at catalog size 144.
+
+### "I led with the number for Ian" — the bridge lie told as commercial arithmetic
+- A fourth girlboss lie shape after the over-detailed valuation (girlboss/best-deal-on-the-yard),
+  the over-helpful fix list (girlboss/freshly-baked) and the perfect omission
+  (girlboss/no-more-bets): every word is true and verifiable, delivered as a rapid margin-and-volume
+  recital, so the personal question never finds a gap to arrive in. Paired with an inversion of the
+  interruption device itself — the stakes-owner rings and she was already ringing him.
+- Example: girlboss/except-the-spec
+- Logged at catalog size 145.
+
+### "It isn't a deal, Ian. It's a promotion. Deals go both ways."
+- The girlboss bridge button as a correction of the stakes-owner's vocabulary: praise is answered by
+  refusing the word it was paid in, which restates who conceded without ever claiming it. Fresh
+  after the retired compliment-and-deflection, the stage direction of obedience, the object still
+  held, the sightline and the misdirected line.
+- Example: girlboss/except-the-spec
+- Logged at catalog size 145.
+
+### "It's a good melon. I tell him it's a good melon. He has to sit down."
+- The verdict delivered flat and favourably, with the instrument's collapse reported in the same
+  breath as a physical consequence — the good news is what finishes him.
+- Example: girlboss/except-the-spec
+- Logged at catalog size 145.
+
+### "That's on the recording. They keep those seven years."
+- The girlboss bridge button as the transgression preserved in an official record and simply left
+  there — no risk acknowledged, no move to retrieve it, the retention period quoted like a warranty
+  term. Fresh after the retired compliment-and-deflection, the obedience stage direction, the object
+  still held, the sightline, the misdirected line and the corrected terminology.
+- Example: girlboss/one-careful-owner
+- Logged at catalog size 146.
+
+### "Nobody pays three fifty for a coat of wax. He paid for the quarter of an hour it took to talk him into it."
+- The unearned moral as an itemisation of what the customer actually bought — the upsell repriced as
+  payment for her attention, with the conclusion that he would pay it again. An eighth flavour after
+  the trade rule quoted straight, the household lore, the management wisdom, the claimed authorship
+  of an effect, the corrected proverb, the mentorship handed down and the authored policy.
+- Example: girlboss/one-careful-owner
+- Logged at catalog size 146.
+
+### "he signs the finance on the bonnet without reading the APR, and he's a mortgage adviser"
+- The scoreboard as a professional failing at his own profession: the instrument's deterioration is
+  measured by him neglecting the exact competence he is paid for. Distinct from the band's other
+  scoreboards in that the ruined thing is his expertise rather than his stock, his etiquette, his
+  equipment or his negotiating position.
+- Example: girlboss/one-careful-owner
+- Logged at catalog size 146.
+
+### "And I said: wouldn't I. Well. That was careless of me."
+- The Carry On refusal inverted: told that she turned him down inside his own dream, she treats it as
+  a lapse in her own standards and books the repeat. Transposed from Carry On Doctor's "No, you
+  wouldn't let me" rather than quoted — the exchange runs in her clinic's own vocabulary, and the
+  second night is a real feature of the protocol rather than a flirtation.
+- Example: girlboss/first-night-effect
+- Logged at catalog size 147.
+
+### "Whatever your body does in this building while you're under, it stays in the file."
+- The unearned moral as a confidentiality assurance that is also an inventory of what she holds:
+  offered as bedside reassurance, received as comfort, and true in both directions. A ninth flavour
+  after the trade rule quoted straight, the household lore, the management wisdom, the claimed
+  authorship of an effect, the corrected proverb, the mentorship handed down, the authored policy
+  and the itemisation of what was really bought.
+- Example: girlboss/first-night-effect
+- Logged at catalog size 147.
+
+### "That's the first-night effect. That's documented. That isn't me."
+- The clean exit closing on a denial nobody asked for, citing a real clinical phenomenon to explain
+  away an effect she has spent the whole song producing. Distinct from girlboss/thats-why-i-bought-them's
+  "I don't argue with the literature", which defers to a source to license a claim — this one
+  invokes the literature to decline credit she has already taken.
+- Example: girlboss/first-night-effect
+- Logged at catalog size 147.
+
+### "I said I have a concern." — the bridge lie that makes the stakes-owner do the reassuring
+- A seventh girlboss lie shape: she rings in first and volunteers a professional worry about the
+  client's readiness, so the call turns into the founder praising her diligence at length. The
+  interruption device inverted a second way — girlboss/except-the-spec reversed its direction, this
+  one reverses who is comforting whom. Nothing untrue is said and the concern is real.
+- Example: girlboss/and-a-deposit
+- Logged at catalog size 148.
+
+### "I logged the call. Fifteen minutes. It goes on his account."
+- The girlboss bridge button as billing: the interruption itself is charged to the member it was
+  about. Fresh after the retired compliment-and-deflection, the obedience stage direction, the object
+  still held, the sightline, the misdirected line, the corrected terminology and the retention period.
+- Example: girlboss/and-a-deposit
+- Logged at catalog size 148.
+
+### "They come here to practise being wanted. I've said that to Mrs Alderton. She thinks I'm being modest."
+- The unearned moral misread by the stakes-owner as humility: she states plainly what the business
+  actually sells and is credited with self-deprecation for it. A tenth flavour after the trade rule
+  quoted straight, the household lore, the management wisdom, the claimed authorship of an effect,
+  the corrected proverb, the mentorship handed down, the authored policy, the itemisation of what was
+  really bought and the confidentiality assurance.
+- Example: girlboss/and-a-deposit
+- Logged at catalog size 148.
+
+### "I got my complaint in first, because a complaint is the quickest way to be believed."
+- An eighth girlboss lie shape: pre-emptive mild criticism of the instrument, entirely true and
+  fully documented on his own timesheet, which settles the account of the day before anyone can ask a
+  different question. Then reversed in the same breath by recommending him elsewhere, so the
+  complaint cannot be read as a grievance.
+- Example: girlboss/hold-it-there
+- Logged at catalog size 149.
+
+### "I said he's the best we've had. I've recommended him to the prep school."
+- The girlboss bridge button as a referral: the instrument is passed on to another institution with a
+  glowing word, which closes the call, disproves any motive and puts him somewhere she can reach.
+  Fresh after the obedience stage direction, the object still held, the sightline, the misdirected
+  line, the corrected terminology, the retention period and the billed interruption.
+- Example: girlboss/hold-it-there
+- Logged at catalog size 149.
+
+### "Then he asked me, for the light, if I would do the banana one myself."
+- The request laundered through a technical pretext — the instrument supplies his own professional
+  reason for what he is asking, so she never has to offer anything and simply agrees to her own
+  syllabus. Her answer ("It's on the syllabus. I do it every Thursday at eleven") declines the
+  subtext entirely by being true.
+- Example: girlboss/hold-it-there
+- Logged at catalog size 149.
 
 
 ## Imagery / Motifs
@@ -2203,3 +2521,209 @@ gets fixed.
   (laundry reference example): nothing of his is stolen, it was granted, and the grant outlives him.
 - Example: laundry/by-continuing
 - Logged at catalog size 142.
+
+### Clearing the hands to the camera — a mandatory anti-theft gesture performed as the task double-entendre
+- The song's professional verb is the clap-and-show-palms every croupier must perform to the dome
+  camera when stepping off a table. The employer's own surveillance rule supplies the stage, the
+  audience and the obligation to repeat it, and she simply performs it slowly. Distinct from the
+  band's other task verbs (watering, decanting, fitting, pouring, bringing on) in that this one is
+  compulsory and aimed at a lens rather than at a person in the room.
+- Example: girlboss/no-more-bets
+- Logged at catalog size 143.
+
+### The instrument who is never in the room — a surveillance operator deteriorating on his own monitors
+- Girlboss's scoreboard run entirely through equipment: the instrument watches from upstairs, and
+  his deterioration is visible only as camera behaviour (a dome that turns, all four monitors on
+  one table) until he misses a real incident on another. He gets no dialogue, no scene, and never
+  once shares her air.
+- Example: girlboss/no-more-bets
+- Logged at catalog size 143.
+
+### A gap in a surveillance log, reason field "lens clean", as the implied-result evidence
+- The flat post-cutaway detail is a maintenance entry: two minutes missing from the camera log for
+  her table, at half two in the morning, on a live table, signed off as a lens clean. Fresh
+  evidence-category after the unused return ticket, the waived survey, the shift rota, the reserve
+  bottle, the declined job, the made-up spare room and the measurements dated that night.
+- Example: girlboss/no-more-bets
+- Logged at catalog size 143.
+
+### The inventory as prohibition — competence itemised through what she is forbidden to wear
+- The band's garment inventory inverted: no pockets in the trousers, no rings, no watch, nails
+  short, every chip squared in the tray. The list establishes total compliance with an anti-theft
+  dress code rather than describing anything she chose, so the itemised competence and the
+  surveillance premise are the same list. Distinct from the sundress, the skirt, the shoes and the
+  dress cut from the uniform bolt, all of which she selected.
+- Example: girlboss/no-more-bets
+- Logged at catalog size 143.
+
+### Proving and knocking back as the task double-entendre — dough worked at the front of the stall
+- The song's professional verb is proving, with the knocking-back performed deliberately in the
+  customers' sightline ("It takes the arm, that. It takes both."). Distinct from the band's other
+  task verbs (watering, decanting, fitting, pouring, bringing on, clearing the hands to a camera) in
+  that this one has a mandatory waiting period built into it, which is what later supplies the
+  evidence.
+- Example: girlboss/freshly-baked
+- Logged at catalog size 144.
+
+### An over-proved batch as the implied-result evidence — the product keeps the time
+- The flat post-cutaway detail is a physical good that records, unarguably, how long she was absent:
+  dough set to prove before pack-down and not knocked back until gone three, so the loaves come out
+  flat. Deniable in isolation (ovens, weather, yeast) and damning in place, with no arrow drawn and
+  no explanation offered. Fresh evidence-category after the unused return ticket, the waived survey,
+  the shift rota, the reserve bottle, the declined job, the made-up spare room, the measurements
+  dated that night and the gap in the camera log.
+- Example: "Yeast doesn't care what you tell it." — girlboss/freshly-baked
+- Logged at catalog size 144.
+
+### The next customer served as the cutaway
+- The scene cuts because a transaction arrives: the offer is made, a woman wants a bloomer, and she
+  simply does that. Nothing is staged and no one is dismissed — ordinary trade closes over the top
+  of it. Fresh after the drawn curtains (girlboss/offers-over-asking), the doorbell and the boiler
+  conversation (girlboss/had-it-insulated) and the hook's own betting call
+  (girlboss/no-more-bets).
+- Example: girlboss/freshly-baked
+- Logged at catalog size 144.
+
+### The market-stall trade neighbour as the instrument — deterioration measured in his own stock
+- The instrument works the pitch beside hers and is never in a room with her at all; his collapse is
+  legible entirely through goods he stops tending (a brie gone to liquid in the sun, a truckle not
+  turned since half eight) and a question about chutney answered with the price of a cheddar.
+  Distinct from girlboss/no-more-bets' surveillance operator, who is also never present but
+  deteriorates through equipment rather than through perishable stock.
+- Example: girlboss/freshly-baked
+- Logged at catalog size 144.
+
+### Cutting the sample at the table as the task double-entendre
+- The song's professional verb is a produce buyer's cut: she opens the fruit herself, holds the half
+  to the window, tastes it and makes the room wait on the verdict. The slowness is the whole
+  deployment and it is also exactly the job. Fresh after watering, decanting, fitting, pouring,
+  bringing on, clearing the hands to a camera, and proving.
+- Example: girlboss/except-the-spec
+- Logged at catalog size 145.
+
+### The instrument bidding against himself — a supplier who drops his own price into silence
+- The scoreboard rendered as negotiation: he opens at four ten a case, nobody in the room says
+  anything at all, and he comes down to three sixty unprompted while she still hasn't spoken. Her
+  deployment is entirely a refusal to fill a silence. Distinct from the band's other scoreboards
+  (the swallowed tasting, the degrading auditor's count, the split jacket, the misdirected monitors,
+  the unturned cheese) in that his deterioration costs him money in the moment it happens.
+- Example: girlboss/except-the-spec
+- Logged at catalog size 145.
+
+### An uninvoiced pallet nobody can code as the implied-result evidence
+- The flat post-cutaway detail is an accounting anomaly: a supplier's pallet sitting in the depot
+  with no purchase order against it, finance repeatedly asking what to code it to, and her
+  instruction to leave it exactly where it is. Fresh evidence-category after the unused return
+  ticket, the waived survey, the shift rota, the reserve bottle, the declined job, the made-up spare
+  room, the measurements dated that night, the gap in the camera log and the over-proved batch.
+- Example: girlboss/except-the-spec
+- Logged at catalog size 145.
+
+### The booked room as the cutaway — corporate scheduling closing the scene
+- The scene ends because the next meeting is due: "Room was booked from eleven. So that was that."
+  Nothing is staged and nobody withdraws; a calendar simply takes the room away. Fresh after the
+  drawn curtains, the doorbell and the boiler, the hook's own betting call and the next customer
+  served.
+- Example: girlboss/except-the-spec
+- Logged at catalog size 145.
+
+### The trade's own feminine pronoun as the song's entire double-entendre engine
+- The motor trade calls a car "she", so the competence inventory (well looked after, tight, pulls,
+  good for another hundred thousand) is filthy without a single word being chosen for that purpose,
+  and the narrator points at the convention once — "Nobody in this business has thought about why" —
+  then never touches it again. Distinct from the band's task double-entendres, which make one verb
+  work twice; here an entire existing professional vocabulary does it, uninvited.
+- Example: girlboss/one-careful-owner
+- Logged at catalog size 146.
+
+### The demonstration drive as the task double-entendre
+- The song's professional verb is the demo: she takes the customer out herself, takes the long way,
+  and talks him through how the car sits, takes a bend, and what she will do for you if you ask her
+  properly. Fresh after watering, decanting, fitting, pouring, bringing on, clearing the hands to a
+  camera, proving, and cutting the sample.
+- Example: girlboss/one-careful-owner
+- Logged at catalog size 146.
+
+### An abandoned part-exchange with his golf clubs still in the boot as the implied-result evidence
+- The flat post-cutaway detail is an unclaimed personal possession: his old car sitting round the
+  back with his clubs in it, and no phone call about the clubs. Fresh evidence-category after the
+  unused return ticket, the waived survey, the shift rota, the reserve bottle, the declined job, the
+  made-up spare room, the measurements dated that night, the gap in the camera log, the over-proved
+  batch and the uninvoiced pallet.
+- Example: girlboss/one-careful-owner
+- Logged at catalog size 146.
+
+### The instrument's collapse recorded as clinical data by the employer's own equipment
+- The scoreboard as medical instrumentation: sleep onset latency of fifty-one minutes, a heart rate
+  of ninety-four lying down in the dark with his eyes shut, twenty-two turns before midnight, all
+  scored by her, in epochs, as her job. "The machine writes down everything he does and the machine
+  has no opinion about any of it." Distinct from the band's other scoreboards in that the evidence is
+  involuntary, physiological, and generated by the instrument's own body under observation.
+- Example: girlboss/first-night-effect
+- Logged at catalog size 147.
+
+### Wiring up as the task double-entendre — an hour of hands on a stranger before anyone speaks
+- The song's professional verb is the electrode montage: measuring his head in centimetres, marking
+  in pencil, collodion on the scalp leads so they hold all night whatever he gets up to. Wholly
+  clinical, entirely necessary, and unhurried. Fresh after watering, decanting, fitting, pouring,
+  bringing on, clearing the hands to a camera, proving, cutting the sample and the demonstration drive.
+- Example: girlboss/first-night-effect
+- Logged at catalog size 147.
+
+### A privately-funded repeat visit as the implied-result evidence
+- The flat post-cutaway detail is a purchase: the insurer declines a second study, he pays for it
+  himself, asks for the same room and names her on the form. Fresh evidence-category after the unused
+  return ticket, the waived survey, the shift rota, the reserve bottle, the declined job, the made-up
+  spare room, the measurements dated that night, the gap in the camera log, the over-proved batch,
+  the uninvoiced pallet and the abandoned part-exchange.
+- Example: girlboss/first-night-effect
+- Logged at catalog size 147.
+
+### Paid rehearsal as the task double-entendre — she plays the woman he is practising on
+- The song's professional verb is rehearsing: the agency's actual product is practice, and she stands
+  in for whoever the member is eventually meant to meet. Entirely legitimate, entirely purchased, and
+  the double meaning needs no engineering because the service already is the thing. Fresh after
+  watering, decanting, fitting, pouring, bringing on, clearing the hands to a camera, proving, cutting
+  the sample, the demonstration drive and wiring up.
+- Example: girlboss/and-a-deposit
+- Logged at catalog size 148.
+
+### Declining the outcome he is paying for as the implied-result evidence
+- The flat post-cutaway detail is a repeated non-event: four introductions offered since March, none
+  taken, a standing weekly slot with her instead, and a renewal paid in full up front. The evidence is
+  what he keeps choosing not to receive. Fresh evidence-category after the unused return ticket, the
+  waived survey, the shift rota, the reserve bottle, the declined job, the made-up spare room, the
+  measurements dated that night, the gap in the camera log, the over-proved batch, the uninvoiced
+  pallet, the abandoned part-exchange and the privately-funded repeat.
+- Example: girlboss/and-a-deposit
+- Logged at catalog size 148.
+
+### Correcting posture by hand as the task double-entendre — aimed past the students, never at them
+- The song's professional verb is correction: shoulder, chin, the small of the back, done by hand
+  because it doesn't take any other way. The students are adults, competent, never described
+  unkindly and never sexualised — the entire charge runs to the man who has to watch the lesson
+  happen. Fresh after watering, decanting, fitting, pouring, bringing on, clearing the hands to a
+  camera, proving, cutting the sample, the demonstration drive, wiring up and paid rehearsal.
+- Example: girlboss/hold-it-there
+- Logged at catalog size 149.
+
+### The instrument's craft degrading behind his own equipment
+- The scoreboard as photography: he asks for the staircase again with a longer lens so he can stand
+  further back, then stops giving directions altogether and lets the camera run. His deterioration is
+  visible only as changes in technique, and every change has a legitimate professional reason
+  available. Distinct from the surveillance operator's misaimed monitors (girlboss/no-more-bets) —
+  that instrument was absent and negligent; this one is present and getting quietly better at hiding.
+- Example: girlboss/hold-it-there
+- Logged at catalog size 149.
+
+### A published prospectus cover as the implied-result evidence
+- The flat post-cutaway detail is a printed document: the school's prospectus comes back with the
+  principal on the front, on the stairs, and not a single student anywhere on it, approved by the
+  governors without discussion. Deniable (someone had to be the face) and damning in place, and it is
+  simultaneously the clean exit — she is asked to do the open day, on the stairs. Fresh
+  evidence-category after the unused return ticket, the waived survey, the shift rota, the reserve
+  bottle, the declined job, the made-up spare room, the measurements dated that night, the gap in the
+  camera log, the over-proved batch, the uninvoiced pallet, the abandoned part-exchange, the
+  privately-funded repeat and the declined introductions.
+- Example: girlboss/hold-it-there
+- Logged at catalog size 149.
