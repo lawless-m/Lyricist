@@ -13,7 +13,8 @@ was the wrong model for one listener with a normal memory. Entries now carry a c
   the `where/should` inventory-of-loss couplet, `nobody asked`, the `fold/buckle` collapse
   lines, the `so + wh-word + was/did I` skeleton, the `so tell me, X, tell me` skeleton,
   the `didn't/never fix/save me` closing formula, `twice`, `nine`, `closer than that`,
-  `and the fiddle starts confessing`, and the grandmother's-grandmother lineage motif.
+  `and the fiddle starts confessing`, the grandmother's-grandmother lineage motif, and the
+  `I said define X` interrogation-of-a-word beat.
 - **Cooling** — everything else, which is the default. A cooling entry is fully banned
   until **60 songs** (tunable, catalogue-wide count — songs-written-since-last-use, not
   elapsed time) have been added since its last use; after that it demotes to advisory —
@@ -724,6 +725,22 @@ gets fixed.
   point moves. Logged so the cold-chant open doesn't silently become the new default opening for
   the band; the next song opens some other way.
 - Example: girlboss/decorations-will-be-worn
+- Logged at catalog size 141.
+
+### "I said define [word]." + a bureaucratic non-answer — the interrogation-of-a-word beat — PERMANENT
+- Laundry's verse-2 fixture, replicated across a whole run of songs before anyone logged it: the
+  antagonist says something evasive, the narrator demands a definition of one word from it, and the reply
+  files him under a wrong category instead of answering — timed the session out, stamped me
+  present, rang me up as maybe, processed me as pending, logged us as a cull. Always the same
+  slot (the beat after the antagonist speaks, inside the clipped image-stream verse), always the
+  same syntax, twice on the same word (*here*). Retired permanently 2026-08-18 — not cooling.
+  A word may still be interrogated in a laundry song; it must not be done with `define`, and not
+  as a one-line demand-and-misfile pair.
+- Example: laundry/keep-it-warm, laundry/turn-it-down, laundry/turn-it-on, laundry/still-here,
+  laundry/same-red, laundry/addicted-to-declining, laundry/finna-retard, laundry/breeder,
+  laundry/not-this-one
+- Distinct from ultracoase/certain-too-early's "The spec defines a human as anyone the test lets
+  through" — that is a circular definition the narrator authored, not a demand aimed at someone else.
 - Logged at catalog size 141.
 
 
