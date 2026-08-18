@@ -14,7 +14,8 @@ was the wrong model for one listener with a normal memory. Entries now carry a c
   lines, the `so + wh-word + was/did I` skeleton, the `so tell me, X, tell me` skeleton,
   the `didn't/never fix/save me` closing formula, `twice`, `nine`, `closer than that`,
   `and the fiddle starts confessing`, the grandmother's-grandmother lineage motif, and the
-  `I said define X` interrogation-of-a-word beat.
+  `I said define X` interrogation-of-a-word beat, and the `I have never once ___`
+  unblemished-record boast.
 - **Cooling** — everything else, which is the default. A cooling entry is fully banned
   until **60 songs** (tunable, catalogue-wide count — songs-written-since-last-use, not
   elapsed time) have been added since its last use; after that it demotes to advisory —
@@ -776,6 +777,23 @@ gets fixed.
   (laundry/good-body-every-night). Aimed at whoever consented on his behalf before he could read.
 - Example: laundry/by-continuing
 - Logged at catalog size 142.
+
+### "I have never once [been late / been over / been out / asked]" — the unblemished-record boast — PERMANENT
+- Every band's default way of establishing competence: a claim of a spotless run, stated in the
+  negative, with an optional `once` for emphasis. A phrase-frequency pass (2026-08-18, user-flagged)
+  found `never once` in twenty-two songs and `I've never` in twenty across the catalogue — the same
+  saturation profile as `nobody asked` and `twice`, and invisible line by line because each instance
+  reads as ordinary speech. Several instances double up with an already-retired anchor
+  ("never had to ask him twice"). Retired permanently — not cooling.
+- The fix is not a synonym. The construction claims a record where the band's own discipline is to
+  *show* one: replace it with the evidence a spotless record leaves behind. girlboss/freshly-baked
+  was revised from "Pitch fee's twenty-two quid, cash, and I have never once been late with it" to
+  "Pitch fee's twenty-two quid, cash, in Derek's hand before he's got his coat off" — which states
+  the same fact, plants a character the bridge needs, and stops asserting.
+- Example: purple-dog/no-show, laundry/mind-the-white, ultracoase/e451, girlboss/best-deal-on-the-yard,
+  girlboss/no-more-bets, guessed/focus-on-the-story, guessed/the-fifty-first, penny-rich/say-i-settled,
+  lucy-might/ask-me-again, ultracoase/autopilot
+- Logged at catalog size 144.
 
 
 ## Phrases
