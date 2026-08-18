@@ -707,6 +707,25 @@ gets fixed.
 - Example: hobo/free-means-ours
 - Logged at catalog size 139.
 
+### "Dress: black tie. / Decorations will be worn." — invitation-instruction chant hook
+- Girlboss's hook slot filled with a dress-code line lifted verbatim off a formal invitation card,
+  chanted flat. Distinct from girlboss/offers-over-asking's quoted listing language ("Offers over
+  asking. / No chain."), which *describes* a property — this one is an instruction issued to the
+  reader in the imperative passive, and the second line's double meaning (medals / what she has
+  on) only arms once the room is established. Also used as a cold a cappella intro before the
+  first beat, which is a macro-order variation for this band — see the entry below.
+- Example: girlboss/decorations-will-be-worn
+- Logged at catalog size 141.
+
+### The hook chanted cold, a cappella, before the beat drops — girlboss section-order variation
+- Every prior girlboss song opens on Verse 1 with the loop already running. This one states the
+  hook first, unaccompanied, as a card being read out, then drops the breakbeat under Verse 1.
+  The bones are unchanged (V1 / hook / V2 / hook / bridge / out / final hook) — only the entry
+  point moves. Logged so the cold-chant open doesn't silently become the new default opening for
+  the band; the next song opens some other way.
+- Example: girlboss/decorations-will-be-worn
+- Logged at catalog size 141.
+
 
 ## Phrases
 
@@ -1354,6 +1373,45 @@ gets fixed.
   nothing is running here, and the gang is pleased rather than haunted.
 - Example: hobo/free-means-ours
 - Logged at catalog size 139.
+
+### "A tailor doesn't talk. That's the trade."
+- The professional-discretion ethic stated flat in verse 1 as the one rule of the job — which is
+  also the trust the entire song is in the act of breaking, since she is telling the listener all
+  of it. The covert transgression is relocated from a person's trust to a trade's, so no third
+  party has to be wronged for the band's engine to run.
+- Example: girlboss/decorations-will-be-worn
+- Logged at catalog size 141.
+
+### "It isn't a war crime, sweetheart, it's a size ten, and there's more work in your jacket than in mine."
+- The flat deadpan: a hyperbolic compliment about a dress answered by deflating it into trade
+  arithmetic and immediately redirecting the appraisal onto the man's own badly-cut jacket. The
+  hyperbole is never disputed, argued with, or moralised at — it is simply re-priced.
+- Example: girlboss/decorations-will-be-worn
+- Logged at catalog size 141.
+
+### "Nobody gets measured at a dinner."
+- The implied-result button: a flat categorical trade fact stated immediately after the evidence
+  (a fresh set of measurements dated that night), which draws no arrow and leaves the arithmetic
+  entirely to the listener. Not the retired "nobody['s] asked" tic — nothing is being withheld
+  from her here; she is stating what the trade does and does not do.
+- Example: girlboss/decorations-will-be-worn
+- Logged at catalog size 141.
+
+### "You can always tell the ones I've done. They stand like they're being looked at. I put that in. I charge for it."
+- The unearned moral as claimed authorship over an effect she produces in men — self-consciousness
+  sold as craftsmanship, billed for, and considered entirely flattering. A fourth flavour after the
+  trade rule quoted straight (girlboss/long-finish, "sell at eye level"), the household lore
+  (girlboss/had-it-insulated) and the management wisdom (girlboss/best-deal-on-the-yard).
+- Example: girlboss/decorations-will-be-worn
+- Logged at catalog size 141.
+
+### "I never put it down."
+- The girlboss bridge button as an object still being held: the two-register lie ends not on a
+  compliment, a deflection or a stage direction of obedience (both retired) but on one thing she
+  is carrying that she has no professional reason to be carrying, reported last and left alone.
+- Example: "I was stood in the corridor by the cloakroom with somebody's mess jacket over my arm
+  for all of that, and I never put it down." — girlboss/decorations-will-be-worn
+- Logged at catalog size 141.
 
 
 ## Imagery / Motifs
@@ -2007,3 +2065,39 @@ gets fixed.
   all-harmony rule by handing anyone a solo. Trish and Sandra are now spent as names.
 - Example: hobo/free-means-ours
 - Logged at catalog size 139.
+
+### A dress cut from the same bolt as the uniform stripe worn by every man in the room
+- The garment-inventory device turned into a private joke nobody in the song is equipped to get:
+  she made her own dress from the facing cloth her firm supplies for their trousers, so the entire
+  room is wearing a piece of it, and the listener is handed the fact and told outright that nobody
+  else will be. Distinct from the standing-display songs (skirt, panty line, shoes), which
+  broadcast to be seen — this one is invisible by construction and works on her alone.
+- Example: girlboss/decorations-will-be-worn
+- Logged at catalog size 141.
+
+### The trade ledger as the room's real archive — measurements, and the year each man stopped being that number
+- Girlboss's itemised competence rendered as a bound record of every man present, kept in her hand,
+  in pencil, over generations: what they measure, what they used to measure, and which of them
+  asked her not to write it down. The inventory is of the people rather than of her own kit or the
+  employer's stock, and it establishes total institutional knowledge before anything is subverted.
+- Example: girlboss/decorations-will-be-worn
+- Logged at catalog size 141.
+
+### An inherited garment let out to its last thread by her own hands, giving way in public
+- The scoreboard beat as a physical ruin she personally authored years earlier: a father's mess
+  jacket she altered to its limit splits across the back while its wearer stands for the toast, and
+  he sits through the rest of the evening with his arms down. Deliberately not an etiquette breach
+  (girlboss/long-finish's swallowing at a spit-tasting) and not a degrading professional procedure
+  (girlboss/thats-why-i-bought-them's auditor's count) — the room's rules are all kept; the cloth
+  simply runs out, on schedule, at the worst moment, and it makes the fitting compulsory.
+- Example: girlboss/decorations-will-be-worn
+- Logged at catalog size 141.
+
+### A fresh set of measurements dated that night, in her own hand, as the implied-result evidence
+- The flat post-cutaway detail is an entry in her professional record: neck, chest, waist, sleeve,
+  taken at an hour and a venue where no fitting could have happened, written up as ordinary
+  bookkeeping. Fresh evidence-category after the unused return ticket, the waived survey, the shift
+  rota, the reserve bottle, the declined job and the made-up spare room — and deliberately not a
+  scheduling document, which the shift rota already spent.
+- Example: girlboss/decorations-will-be-worn
+- Logged at catalog size 141.
