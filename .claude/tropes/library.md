@@ -1149,6 +1149,98 @@ gets fixed.
 - Example: "were you counting on that, or did it just work out?" — the-bell-knows-my-name/only-bark-at-strangers
 - Logged at catalog size 158.
 
+### "prop the door, pull the tab, mind the flex, carry it on" — deferred-defect consumption-imperative hook opener
+- Laundry's imperative-opener slot filled with the small domestic accommodations a household makes
+  around things that no longer work, closing on the maintenance-log phrase for leaving a fault
+  unfixed.
+- Example: laundry/it-does-that
+- Logged at catalog size 159.
+
+### "it does that" — normalized-deviance mantra
+- The three words a household says about a fault it has stopped seeing, chanted and worn to noise
+  ("it does that / it does th— / (—at)"). The band's banal-phrase-to-mantra move applied to the exact
+  sentence by which a deviation becomes the standard.
+- Example: laundry/it-does-that
+- Logged at catalog size 159.
+
+### "and one kit stops being a fault and starts being the arrangement" — mechanical-collapse pre-hook line
+- A twelfth distinct phrasing for the pre-hook's textural build, after fold/buckle,
+  stutter-catch-click, second-kit-drops-out, kick-a-half-beat-late, hi-hat-splits-in-two,
+  snare-stuck-on-one-millisecond, toms-roll-under-the-couch, both-kits-sag,
+  accept-the-update-mid-bar, take-the-line-speed and drop-a-point-a-bar. This one states the song's
+  whole thesis as a drum instruction: nothing breaks, the broken thing is simply reclassified.
+  Invent a fresh one again next time.
+- Example: laundry/it-does-that
+- Logged at catalog size 159.
+
+### "what's the plan if it goes at night — the plan is the window" — question-with-no-addressee, self-answered and useless
+- The slot filled with a safety question he answers himself, correctly, and does nothing about.
+  Distinct from laundry/good-body-every-night's question answered by the sales script — that answer
+  came from somebody else's patter; this one is his own, accurate, and worthless. After the
+  unfinished measurement, the trailing passive appeal, the completed-and-unanswered question, the
+  number read out and the question aimed at an earlier self.
+- Example: laundry/it-does-that
+- Logged at catalog size 159.
+
+### "just use the shared one." — quoted-instruction hook opener
+- Guessed's quoted-instruction slot filled with the sentence by which an office normalises a
+  deviation, offered to her once as a helpful tip and now in her own mouth. After "be nice about
+  it", "don't make it a thing", "you knew what it was", "you've got time", "act like it's news",
+  "let it lie", "don't correct a compliment", "focus on the story", "come back to us", "be happy for
+  her", "say it and stop", "don't push it" and "don't bring it up".
+- Example: guessed/the-only-name-in-it
+- Logged at catalog size 160.
+
+### "and whose name is on it." → "and it's mine." — the question she already knows the answer to, answered in the final hook
+- The slot filled as an elliptical possessive question, and then — for the first time in the
+  catalogue — actually answered on the last pass, which is also the one-thing-changes ending. The
+  device normally leaves the question hanging; here the answer is what makes it worse. After the
+  retired wh-inverted skeleton, the yes/no shape, the either/or shape, the elliptical quantity, the
+  belief-about-others shape and the aimed-at-the-outcome shape.
+- Example: guessed/the-only-name-in-it
+- Logged at catalog size 160.
+
+### "it was a breach in two thousand and twelve, a workaround by fifteen, and by the time I got here it was just how we do it" — reclassification-timeline accusatory parallel
+- Purple Dog's accusatory-parallel slot filled with a fresh grammatical shape after the retired
+  where/should construction and the spent "you trust the log, not the room" two-beat: the same
+  practice named three times across a decade, each name softer than the last, so the wrong is
+  visible only as a sequence. The slot is mandatory and no filling recurs.
+- Example: purple-dog/laminated
+- Logged at catalog size 161.
+
+### "calm down, log it, park it, take it offline" — corporate stacked-imperative chorus opener
+- Purple Dog's stacked-imperative slot filled with meeting-room deflections rather than clinical
+  ones, after "sit down, shut up, take your pills, act glad". Every command is a way of not
+  addressing something while appearing to.
+- Example: purple-dog/laminated
+- Logged at catalog size 161.
+
+### "HE'S DIFFICULT" → "WE'RE DIFFICULT" — contradicting gang shout-back and its communal flip
+- The crowd overrules his protest with the institution's own word for a person who notices, then
+  claims it in the final chorus. "Difficult" chosen because it is the actual verdict such rooms
+  return, and because it is unfalsifiable — objecting to it proves it.
+- Example: purple-dog/laminated
+- Logged at catalog size 161.
+
+### "We'll call that acceptable. / That's the new baseline." — reclassification chant hook
+- Girlboss's hook slot filled with the two sentences that perform a normalization of deviance out
+  loud, in the room, with authority. Fresh mechanism after the quoted critic, the tasting note, the
+  listing language, the bar call, the labour tally, the renovated idiom, the invitation instruction,
+  the betting-window pair, the counter patter, the negotiating position, the disambiguation, the
+  power asymmetry, the creed-with-one-item-wrong and the instruction both jobs require.
+- Example: girlboss/the-new-baseline
+- Logged at catalog size 162.
+
+### "They teach that module as a warning. I have taken it as a method."
+- The unearned moral as a case study repurposed: the textbook example of institutional failure
+  received as professional training in how to do it deliberately. A twelfth flavour after the trade
+  rule quoted straight, the household lore, the management wisdom, the claimed authorship of an
+  effect, the corrected proverb, the mentorship handed down, the authored policy, the itemisation of
+  what was really bought, the confidentiality assurance, the moral misread as modesty and the
+  curriculum fact.
+- Example: girlboss/the-new-baseline
+- Logged at catalog size 162.
+
 
 ## Phrases
 
@@ -2237,6 +2329,98 @@ gets fixed.
 - Example: the-bell-knows-my-name/only-bark-at-strangers
 - Logged at catalog size 158.
 
+### "there is no working smoke alarm in this house and everyone who lives here knows." → "…and everyone who lives here sleeps."
+- The flash-of-legibility line: the hazard stated plainly, in full, with the household's awareness of
+  it given as the closing clause rather than as a mitigation. The final hook swaps the last word and
+  makes the same sentence worse.
+- Example: laundry/it-does-that
+- Logged at catalog size 159.
+
+### "we are all still here, which is the evidence, which is the whole of the evidence"
+- The closing button: the absence of harm so far offered as proof of safety, with the narrator
+  naming the poverty of that proof in the same breath and finding it sufficient anyway. The thesis
+  of the whole device, said flat.
+- Example: laundry/it-does-that
+- Logged at catalog size 159.
+
+### "It's not gone off in anger. That's the phrase. Somebody said it once and we kept it."
+- A household's inherited formula for the fault, quoted and immediately sourced — the origin
+  forgotten, the sentence load-bearing. Shows how the deviation was talked into being normal without
+  anyone deciding anything.
+- Example: laundry/it-does-that
+- Logged at catalog size 159.
+
+### "Six years of that system, and I am the only name in it."
+- The one-line-that-lands: her refusal to join the shared account stated as an audit fact, with the
+  consequence left entirely unspoken — integrity and exposure are the same sentence.
+- Example: guessed/the-only-name-in-it
+- Logged at catalog size 160.
+
+### "If it ever goes wrong, I'm the only one they can find."
+- The drop-out kept **managed**: a risk assessment rather than a cry, delivered as a flat conditional
+  about a thing that has not happened. A fourth managed mode after documenting a success as
+  procedure (guessed/say-it-and-stop), running a maintenance routine for absent people
+  (guessed/ones-with-names-on) and compliance carried to its absurd end (guessed/name-of-the-course).
+- Example: guessed/the-only-name-in-it
+- Logged at catalog size 160.
+
+### "Said it like a kindness. It is a kindness. It does save a lot of hassle."
+- The band's no-villain rule stated three times over: the advice that normalised the deviation is
+  conceded to be well meant, true, and genuinely useful, before she declines it anyway. Nobody in
+  the song is wrong except in aggregate.
+- Example: guessed/the-only-name-in-it
+- Logged at catalog size 160.
+
+### "I know who did every one of those. I could tell you by the timestamps."
+- The unspent-expertise line: she can de-anonymise the whole floor's activity from behaviour alone,
+  and the capability has no recipient. Concrete detail in place of the retired "nobody asked"
+  construction.
+- Example: guessed/the-only-name-in-it
+- Logged at catalog size 160.
+
+### "you didn't miss it. You renamed it."
+- The direct accusation: the institution is credited with full awareness and charged with
+  vocabulary rather than negligence. Extended in the final chorus to "And you laminated it."
+- Example: purple-dog/laminated
+- Logged at catalog size 161.
+
+### "and I've read it back to myself / in the car park, out loud, to check"
+- The pre-chorus crack shown through behaviour rather than announced, per the spec's ban on the
+  narrator naming his own state: a man checking his own sentences aloud, alone, before he is allowed
+  to say them indoors.
+- Example: purple-dog/laminated
+- Logged at catalog size 161.
+
+### "Laminated. Somebody laminated that."
+- The petty trigger's button: the institution's reply to a definition of institutional failure is a
+  noticeboard policy, and the detail that finishes him is that somebody took the trouble to
+  laminate it. Effort spent on the wrong object, noticed and repeated.
+- Example: purple-dog/laminated
+- Logged at catalog size 161.
+
+### "So I read him the clause. Slowly. All of it. Including the bit in brackets. And then I told him who wrote the clause."
+- A ninth girlboss lie shape, and the only one containing no lie at all: she answers the challenge by
+  quoting the governing document, which is authoritative, correct, and hers — the third revision,
+  two years ago. The document was aligned to the practice rather than the practice to the document,
+  and she chaired the review that approved it.
+- Example: girlboss/the-new-baseline
+- Logged at catalog size 162.
+
+### "And I put the next audit in for March while he was still talking."
+- The girlboss bridge button as forward scheduling: the interruption is closed by booking the next
+  one, during the call, unprompted. Fresh after the obedience stage direction, the object still
+  held, the sightline, the misdirected line, the corrected terminology, the retention period, the
+  billed interruption and the referral.
+- Example: girlboss/the-new-baseline
+- Logged at catalog size 162.
+
+### "he says: well, it's been like that a while, hasn't it. And I said: it has. So we'll call that acceptable."
+- The deviation normalised by consent rather than by concealment: she asks the newest person on site
+  what he thinks, agrees with his observation, and converts it into a standard in the same breath.
+  He signs first; she countersigns; nothing is hidden from anybody at any point.
+- Example: girlboss/the-new-baseline
+- Logged at catalog size 162.
+
 
 ## Imagery / Motifs
 
@@ -3313,3 +3497,94 @@ gets fixed.
   rings. She is alive somewhere in the song and no reason for going is ever offered.
 - Example: the-bell-knows-my-name/only-bark-at-strangers
 - Logged at catalog size 158.
+
+### Normalization of deviance rendered domestically — the alarm on top of the fridge, cover off
+- The gravity well carried entirely by household accommodations: the battery in the drawer with the
+  takeaway menus, a kettle lead daisy-chained off the microwave since Easter, a char on the cupboard
+  door in the shape of a hand, an extension with an extension in it, four things in a three. Nothing
+  is neglected out of carelessness — the narrator states outright that he is the one who takes the
+  batteries out — and every single step was locally reasonable. Deliberately domestic rather than
+  industrial, since laundry/keep-her-fed already occupies the factory-and-unreported-injury ground.
+- Example: laundry/it-does-that
+- Logged at catalog size 159.
+
+### The escape plan the parent is proud of, through a window that doesn't open
+- The verse-2 grotesque: a child taught to go out the back, the teaching remembered with pride, and
+  the window in question restricted to a hand's width by a catch that is itself a safety feature.
+  Two safety measures cancelling each other, reported at the same brightness as the takeaway menus,
+  per the band's under-reaction rule.
+- Example: laundry/it-does-that
+- Logged at catalog size 159.
+
+### The dissolve as an ignored warning becoming the tempo
+- Laundry's voice-eaten-by-the-machine dissolve where the sound the house has trained itself not to
+  hear — a low-battery chirp from an alarm taken down and left bleeping in the shed — lands on the
+  beat and becomes the click everything else is played to. The narrator's last coherent statement is
+  that he can no longer hear it as a warning, only as a bar. Distinct from laundry/still-warm,
+  laundry/instructions-unclear, laundry/good-body-every-night, laundry/by-continuing,
+  laundry/keep-her-fed and laundry/one-to-ten.
+- Example: laundry/it-does-that
+- Logged at catalog size 159.
+
+### The shared login as the office's normalized deviance, and the one private account inside it
+- An entire floor working under a single credential whose password is on the whiteboard, so the
+  audit trail records one meaningless name — except hers. She is the only identifiable person in six
+  years of the record, which makes her simultaneously the only person with integrity in the system
+  and the only person it could ever be traced to. Deliberately clerical rather than physical:
+  laundry/it-does-that covers the same principle domestically, through propped doors and dead smoke
+  alarms, and the two songs share no object, no register and no line.
+- Example: guessed/the-only-name-in-it
+- Logged at catalog size 160.
+
+### The disproportionate shrug as quiet non-compliance
+- Told about the shared account, she agrees warmly and does the opposite without mentioning it:
+  "I said brilliant, thanks. / Then I went back to my desk and I logged in as me." The refusal is
+  total, permanent, and completely unannounced — the shrug applied to an act of principle rather
+  than to an injury.
+- Example: guessed/the-only-name-in-it
+- Logged at catalog size 160.
+
+### The definition pinned to the noticeboard and taken down
+- The petty trigger: he prints one page — not his words, a dictionary definition — puts it on the
+  board by the kettle with a magnet, and by Thursday it has been replaced by a laminated notice
+  about not putting things on the board. The whole grievance is that he used the correct term in the
+  correct forum and the term itself was the offence. Third of four songs written from the same
+  prompt (see laundry/it-does-that, guessed/the-only-name-in-it): this is the man who named it.
+- Example: purple-dog/laminated
+- Logged at catalog size 161.
+
+### The breakdown as a recitation — a textbook definition read aloud until it becomes a scream
+- Purple Dog's mock-calm monologue filled with the narrator reading a sociological definition
+  verbatim, offering it as neutral ground ("you tell me which part is me being difficult") and
+  losing the argument to his own voice halfway through the sentence. He never adds a claim; the
+  escalation is entirely in the delivery of somebody else's words.
+- Example: purple-dog/laminated
+- Logged at catalog size 161.
+
+### The compliance officer as the agent of normalized deviance — she signs everything and hides nothing
+- The fourth song from one prompt (with laundry/it-does-that, guessed/the-only-name-in-it and
+  purple-dog/laminated) and the only one whose narrator enjoys it: her actual job is preventing this,
+  she can recite the canonical case study, and she is running the mechanism deliberately and in full
+  view. Nothing on the site is concealed, every deviation is signed, and the closing claim is
+  literally true — "Nothing on that site is wrong. Every single thing on it is signed."
+- Example: girlboss/the-new-baseline
+- Logged at catalog size 162.
+
+### The rewritten procedure as the implied-result evidence
+- The flat post-cutaway detail is a version history: the clause that makes the practice compliant is
+  the third revision, authored by her, approved by a review she chaired, and filed in the pack. The
+  paperwork was brought into line with the behaviour rather than the reverse, and it is all
+  auditable. Fresh evidence-category after the unused return ticket, the waived survey, the shift
+  rota, the reserve bottle, the declined job, the made-up spare room, the measurements dated that
+  night, the gap in the camera log, the over-proved batch, the uninvoiced pallet, the abandoned
+  part-exchange, the privately-funded repeat, the declined introductions and the prospectus cover.
+- Example: girlboss/the-new-baseline
+- Logged at catalog size 162.
+
+### The weekly alarm test as the cutaway
+- The scene ends because a scheduled safety siren goes off — the building's own compliance routine
+  interrupting a compliance breach. Fresh after the drawn curtains, the doorbell and the boiler, the
+  hook's betting call, the next customer served and the booked room.
+- Example: girlboss/the-new-baseline
+- Logged at catalog size 162.
+
