@@ -421,3 +421,71 @@ BAN	149	the banana one myself	request laundered through a technical pretext — 
 BAN	149	small of the back	correcting posture as task double-entendre — girlboss/hold-it-there
 BAN	149	so he can stand further back	craft degrading behind his own equipment — girlboss/hold-it-there
 BAN	149	front cover is me	prospectus cover as implied-result evidence — girlboss/hold-it-there
+BAN	150	keeps no ledger	kept-ledger-against-unkept-ledger thesis couplet — the-bell-knows-my-name/the-bloom-i-cut
+BAN	150	cut it low, cut it kind	band-instruction chorus opener — the-bell-knows-my-name/the-bloom-i-cut
+BAN	150	keeps the spent notes	pre-chorus violin-personification line — the-bell-knows-my-name/the-bloom-i-cut
+BAN	150	what I called you	chorus direct question to the wronged party — the-bell-knows-my-name/the-bloom-i-cut
+BAN	150	the bloom I cut	communal shout-back line — the-bell-knows-my-name/the-bloom-i-cut
+BAN	150	careful round my throat	verse-2 reversal carried by a razor — the-bell-knows-my-name/the-bloom-i-cut
+BAN	150	head that.s finished	deadheading as the utilitarian argument — the-bell-knows-my-name/the-bloom-i-cut
+BAN	151	not one yard of that ground	capability-against-non-entitlement thesis couplet — the-bell-knows-my-name/born-in-a-stable
+BAN	151	walk him out, walk him sound	band-instruction chorus opener — the-bell-knows-my-name/born-in-a-stable
+BAN	151	comes when I call it	pre-chorus violin-personification line — the-bell-knows-my-name/born-in-a-stable
+BAN	151	I.d have said the same	communal shout-back as concession — the-bell-knows-my-name/born-in-a-stable
+BAN	151	hand flat on my chest	exclusion delivered as a courtesy — the-bell-knows-my-name/born-in-a-stable
+BAN	151	ever a word for what I was	chorus question asking for a category — the-bell-knows-my-name/born-in-a-stable
+BAN	151	born in a stable is a dog	the Wellington retort taken literally — the-bell-knows-my-name/born-in-a-stable
+BAN	151	held the horses while it went	exclusion staged as a job at the graveside — the-bell-knows-my-name/born-in-a-stable
+PERM	-	^[A-Z][a-z]+ — d(o|id) you know	named address + question about their knowledge — spent the-bloom-i-cut
+BAN	152	feed the jaws	machine-tending consumption-imperative hook opener — laundry/keep-her-fed
+BAN	152	keep her fed	machine-appetite mantra — laundry/keep-her-fed
+BAN	152	take the line speed	mechanical-collapse pre-hook line — laundry/keep-her-fed
+BAN	152	operator zero six two	question-with-no-addressee as a number read out — laundry/keep-her-fed
+BAN	152	has a name and I have a number	flash of legibility, asymmetry of naming — laundry/keep-her-fed
+BAN	152	fair enough, honestly, considering	amputation entered on the credit side — laundry/keep-her-fed
+BAN	152	out loud, in a canteen	final-hook button citing witnesses — laundry/keep-her-fed
+BAN	152	who Doris was	the named machine as harsh mistress — laundry/keep-her-fed
+BAN	152	glove in the swarf bin	unreported injury as grotesque non-sequitur — laundry/keep-her-fed
+BAN	153	log it before you drive	anger-management consumption-imperative hook opener — laundry/one-to-ten
+BAN	153	one to ten	measurement-scale mantra — laundry/one-to-ten
+BAN	153	drop a point a bar	mechanical-collapse pre-hook line — laundry/one-to-ten
+BAN	153	the man in March	question-with-no-addressee aimed at an earlier self — laundry/one-to-ten
+BAN	153	It was not a four	flash of legibility, the fraud admitted — laundry/one-to-ten
+BAN	153	nothing else moved at all	improvement and stasis as the same fact — laundry/one-to-ten
+BAN	153	telling the truth	closing button, the score become accurate — laundry/one-to-ten
+BAN	153	whose number it is	consequence gestured at, incident never named — laundry/one-to-ten
+BAN	153	it.s in my handwriting	dissolve as a record running ahead of him — laundry/one-to-ten
+BAN	154	say it and stop	quoted-instruction hook opener — guessed/say-it-and-stop
+BAN	154	how many is that	question-she-knows-the-answer-to, as a quantity — guessed/say-it-and-stop
+BAN	154	doing the other thing	one-line-that-lands, result plus cost of not trying — guessed/say-it-and-stop
+BAN	154	in case it stops working	managed drop-out, success documented as procedure — guessed/say-it-and-stop
+BAN	154	nothing of mine on it	unspent-expertise as a fact about a website — guessed/say-it-and-stop
+BAN	154	didn.t tell anyone it worked	unreported win as the disproportionate shrug — guessed/say-it-and-stop
+BAN	155	don.t push it	quoted-instruction hook opener — guessed/ones-with-names-on
+BAN	155	they.ve got one	question-she-knows-the-answer-to, one verb changed — guessed/ones-with-names-on
+BAN	155	isn.t the interesting part	one-line-that-lands, boast declined as the subject — guessed/ones-with-names-on
+BAN	155	ones with names on	managed drop-out, service kept running for absent people — guessed/ones-with-names-on
+BAN	155	nearest the tap	disproportionate shrug with a plumbing reason — guessed/ones-with-names-on
+BAN	155	from the doorway	unspent-expertise as a storage problem — guessed/ones-with-names-on
+BAN	155	take a cutting	rooted cuttings labelled for people who never collect — guessed/ones-with-names-on
+BAN	156	omen about us	prophecy-granted-then-redirected thesis couplet — the-bell-knows-my-name/best-thing-i-ever-ate
+BAN	156	sing it thin, sing it hungry	band-instruction chorus opener — the-bell-knows-my-name/best-thing-i-ever-ate
+BAN	156	a swan makes when it goes	pre-chorus violin-personification line — the-bell-knows-my-name/best-thing-i-ever-ate
+BAN	156	stay said	chorus question about the durability of a sentence — the-bell-knows-my-name/best-thing-i-ever-ate
+BAN	156	best thing I ever ate	communal shout-back refusing both positions — the-bell-knows-my-name/best-thing-i-ever-ate
+BAN	156	still the word for it	verse-2 loss relocated to a reputation — the-bell-knows-my-name/best-thing-i-ever-ate
+BAN	156	isn.t written down where	remote ownership established without naming an authority — the-bell-knows-my-name/best-thing-i-ever-ate
+BAN	157	don.t bring it up	quoted-instruction hook opener — guessed/name-of-the-course
+BAN	157	changed the meeting	question-she-knows-the-answer-to, aimed at the outcome — guessed/name-of-the-course
+BAN	157	on top of the wardrobe	one-line-that-lands, credential and its storage — guessed/name-of-the-course
+BAN	157	got a distinction	managed drop-out, compliance carried to its absurd end — guessed/name-of-the-course
+BAN	157	thinks the template does	unspent-expertise credited to software — guessed/name-of-the-course
+BAN	157	name of the course	disproportionate shrug, taking a note — guessed/name-of-the-course
+BAN	158	bark at what they don.t know	rule-and-its-fatal-instance thesis couplet — the-bell-knows-my-name/only-bark-at-strangers
+BAN	158	keep it low, keep it listening	band-instruction chorus opener — the-bell-knows-my-name/only-bark-at-strangers
+BAN	158	fiddle joins in with them	pre-chorus violin-personification line — the-bell-knows-my-name/only-bark-at-strangers
+BAN	158	counting on that, or did it just	unaddressed chorus question — the-bell-knows-my-name/only-bark-at-strangers
+BAN	158	best night.s sleep	verse-2 button, loss reported through the animals — the-bell-knows-my-name/only-bark-at-strangers
+BAN	158	only bark at strangers	communal shout-back — the-bell-knows-my-name/only-bark-at-strangers
+BAN	158	You stop getting up	confession with its own defence attached — the-bell-knows-my-name/only-bark-at-strangers
+PERM	-	and the fiddle starts	pre-chorus opener — three words shared with the retired confessing line

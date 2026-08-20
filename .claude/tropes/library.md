@@ -934,6 +934,221 @@ gets fixed.
 - Example: girlboss/hold-it-there
 - Logged at catalog size 149.
 
+### "I fed him forty summers and I counted every plate; / he lifts me up the stairs at night and keeps no ledger of the weight." — kept-ledger-against-unkept-ledger thesis couplet
+- The Bell Knows My Name's emotional-thesis slot filled with a fresh grammatical shape after the
+  retired "I've got X where Y should be" and the spent reciprocal-trade shape ("I gave the birds my
+  grief..."): both clauses describe the same debt, one party counting it and the other not, with the
+  narrator's own accounting exposed as the smaller act. No filling of this slot ever recurs.
+- Example: the-bell-knows-my-name/the-bloom-i-cut
+- Logged at catalog size 150.
+
+### "cut it low, cut it kind" — band-instruction chorus opener
+- The imperative-to-the-players slot filled with the song's own horticultural verb, the second
+  adverb pulling against the first. After "play it quick, play it broken" and "dig it slow, dig it
+  holy".
+- Example: the-bell-knows-my-name/the-bloom-i-cut
+- Logged at catalog size 150.
+
+### "and the fiddle keeps the spent notes / that my hands would have cut down" — pre-chorus violin-personification line
+- A fifth distinct phrasing for the "violin says what the mouth can't" beat, after "and the fiddle
+  starts confessing", "and the violin remembers", "and the fiddle stops its weeping" and "and the
+  strings go quiet too". This one makes the instrument merciful where the narrator was not, and
+  borrows the song's own pruning verb. Invent a fresh tie-in again next time.
+- Example: the-bell-knows-my-name/the-bloom-i-cut
+- Logged at catalog size 150.
+
+### "I can shoe near anything that breathes for twenty mile around / and there's not one yard of that ground will take me when I'm done." — capability-against-non-entitlement thesis couplet
+- The Bell Knows My Name's emotional-thesis slot filled with a fresh grammatical shape after the
+  retired where/should, the spent reciprocal-trade couplet and the kept-ledger-against-unkept-ledger
+  couplet: total competence in the first clause, total exclusion in the second, with no connective
+  and no complaint drawn between them. No filling of this slot ever recurs.
+- Example: the-bell-knows-my-name/born-in-a-stable
+- Logged at catalog size 151.
+
+### "walk him out, walk him sound" — band-instruction chorus opener
+- The imperative-to-the-players slot filled with the horseman's soundness check (trotting an animal
+  up to prove it isn't lame), which doubles as the demand the narrator can never satisfy. After
+  "play it quick, play it broken", "dig it slow, dig it holy" and "cut it low, cut it kind".
+- Example: the-bell-knows-my-name/born-in-a-stable
+- Logged at catalog size 151.
+
+### "and the fiddle comes when I call it / the way the horses always did" — pre-chorus violin-personification line
+- A sixth distinct phrasing for the "violin says what the mouth can't" beat, after confessing,
+  remembers, stops its weeping, the strings going quiet, and keeping the spent notes. This one has
+  the instrument side with the animals: everything unable to speak accepts him, and only the people
+  don't. Invent a fresh tie-in again next time.
+- Example: the-bell-knows-my-name/born-in-a-stable
+- Logged at catalog size 151.
+
+### "warm her up, glove up, feed the jaws, keep her sweet" — machine-tending consumption-imperative hook opener
+- Laundry's imperative-opener slot filled with shop-floor verbs that are also the verbs of keeping
+  somebody happy, closing on the one that belongs entirely to the other register. Deliberately opens
+  on "warm her up" rather than a clocking verb, since laundry/rest-when-im-dead already spent
+  "clock in".
+- Example: laundry/keep-her-fed
+- Logged at catalog size 152.
+
+### "keep her fed" — machine-appetite mantra
+- The instruction to keep material going into the line, chanted and worn to noise ("keep her fed /
+  keep her f— / (—ed)"). Distinct from the band's other degraded phrases in that it is an
+  instruction about feeding something that is not a person, said all day by people who talk about it
+  as one.
+- Example: laundry/keep-her-fed
+- Logged at catalog size 152.
+
+### "and both kits take the line speed and neither one of them can hold it" — mechanical-collapse pre-hook line
+- A tenth distinct phrasing for the pre-hook's textural build, after fold/buckle,
+  stutter-catch-click, second-kit-drops-out, kick-a-half-beat-late, hi-hat-splits-in-two,
+  snare-stuck-on-one-millisecond, toms-roll-under-the-couch, both-kits-sag and
+  accept-the-update-mid-bar. This one is a forced acceleration — the drums put on the line's rate
+  and fail to match it. Invent a fresh one again next time.
+- Example: laundry/keep-her-fed
+- Logged at catalog size 152.
+
+### "operator zero six two—" — question-with-no-addressee filled as a number read out
+- The slot filled with the narrator reading his own payroll number and stopping, the one variant the
+  laundry spec names that had never been used. After the unfinished measurement
+  (laundry/still-warm), the trailing passive appeal (laundry/instructions-unclear), the question
+  answered by the sales script (laundry/good-body-every-night) and the completed-and-unanswered
+  question (laundry/by-continuing).
+- Example: laundry/keep-her-fed
+- Logged at catalog size 152.
+
+### "name it, rate it, breathe it out, log it before you drive" — anger-management consumption-imperative hook opener
+- Laundry's imperative-opener slot filled with the coping-skill verbs taught on a mandated course,
+  closing on the instruction that reveals what the course is for without naming it.
+- Example: laundry/one-to-ten
+- Logged at catalog size 153.
+
+### "one to ten" — measurement-scale mantra
+- The ubiquitous rating prompt chanted and worn to noise ("one to ten / one to t— / (—en)"). The
+  band's banal-phrase-to-mantra move applied to an instrument that converts a feeling into a figure,
+  so the mantra degrading is the feeling degrading.
+- Example: laundry/one-to-ten
+- Logged at catalog size 153.
+
+### "and both kits drop a point a bar until there's nothing left to score" — mechanical-collapse pre-hook line
+- An eleventh distinct phrasing for the pre-hook's textural build, after fold/buckle,
+  stutter-catch-click, second-kit-drops-out, kick-a-half-beat-late, hi-hat-splits-in-two,
+  snare-stuck-on-one-millisecond, toms-roll-under-the-couch, both-kits-sag,
+  accept-the-update-mid-bar and take-the-line-speed. This one is a descending score rather than a
+  mechanical failure. Invent a fresh one again next time.
+- Example: laundry/one-to-ten
+- Logged at catalog size 153.
+
+### "what did the man in March put? I'd like to see what he put." — question-with-no-addressee aimed at an earlier self
+- The slot filled with a question about his own previous answers, asked in the third person about a
+  version of himself he no longer has access to. After the unfinished measurement, the trailing
+  passive appeal, the question answered by the sales script, the completed-and-unanswered question
+  and the number read out.
+- Example: laundry/one-to-ten
+- Logged at catalog size 153.
+
+### "say it and stop." — quoted-instruction hook opener
+- Guessed's quoted-instruction slot filled with advice she read rather than advice she was given —
+  a stranger's line from a thread, now issued to herself in her own voice. Deliberately not "let it
+  land", which was the first draft and sits too close to girlboss-adjacent "let it lie"
+  (guessed/let-it-lie) to survive a listen.
+- Example: guessed/say-it-and-stop
+- Logged at catalog size 154.
+
+### "how many is that, then. how many is that." — the question she already knows the answer to, as a quantity
+- The slot filled with an elliptical count rather than a wh-question, after the retired "so +
+  wh-word + was/did I" skeleton, the yes/no "was any of it ever about X" shape and the either/or
+  "did I X, or did I just Y" shape. The answer is a number she could produce and doesn't.
+- Example: guessed/say-it-and-stop
+- Logged at catalog size 154.
+
+### "don't push it." — quoted-instruction hook opener
+- Guessed's quoted-instruction slot filled with the rule she now applies to her own hospitality:
+  never offer a second time. After "be nice about it", "don't make it a thing", "you knew what it
+  was", "you've got time", "act like it's news", "let it lie", "don't correct a compliment", "focus
+  on the story", "come back to us", "be happy for her" and "say it and stop".
+- Example: guessed/ones-with-names-on
+- Logged at catalog size 155.
+
+### "do they think they've got one." → "do they know they've got one." — the question she already knows the answer to, one verb changed
+- The slot filled as a yes/no about somebody else's belief rather than about her own past, and the
+  final hook swaps a single verb: *think* concedes they might be waiting, *know* concedes they have
+  no idea a labelled pot exists. That substitution is the whole ending. Distinct from the elliptical
+  quantity shape (guessed/say-it-and-stop) and from the retired wh-inverted skeleton.
+- Example: guessed/ones-with-names-on
+- Logged at catalog size 155.
+
+### "they called it a bad omen, and they were not wrong about that. It was an omen about us." — prophecy-granted-then-redirected thesis couplet
+- The Bell Knows My Name's emotional-thesis slot filled with a fresh grammatical shape after the
+  retired where/should, the reciprocal-trade couplet, the kept-ledger-against-unkept-ledger couplet
+  and the capability-against-non-entitlement couplet: the accusers' reading is conceded as accurate
+  and then turned to a different subject, so nothing is disputed and everything changes. No filling
+  of this slot ever recurs.
+- Example: the-bell-knows-my-name/best-thing-i-ever-ate
+- Logged at catalog size 156.
+
+### "sing it thin, sing it hungry" — band-instruction chorus opener
+- The imperative-to-the-players slot filled with the song's own condition, the second adverb naming
+  the cause of everything in it. After "play it quick, play it broken", "dig it slow, dig it holy",
+  "cut it low, cut it kind" and "walk him out, walk him sound".
+- Example: the-bell-knows-my-name/best-thing-i-ever-ate
+- Logged at catalog size 156.
+
+### "and the fiddle holds the one note / that a swan makes when it goes" — pre-chorus violin-personification line
+- A seventh distinct phrasing for the "violin says what the mouth can't" beat, after confessing,
+  remembers, stops its weeping, the strings going quiet, keeping the spent notes, and coming when
+  called. This one leans on the swan-song folklore the whole lyric sits in — the bird that is silent
+  until the end. Invent a fresh tie-in again next time.
+- Example: the-bell-knows-my-name/best-thing-i-ever-ate
+- Logged at catalog size 156.
+
+### "don't bring it up." — quoted-instruction hook opener
+- Guessed's quoted-instruction slot filled with the rule she applies to her own qualifications.
+  After "be nice about it", "don't make it a thing", "you knew what it was", "you've got time",
+  "act like it's news", "let it lie", "don't correct a compliment", "focus on the story", "come back
+  to us", "be happy for her", "say it and stop" and "don't push it".
+- Example: guessed/name-of-the-course
+- Logged at catalog size 157.
+
+### "and would it have changed the meeting." — the question she already knows the answer to, aimed at the outcome
+- The slot filled with a question about consequence rather than about herself, punctuated flat so it
+  reads as already answered. After the retired wh-inverted skeleton, the yes/no "was any of it ever
+  about X", the either/or "did I X or did I just Y", the elliptical quantity
+  (guessed/say-it-and-stop) and the belief-about-others shape (guessed/ones-with-names-on).
+- Example: guessed/name-of-the-course
+- Logged at catalog size 157.
+
+### "they only ever bark at what they don't know. / She walked past every one of them and not one of them woke." — rule-and-its-fatal-instance thesis couplet
+- The Bell Knows My Name's emotional-thesis slot filled with a fresh grammatical shape after the
+  retired where/should, the reciprocal-trade couplet, the kept-ledger-against-unkept-ledger couplet,
+  the capability-against-non-entitlement couplet and the prophecy-granted-then-redirected couplet:
+  a mechanism stated plainly, then the one event that satisfied it perfectly and cost everything.
+  Nothing malfunctioned. No filling of this slot ever recurs.
+- Example: the-bell-knows-my-name/only-bark-at-strangers
+- Logged at catalog size 158.
+
+### "keep it low, keep it listening" — band-instruction chorus opener
+- The imperative-to-the-players slot filled with the posture of a man at a door with a lamp. After
+  "play it quick, play it broken", "dig it slow, dig it holy", "cut it low, cut it kind", "walk him
+  out, walk him sound" and "sing it thin, sing it hungry".
+- Example: the-bell-knows-my-name/only-bark-at-strangers
+- Logged at catalog size 158.
+
+### "and the fiddle joins in with them / and it doesn't know why either" — pre-chorus violin-personification line
+- An eighth distinct phrasing for the "violin says what the mouth can't" beat, after confessing,
+  remembers, stops its weeping, the strings going quiet, keeping the spent notes, coming when
+  called, and holding the swan note. This one has the instrument sound the alarm without
+  understanding it, alongside the dogs. Note: an earlier draft read "and the fiddle starts up with
+  them", which shares three words with the retired "and the fiddle starts confessing" and would have
+  been audible — the opening verb of this line is effectively spent too.
+- Example: the-bell-knows-my-name/only-bark-at-strangers
+- Logged at catalog size 158.
+
+### The chorus question left unaddressed — the name withheld until verse 2
+- Bell's direct-question requirement met without naming the addressee in the chorus at all, so the
+  question is ambiguous on first hearing and unmistakable on the second. Adopted because
+  "[Name] — [question]" had closed the chorus of three consecutive Bell songs (the-bloom-i-cut,
+  born-in-a-stable and this one's first draft) and was becoming the band's default shape.
+- Example: "were you counting on that, or did it just work out?" — the-bell-knows-my-name/only-bark-at-strangers
+- Logged at catalog size 158.
+
 
 ## Phrases
 
@@ -1812,6 +2027,215 @@ gets fixed.
   subtext entirely by being true.
 - Example: girlboss/hold-it-there
 - Logged at catalog size 149.
+
+### "Emil — do you know what I called you, when I still had my own hands?"
+- The chorus's direct question aimed at the person the narrator wronged, with no "so tell me,
+  [address], tell me" scaffold — and unanswerable in the worst way, since the man it is asked of has
+  spent the song caring for him without comment.
+- Example: the-bell-knows-my-name/the-bloom-i-cut
+- Logged at catalog size 150.
+
+### "I was the bloom I cut."
+- The communal shout-back line: the song's entire turn in five words, the pruning logic of the
+  verses applied to the man who spent his life stating it. Deliberately not the "but God, [pronoun]"
+  pivot and not the retired "and the [abstract] didn't/never [fix/save] me" landing formula.
+- Example: the-bell-knows-my-name/the-bloom-i-cut
+- Logged at catalog size 150.
+
+### "and he is careful round my throat"
+- The verse-2 detail that carries the whole reversal without stating it: the brother he resented for
+  forty years now shaves him, humming, with a blade at his neck, and is gentle. No feeling narrated
+  and no forgiveness announced.
+- Example: the-bell-knows-my-name/the-bloom-i-cut
+- Logged at catalog size 150.
+
+### "and I'd have said the same."
+- The communal shout-back line as a concession rather than a lament: the crowd catches and repeats
+  the narrator's agreement with the people excluding him. It is what keeps the song out of
+  purple-dog's territory — no villain is available, because the narrator grants the rule and would
+  have applied it to somebody else. Deliberately not the "but God, [pronoun]" pivot and not the
+  retired "and the [abstract] didn't/never [fix/save] me" landing formula.
+- Example: the-bell-knows-my-name/born-in-a-stable
+- Logged at catalog size 151.
+
+### "Somebody put a hand flat on my chest — kindly. Not unkindly."
+- The exclusion delivered as a courtesy at a graveside, with the gentleness insisted on twice and no
+  offence taken. Carries the whole verdict of the song in a gesture, and nobody in the scene is
+  cruel — the same "no villain, just a decent impulse landing sideways" register the Guessed spec
+  names, borrowed for a funeral.
+- Example: the-bell-knows-my-name/born-in-a-stable
+- Logged at catalog size 151.
+
+### "Rada — was there ever a word for what I was to you?"
+- The chorus's direct question, aimed at the dead woman who raised him and asking for a *category*
+  rather than an admission. Deliberately not the shape used one song earlier
+  (the-bell-knows-my-name/the-bloom-i-cut's "Emil — do you know what I called you") — a named
+  address followed by a question about the other person's knowledge is now spent; this one asks
+  whether the relationship ever had a name at all.
+- Example: the-bell-knows-my-name/born-in-a-stable
+- Logged at catalog size 151.
+
+### "The line has a name and I have a number."
+- The flash-of-legibility line: the whole exchange stated as an asymmetry of naming, flat, with no
+  complaint attached and nothing asked for.
+- Example: laundry/keep-her-fed
+- Logged at catalog size 152.
+
+### "which is fair enough, honestly, considering. A house. Both cars. The lot."
+- The under-reaction rule applied to an amputation: a fingertip entered on the credit side of a
+  ledger against a mortgage and two vehicles, and found to balance. No grievance and no irony
+  available in the delivery.
+- Example: laundry/keep-her-fed
+- Logged at catalog size 152.
+
+### "I have said that out loud, in a canteen, to people."
+- The final-hook button: devotion to the machine offered as evidence against himself, with the
+  witnesses specified. Distinct from the band's other closing admissions in that nothing is being
+  confessed — he is citing the statement as proof of how good she has been to him.
+- Example: laundry/keep-her-fed
+- Logged at catalog size 152.
+
+### "I put a four. It was not a four."
+- The flash-of-legibility line: the fraud at the centre of the whole exercise admitted in seven
+  words, with no account of what the real figure would have been and no defence offered.
+- Example: laundry/one-to-ten
+- Logged at catalog size 153.
+
+### "the number went down every week and nothing else moved at all"
+- The final-hook restatement: measurable improvement and total stasis reported as the same fact,
+  flat, with the instrument's success and the man's condition entirely uncoupled.
+- Example: laundry/one-to-ten
+- Logged at catalog size 153.
+
+### "I'd put a two today. I'd put a two and I would be telling the truth."
+- The closing button: the score has become accurate, and the reason it is accurate is the thing the
+  song will not say. Honesty arrives only once there is nothing left to misreport.
+- Example: laundry/one-to-ten
+- Logged at catalog size 153.
+
+### "It worked. First go. Twenty years of doing the other thing."
+- The one-line-that-lands: a result and the cost of not having tried it, in two flat fragments, with
+  no account of why she hadn't. The final hook swaps the second half ("And I have got it written
+  down"), which is the one-word-changes-the-ending device.
+- Example: guessed/say-it-and-stop
+- Logged at catalog size 154.
+
+### "I've written down what I did, in case it stops working."
+- The drop-out kept deliberately **managed** rather than cracked (see guessed/template.md): she meets
+  a small success by documenting it as a procedure she doesn't trust, which is her own technique
+  still running. The ache is entirely in the contingency, and nothing is confessed. Contrast
+  guessed/dont-look-at-her-hand's "I want it back", where the apparatus fails instead — that mode
+  stays rare by design.
+- Example: guessed/say-it-and-stop
+- Logged at catalog size 154.
+
+### "I've read that forum since it started. There's nothing of mine on it."
+- The unspent-expertise line delivered as a fact about a website: total attendance and zero standing
+  stated without complaint, and without the retired "nobody asked" construction. The lurker thesis
+  in its most literal form.
+- Example: guessed/say-it-and-stop
+- Logged at catalog size 154.
+
+### "It is a very good collection. That isn't the interesting part."
+- The one-line-that-lands: an accurate boast immediately declined as the subject, refusing the noun
+  in the same breath — what the interesting part is never gets said anywhere in the song.
+- Example: guessed/ones-with-names-on
+- Logged at catalog size 155.
+
+### "I still water the ones with names on."
+- The drop-out kept **managed**: an ongoing maintenance routine stated as a fact, for cuttings nobody
+  is coming to collect. Nothing is confessed, nobody is blamed, and the ache is entirely in the
+  tense. A second managed drop-out in a different mode from guessed/say-it-and-stop's documentation
+  — that one wrote a success up as a procedure, this one keeps a service running for absent people.
+- Example: guessed/ones-with-names-on
+- Logged at catalog size 155.
+
+### "I water it first because it's nearest the tap."
+- The disproportionate shrug: the one plant that matters gets tended first, and a plumbing reason is
+  supplied for it immediately. The logistics are true and they are also the cover.
+- Example: guessed/ones-with-names-on
+- Logged at catalog size 155.
+
+### "I know what's wrong with one from the doorway. There's nowhere to put that."
+- The unspent-expertise line: real diagnostic competence named, then the absence of any use for it
+  stated as a storage problem rather than a grievance. Avoids the retired "nobody asked"
+  construction and the word "skill" (guessed/its-a-life-skill).
+- Example: guessed/ones-with-names-on
+- Logged at catalog size 155.
+
+### "And how long does a thing like that stay said?"
+- The chorus's direct question, aimed at the dead man in verse 2 but asking about the durability of
+  a sentence rather than about his conduct. Deliberately neither of the two spent Bell shapes — not
+  the retired named-address-plus-question-about-knowledge, and not "was there ever a word for what I
+  was to you".
+- Example: the-bell-knows-my-name/best-thing-i-ever-ate
+- Logged at catalog size 156.
+
+### "and it was the best thing I ever ate."
+- The communal shout-back: a starving child's memory stated as pleasure, with no apology attached
+  and no defence offered, sung by the whole room. It refuses both available positions — the
+  accusation is not denied and it is not repented — and the grief is that this is what a hundred
+  years of characterisation was built on. Not the "but God, [pronoun]" pivot, not the retired
+  "didn't/never fix me" formula, and not the concession shape of born-in-a-stable.
+- Example: the-bell-knows-my-name/best-thing-i-ever-ate
+- Logged at catalog size 156.
+
+### "His name is still the word for it. They use it about children who weren't born."
+- The verse-2 loss relocated from a death to a reputation: the man has been dead for decades and the
+  cost still being paid is that his name became the term, applied to people who did not exist when
+  it happened.
+- Example: the-bell-knows-my-name/best-thing-i-ever-ate
+- Logged at catalog size 156.
+
+### "I got a first. It's in a tube on top of the wardrobe." → "It's in the tube with the other one now."
+- The one-line-that-lands: a credential and its storage, stated in one breath with no comment
+  attached, and the final hook adds a second certificate to the same tube in four words. That
+  substitution is the whole ending.
+- Example: guessed/name-of-the-course
+- Logged at catalog size 157.
+
+### "I did the course. I got a distinction."
+- The drop-out kept **managed**: she takes the condescending suggestion literally, completes it, and
+  excels — reporting both facts as flatly as a receipt. A third managed mode after documenting a
+  success as procedure (guessed/say-it-and-stop) and running a maintenance routine for absent people
+  (guessed/ones-with-names-on): here the management is compliance, carried through to its most
+  absurd and most impressive end.
+- Example: guessed/name-of-the-course
+- Logged at catalog size 157.
+
+### "I fix his slides before he sends them. He thinks the template does that."
+- The unspent-expertise line: uncredited competence attributed by its beneficiary to software. Shows
+  the zero-standing ache entirely through a concrete detail, per the spec's instruction after the
+  "nobody['s] ever asked" construction was retired.
+- Example: guessed/name-of-the-course
+- Logged at catalog size 157.
+
+### "I wrote down the name of the course."
+- The disproportionate shrug: told to consider studying the subject she has a first in, she
+  cooperates with the suggestion and takes a note. No correction offered and no offence recorded.
+- Example: guessed/name-of-the-course
+- Logged at catalog size 157.
+
+### "And the dogs had a good night. Best night's sleep they'd had in years."
+- The verse-2 button: the loss reported through the animals' comfort, with the narrator declining to
+  say anything about his own night. The cruelty is entirely in the cheerfulness of the observation.
+- Example: the-bell-knows-my-name/only-bark-at-strangers
+- Logged at catalog size 158.
+
+### "they only bark at strangers."
+- The communal shout-back: a plain fact about dogs that has become the reason a house lost somebody,
+  chanted by a room. Comforting on the first hearing and unbearable by the last. Not the "but God,
+  [pronoun]" pivot, not the retired "didn't/never fix me" formula, and distinct from the concession
+  (born-in-a-stable) and the refusal-of-both-positions (best-thing-i-ever-ate) shapes.
+- Example: the-bell-knows-my-name/only-bark-at-strangers
+- Logged at catalog size 158.
+
+### "Twenty years of nothing. You stop getting up. Anybody would."
+- The confession offered with its own defence attached and the defence conceded to be reasonable —
+  the narrator neither excuses himself nor accepts blame, and invites the listener to agree that he
+  behaved normally, which is the worst available outcome.
+- Example: the-bell-knows-my-name/only-bark-at-strangers
+- Logged at catalog size 158.
 
 
 ## Imagery / Motifs
@@ -2727,3 +3151,165 @@ gets fixed.
   privately-funded repeat and the declined introductions.
 - Example: girlboss/hold-it-there
 - Logged at catalog size 149.
+
+### Deadheading as the utilitarian argument, turned on the man making it
+- The horticultural fact does the work: what a gardener cuts is the bloom that has already flowered,
+  never the weed — so a life spent applying that logic to people arrives, on schedule, at the
+  narrator himself. The sentiment is stated plainly and in his own mouth in verse 1 ("I said it
+  about people... with a full plate in my belly and two hands that still worked"), and the song
+  neither argues with it nor endorses it; the arithmetic simply comes round. Written from a prompt
+  that read as an argument for culling the dependent, reframed so the cost lands on the speaker
+  rather than the subject — the house rule for pointed material.
+- Example: the-bell-knows-my-name/the-bloom-i-cut
+- Logged at catalog size 150.
+
+### The specific verse-2 human as a living dependent rather than a death
+- The band's "one real named body in verse 2" requirement filled by a brother who is alive, was
+  never able to earn, was resented for it every year, and is now the one doing the carrying. Chosen
+  over the reflex of a death or an ancestral line (the grandmother's-grandmother shape is retired) —
+  the cost here is ongoing and in the room, and it reverses inside the song rather than being
+  mourned from a distance.
+- Example: the-bell-knows-my-name/the-bloom-i-cut
+- Logged at catalog size 150.
+
+### The Wellington retort taken literally — the horseman who is not a horse
+- "Being born in a stable does not make one a horse" run as the song's whole architecture by making
+  the narrator an actual farrier: he shoes them, names them, knows which side each one liked the
+  wall, and is still not one of the people. The metaphor never has to be explained because the yard
+  is real. No ethnic, national or religious group is named anywhere, the man who says the line never
+  appears, and the narrator concedes the rule rather than protesting it — the house guardrail for
+  pointed material, and what keeps the song grief rather than grievance.
+- Example: the-bell-knows-my-name/born-in-a-stable
+- Logged at catalog size 151.
+
+### Held with the animals during the funeral — exclusion staged as a job
+- The verse-2 loss and the verdict arrive in one image: four men to a corner with the sons handling
+  the arrangements, a hand laid gently on his chest, and the narrator standing at the fence holding
+  the horses while the burial happens without him. He is given a task instead of a place, and he
+  does it well. Distinct from the-bloom-i-cut's reversal, where the cost lands on the speaker's own
+  logic — here nothing turns; the position is simply shown and accepted.
+- Example: the-bell-knows-my-name/born-in-a-stable
+- Logged at catalog size 151.
+
+### The named machine as the harsh mistress — a shop floor that already talks this way
+- The gravity well carried by a press called Doris with her name on the plate and nobody left who
+  knows who Doris was: warming her up for twenty minutes before asking anything of her, the good
+  glove on the left because it's the left that goes, her having had a bit of everyone (Terry's ear,
+  something of Nadia's), and her not doing half four for anybody's leaving do. The prompt's
+  "mistress" framing needed no construction — naming machines and speaking of them as people is
+  what the room actually does — so the song simply reports it and never states the exchange.
+- Example: laundry/keep-her-fed
+- Logged at catalog size 152.
+
+### The dissolve as a count the machine finishes without him
+- Laundry's voice-eaten-by-the-machine dissolve where the shared activity is piecework counting: he
+  counts units aloud to prove he is fine, the sampler takes the count half a beat ahead, he stops,
+  and it carries on into the five hundreds. Nothing overwhelms him and nothing is edited — the
+  activity simply continues at the same rate with the human removed from it. Distinct from
+  laundry/still-warm (absorption as the win condition), laundry/instructions-unclear (the swallowed
+  stop-word), laundry/good-body-every-night (the scrambled sign-off he ratifies) and
+  laundry/by-continuing (reformatting into clause text).
+- Example: laundry/keep-her-fed
+- Logged at catalog size 152.
+
+### The glove in the swarf bin and the form in the drawer by the kettle
+- The grotesque non-sequitur as unreported industrial injury: a glove holding the shape of a hand,
+  nobody having filled anything in, and the location of the paperwork given with more precision than
+  the incident. Reported at the same brightness as the cutting fluid and the blue roll, per the
+  band's under-reaction rule.
+- Example: laundry/keep-her-fed
+- Logged at catalog size 152.
+
+### The mandated course as the gravity well, with the incident never named
+- Everything is present except the offence: the horseshoe of plastic chairs, the urn, biros on
+  strings, a laminated wheel of faces, a workbook, a trigger log, a certificate that lives in the
+  glovebox, and a man who is proudly the best in the room at all of it. What he did is never stated
+  anywhere in the song, and the only gesture at consequence is "Somebody isn't here who doesn't have
+  to come. That's how you know whose number it is." Keeps the song numb rather than confessional or
+  exculpatory, and keeps the narrator's own account of himself the only evidence available.
+- Example: laundry/one-to-ten
+- Logged at catalog size 153.
+
+### The dissolve as a record that runs ahead of him — the log remembering better than the man
+- Laundry's voice-eaten-by-the-machine dissolve where the sampler reads his own trigger log aloud
+  faster than he can, reaching entries he has not yet recounted and producing one he has no memory
+  of writing but recognises as his handwriting. The machine neither overwhelms nor edits him; it is
+  simply further through his life than he is. Distinct from laundry/still-warm (absorption as the
+  win), laundry/instructions-unclear (the swallowed stop-word), laundry/good-body-every-night (the
+  ratified scramble), laundry/by-continuing (reformatting into clause text) and laundry/keep-her-fed
+  (the count continuing without him).
+- Example: laundry/one-to-ten
+- Logged at catalog size 153.
+
+### Advice taken from a thread she has never posted in, tried once, and found to work
+- The song's engine: she is a reader rather than a speaker, so the intervention that changes
+  something arrives from strangers she will never address. She applies it in one meeting, the room
+  gives her the second of quiet, and the arithmetic of every prior year is left to the listener.
+  Deliberately not girlboss-style competence and deliberately not guessed/four-minute-fix's
+  uncredited repair of someone else's work — nobody else benefits here and nobody else is involved.
+- Example: guessed/say-it-and-stop
+- Logged at catalog size 154.
+
+### The unreported win as the disproportionate shrug
+- The band's small-response-to-a-large-thing device inverted onto a success: the thing works, and
+  what she does about it is go back to her desk and tell nobody. The shrug is usually applied to an
+  injury; here it is applied to the first evidence in twenty years that the arrangement was
+  optional.
+- Example: "Then I went back to my desk, and I didn't tell anyone it worked." — guessed/say-it-and-stop
+- Logged at catalog size 154.
+
+### Rooted cuttings labelled for people who never collect them
+- The lurker's total-attendance-zero-standing ache rendered as horticulture: somebody says "ooh" on
+  a video call, she takes a cutting, roots it for six weeks, pots it, writes their name on it and
+  stands it by the door. A windowsill of other people's plants that no one has ever come for, and
+  she keeps every one of them alive. The evidence of the arrangement is a maintenance routine rather
+  than a complaint, and the count is never given.
+- Example: guessed/ones-with-names-on
+- Logged at catalog size 155.
+
+### The slander with a seed — one hungry winter behind a century of characterisation
+- Written from a prompt quoting a live real-world smear, and reframed so the song occupies neither
+  available position: the thing did happen, once, in a winter when the ground was hard from December
+  to March and there was nothing in the traps, and the narrator was a seven-year-old at that table.
+  Nothing is denied, nothing is apologised for, and the subject is the disproportion — the distance
+  between one cold Sunday and the permanent noun it produced. No ethnic, national or religious group
+  is named anywhere; the accusers are only ever "they", and no present-tense claim is made about
+  anybody.
+- Example: the-bell-knows-my-name/best-thing-i-ever-ate
+- Logged at catalog size 156.
+
+### The protected bird whose ownership is known to exist and not known to whom
+- The swans belong to somebody and it is written down somewhere, and the lyric declines to say
+  where or to whom ("It isn't written down where"). Establishes the gravity of the act and the
+  remoteness of the authority in two lines, without naming a crown, a state or a country — the same
+  anonymising guardrail the band applies to its collapse and unrest material.
+- Example: the-bell-knows-my-name/best-thing-i-ever-ate
+- Logged at catalog size 156.
+
+### The kind wrong assumption said out loud, and left standing — the band name as an event
+- The song's engine, and the most literal instance of what "Guessed" means: rather than dramatising
+  the absence of anyone asking (the retired "nobody['s] ever asked" construction, which this song
+  was commissioned as and deliberately rebuilt around), somebody actively assumes the opposite in
+  her presence — suggests she think about doing a course, kindly, "like a door" — and she declines
+  to correct him. The credential is present in the room and never produced. Distinct from
+  guessed/he-meant-it-kindly, where a considerate impulse erases her name; here it erases her
+  education, and she assists.
+- Example: guessed/name-of-the-course
+- Logged at catalog size 157.
+
+### The alarm that worked perfectly — dogs silent for family on the night it mattered
+- The gravity well: four dogs that bark at foxes, wind, a bag on the wire and the moon, a man who
+  stopped getting up after twenty years of nothing, and a sixteen-year-old who walked past all four
+  kennels in the dark because they knew her. Nothing failed — the system did exactly what it was
+  built and fed to do, and the narrator trained it himself. Distinct from the band's other losses in
+  that nobody dies and nobody is excluded: she left, and the security of the place is what let her.
+- Example: the-bell-knows-my-name/only-bark-at-strangers
+- Logged at catalog size 158.
+
+### The verse-2 named human as someone who left rather than someone who died
+- After a living dependent (the-bloom-i-cut), a death (born-in-a-stable) and a dead man whose name
+  became a byword (best-thing-i-ever-ate), the specific-named-loss requirement filled by a runaway:
+  boots by the step at ten and gone by six, nothing taken but a coat and a tin of her mother's
+  rings. She is alive somewhere in the song and no reason for going is ever offered.
+- Example: the-bell-knows-my-name/only-bark-at-strangers
+- Logged at catalog size 158.
