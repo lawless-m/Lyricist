@@ -96,6 +96,41 @@ Companion piece written to the same spec: **"Every Grave I Didn't Dig"** (the de
  
 ---
  
+## From us-and-them to one person (the direction the band has moved)
+
+The early catalogue framed the wound collectively — us and them, your fathers, strangers, the
+valley. The later songs put a single named person in the middle of it, and that is the stronger
+setting. The reason is mechanical: **an abstract "them" can only wrong you.** Nobody is complicit
+with a category, so a collective frame leaves the narrator nothing to be but aggrieved. One person
+with a name lets him be implicated — he resented Emil, he sold Anca's horses, he stopped getting up
+for the dogs, he has never said it to Mirela — and the complicity is where the emotion is.
+
+It is also the boundary with the sibling spec. Us-and-them plus injustice **is** institutional
+hardcore; if a Bell draft starts accusing a group, it belongs upstairs in purple-dog. One person
+plus the narrator's own share of the fault is this band. The collective register still has a place
+as the *backdrop* a song happens against — a valley, a road, a rule everyone knows — but the song
+itself is aimed at somebody who could, in principle, be spoken to.
+
+## The environment is not a trope
+
+Horses, dogs, the yard, the river, the track, the valley, the wagon, a graveside — these are the
+band's **setting**, not devices to be rationed, and they are what makes the style evocative in the
+first place. Songs are free to share them, song after song. What must not repeat is a **line** — a
+phrase, a couplet, a chorus shape, a construction someone could hear twice. Judge freshness on the
+device and the wording, never on the presence of an animal or a place. (Flagged 2026-08-20, after a
+draft was talked out of horses for being the second horse song of the week; the two songs share a
+paddock and not one word.)
+
+**And the animals are doing a specific job.** They stand in for the narrator's emotions because they
+*cannot speak them* — not because they haven't got any. That is the whole point: the horse may well
+be grieving and has no way to say so, which is exactly the narrator's own condition, so the
+projection works by likeness rather than by contrast. A person would answer, argue or be hurt; an
+animal is in the same silence he is. They are receptacles rather than symbols, which is why the
+same animals never stale: the horses carry belonging in
+`born-in-a-stable`, the dogs carry an alarm that worked perfectly in `only-bark-at-strangers`, and
+the horses carry complicity in `they-went-up-quiet`. Same paddock, three unrelated loads. When
+reaching for an animal, decide what it is being asked to hold — not whether one appeared last time.
+
 ## When writing a new one
  
 Pick a fresh angle on the same emotional territory (leaving, exile, grief, the dead, the road, being too much like the wind to stay) so it reads as a sibling, not a copy. Keep the structure, the devices and the communal shout-back. Change the *specific loss* and the *band-instruction opener's verbs* to fit the new mood. Vary whether the arrangement is cinematic-sparse, folk-soft or punk-frantic to match.

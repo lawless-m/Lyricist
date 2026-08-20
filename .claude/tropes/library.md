@@ -1241,6 +1241,58 @@ gets fixed.
 - Example: girlboss/the-new-baseline
 - Logged at catalog size 162.
 
+### "the horses can't cry. If they could, they would. / I can, and I haven't" — capacity-comparison thesis couplet
+- The Bell Knows My Name's emotional-thesis slot filled with a fresh grammatical shape after the
+  retired where/should, the reciprocal-trade couplet, the kept-ledger-against-unkept-ledger couplet,
+  the capability-against-non-entitlement couplet, the prophecy-granted-then-redirected couplet and
+  the rule-and-its-fatal-instance couplet: grief attributed to animals who lack the equipment for it,
+  set against the narrator who has the equipment and hasn't used it. No filling of this slot recurs.
+- Example: the-bell-knows-my-name/they-went-up-quiet
+- Logged at catalog size 163.
+
+### "load them slow, load them quiet, keep your hand where they can see it" — band-instruction chorus opener
+- The imperative-to-the-players slot filled with the handling instructions for walking an animal onto
+  a lorry, which are also instructions for not being noticed doing it. After "play it quick, play it
+  broken", "dig it slow, dig it holy", "cut it low, cut it kind", "walk him out, walk him sound",
+  "sing it thin, sing it hungry" and "keep it low, keep it listening".
+- Example: the-bell-knows-my-name/they-went-up-quiet
+- Logged at catalog size 163.
+
+### "and the fiddle takes it off me / because somebody has to hold it" — pre-chorus violin-personification line
+- A ninth distinct phrasing for the "violin says what the mouth can't" beat, after confessing,
+  remembers, stops its weeping, the strings going quiet, keeping the spent notes, coming when called,
+  holding the swan note and joining in with them. This one has the instrument relieve him of a
+  feeling as a practical favour rather than express one. Invent a fresh tie-in again next time.
+- Example: the-bell-knows-my-name/they-went-up-quiet
+- Logged at catalog size 163.
+
+### "give a bird a word and you would never hear it sing again. / I have had the word for thirty years, and you have had the song." — hypothetical-then-inverted-arrangement thesis couplet
+- The Bell Knows My Name's emotional-thesis slot filled with a fresh grammatical shape after the
+  retired where/should, the reciprocal-trade couplet, the kept-ledger-against-unkept-ledger couplet,
+  the capability-against-non-entitlement couplet, the prophecy-granted-then-redirected couplet, the
+  rule-and-its-fatal-instance couplet and the capacity-comparison couplet: a hypothetical about
+  animals, then the narrator's own version of the same bargain, already running for decades. No
+  filling of this slot recurs.
+- Example: the-bell-knows-my-name/so-i-sing-it
+- Logged at catalog size 164.
+
+### "take it high, take it wordless" — band-instruction chorus opener
+- The imperative-to-the-players slot filled with an instruction to keep the music above language,
+  which is the song's entire argument. After "play it quick, play it broken", "dig it slow, dig it
+  holy", "cut it low, cut it kind", "walk him out, walk him sound", "sing it thin, sing it hungry",
+  "keep it low, keep it listening" and "load them slow, load them quiet".
+- Example: the-bell-knows-my-name/so-i-sing-it
+- Logged at catalog size 164.
+
+### "and the fiddle says the whole of it / and nobody asks it to explain" — pre-chorus violin-personification line
+- A tenth distinct phrasing for the "violin says what the mouth can't" beat, after confessing,
+  remembers, stops its weeping, the strings going quiet, keeping the spent notes, coming when called,
+  holding the swan note, joining in with them and taking it off him. This one names the exemption
+  music enjoys — it can state anything and is never required to account for it. Invent a fresh
+  tie-in again next time.
+- Example: the-bell-knows-my-name/so-i-sing-it
+- Logged at catalog size 164.
+
 
 ## Phrases
 
@@ -2421,6 +2473,52 @@ gets fixed.
 - Example: girlboss/the-new-baseline
 - Logged at catalog size 162.
 
+### "And what was I meant to do with seven horses?"
+- The chorus's direct question, aimed at the dead woman and asking about logistics rather than about
+  grief — the smallness of the practical problem set against the size of the loss, with no answer
+  available in either register. Nameless in the chorus by design: "[Name] — [question]" is spent
+  across the band (see the-bloom-i-cut, born-in-a-stable).
+- Example: the-bell-knows-my-name/they-went-up-quiet
+- Logged at catalog size 163.
+
+### "The man asked if they had names. I said not really."
+- The verse-2 lie that costs nothing and gives everything away, answered immediately by the truth he
+  does not say to the buyer: "They have all got names. I have called every one of them by name this
+  morning." The denial is protective of him rather than of them.
+- Example: the-bell-knows-my-name/they-went-up-quiet
+- Logged at catalog size 163.
+
+### "they went up quiet."
+- The communal shout-back: the animals' trust rendered as the worst possible outcome, since their
+  compliance is what made the disposal easy. Three flat words, no blame anywhere in them. Distinct
+  from the concession (born-in-a-stable), the refusal-of-both-positions (best-thing-i-ever-ate), the
+  turned logic (the-bloom-i-cut) and the mechanism (only-bark-at-strangers).
+- Example: the-bell-knows-my-name/they-went-up-quiet
+- Logged at catalog size 163.
+
+### "Would you rather I had said it?"
+- The chorus's direct question, offering the alternative outcome to the person it would have landed
+  on and declining to guess her answer. Nameless in the chorus by design, since "[Name] —
+  [question]" is spent across the band.
+- Example: the-bell-knows-my-name/so-i-sing-it
+- Logged at catalog size 164.
+
+### "so I sing it."
+- The communal shout-back: three flat words that answer the song's own question and refuse to
+  dignify the alternative. The crowd sings a sentence about why the man is singing, at the exact
+  moment he is doing it. Distinct from the concession (born-in-a-stable), the refusal of both
+  positions (best-thing-i-ever-ate), the turned logic (the-bloom-i-cut), the mechanism
+  (only-bark-at-strangers) and the compliance (they-went-up-quiet).
+- Example: the-bell-knows-my-name/so-i-sing-it
+- Logged at catalog size 164.
+
+### "Then she danced with her husband, who is a good man, and I played for that as well."
+- The verse-2 button: the rival conceded to be decent in a subordinate clause, and the narrator's own
+  participation in the celebration reported as a job he completed. No grievance is available anywhere
+  in the line.
+- Example: the-bell-knows-my-name/so-i-sing-it
+- Logged at catalog size 164.
+
 
 ## Imagery / Motifs
 
@@ -3588,3 +3686,31 @@ gets fixed.
 - Example: girlboss/the-new-baseline
 - Logged at catalog size 162.
 
+### Grief displaced onto animals that cannot show it, by a man who can and doesn't
+- The prompt's line kept intact and made the thesis: he assigns the crying to the horses because
+  attributing it to himself is unavailable. The song never says he is grieving and never says he
+  isn't — the only evidence is that he called all seven by name that morning and told the buyer they
+  hadn't any.
+- Example: the-bell-knows-my-name/they-went-up-quiet
+- Logged at catalog size 163.
+
+### The sale of the dead woman's horses as the day the song happens on
+- Deliberately not the horsemanship territory of the-bell-knows-my-name/born-in-a-stable, where
+  competence with animals sits against exclusion by people: here the narrator's skill is being used
+  to dispose of them, they load because he is the one asking, and the loss being processed is
+  domestic labour rather than standing — Anca did the feeds, Anca did the feet, Anca had a way with
+  the bad one, and the bad one is fine with him now.
+- Example: the-bell-knows-my-name/they-went-up-quiet
+- Logged at catalog size 163.
+
+### Song as the form a thing takes when it cannot be spoken — the wedding singer and the woman at the front table
+- The prompt's question ("if the birds could speak would they stop singing?") answered in the
+  affirmative and applied to the narrator's own trade: he has sung the same song at every wedding in
+  the valley for thirty years, everyone knows what is in it, and speech would end both the concealment
+  and the music. The living cost is Mirela, at the front table in September with her husband and her
+  sons, who looks down at the cloth for the middle part and then looks up again.
+- Deliberately distinct from the-bell-knows-my-name/the-birds-have-stopped-singing, which is a dead
+  brother and birds that stopped coming: that song is about absence and silence arriving, this one is
+  about singing being the only channel available. The two share birds and share no line.
+- Example: the-bell-knows-my-name/so-i-sing-it
+- Logged at catalog size 164.
