@@ -205,6 +205,25 @@ The institutional-hardcore spec had to grow a rule banning its own reflex, and t
  
 - **The quoted instruction.** Fresh every time. Never reuse *"be nice about it"*.
 - **The drop-out line.** The one legible spike. New shape each song — sometimes an admission, sometimes a date, sometimes a name, sometimes a sentence she can't finish. It must never be a conclusion.
+
+**Managed vs unmanaged, and why most of them should be managed.** Almost every drop-out in the
+catalogue has her still running her own technique — reframing the invisibility as a preference,
+filing people instead of losing them, yoking being touched to knowing where her clothes are,
+giving herself a practical-sounding excuse. Those are candid, and they are still the surface
+holding: she is processing the thing into a shape she can carry. That is the normal filling and
+it should stay the normal filling.
+
+Rarely — and only when a song has genuinely earned it — the apparatus fails instead, and what
+comes out has no craft on it at all. *"I want it back."* (dont-look-at-her-hand) is the whole of
+that: no fusion, no reframe, nothing clever, just want. It reads as out of character because the
+character *is* the apparatus, and it tells you more than the polite version ever could, because
+you only learn what a composure costs in the second it can't be afforded.
+
+The discipline is that this must stay rare. If every song cracks, the composure means nothing,
+the crack becomes the new technique, and the band turns into a catalogue of pain — which is not
+what it is. Most days don't crack. The songs shouldn't either. When drafting, write the clever
+fused line first, then ask whether she would actually still be capable of that much craft at
+that exact second; usually she is, and the clever line is correct.
 - **The one line that lands.** New shape every song — admission, fact, number, silence broken. Never the banned *"___ where ___ should ___"*.
 - **The disproportionate shrug.** New small action every time — never the tea twice.
 - **The unspent-expertise line.** New shape every song. Never the banned *"nobody['s]
