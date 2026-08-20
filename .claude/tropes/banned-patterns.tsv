@@ -115,7 +115,7 @@ BAN	107	i filed them	the-version-she-liked drop-out
 BAN	107	who'?s actually looking	focus-on-the-story drop-out
 BAN	107	lip-read the bit	focus-on-the-story expertise line
 BAN	107	four-minute fix	four-minute-fix spike
-BAN	107	two thousand and nine	four-minute-fix drop-out (also nine ban)
+BAN	107	two thousand and nine\b	four-minute-fix drop-out (also nine ban)
 BAN	107	in the room to be finished	let-it-lie spike
 BAN	107	know where my clothes are	let-it-lie drop-out
 BAN	120	pinned him across	the-wanderer spike
