@@ -1,0 +1,42 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+two twenty, service ready
+
+[Build — the break enters. dense, fast, clipped. a protocol transcript and the wrong tool]
+helo
+two fifty, hello, pleased to meet you
+mail from
+two fifty, sender ok
+rcpt to
+two fifty, recipient ok
+data
+three fifty-four, start mail input, end with a dot on a line by itself
+a dot on a line by itself
+two fifty, message accepted
+quit
+two twenty-one, closing connection
+slash inet slash tcp slash zero slash zero slash twenty-five
+that is a documented feature
+begin, pattern, end
+dollar zero
+N R
+print
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+TWO FIFTY OK
+TWO FIFTY OK
+IN GAWK
+TWO FIFTY OK
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+You are not supposed to be able to do this.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+TWO FIFTY OK
+IN GAWK
+TWO FIFTY OK
+TWO FIFTY OK
+
+[Outro — strips back to the atmos it started on. does not resolve]
+it ran for a year
+it ran in production for a year
+it is not on the diagram

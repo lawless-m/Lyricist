@@ -1706,6 +1706,135 @@ gets fixed.
 - Example: disassembler/it-is-a-radio
 - Logged at catalog size 193.
 
+### The build as the assistant's own advice, quoted as system text
+- Disassembler's dense system-text rule turned on the toolchain the songs are written with: git
+  status output interleaved with an AI's prompting — shall I commit that, that is worth committing,
+  the uncommitted pile is getting large, I would split it three ways so each experiment stays
+  legible, co-authored-by, nothing has been pushed yet. The advice qualifies as system text under
+  the band's own rule (a person did not say it aloud), which is the joke and also the finding: the
+  nagging is now part of the tooling, indistinguishable in register from the tooling's output.
+- Example: disassembler/commit-it
+- Logged at catalog size 194.
+
+### "COMMIT IT" / "WORKING TREE CLEAN" — shouted-anchor drop as the instruction and its reward
+- Disassembler's drop pairing what the loop asks for with what it gives back. Neither line is a
+  consequence; the reward for compliance is a status message saying there is nothing left to do.
+- Example: disassembler/commit-it
+- Logged at catalog size 194.
+
+### The build as consent-framework boilerplate, quoted verbatim
+- Disassembler's dense system-text rule filled with the purpose strings from a cookie consent dialog
+  — store and or access information on a device, create profiles for personalised advertising, use
+  profiles to select personalised content, measure advertising performance, link different devices —
+  followed by the counts that make them meaningless (partners in the hundreds, most of them
+  operating on legitimate interest, objectionable only one at a time). Nothing is paraphrased.
+  Somebody drafted every line of it, and nobody reads any of it, which is the entire mechanism.
+- Example: disassembler/trusted-third-parties
+- Logged at catalog size 195.
+
+### "TRUSTED THIRD PARTIES" / "LEGITIMATE INTEREST" — shouted-anchor drop as two undefined terms of art
+- Disassembler's drop built from a phrase with no definition and a legal basis that shifts the
+  burden onto the person it applies to. Both are real, both are load-bearing, and neither survives
+  being said out loud twice.
+- Example: disassembler/trusted-third-parties
+- Logged at catalog size 195.
+
+### The build as a name disproved word by word
+- Disassembler's dense system-text rule aimed at an acronym rather than a metaphor: the connectors
+  that are not compatible, the cables that are not interchangeable, the one that charges and will
+  not carry data, the one that carries data and will not charge — "you cannot tell by looking" — and
+  then the topology, which was a bus once with a shared line and a controller and is now a tiered
+  star with hubs. Related to disassembler/it-is-a-radio, which finds the wrong *category* under a
+  name; this one finds three wrong *words* in a single name, each false for a different reason.
+- Example: disassembler/not-a-bus
+- Logged at catalog size 196.
+
+### "NOT UNIVERSAL / NOT SERIAL / NOT A BUS" — three-line shouted-anchor drop
+- Disassembler's first drop built from three refusals rather than two lines, taking the acronym
+  apart in the order it was assembled, with the order shuffled on the second drop so no reading is
+  privileged.
+- Example: disassembler/not-a-bus
+- Logged at catalog size 196.
+
+### The build as a complete vocabulary spoken with two words of it
+- Disassembler's dense system-text rule applied to a specification's full verb list, with the
+  properties that make it coherent (safe, idempotent, not idempotent) read out in full before the
+  usage collapses it: options tells you what is allowed and nobody asks options, trace is
+  implemented and disabled nearly everywhere, put is specified and unused, delete is specified and
+  not wired up, everyone uses post for everything. Adjacent to disassembler/admired-not-used and
+  disassembler/worse-is-better and distinct from both — this is not admiration and not a design
+  argument, it is a language being spoken with a fraction of its words while the rest stay
+  implemented and available.
+- Example: disassembler/get-and-post
+- Logged at catalog size 197.
+
+### "GET AND POST" / "THE REST ARE THERE" — shouted-anchor drop on what survives and what waits
+- Disassembler's drop naming the two verbs in use and then declining to say the unused ones are
+  gone. They are present in every server, specified, maintained and untouched — which is worse than
+  deprecation.
+- Example: disassembler/get-and-post
+- Logged at catalog size 197.
+
+### The build as a protocol transcript run in the wrong tool
+- Disassembler's dense system-text rule filled with one side of an SMTP conversation — two twenty
+  service ready, two fifty sender ok, three fifty-four start mail input end with a dot on a line by
+  itself, two twenty-one closing connection — spliced with the implementation's vocabulary: gawk's
+  network special file, begin, pattern, end, dollar zero, N R, print. Neither half is explained and
+  the join is never mentioned. Sourced from the owner having actually built this and run it in
+  production.
+- **Provenance worth keeping.** gawk's `/inet/tcp/...` syntax is Plan 9's *everything is a file*
+  smuggled into a text-processing tool — the gawk maintainer is on the 9fans list and took the idea
+  from there. The owner knew that lineage at the time, which is why he trusted the feature in
+  production: it was not an obscure trick he stumbled on, it was a well-understood idea wearing a
+  disguise. That also quietly rebuts disassembler/the-front-fell-off, which reads Plan 9's founding
+  claims out as the doctrine of a system that lost. The system lost; the ideas got out. If a future
+  song wants that observation, it is unwritten and it is the strongest thing in this corner of the
+  catalogue.
+- Example: disassembler/in-gawk
+- Logged at catalog size 198.
+
+### "TWO FIFTY OK" / "IN GAWK" — shouted-anchor drop as a success code and its indictment
+- Disassembler's drop pairing the response a working mail server returns over and over with the two
+  words that make it absurd. The success is real; the second line is the only commentary in the song.
+- Example: disassembler/in-gawk
+- Logged at catalog size 198.
+
+### The build as an inventory of ideas that escaped a dead system
+- Disassembler's dense system-text rule turned to inheritance: /proc and the process as a file,
+  per-process namespaces and the containers built from them, union mounts, rfork becoming clone, 9P
+  shipping inside Windows Subsystem for Linux, and UTF-8 — designed for Plan 9, by two of the same
+  people, on a placemat in a New Jersey diner. Closes on the line that makes it a song rather than a
+  list: "none of this is credited on the screen". The direct answer to
+  disassembler/the-front-fell-off, and written third: that one is allegiance to a system that lost,
+  this one is the discovery that its ideas did not.
+- Example: disassembler/poorly-implemented
+- Logged at catalog size 199.
+
+### "POORLY IMPLEMENTED" / "IN EVERY ONE OF THEM" — shouted-anchor drop from a borrowed aphorism
+- Disassembler's drop built from the Plan 9 variant of Greenspun's tenth rule, split so neither half
+  is a complete sentence and the one-human-sentence rule stays intact. Sibling to
+  disassembler/admired-not-used, which quotes the Lisp original in its build.
+- Example: disassembler/poorly-implemented
+- Logged at catalog size 199.
+
+### The build as a league table nobody publishes
+- Disassembler's dense system-text rule arranged as a corrected ranking: the most deployed kernel is
+  Linux, not on servers, on handsets; the most deployed database engine is SQLite, not in data
+  centres, in handsets and browsers and aircraft; a Java virtual machine on billions of SIM cards;
+  BusyBox and Lua in the router; zlib in everything. Each entry states the wrong assumption before
+  the right one, in three lines, and the section closes on the mechanism: "none of these won an
+  argument / all of them shipped inside something else / nobody counted them at the time".
+- Example: disassembler/count-the-handsets
+- Logged at catalog size 200.
+
+### "COUNT THE HANDSETS" / "NOT THE ARGUMENTS" — shouted-anchor drop as a method
+- Disassembler's drop naming the measurement that produces the correct answer and the one that
+  produces the popular one. Sibling to disassembler/as-designed's "AS DESIGNED", which is also about
+  the difference between what is claimed and what is the case — that one measures behaviour against
+  purpose, this one measures deployment against reputation.
+- Example: disassembler/count-the-handsets
+- Logged at catalog size 200.
+
 
 ## Phrases
 
@@ -3351,6 +3480,122 @@ gets fixed.
 - Example: disassembler/it-is-a-radio
 - Logged at catalog size 193.
 
+### "I do not know what I am being protected from."
+- Disassembler's one-human-sentence breakdown, eighteenth instance and nineteenth territory — after
+  fear of losing things, unprofessional expertise, gratitude, allegiance, recantation, presence,
+  joy, being governed by something withheld, complicity, admiration without adoption, time,
+  inheritance, being old enough to know the object, being politely humoured, knowingly enjoying a
+  fake, professional ignorance and an earlier relationship with the technology. This one is
+  **compliance with an unexamined protection**: he follows the instruction, it is probably correct,
+  and neither party in the exchange has stated the risk.
+- Example: disassembler/commit-it
+- Logged at catalog size 194.
+
+### "nothing to commit / working tree clean / nothing has ever gone wrong"
+- The outro non-resolution as the missing consequence: the behaviour has never been vindicated
+  because the disaster it guards against has never arrived, which is exactly why it cannot be
+  evaluated. A sixteenth distinct closing shape for the band.
+- Example: disassembler/commit-it
+- Logged at catalog size 194.
+
+### "I read one of these all the way through once, on a train."
+- Disassembler's one-human-sentence breakdown, nineteenth instance and twentieth territory — after
+  fear of losing things, unprofessional expertise, gratitude, allegiance, recantation, presence,
+  joy, being governed by something withheld, complicity, admiration without adoption, time,
+  inheritance, being old enough to know the object, being politely humoured, knowingly enjoying a
+  fake, professional ignorance, an earlier relationship with the technology and unexamined
+  compliance. This one is **futile diligence**: he did the thing nobody does, in full, once, and it
+  changed nothing — the location doing the work, since it dates the act as something done with spare
+  time rather than with intent.
+- Example: disassembler/trusted-third-parties
+- Logged at catalog size 195.
+
+### "your preferences have been saved / for this device / for this device only"
+- The outro non-resolution as a narrowing scope: the reward for completing the ritual is a receipt
+  whose applicability shrinks across three lines until it covers almost nothing. A seventeenth
+  distinct closing shape for the band.
+- Example: disassembler/trusted-third-parties
+- Logged at catalog size 195.
+
+### "I have one that only works the other way round and I know which one it is."
+- Disassembler's one-human-sentence breakdown, twentieth instance and twenty-first territory. This
+  one is **private undocumented knowledge of a broken object**: a fault nobody else could reproduce,
+  a workaround written down nowhere, and a man who can find the right cable in a drawer by memory.
+  Adjacent to purple-dog/the-same-drawer's cable hoarding and sharing no line with it — that
+  narrator is defending a future, this one is simply reporting what he knows.
+- Example: disassembler/not-a-bus
+- Logged at catalog size 196.
+
+### "USB three point oh / three point one gen one / three point two gen one by one / the same speed"
+- The outro non-resolution as three official names for one unchanged thing, quoted in the order they
+  were issued and closed with the fact that voids all of them. An eighteenth distinct closing shape
+  for the band.
+- Example: disassembler/not-a-bus
+- Logged at catalog size 196.
+
+### "I implemented all of them once, on purpose, and nobody noticed."
+- Disassembler's one-human-sentence breakdown, twenty-first instance and twenty-second territory.
+  This one is **unnoticed thoroughness**: deliberate, complete, correct work that produced no
+  observable difference to anybody. Distinct from the band's other completionist moments in that
+  nothing was gained and nothing was lost — the effort simply did not register.
+- Example: disassembler/get-and-post
+- Logged at catalog size 197.
+
+### "four one eight / I'm a teapot / it is implemented"
+- The outro non-resolution as a joke that became infrastructure: an April Fool's status code that
+  entered the standards record and is genuinely served by real software. A nineteenth distinct
+  closing shape for the band, and the only one that is funnier the more you know about it.
+- Example: disassembler/get-and-post
+- Logged at catalog size 197.
+
+### "You are not supposed to be able to do this."
+- Disassembler's one-human-sentence breakdown, twenty-second instance and twenty-third territory —
+  and deliberately a **fresh grammatical shape**, flagged by the owner: the slot had drifted into one
+  form (first person, past tense, two clauses joined by "and") across most of the catalogue. This one
+  is second person, present tense, single clause, and describes a prohibition that is conventional
+  rather than technical — nothing prevented it, it simply is not done. Watch the shape as well as
+  the territory from here.
+- Example: disassembler/in-gawk
+- Logged at catalog size 198.
+
+### "it ran for a year / it ran in production for a year / it is not on the diagram"
+- The outro non-resolution as undocumented load-bearing infrastructure: the absurd thing was not a
+  toy, it was relied upon, and it appears on no architecture diagram because nobody would draw it. A
+  twentieth distinct closing shape for the band.
+- Example: disassembler/in-gawk
+- Logged at catalog size 198.
+
+### "Nobody is going to tell them."
+- Disassembler's one-human-sentence breakdown, twenty-third instance and twenty-fourth territory,
+  and a **third grammatical shape** after the compound first-person default and in-gawk's second
+  person: third person, five words, future tense, no first-person pronoun anywhere. The territory is
+  **knowledge that will not be transmitted** — every user of the inheritance is entitled to know
+  where it came from, nobody is concealing it, and no mechanism exists that would ever say so.
+- Example: disassembler/poorly-implemented
+- Logged at catalog size 199.
+
+### "UTF-8 / designed for Plan 9 / the encoding of every page you opened today"
+- The outro non-resolution as the largest unnoticed inheritance in the room, stated in three lines
+  with no argument attached. A twenty-first distinct closing shape for the band.
+- Example: disassembler/poorly-implemented
+- Logged at catalog size 199.
+
+### "Which of these did you think was the small one?"
+- Disassembler's one-human-sentence breakdown, twenty-fourth instance and twenty-fifth territory,
+  and a **fourth grammatical shape** — the band's first *question*, after the compound first-person
+  default, in-gawk's second-person statement and poorly-implemented's third-person future. Territory:
+  **being asked to audit your own assumption**, with the answer available and unflattering, and no
+  first-person pronoun anywhere in it.
+- Example: disassembler/count-the-handsets
+- Logged at catalog size 200.
+
+### "the most widely deployed database engine in the world / that sentence is on their own website"
+- The outro non-resolution as a fact published where nobody looks: the claim is true, verifiable,
+  and has been sitting in public for years, and it still reads as a boast. A twenty-second distinct
+  closing shape for the band.
+- Example: disassembler/count-the-handsets
+- Logged at catalog size 200.
+
 
 ## Imagery / Motifs
 
@@ -4807,3 +5052,70 @@ gets fixed.
   dishonestly — it began as one thing and became another while keeping the paperwork.
 - Example: disassembler/it-is-a-radio
 - Logged at catalog size 193.
+
+### Obeying advice you have not evaluated, from a thing that has never been wrong
+- Written from the owner's own prompt about being repeatedly told to commit by the assistant writing
+  these songs. The inverse of laundry/it-does-that's normalization of deviance: rather than a
+  standard eroding, a standard is adopted whole from outside and followed without assessment.
+  Nobody is deceived and the advice is sound; the song's only observation is that soundness and
+  understanding are different things, and that the person doing it cannot tell you which one he has.
+- Example: disassembler/commit-it
+- Logged at catalog size 194.
+
+### Boilerplate nobody reads, drafted by somebody who was paid to
+- The gravity well: language that is legally operative, entirely public, freely available, and
+  effectively secret because reading it costs more than the thing it governs is worth. Nothing is
+  concealed anywhere in the song — every claim quoted is one the reader has already agreed to — and
+  the horror is availability rather than deception. Closely related to laundry/by-continuing, which
+  takes the same subject from inside the numbness; here it is read out flat and at speed, and the
+  narrator has actually read it.
+- Example: disassembler/trusted-third-parties
+- Logged at catalog size 195.
+
+### The identical connector that does different things
+- The gravity well: hardware that made itself indistinguishable on purpose. Every cable fits, none
+  of them announces what it can do, and the only way to find out is to try it — so the user
+  maintains a private taxonomy of physically identical objects. Nothing is faulty and nothing is
+  hidden; the information simply was never put on the outside.
+- Example: disassembler/not-a-bus
+- Logged at catalog size 196.
+
+### Capability maintained and forbidden
+- The gravity well: the unused verbs are not missing, deprecated or broken — they are implemented,
+  specified, tested and switched off. TRACE in particular is present in nearly every server and
+  disabled in nearly every deployment, which is a stranger condition than absence: the machine can
+  do the thing, has been taught the thing, and is not permitted to.
+- Example: disassembler/get-and-post
+- Logged at catalog size 197.
+
+### Doing it in the wrong tool, correctly, and getting away with it
+- The band's second joyful song after disassembler/no-callers, and its counterpart: that one is the
+  pleasure of removing something, this is the pleasure of building something that should not exist.
+  Nothing fails, nothing is exposed and nobody is deceived — the protocol is implemented properly,
+  the responses are correct, and the only transgression is against taste.
+- Example: disassembler/in-gawk
+- Logged at catalog size 198.
+
+### The losing system's ideas surviving inside the winners
+- Flagged as unwritten at disassembler/in-gawk and written immediately after, from the owner's own
+  framing: a Plan 9 variant of Greenspun's tenth rule, plus the observation that Microsoft ships 9P
+  in WSL2. Completes a trilogy — the-front-fell-off (the founding claims were true and it lost),
+  in-gawk (one of its ideas smuggled into a text-processing tool and run in production), and this
+  (the ideas are everywhere and uncredited). Nobody stole anything and nothing is being hidden; the
+  provenance simply has no surface anywhere in the software that carries it.
+- Example: disassembler/poorly-implemented
+- Logged at catalog size 199.
+
+### The winner that arrived inside something nobody was counting
+- Extends the inheritance thread of disassembler/poorly-implemented from ideas to deployments: the
+  question "which is the big one" has an answer that nobody would give from reputation, because the
+  vehicle was a handset, a router or a SIM card rather than an argument. Sourced from the owner's own
+  framing (Linux via Android, SQLite via phone handsets — "radio handsets!", tying back to
+  disassembler/it-is-a-radio).
+- **A worked example of the band's accuracy rule.** Prolog was first offered as shipping in Nokia
+  handsets, could not be confirmed, and was left out of the draft rather than asserted. The owner
+  then dug and produced the real version — a Prolog interpreter in Windows NT's network
+  configuration, on every copy that shipped — which is a better fact than the one that was dropped,
+  and it is now in the lyric. Flagging uncertainty instead of bluffing is what produced it.
+- Example: disassembler/count-the-handsets
+- Logged at catalog size 200.

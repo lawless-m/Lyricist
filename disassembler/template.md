@@ -188,6 +188,12 @@ Full reasoning in `docs/superpowers/specs/2026-08-22-disassembler-design.md`.
 
 Too early for real rules. Two to watch from the start:
 
+- **The shape of the one human sentence, not just its subject.** Flagged by the owner at
+  `in-gawk`: the slot had drifted into a single grammatical form — first person, past tense, two
+  clauses joined by "and" — across most of the catalogue, even while the territories stayed
+  distinct. Vary the grammar as deliberately as the subject. Second person, present tense, a single
+  clause, a question, a sentence about somebody else, or four words and a full stop are all
+  available and mostly unused.
 - **The one human sentence.** It will want to be about time every single song, because the
   provisional engine is about latency. Vary what it is about, or the engine will calcify before
   it has been tested.

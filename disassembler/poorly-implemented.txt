@@ -1,0 +1,41 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+inside every operating system
+
+[Build — the break enters. dense, fast, clipped. an inventory of things that got out]
+slash proc
+the process is a file
+the process was a file first somewhere else
+namespaces
+per process namespaces
+containers are namespaces
+union mounts
+rfork became clone
+9P
+9P is in Windows Subsystem for Linux
+Microsoft ships it
+it is the file protocol between the two halves
+UTF-8
+UTF-8 was designed for Plan 9
+by two of the same people
+on a placemat, in a diner, in New Jersey
+none of this is credited on the screen
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+POORLY IMPLEMENTED
+POORLY IMPLEMENTED
+IN EVERY ONE OF THEM
+POORLY IMPLEMENTED
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+Nobody is going to tell them.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+POORLY IMPLEMENTED
+IN EVERY ONE OF THEM
+POORLY IMPLEMENTED
+POORLY IMPLEMENTED
+
+[Outro — strips back to the atmos it started on. does not resolve]
+UTF-8
+designed for Plan 9
+the encoding of every page you opened today

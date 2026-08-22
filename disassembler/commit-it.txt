@@ -1,0 +1,39 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+changes not staged for commit
+
+[Build — the break enters. dense, fast, clipped. another voice in the toolchain]
+you have unstaged changes
+seventeen files changed
+six hundred insertions
+shall I commit that
+that is worth committing
+the uncommitted pile is getting large
+that is the largest unsaved stretch of the session
+I would split it three ways so each experiment stays legible
+I would put the tooling fix on its own so it is findable later
+co-authored-by
+the message is longer than the change
+the message is better than the change
+nothing has been pushed
+nothing has been pushed yet
+worth doing before it gets any bigger
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+COMMIT IT
+COMMIT IT
+WORKING TREE CLEAN
+COMMIT IT
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+I do not know what I am being protected from.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+COMMIT IT
+WORKING TREE CLEAN
+COMMIT IT
+COMMIT IT
+
+[Outro — strips back to the atmos it started on. does not resolve]
+nothing to commit
+working tree clean
+nothing has ever gone wrong

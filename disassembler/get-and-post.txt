@@ -1,0 +1,42 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+head, get, post
+
+[Build — the break enters. dense, fast, clipped. a complete vocabulary]
+put
+patch
+delete
+options
+trace
+connect
+safe: get, head, options, trace
+idempotent: get, head, put, delete, options, trace
+not idempotent: post, patch
+options tells you what is allowed
+nobody asks options
+trace is implemented and disabled nearly everywhere
+connect is for tunnels
+put is specified and unused
+delete is specified and not wired up
+everyone uses get
+everyone uses post
+everyone uses post for everything
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+GET AND POST
+GET AND POST
+THE REST ARE THERE
+GET AND POST
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+I implemented all of them once, on purpose, and nobody noticed.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+GET AND POST
+THE REST ARE THERE
+GET AND POST
+GET AND POST
+
+[Outro — strips back to the atmos it started on. does not resolve]
+four one eight
+I'm a teapot
+it is implemented

@@ -1,0 +1,42 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+which one is the big one
+
+[Build — the break enters. dense, fast, clipped. a league table nobody publishes]
+the most deployed kernel is Linux
+not on servers
+on handsets
+the most deployed database engine is SQLite
+not in data centres
+in handsets, in browsers, in aircraft
+there is a Java virtual machine on your SIM card
+there is a Java virtual machine on billions of SIM cards
+there was a Prolog interpreter in Windows NT
+in the network configuration
+on every copy that shipped
+BusyBox is in the router
+Lua is in the router as well
+zlib is in everything
+the TCP stack in the games console came out of a university
+none of these won an argument
+all of them shipped inside something else
+nobody counted them at the time
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+COUNT THE HANDSETS
+COUNT THE HANDSETS
+NOT THE ARGUMENTS
+COUNT THE HANDSETS
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+Which of these did you think was the small one?
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+COUNT THE HANDSETS
+NOT THE ARGUMENTS
+COUNT THE HANDSETS
+COUNT THE HANDSETS
+
+[Outro — strips back to the atmos it started on. does not resolve]
+the most widely deployed database engine in the world
+that sentence is on their own website
+it has been there for years
