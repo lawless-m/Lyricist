@@ -1,0 +1,40 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+this can never happen
+
+[Build — the break enters. dense, fast, clipped. one comment thread, years apart, different hands]
+this can never happen
+this really can never happen
+seriously, this cannot happen
+if you are reading this, something has gone very wrong
+assert false
+panic: unreachable
+default case: unreachable
+throw new illegal state exception, cannot happen
+to do: remove this branch
+to do: remove this branch, still here
+do not remove this branch
+I have seen this happen
+it happens about once a month
+it happens more in December
+handle it quietly and move on
+leave it
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+UNREACHABLE
+UNREACHABLE
+LEAVE IT
+UNREACHABLE
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+A stranger left me a note about this and the stranger was right.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+UNREACHABLE
+LEAVE IT
+UNREACHABLE
+UNREACHABLE
+
+[Outro — strips back to the atmos it started on. does not resolve]
+blame: unchanged for eleven years
+blame: unchanged
+the branch is still there

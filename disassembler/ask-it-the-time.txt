@@ -1,0 +1,39 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+network time protocol
+
+[Build — the break enters. dense, fast, clipped. a small question and a large answer]
+request: two hundred and thirty-four bytes
+response: forty-eight thousand bytes
+amplification factor: two hundred and six
+monlist returns the last six hundred hosts
+the last six hundred hosts to ask it the time
+it does not check who is asking
+it has no reason to check who is asking
+character generator: amplification factor three hundred and fifty-eight
+quote of the day: amplification factor one hundred and forty
+quote of the day was designed to send you a quote
+character generator was designed for testing
+all of these services are working correctly
+all of these services have always worked correctly
+US-CERT technical alert T A fourteen dash zero one three A
+the affected protocol is the one that tells you what time it is
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+ASK IT THE TIME
+ASK IT THE TIME
+IT ANSWERS EVERYBODY
+ASK IT THE TIME
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+I set my watch by it for eleven years and it was always right.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+ASK IT THE TIME
+IT ANSWERS EVERYBODY
+ASK IT THE TIME
+ASK IT THE TIME
+
+[Outro — strips back to the atmos it started on. does not resolve]
+restrict default noquery
+that is the fix
+that was always the fix

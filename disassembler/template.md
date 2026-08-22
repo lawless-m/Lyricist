@@ -15,6 +15,15 @@ not the other way round.
 be funny. It does not need a covert engine under every song. If a topic is enjoyable and lands,
 that is sufficient justification for it existing.
 
+**The material is his, and it is specific.** The prompts are not devops themes — they are things
+off the owner's own shelf and out of his own thirty years: Forster, Gabriel's *Worse Is Better*,
+Beer's POSIWID, RoboCop's fourth directive, 9front, Lisp, an NTP CVE he remembers, a CB handle he
+had at fifteen. So **never invent a plausible scenario to fit the form.** When a prompt names a
+thing, find out what that thing actually is — the real fields, the real quotes, the real numbers,
+the real release — and build from those. The reason `the-machine-stops` works is that it is
+Forster's fault log and not a generic story about decay. A song assembled from convincing-sounding
+devops furniture would pass every check in this repo and be worthless.
+
 **The name is load-bearing.** A disassembler turns compiled machine code back into something a
 human can nearly read — which is exactly the voice rule below. It also plainly means one who
 takes things apart.
@@ -45,8 +54,10 @@ speed — a swear, a name, a question with no verb — and gets one whole though
 
 ## The voice (settled 2026-08-22, by ear)
 
-A **female MC**. Brisk, projected, level — she is reading a list aloud to a room at speed, not
-confiding in anybody. The flatness is concentration, not exhaustion. A **warm echo delay** sits on
+A **female MC**, and the narrator is a woman throughout — *she*, in the lyrics, in this file and in
+any note about the band. An earlier draft of this template said *he* because it was written before
+the voice was chosen; that has been corrected. Brisk, projected, level — she is reading a list
+aloud to a room at speed, not confiding in anybody. The flatness is concentration, not exhaustion. A **warm echo delay** sits on
 the vocal, thrown out over an otherwise dry and precise mix.
 
 Three things it must never be, all of which are `guessed`: **close**, **intimate**, **fragile**,
@@ -108,8 +119,8 @@ me", but "you are all so slow".
 
 ## Provisional engine
 
-**Accelerated and dislocated.** He processes faster than the world responds, so everything human —
-meetings, replies, reviews, his own hands — arrives late. The dislocation is a clock problem
+**Accelerated and dislocated.** She processes faster than the world responds, so everything human —
+meetings, replies, reviews, her own hands — arrives late. The dislocation is a clock problem
 rather than a cruelty problem: nobody is withholding and nobody is at fault.
 
 Recorded as a hypothesis. The premise bank below deliberately spans fond, dreadful and joyful, and
@@ -130,9 +141,14 @@ them.**
 - **The certificate expires on a Saturday.** Everyone knows. Nobody moves it.
 - **`temp2`** has been in production since before the child who is now at school.
 - **Works on my machine**, said sincerely, by someone who is correct.
+- **Science fiction and the trade's canon.** Forster's *The Machine Stops* (1909) supplied
+  `the-machine-stops`; the constraint is only that a person did not say the words aloud, so an
+  invented system's manual, fault log or scripture qualifies exactly as a real one's does. Asimov's
+  laws, HAL's status reports, Dune's Butlerian aftermath, the Nostromo's readouts, Wintermute — all
+  legitimate system text.
 - **`lastest_new_thisone.doc`** — version control by filename, the archaeology of a shared drive,
   and the fact that the newest file is never the one called new. The typo is the truest part.
-- **The deploy takes forty minutes** and he read the whole diff in the first two.
+- **The deploy takes forty minutes** and she read the whole diff in the first two.
 - **It resolved itself an hour ago** and the incident call is still going.
 
 One topic per song. Spend them.

@@ -64,7 +64,7 @@ labels, commit messages, pager acknowledgements. Exactly **one complete human se
 track**, containing no tooling vocabulary, placed in the breakdown where the beat drops out.
 Nothing in the song responds to it.
 
-**Provisional temperature.** Accelerated and dislocated — he processes faster than the world
+**Provisional temperature.** Accelerated and dislocated — she processes faster than the world
 responds, so everything human arrives late. Recorded as a hypothesis, not a rule. The premise
 bank deliberately contains fond, dreadful and joyful topics, and if the songs keep landing
 somewhere else, the spec follows the songs.
@@ -86,7 +86,7 @@ The voices row is the load-bearing one and it is structural rather than cosmetic
 wrong folder.
 
 Against **purple-dog**: no grievance. Purple Dog is a reasonable man not believed by an
-institution, and anger at a system is his. Disassembler's register is impatience — not "you are
+institution, and anger at a system is his. (That narrator is a man; this one is a woman.) Disassembler's register is impatience — not "you are
 doing this to me" but "you are all so slow". Provisional, like the temperature.
 
 ## Non-goals

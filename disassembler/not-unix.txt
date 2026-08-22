@@ -1,0 +1,40 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+GNU's not Unix
+
+[Build — the break enters. dense, fast, clipped, more than a listener can hold]
+checking build system type
+checking host system type
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for suffix of executables
+checking whether we are cross compiling... no
+checking for a BSD-compatible install... yes
+checking whether make sets MAKE... yes
+checking whether the compiler accepts minus g... yes
+checking for library containing strerror... none required
+checking whether build environment is sane... yes
+WINE is not an emulator
+LAME ain't an MP3 encoder
+PHP: hypertext preprocessor
+GNU's not Unix
+this program comes with absolutely no warranty
+report bugs to bug dash coreutils at gnu dot org
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+NOT UNIX
+NOT UNIX
+STILL NOT UNIX
+NOT UNIX
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+I have used this every single day for twenty years and I have not thanked anybody.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+NOT UNIX
+STILL NOT UNIX
+NOT UNIX
+NOT UNIX
+
+[Outro — strips back to the atmos it started on. does not resolve]
+checking whether build environment is sane... yes
+configure: error: C compiler cannot create executables

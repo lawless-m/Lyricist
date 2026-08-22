@@ -1,0 +1,42 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+one file changed
+
+[Build — the break enters. dense, fast, clipped, an inventory of what came out]
+one file changed, one thousand deletions
+the flag that nobody ever set
+the compatibility shim for a platform that no longer exists
+the retry loop that has not fired since the day it was written
+the second implementation
+the abstraction over the two implementations
+the interface for the abstraction
+the mock for the interface
+the test for the mock
+the documentation for the test
+grep: no matches
+no references
+no callers
+coverage unchanged
+build time down
+binary smaller
+the tests still pass
+the tests all still pass
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+NO CALLERS
+NO CALLERS
+MINUS ONE THOUSAND
+NO CALLERS
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+I went home and told my wife about it.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+NO CALLERS
+MINUS ONE THOUSAND
+NO CALLERS
+NO CALLERS
+
+[Outro — strips back to the atmos it started on. does not resolve]
+there is no longer a retry path
+there is no longer a flag for it
+there is nothing there at all

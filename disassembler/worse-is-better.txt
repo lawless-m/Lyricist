@@ -1,0 +1,36 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+the right thing
+
+[Build — the break enters. dense, fast, clipped. the same list, ranked two ways]
+simplicity: the interface must be simple
+correctness: incorrectness is not allowed
+consistency: the design must not be inconsistent
+completeness: all reasonably expected cases must be covered
+simplicity: the implementation must be simple
+simplicity is the most important consideration
+correctness: it is slightly better to be simple than correct
+consistency: consistency can be sacrificed for simplicity
+completeness: completeness can be sacrificed in favour of any other quality
+completeness must be sacrificed whenever implementation simplicity is jeopardised
+the same four words
+a different order
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+WORSE IS BETTER
+WORSE IS BETTER
+IT SPREADS
+WORSE IS BETTER
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+I used to be the one arguing for the other thing.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+WORSE IS BETTER
+IT SPREADS
+WORSE IS BETTER
+WORSE IS BETTER
+
+[Outro — strips back to the atmos it started on. does not resolve]
+it is better to get half of the right thing available
+so that it spreads
+improve it later

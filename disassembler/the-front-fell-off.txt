@@ -1,0 +1,41 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+everything is a file
+
+[Build — the break enters. dense, fast, clipped, more than a listener can hold]
+the network is a file
+the window is a file
+the mouse is a file
+your process is a file
+the screen is a file
+9P, everywhere, all of it
+namespaces are per process
+there is no root
+mount it wherever you like
+rc, not bash
+rio, not X
+acme
+drawterm
+factotum holds your keys
+the whole thing fits on a floppy
+it was finished in nineteen ninety-two
+it has been finished ever since
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+THE FRONT FELL OFF
+THE FRONT FELL OFF
+IT IS NOT TYPICAL
+THE FRONT FELL OFF
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+I go home and I use the one that lost.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+THE FRONT FELL OFF
+IT IS NOT TYPICAL
+THE FRONT FELL OFF
+THE FRONT FELL OFF
+
+[Outro — strips back to the atmos it started on. does not resolve]
+the front fell off
+everything is a file
+everything is still a file

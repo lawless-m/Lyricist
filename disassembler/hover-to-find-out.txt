@@ -1,0 +1,41 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+icons belong in church
+
+[Build — the break enters. dense, fast, clipped. a screen with no words on it]
+three horizontal lines
+three vertical dots
+three horizontal dots
+a magnifying glass
+a gear
+a bell
+a house
+a heart
+a star
+a flag
+a bookmark
+the heart and the star and the bookmark all mean save it for later
+they do not mean the same later
+a picture of a floppy disk
+one point four four megabytes
+a picture of a thing that stopped being made before the user was born
+hover to find out
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+HOVER TO FIND OUT
+HOVER TO FIND OUT
+IT IS A FLOPPY DISK
+HOVER TO FIND OUT
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+I have held one of those and it held less than a photograph.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+HOVER TO FIND OUT
+IT IS A FLOPPY DISK
+HOVER TO FIND OUT
+HOVER TO FIND OUT
+
+[Outro — strips back to the atmos it started on. does not resolve]
+aria label: save
+title: save
+tooltip: save
