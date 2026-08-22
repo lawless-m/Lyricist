@@ -117,17 +117,54 @@ me", but "you are all so slow".
 
 ---
 
-## Provisional engine
+## The engine (settled at twenty-five songs, by reading them)
 
-**Accelerated and dislocated.** She processes faster than the world responds, so everything human —
-meetings, replies, reviews, her own hands — arrives late. The dislocation is a clock problem
-rather than a cruelty problem: nobody is withholding and nobody is at fault.
+**Knowledge with no recipient.**
 
-Recorded as a hypothesis. The premise bank below deliberately spans fond, dreadful and joyful, and
-if the songs keep landing somewhere other than dislocation, **rewrite this section to follow
-them.**
+She knows things — accurately, in detail, and often uniquely — and there is nobody the knowing
+reaches. That is the whole band, and it is what every one of the breakdown sentences turns out to
+be about:
 
----
+- She knows what the filenames meant, and the person who made them is gone.
+- She can hear the drive failing, and the instrument that measures it returns PASSED.
+- She is grateful, and there is nobody to thank.
+- She knows which system was better, and it lost.
+- She knows where the ideas came from, and nothing in the software says so.
+- She knows what the icon is a picture of, because she held one.
+- She knows which cable works and why, and it is written down nowhere.
+- She implemented all of them, on purpose, correctly, and nobody noticed.
+
+The two exceptions are the only warmth in the catalogue, and they are exceptions on purpose: in
+`no-callers` she goes home and tells her wife, which is the one time anything transmits, and it
+happens outside work; in `leave-it` a stranger's note reaches her across years, anonymously, and
+turns out to be right. Keep those rare. They are load-bearing precisely because everything else in
+the band arrives nowhere.
+
+**This is what the form is for**, which is why it should stop feeling arbitrary. The build is
+always a record that nobody reads — a fault log, a consent dialogue, a spec, a comment thread, a
+diffstat, an inventory of ideas — all of it accurate, all of it public, none of it received. The
+breakdown is the one thing that will never be recorded anywhere. Then the beat comes back and the
+record resumes without her.
+
+**What it is not**, and these matter because the neighbours are close:
+
+- **Not impatience.** That was the original hypothesis in this file and the songs disproved it. She
+  is not waiting for the world to catch up; she has stopped expecting it to.
+- **Not grievance.** Nobody withholds anything, nothing malfunctions, and no institution is at
+  fault. That is `purple-dog`, and `what-file` — the founding recording — breaks this rule, which is
+  why it is kept as a record rather than a model.
+- **Not numbness.** She feels it and reports it plainly. That is `laundry`, where the meaning drains
+  out; here everything keeps all of its meaning.
+- **Not withholding.** This is the sharpest distinction and the easiest to lose. The `guessed`
+  narrator has things to say and does not say them. This one **says everything**, constantly, at
+  speed, in full — and there is no one on the other end. Silence is her condition, not her choice.
+
+**How this was arrived at**, since the method matters more than the conclusion: nothing here was
+designed. The genre, the voice rule and the fences were settled first and the engine was left
+explicitly provisional, with an instruction to rewrite this section if the songs landed somewhere
+else. They did, twenty-five times, and this is the rewrite. The original hypothesis is preserved in
+`docs/superpowers/specs/2026-08-22-disassembler-design.md` — worth reading against this to see how
+far off a reasonable guess can be.
 
 ## Premise bank
 
