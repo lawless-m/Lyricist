@@ -1293,6 +1293,118 @@ gets fixed.
 - Example: the-bell-knows-my-name/so-i-sing-it
 - Logged at catalog size 164.
 
+### "there are eleven wires on me — four are yours, seven are the building's, and not one of them goes anywhere near what's actually wrong" — inventory-ending-in-negation accusatory parallel
+- Purple Dog's accusatory-parallel slot filled with a fresh grammatical shape after the retired
+  where/should construction, the spent "you trust the log, not the room" two-beat and the
+  reclassification timeline (purple-dog/laminated): a precise count, apportioned between parties,
+  cancelled by a closing clause that says none of it touches the point. The final chorus swaps the
+  last line for a worse one ("every one of them goes back to a desk where nobody is sitting").
+- Example: purple-dog/isnt-plugged-into-anything
+- Logged at catalog size 165.
+
+### "lie back, breathe in, wait your turn, be patient" — ward stacked-imperative chorus opener
+- Purple Dog's stacked-imperative slot filled with bedside instructions, closing on the word that is
+  simultaneously a virtue demanded of him and the category he has been reduced to. After "sit down,
+  shut up, take your pills, act glad" and "calm down, log it, park it, take it offline".
+- Example: purple-dog/isnt-plugged-into-anything
+- Logged at catalog size 165.
+
+### "THAT'S NORMAL FOR YOU" → "THAT'S NORMAL FOR US" — gang shout-back voicing the institution, then claiming it
+- A fresh shout-back mechanism after the label-contradiction shape ("HE'S NOT FINE", "HE'S
+  DIFFICULT"): the crowd does not name him, it speaks in the institution's voice and dismisses him
+  with the sentence wards actually use — then the flip turns the same words into a collective
+  diagnosis of the place rather than of the people in it.
+- Example: purple-dog/isnt-plugged-into-anything
+- Logged at catalog size 165.
+
+### "make good." — quoted-instruction hook opener
+- Guessed's quoted-instruction slot filled with the tenancy-agreement term for restoring a property
+  to the condition it was let in — an obligation she has internalised and is unusually good at. After
+  "be nice about it", "don't make it a thing", "you knew what it was", "you've got time", "act like
+  it's news", "let it lie", "don't correct a compliment", "focus on the story", "come back to us",
+  "be happy for her", "say it and stop", "don't push it", "don't bring it up" and "just use the
+  shared one".
+- Example: guessed/two-coats
+- Logged at catalog size 166.
+
+### "who's in there now." → "and I hope they put things up." — the question she already knows the answer to, resolved into a wish
+- The slot filled as a flat question about the next occupant, and the final hook abandons the
+  question entirely for a small generous hope. The device usually leaves the question hanging or
+  answers it worse; this one is the first time the substitution is *kind*, which is the whole ending.
+  After the retired wh-inverted skeleton, the yes/no shape, the either/or shape, the elliptical
+  quantity, the belief-about-others shape, the aimed-at-the-outcome shape and the possessive answered
+  in the final hook.
+- Example: guessed/two-coats
+- Logged at catalog size 166.
+
+### "you're not throwing away a cable. You're throwing away a Thursday morning in three years" — present-act-against-future-consequence accusatory parallel
+- Purple Dog's accusatory-parallel slot filled with a fresh grammatical shape after the retired
+  where/should construction, the spent "you trust the log, not the room" two-beat, the
+  reclassification timeline (purple-dog/laminated) and the inventory-ending-in-negation
+  (purple-dog/isnt-plugged-into-anything): a small present action set against the specific future
+  morning it ruins, with the tense doing all the accusing. The final chorus moves it from "I" to
+  "we" without changing anything else.
+- Example: purple-dog/the-same-drawer
+- Logged at catalog size 174.
+
+### "bin it, box it, have a clear-out, be reasonable" — domestic stacked-imperative chorus opener
+- Purple Dog's stacked-imperative slot filled with tidying instructions, closing on the demand that
+  makes disagreement itself the offence. After "sit down, shut up, take your pills, act glad",
+  "calm down, log it, park it, take it offline" and "lie back, breathe in, wait your turn, be patient".
+- Example: purple-dog/the-same-drawer
+- Logged at catalog size 174.
+
+### "YOU'LL NEVER NEED IT" → "WE'LL ALL NEED IT" — gang shout-back as a prediction, flipped to a shared certainty
+- A third shout-back mechanism after the label-contradiction ("HE'S NOT FINE", "HE'S DIFFICULT") and
+  the institution's-voice dismissal ("THAT'S NORMAL FOR YOU"): here the crowd contradicts his
+  *forecast* rather than his character, and the flip turns a denial into a room full of people who
+  have all kept a cable for a device they no longer own.
+- Example: purple-dog/the-same-drawer
+- Logged at catalog size 174.
+
+### "grind it, pull it, drink it hot, stay under" — maintenance-dosing consumption-imperative hook opener
+- Laundry's imperative-opener slot filled with coffee-making verbs closing on an instruction that
+  inverts the expected one: not stay awake, stay *under*. The whole gravity well is in the last two
+  words.
+- Example: laundry/level
+- Logged at catalog size 175.
+
+### "level" — target-state mantra
+- One word, chanted and worn to noise ("level / lev— / (—el)"). Not awake and not asleep but held at
+  a chosen depth, which is what the dosing is for. Distinct from the band's other degraded phrases in
+  that it names a condition he is maintaining rather than an instruction he is obeying.
+- Example: laundry/level
+- Logged at catalog size 175.
+
+### "and both kits get the shake and neither one can hold a straight line" — mechanical-collapse pre-hook line
+- A thirteenth distinct phrasing for the pre-hook's textural build, after fold/buckle,
+  stutter-catch-click, second-kit-drops-out, kick-a-half-beat-late, hi-hat-splits-in-two,
+  snare-stuck-on-one-millisecond, toms-roll-under-the-couch, both-kits-sag, accept-the-update-mid-bar,
+  take-the-line-speed, drop-a-point-a-bar and stops-being-a-fault. This one is a tremor rather than a
+  failure — the kit has the same shake he has. Invent a fresh one again next time.
+- Example: laundry/level
+- Logged at catalog size 175.
+
+### "how long has that been in the room — no. No, leave it." — question-with-no-addressee, asked and then declined
+- The slot filled with a question he starts and immediately refuses to pursue, so the answer is
+  available and deliberately not collected. After the unfinished measurement, the trailing passive
+  appeal, the question answered by the sales script, the completed-and-unanswered question, the number
+  read out, the question aimed at an earlier self and the self-answered useless one.
+- Example: laundry/level
+- Logged at catalog size 175.
+
+### "the bins ... six" as laundry's early-morning fixed point — PERMANENT
+- laundry/mind-the-white opens on "Bins out after six, which is after six, which is the thing about
+  six" — a line the user singled out as one of the best in the catalogue, which makes any reuse of
+  the bins-and-six pairing an audible repeat rather than shared furniture. Flagged by the user
+  2026-08-22 after laundry/level was drafted with "the bins go out at ten past six" as its fixed
+  point. Retired permanently: the *device* (a mundane recurring event as the only fixed point in a
+  formless day) stays available and is a good one — the bins, and that hour, do not.
+- laundry/level was revised to a streetlight that goes off at twenty to seven "now it's autumn",
+  which is better anyway: the one fixed point in the song turns out not to be fixed.
+- Example: laundry/mind-the-white (the use that stands)
+- Logged at catalog size 175.
+
 
 ## Phrases
 
@@ -2519,6 +2631,92 @@ gets fixed.
 - Example: the-bell-knows-my-name/so-i-sing-it
 - Logged at catalog size 164.
 
+### "You wrote anxious on the front of it. I read it upside down."
+- The direct accusation: a single word on a chart, seen by the patient from the wrong side of the
+  desk, which converts every subsequent thing he says into evidence for it. Extended in the final
+  chorus to "I read everything upside down now."
+- Example: purple-dog/isnt-plugged-into-anything
+- Logged at catalog size 165.
+
+### "you're pressing that a lot. / A lot. I've pressed it three times in four days. I counted."
+- The petty trigger, complete with its rebuttal: a nurse's mild observation answered by a figure he
+  can produce because he has been keeping one. The smallness of the number is the whole grievance,
+  and the fact that he counted is the whole diagnosis.
+- Example: purple-dog/isnt-plugged-into-anything
+- Logged at catalog size 165.
+
+### "and I've started writing down the times / on the back of the menu card"
+- The pre-chorus crack shown through behaviour rather than announced, per the spec's ban on
+  self-diagnosis: a man who has begun keeping a private record on hospital stationery. Distinct from
+  purple-dog/laminated's reading his own sentences aloud in a car park.
+- Example: purple-dog/isnt-plugged-into-anything
+- Logged at catalog size 165.
+
+### "Two coats, and there's no telling anybody was ever in it."
+- The one-line-that-lands: the standard of her own workmanship stated as a fact, with the thing it
+  achieves — the removal of all evidence that she lived somewhere — offered as the measure of
+  success. No complaint attached and no irony available in the delivery.
+- Example: guessed/two-coats
+- Logged at catalog size 166.
+
+### "I've still got the paint. It's under the sink at the new place. Same colour."
+- The drop-out kept **managed**, in a fifth mode: a small keeping. After documenting a success as
+  procedure (guessed/say-it-and-stop), a maintenance routine for absent people
+  (guessed/ones-with-names-on), compliance carried to its absurd end (guessed/name-of-the-course) and
+  a risk assessment (guessed/the-only-name-in-it) — here she has kept the colour of the room she
+  erased herself from, stored somewhere practical, for no stated reason.
+- Example: guessed/two-coats
+- Logged at catalog size 166.
+
+### "Seven picture hooks in that front room. I put every one of them in myself. And I took every one of them out, and you would not find them with a thumbnail."
+- The unspent-expertise line fused with the song's subject: real competence at filling and finishing,
+  demonstrated on the only physical evidence that she had ever hung anything anywhere. Avoids the
+  retired "nobody asked" construction by making the ache a decorating standard.
+- Example: guessed/two-coats
+- Logged at catalog size 166.
+
+### "You didn't ask what it went to. You asked if I'd used it lately."
+- The direct accusation: two questions set side by side, one of which would have established the
+  thing's purpose and one of which established only its recent activity. The wrong test, named
+  without raising his voice.
+- Example: purple-dog/the-same-drawer
+- Logged at catalog size 174.
+
+### "and I took one out and put it in my coat / before the van come, and I've not said"
+- The pre-chorus crack shown through behaviour rather than announced, per the spec's ban on
+  self-diagnosis: a man who quietly rescued one item and has kept that to himself. Distinct from
+  purple-dog/laminated's reading his own sentences aloud in a car park and
+  purple-dog/isnt-plugged-into-anything's writing the times on a menu card.
+- Example: purple-dog/the-same-drawer
+- Logged at catalog size 174.
+
+### "It isn't a pound. It's a pound and a fortnight of not having one."
+- The rebuttal to the obvious objection, pre-empted and answered in his own mouth before anyone can
+  make it — the cost restated in the only unit that matters to him, which is delay rather than money.
+- Example: purple-dog/the-same-drawer
+- Logged at catalog size 174.
+
+### "I could sleep. I've decided not to." → "I could sleep. I don't think I'd come back the same."
+- The flash-of-legibility line: the deprivation named as a choice rather than a symptom, in six flat
+  words, and the final hook replaces the second half with the reason. The band's under-reaction rule
+  applied to a man who is doing this to himself on purpose.
+- Example: laundry/level
+- Logged at catalog size 175.
+
+### "Half four is a colour, not a time."
+- The grotesque non-sequitur as a category error stated with total confidence, and immediately
+  corroborated by an appeal to other people in the same state ("Anybody up at half four will tell you
+  the same thing").
+- Example: laundry/level
+- Logged at catalog size 175.
+
+### "the woman who does the filing has been in three of these now and I have started saying good morning"
+- The closing button: a recurring figure from inside the dream greeted by a waking man as an
+  ordinary colleague, reported with no alarm whatsoever. The song's only statement about how far this
+  has gone, and it arrives as manners.
+- Example: laundry/level
+- Logged at catalog size 175.
+
 
 ## Imagery / Motifs
 
@@ -3714,3 +3912,75 @@ gets fixed.
   about singing being the only channel available. The two share birds and share no line.
 - Example: the-bell-knows-my-name/so-i-sing-it
 - Logged at catalog size 164.
+
+### The wire that isn't plugged into anything
+- The petty trigger and the detonation in one object: among eleven leads attached to him, one has
+  been connected to nothing since Thursday, he has told four people, and the breakdown is him
+  identifying every wire calmly and correctly until he reaches that one. What he screams is not a
+  claim about his health — "I AM NOT TELLING YOU I'M ILL — I AM TELLING YOU IT ISN'T PLUGGED IN" —
+  which is precisely why it will be read as one.
+- Example: purple-dog/isnt-plugged-into-anything
+- Logged at catalog size 165.
+
+### The buzzer tucked behind the bed on the far side
+- The institutional dismissal rendered as furniture: the call button placed where a wired patient
+  cannot reach it without using the arm with the cannula in the crook, followed by a complaint about
+  how often he uses it. Nobody is cruel and no decision was taken — the thing simply ended up there.
+- Example: purple-dog/isnt-plugged-into-anything
+- Logged at catalog size 165.
+
+### Making good as contractual self-erasure — the deposit paid for in evidence
+- The gravity well: end-of-tenancy obligations require her to remove every trace of having lived
+  somewhere, and she does it early, thoroughly, and better than the inspection would have demanded.
+  The clerk arrives with photographs from her move-in day, holds them against the wall, and finds
+  nothing — the cleanest check-out he has done all year. Nobody wrongs her at any point; the erasure
+  is standard practice, performed by her own hand, to a professional standard, for money she is owed.
+- Example: guessed/two-coats
+- Logged at catalog size 166.
+
+### Pre-emptive grief as the engine — furious now about a morning that has not happened
+- The band's fury relocated from a past injury to a future one: nothing has gone wrong yet, the item
+  is worth about a pound, and the whole song is a man defending a Thursday in three years' time when
+  he will need the thing and have to buy a worse one. What makes it Purple Dog rather than comedy is
+  that he is *right* — the cycle he describes is real and checkable — and being right about a cable
+  is exactly the kind of correctness nobody credits.
+- Example: purple-dog/the-same-drawer
+- Logged at catalog size 174.
+
+### The breakdown as a cycle rather than an inventory
+- Deliberately not the shape of purple-dog/isnt-plugged-into-anything, where the monologue itemises
+  objects one at a time until it reaches the broken one. Here he walks calmly through the *loop* —
+  throw it out, nothing happens for years, the Thursday arrives, buy a worse one, keep it, put it in
+  a drawer, somebody has a clear-out — and detonates on realising he has described a circle:
+  "IT IS THE SAME DRAWER — IT IS ALWAYS THE SAME DRAWER."
+- Example: purple-dog/the-same-drawer
+- Logged at catalog size 174.
+
+### Deliberate sleep deprivation maintained by dosing — the altered state as the destination
+- The gravity well is not insomnia and not hustle: he can sleep, and has decided not to, because the
+  fogged state is preferable and caffeine is how he holds the depth. Fenced off from
+  laundry/the-app-says-im-resting (tracked sleep contradicting lived experience) and
+  laundry/rest-when-im-dead (grind culture deferring rest) — nothing here is being optimised and
+  nothing is being measured. The palette is the ring on the worktop, the shake with a rhythm to it,
+  tap water tasting of the pipe, a floater shaped like a comma, and words coming apart on a screen
+  and going back together.
+- Example: laundry/level
+- Logged at catalog size 175.
+
+### The dream continuing at waist height while he is awake
+- The altered state rendered as an ongoing location rather than an event: the dream does not stop
+  when he gets up, it waits at about waist height and carries on, he has been in the same one since
+  the spring, and it is staffed.
+- Example: laundry/level
+- Logged at catalog size 175.
+
+### The dissolve as a microsleep the machine speaks through
+- Laundry's voice-eaten-by-the-machine dissolve where the narrator drops out mid-sentence for half a
+  second and the sampler supplies a word he did not say — and he accepts it as his own, repeatedly,
+  agreeing more warmly each time. Nothing is chopped, looped or reordered; the gap is simply filled
+  by something else and the continuity is never questioned. Distinct from laundry/still-warm,
+  laundry/instructions-unclear, laundry/good-body-every-night, laundry/by-continuing,
+  laundry/keep-her-fed, laundry/one-to-ten and laundry/it-does-that.
+- Example: "it isn't fighting him. it's finishing him." — laundry/level
+- Logged at catalog size 175.
+
