@@ -1,6 +1,6 @@
 ---
 name: write-song
-description: Use when writing a new song lyric for any of the bands in the roster (Guessed, Laundry, Lucy Might, Purple Dog, The Bell Knows My Name, Coase Guard, Ultracoase, girlboss, hobo, Penny Rich). Triggered by requests like "song for Guessed", "another laundry track", "make new song for purple-dog", "another gypsy-emo song", "write me a lucy-might song", "a Coase Guard track", "an Ultracoase song", "a girlboss song", "another references-available track", "a hobo song", "song for Penny", "a bargain bluegrass track", or a bare theme with no style named (in which case ask which band). This is the only entry point for song requests — the style specs are reference files it reads, not separate skills.
+description: Use when writing a new song lyric for any of the bands in the roster (Guessed, Laundry, Lucy Might, Purple Dog, The Bell Knows My Name, Coase Guard, Ultracoase, girlboss, hobo, Penny Rich, Disassembler). Triggered by requests like "song for Guessed", "another laundry track", "make new song for purple-dog", "another gypsy-emo song", "write me a lucy-might song", "a Coase Guard track", "an Ultracoase song", "a girlboss song", "another references-available track", "a hobo song", "song for Penny", "a bargain bluegrass track", "a Disassembler song", "song for Disassembler", or a bare theme with no style named (in which case ask which band). This is the only entry point for song requests — the style specs are reference files it reads, not separate skills.
 ---
 
 # write-song
@@ -25,6 +25,7 @@ aliases — users may say either):
 | `girlboss`                  | girlboss, references-available, references, refs, available   |
 | `hobo`                      | hobo, junk swagger, the scavengers, 90s hip-hop guitar crossover |
 | `penny-rich`                | Penny Rich, Penny, bargain bluegrass, banjo vaudeville        |
+| `disassembler`              | Disassembler, devops, drum and bass, neurofunk                 |
 
 If the request names a theme but no band and it isn't clear from context, ask which band before
 doing anything else.

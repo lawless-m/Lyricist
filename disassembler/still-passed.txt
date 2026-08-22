@@ -1,0 +1,41 @@
+[Intro — atmos and ominous sub, no break yet. one line read flat, almost bored]
+self-assessment test result: passed
+
+[Build — mechanical break enters. dense, fast, clipped, more than a listener can hold]
+reallocated sector count: five
+reallocated sector count: eleven
+reallocated sector count: sixty-eight
+current pending sector: two
+current pending sector: sixteen
+offline uncorrectable: sixteen
+power on hours: forty-two thousand
+spin retry count: zero
+read error rate: rising
+seek error rate: rising
+temperature: thirty-eight
+temperature: forty-four
+end request: critical medium error
+I/O error, dev sda, sector six one four seven two three zero eight
+buffer I/O error on device sda one
+the drive is still under warranty
+SMART overall health self-assessment test result: passed
+
+[Drop — half-time bass under the mechanical break. single voice, stacked on itself, no crowd, no gang]
+PASSED
+PASSED
+STILL PASSED
+PASSED
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+I put my ear against it, which is not something anyone is supposed to do.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+PASSED
+STILL PASSED
+PASSED
+PASSED
+
+[Outro — strips back to the atmos it started on. does not resolve]
+rescued: one point eight terabytes
+errsize: four kilobytes
+current pending sector: seventeen

@@ -1439,6 +1439,40 @@ gets fixed.
 - Example: laundry/mind-the-white (the use that stands)
 - Logged at catalog size 175.
 
+### A build made entirely of filenames — Disassembler's dense system-text list
+- The band's "too many true things too fast" rule in its first proper outing: nineteen filenames
+  read flat over a rolling break, each one a real artefact of the same document, escalating through
+  final, FINAL, FINAL_FINAL, USE_THIS, USE_THIS_v2, initials, initials-plus-initials, a lock file
+  and two New Folders. Nothing is invented and nothing is an image — the comedy and the dread are
+  both entirely in the volume and the order.
+- Example: disassembler/use-this-one
+- Logged at catalog size 177.
+
+### "USE THIS ONE" / "THIS ONE NEW NEW" — shouted-anchor drop
+- Disassembler's drop filled with the instruction every one of those filenames was trying to give,
+  shouted by a single stacked voice rather than a crowd (the structural fence against laundry).
+  Two to four words, repeated, carrying no new information on the second drop.
+- Example: disassembler/use-this-one
+- Logged at catalog size 177.
+
+### "PASSED" / "STILL PASSED" — shouted-anchor drop built on a machine's own verdict
+- Disassembler's drop filled with the word a failing disk uses about itself. The SMART
+  self-assessment returns PASSED while the reallocated sector count climbs through the verse, so the
+  anchor is simultaneously true, official and worthless. Second use of the band's stacked-single-voice
+  drop after "USE THIS ONE" — no crowd, per the laundry fence.
+- Example: disassembler/still-passed
+- Logged at catalog size 178.
+
+### The build as a machine reporting its own deterioration in fields
+- Disassembler's dense system-text rule filled with SMART attributes and kernel messages read flat:
+  reallocated sector count rising through three values, current pending sector, offline
+  uncorrectable, power on hours, read and seek error rates, temperature, a critical medium error and
+  an I/O error with its sector. Every line is a real field and the drive is describing its own death
+  accurately, calmly, and without drawing a conclusion. Distinct from the filename list in
+  disassembler/use-this-one — that was a human's artefacts, this is the machine's own account.
+- Example: disassembler/still-passed
+- Logged at catalog size 178.
+
 
 ## Phrases
 
@@ -2814,6 +2848,38 @@ gets fixed.
 - Example: laundry/level
 - Logged at catalog size 175.
 
+### "Somebody was trying very hard not to lose anything."
+- Disassembler's one-human-sentence breakdown, and the first test of the rule. It contains no
+  tooling vocabulary, it has a subject and a verb belonging to a person, and it recasts nineteen
+  lines of comic filenames as an act of fear. Nothing in the song responds to it; the beat returns
+  and it is filenames again. Deliberately **not** about time or latency — the band's provisional
+  engine will reach for that reflexively and the spec flags it.
+- Example: disassembler/use-this-one
+- Logged at catalog size 177.
+
+### Two files with the same modified timestamp as the closing joke
+- The outro: the two candidate finals are shown to have been modified in the same minute, so the
+  question the whole song is asking has no answer available anywhere in the system. Stated as bare
+  metadata, twice, with no comment.
+- Example: "report_final_USE_THIS_v2.doc / modified eleven forty-seven / report_FINAL_FINAL.doc /
+  modified eleven forty-seven" — disassembler/use-this-one
+- Logged at catalog size 177.
+
+### "I put my ear against it, which is not something anyone is supposed to do."
+- Disassembler's one-human-sentence breakdown, second instance and deliberately in a third
+  territory: not time (the provisional engine's reflex) and not the fear of losing things
+  (disassembler/use-this-one). This one is an expert doing an unprofessional thing — diagnosing by
+  ear, admitting it, and continuing. No tooling vocabulary in it, and nothing in the song responds.
+- Example: disassembler/still-passed
+- Logged at catalog size 178.
+
+### "current pending sector: sixteen" → "current pending sector: seventeen"
+- The outro non-resolution: the same field is read out twice, once mid-verse and once at the end,
+  and it has gone up by one while the song was playing. Stated as bare metadata with no comment, and
+  it is the only event in the track.
+- Example: disassembler/still-passed
+- Logged at catalog size 178.
+
 
 ## Imagery / Motifs
 
@@ -4117,3 +4183,19 @@ gets fixed.
 - Example: "it isn't fighting him. it's finishing him." — laundry/level
 - Logged at catalog size 175.
 
+### Version control by filename as the band's first non-alarm subject
+- Deliberately the opposite of an outage, per the spec's don't-calcify warning that Disassembler's
+  system text will otherwise be alarms every song: nothing is broken, nothing has failed, nobody is
+  paged. The system text is a shared drive's naming archaeology, and the horror is ordinary
+  workplace care applied without a tool that would make it unnecessary.
+- Example: disassembler/use-this-one
+- Logged at catalog size 177.
+
+### The failing drive that certifies itself healthy
+- The gravity well: a disk shedding sectors in real time whose overall health self-assessment
+  returns PASSED, which is both correct behaviour and completely useless. Nobody is lying and no
+  system has failed — the test measures what it measures. The horror is the gap between an accurate
+  instrument and a dying object, and the narrator is the only one in a position to hear the
+  difference. Warranty status mentioned once, flatly, and never pursued.
+- Example: disassembler/still-passed
+- Logged at catalog size 178.
