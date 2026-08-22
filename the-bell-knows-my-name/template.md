@@ -96,14 +96,23 @@ Companion piece written to the same spec: **"Every Grave I Didn't Dig"** (the de
  
 ---
  
-## From us-and-them to one person (the direction the band has moved)
+## Aim it at one person
 
-The early catalogue framed the wound collectively — us and them, your fathers, strangers, the
-valley. The later songs put a single named person in the middle of it, and that is the stronger
-setting. The reason is mechanical: **an abstract "them" can only wrong you.** Nobody is complicit
+**Correction (2026-08-20):** an earlier version of this section claimed the band had *moved* from
+an abstract us-and-them to a single named person. That is not true and a count says so — the July
+songs are full of fathers, brothers and sisters (`does-the-building-dream-us-too` has four kin
+references, `the-bell-knows-my-name` and `the-plum-trees-secret` three each). The specific human was
+there from the founding recordings. The only thing that changed recently is given names in place of
+kin nouns, which is a surface difference, not a development. The principle below stands on its own
+merits; the history around it was invented to make a tidy story.
+
+One named person in the middle of the wound is the stronger setting, and the reason is mechanical: **an abstract "them" can only wrong you.** Nobody is complicit
 with a category, so a collective frame leaves the narrator nothing to be but aggrieved. One person
 with a name lets him be implicated — he resented Emil, he sold Anca's horses, he stopped getting up
 for the dogs, he has never said it to Mirela — and the complicity is where the emotion is.
+
+(Note also that the collective register demonstrably works — the song that reduced the listener to
+tears in a public place was one of the older ones, not one written to this rule.)
 
 It is also the boundary with the sibling spec. Us-and-them plus injustice **is** institutional
 hardcore; if a Bell draft starts accusing a group, it belongs upstairs in purple-dog. One person
