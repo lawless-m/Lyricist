@@ -1337,6 +1337,40 @@ gets fixed.
 - Example: guessed/two-coats
 - Logged at catalog size 166.
 
+### "Say it was the theme." — permission-imperative chorus opener
+- Penny Rich's permission-imperative slot filled by handing the crowd the wrong *variable* rather
+  than the wrong verdict: they may credit the decoration for a record night, because the decoration
+  is what the committee spent an hour and ten minutes on. After "say I settled".
+- Example: penny-rich/say-it-was-the-theme
+- Logged at catalog size 167.
+
+### "It was the garlands. It was definitely the garlands." → "It was always the garlands."
+- The crowd's wrong version, sung with total conviction and never corrected, with the final chorus
+  moving one word — *definitely* to *always* — so the sincerity deepens rather than cracks. The
+  ending is the crowd getting more certain, not less.
+- Example: penny-rich/say-it-was-the-theme
+- Logged at catalog size 167.
+
+### "Let him sign it." / "Call it a knack." / "Say the sky told me." / "Say the man did it." / "Say she gets it from him." / "Say I like a bargain." — six permission-imperative chorus openers
+- Penny Rich's permission-imperative slot filled six times in one batch, each handing the crowd a
+  different wrong explanation: the husband, an innate gift, the weather, a hired professional,
+  the other parent's genes, and a personality trait. After "say I settled" and "say it was the
+  theme". Logged together so the *shape* is visible — every one of them gives away the credit
+  cheerfully and none of them is a confession.
+- Example: penny-rich/let-him-sign-it, penny-rich/call-it-a-knack, penny-rich/say-the-sky-told-me,
+  penny-rich/say-the-man-did-it, penny-rich/her-fathers-daughter, penny-rich/four-pound-a-year
+- Logged at catalog size 173.
+
+### The crowd's wrong version deepened by one word in the final chorus
+- Penny Rich's shout-back device across the batch: the crowd's incorrect verdict returns with a
+  single word changed so their conviction *grows* — "very good with money" becomes "was always going
+  to be", "she's got a way with him" becomes "she was born with", "she's her father's daughter"
+  becomes "she'll bring hers up her father's daughter", "she does love a bargain" becomes "she'll
+  die loving a bargain". The ending is the wrong story becoming permanent and inheritable, sung
+  affectionately. Never corrected.
+- Example: penny-rich/her-fathers-daughter (the furthest-travelled instance)
+- Logged at catalog size 173.
+
 ### "you're not throwing away a cable. You're throwing away a Thursday morning in three years" — present-act-against-future-consequence accusatory parallel
 - Purple Dog's accusatory-parallel slot filled with a fresh grammatical shape after the retired
   where/should construction, the spent "you trust the log, not the room" two-beat, the
@@ -2675,6 +2709,69 @@ gets fixed.
 - Example: guessed/two-coats
 - Logged at catalog size 166.
 
+### "Nobody comes for a theme. They come on the Friday when they've got it."
+- The one-line-that-lands: the actual mechanism of a village fundraiser stated as plain fact, in
+  the middle of a song celebrating the garlands. Her judgement is fully visible and nobody in the
+  song hears it.
+- Example: penny-rich/say-it-was-the-theme
+- Logged at catalog size 167.
+
+### "There's no minutes for a date. There's minutes for a theme."
+- The plain line at the break: her contribution is structurally unrecordable — the committee minutes
+  hold the hour of debate and not the decision that decided it. Delivered flat, once, to a room that
+  is already clapping, and never returned to.
+- Example: penny-rich/say-it-was-the-theme
+- Logged at catalog size 167.
+
+### "the vicar stood up at the end and thanked Malcolm for a marvellous raffle. / He does do a marvellous raffle. He does."
+- The correction she doesn't make, plus the dry beat at the wrong-story-teller's expense — and the
+  credit is conceded as accurate, warmly, because it is. Malcolm did do a marvellous raffle. Nobody
+  is contemptible anywhere in the song.
+- Example: penny-rich/say-it-was-the-theme
+- Logged at catalog size 167.
+
+### "He signs where I put the pencil cross, and I put it in the right place."
+- The one-line-that-lands for the money song: the division of labour stated as a physical fact about
+  a pencil, with the authority sitting entirely in who chooses the location. Plain line at the break:
+  "There's not one account in this house with my name on it."
+- Example: penny-rich/let-him-sign-it
+- Logged at catalog size 173.
+
+### "There's no knack. There's an order, and I do it in the order, every time."
+- The one-line-that-lands for the dog song, and the spec's "show the working" rule in a sentence.
+  Plain line at the break: "He's not clever. I'm not clever. It's the same order every time." The
+  method is given away in full and the giving-away costs her nothing.
+- Example: penny-rich/call-it-a-knack
+- Logged at catalog size 173.
+
+### "It isn't the sky. It's the gate. And I have said so, out loud, to people."
+- The one-line-that-lands for the weather song, with the sharpest version of the band's engine: she
+  has *already told them* and it made no difference. Plain line at the break: "I've told them about
+  the gate. I've told them all about the gate." No grievance is stated anywhere near it.
+- Example: penny-rich/say-the-sky-told-me
+- Logged at catalog size 173.
+
+### "You want the hymn they can all sing. Not the one he liked. The one they know."
+- The one-line-that-lands for the funeral song: professional judgement about a service, stated
+  warmly, which quietly concedes that the dead man's preference is the wrong criterion. Plain line at
+  the break: "There was nobody left to ring about Cyril. So I rang everybody else."
+- Example: penny-rich/say-the-man-did-it
+- Logged at catalog size 173.
+
+### "She's got his eyes and his mouth. She counts the change before she leaves the counter."
+- The one-line-that-lands for the inheritance song: two clauses conceding the visible inheritance and
+  claiming the invisible one, without saying which is hers. Plain line at the break: "I taught her on
+  a Saturday and she has got no memory of it at all."
+- Example: penny-rich/her-fathers-daughter
+- Logged at catalog size 173.
+
+### "Boots were sixty pound and they've been soled four times. That's four pound a year."
+- The one-line-that-lands for the batch's single transactional song, and the inversion that keeps it
+  out of the shopping corner: the bargain-hunter's real judgement is knowing the one thing to pay
+  full price for. Plain line at the break: "The boots will see me out. I did that sum an' all."
+- Example: penny-rich/four-pound-a-year
+- Logged at catalog size 173.
+
 ### "You didn't ask what it went to. You asked if I'd used it lately."
 - The direct accusation: two questions set side by side, one of which would have established the
   thing's purpose and one of which established only its recent activity. The wrong test, named
@@ -3937,6 +4034,42 @@ gets fixed.
   is standard practice, performed by her own hand, to a professional standard, for money she is owed.
 - Example: guessed/two-coats
 - Logged at catalog size 166.
+
+### The committee that debates the theme while she picks the date
+- Penny Rich's win as a judgement about scheduling rather than about money: an hour and ten minutes
+  on Wild West versus Hawaiian, and she books the hall for the Friday after the pensions go in,
+  clear of the darts final, the last-Thursday bingo and the school play that half the village has a
+  grandchild in. Two hundred and six through the door, best since the roof appeal, and the credit
+  goes to the raffle. Keeps the band out of the transactional corner its spec warns about — nothing
+  is bought and no price is named anywhere in the song.
+- Example: penny-rich/say-it-was-the-theme
+- Logged at catalog size 167.
+
+### The wrong story as the generator — six songs from six things people believe about her
+- Method note as much as a motif. Penny Rich is harder to prompt than the other bands because the
+  others run on a wound (anything can be wrong) and she runs on a win (a specific correct judgement
+  nobody credited, which is a narrow door). Starting from **a wrong belief someone cheerfully holds
+  about her** generates freely, because wrong stories are everywhere and each one implies its own
+  working: the husband handles the money, she has a knack with the dog, she's lucky with the weather,
+  the funeral director did it, the daughter takes after her father, she just likes a bargain.
+- Example: the batch logged at this size
+- Logged at catalog size 173.
+
+### The credit conceded as accurate, warmly, in the same breath as the correction is withheld
+- Recurring across the batch and worth naming: Malcolm *did* do a marvellous raffle, the funeral firm
+  *did* do him proud, Ron *does* buy her a coat with the refund, Kath *has* got her father's mouth.
+  Nobody is contemptible and no claim is false — the wrong story is only ever wrong by omission,
+  which is what keeps the band out of revenge-fantasy territory per its own spec.
+- Example: penny-rich/say-the-man-did-it
+- Logged at catalog size 173.
+
+### Teaching a child to notice, in a car park, and being forgotten as the source
+- The family territory filled without sentiment: a method taught deliberately in front of an
+  eleven-year-old (look at the floor of a car not the paint, ask who does well out of you believing
+  it, say the number back and watch their face), the child grown into someone who thinks she was born
+  awkward, and the village crediting the father. The narrator is delighted about all of it.
+- Example: penny-rich/her-fathers-daughter
+- Logged at catalog size 173.
 
 ### Pre-emptive grief as the engine — furious now about a morning that has not happened
 - The band's fury relocated from a past injury to a future one: nothing has gone wrong yet, the item
