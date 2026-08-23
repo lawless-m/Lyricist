@@ -28,6 +28,11 @@ is rendered on demand and downloaded as 48 kHz PCM, then resampled to the 44.1 k
 the rest of the archive and the mixing tools already use. audio/.masters.json
 records which clips arrived this way, so a re-run replaces anything still left
 over from the old mp3 path and leaves the rest alone. Reckon on ~25 MB per track.
+
+That record is the one piece of state worth keeping: lose it and the next run
+reads it as "nothing is a master" and re-fetches everything, which from
+3 September 2026 is months of a 60-a-month download allowance. audio/ is not in
+git, so it is a symlink to suno-masters.json in the repo root, which is.
 """
 
 import argparse
