@@ -1,0 +1,40 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+writing it is half the work
+
+[Build — the break enters. dense, fast, clipped. the arithmetic, then the evidence]
+if you write it as cleverly as you can
+you are by definition not clever enough to debug it
+that is not an opinion
+that is subtraction
+the nested ternary
+the regular expression with the lookbehind
+the bit shift that saves an allocation
+the one-liner that replaced eleven lines
+the reviewer wrote: clever
+the reviewer meant it kindly
+blame says the author
+blame says the date
+the date is six years ago
+there is no comment on it
+the debugger will not step into it
+it is the only part of the file that has ever broken
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+YOU WROTE THIS
+YOU WROTE THIS
+IT SAYS SO
+YOU WROTE THIS
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+I had to print it out.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+YOU WROTE THIS
+IT SAYS SO
+YOU WROTE THIS
+YOU WROTE THIS
+
+[Outro — strips back to the atmos it started on. does not resolve]
+there is a comment on it now
+it explains what it does
+it does not explain why

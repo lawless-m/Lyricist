@@ -1,0 +1,42 @@
+[Intro — atmos and ominous sub, no break yet. one line read flat, almost bored]
+you cannot measure it without touching it
+
+[Build — mechanical break enters. dense, fast, clipped. first what the probe does to the system]
+the agent takes a share of the processor
+the scrape keeps the process from going idle
+the health check holds the connection open
+the synthetic transaction warms the cache
+the load test trains the autoscaler
+the profiler changes the timing
+the race does not reproduce under the profiler
+the logging you added to find it slows it below the threshold
+the bug is gone
+the bug is not gone
+
+[Build, second half — now what the system does to the probe]
+the alert thresholds were set from what it does, not from what it should do
+the exceptions list is longer than the rules
+the dashboard is arranged around the failures it has already had
+the check was rewritten to stop it going off at the weekend
+the probe has learned this system
+the probe would not work on another one
+
+[Drop — half-time bass under the mechanical break. single voice, stacked on itself, no crowd, no gang]
+BOTH WAYS
+BOTH WAYS
+THE PROBE AS WELL
+BOTH WAYS
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+If you watch something long enough you start keeping its hours.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+BOTH WAYS
+THE PROBE AS WELL
+BOTH WAYS
+BOTH WAYS
+
+[Outro — strips back to the atmos it started on. does not resolve]
+the monitoring has monitoring
+that has monitoring
+the last one is not monitored

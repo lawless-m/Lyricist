@@ -1,0 +1,39 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+somebody used to do it by hand
+
+[Build — the break enters. dense, fast, clipped. each one solved the one before it]
+the script was a fix for doing it by hand
+cron was a fix for remembering to run the script
+the wrapper was a fix for the environment cron gives you
+the config file was a fix for the arguments to the wrapper
+the templating was a fix for having too many config files
+the generator was a fix for writing the templates
+the linter was a fix for the generator
+the pipeline was a fix for running the linter
+the cache was a fix for the pipeline being slow
+the invalidation tool was a fix for the cache
+the runbook was a fix for the invalidation tool
+the alert was a fix for nobody reading the runbook
+somebody is on call for the alert
+at four in the morning
+somebody is doing it by hand
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+THAT WAS THE FIX
+THAT WAS THE FIX
+FOR THE ONE BEFORE IT
+THAT WAS THE FIX
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+There is a shell script underneath all of it: I wrote it.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+THAT WAS THE FIX
+FOR THE ONE BEFORE IT
+THAT WAS THE FIX
+THAT WAS THE FIX
+
+[Outro — strips back to the atmos it started on. does not resolve]
+there is a proposal to replace it
+the proposal is very well written
+it will be a fix for this

@@ -1,0 +1,40 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+feedback is a picture of the past
+
+[Build — the break enters. dense, fast, clipped. everything here has already occurred]
+scrape interval: fifteen seconds
+the dashboard is thirty seconds behind
+the graph is drawn from samples
+the samples were taken before you looked
+p ninety-five over the last five minutes
+the last five minutes are gone
+alert fires after three consecutive failures
+three consecutive failures is a minute and a half
+by the time it pages you it has been happening for five
+time to detect
+time to acknowledge
+time to mitigate
+the incident started before the first alert
+the timeline in the post mortem is reconstructed
+reconstructed from things that were already recordings
+the graph is a picture of a thing that has stopped
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+IT ALREADY HAPPENED
+IT ALREADY HAPPENED
+THIRTY SECONDS AGO
+IT ALREADY HAPPENED
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+Everything I have ever fixed was already over.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+IT ALREADY HAPPENED
+THIRTY SECONDS AGO
+IT ALREADY HAPPENED
+IT ALREADY HAPPENED
+
+[Outro — strips back to the atmos it started on. does not resolve]
+retention: fifteen days at full resolution
+after that it is averaged
+after that it is a shape

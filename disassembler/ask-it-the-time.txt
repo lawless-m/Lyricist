@@ -34,6 +34,6 @@ ASK IT THE TIME
 ASK IT THE TIME
 
 [Outro — strips back to the atmos it started on. does not resolve]
-restrict default noquery
+restrict default no query
 that is the fix
 that was always the fix

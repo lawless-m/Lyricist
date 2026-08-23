@@ -1,0 +1,48 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+seventy percent of it is thinking
+
+[Build — the break enters. dense, fast, clipped. no voices in it, only what got left in the repository]
+generating
+eleven files changed, nothing deleted
+all tests passing
+the tests were written from the code
+README.md describes a flag that was never added
+CHANGELOG.md, added support for
+docs/architecture.md, written before the architecture
+TODO: revisit this
+FIXME: temporary
+committed as wip
+committed as fix
+well over half the time you spend on a project
+on the order of seventy percent
+is spent thinking
+and no tool, no matter how advanced, can think for you
+so give it everything else
+one hundred percent of the code
+one hundred percent of the documentation
+one hundred percent of the testing
+burn the CD-ROMs
+box them
+mail them to the customers
+the best you could hope for
+is thirty percent
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+THIRTY PERCENT
+AT BEST
+THIRTY PERCENT
+SEVENTY IS THINKING
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. second person, present tense, the only sentence on the record]
+You have to change the way you think.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+THIRTY PERCENT
+THIRTY PERCENT
+AT BEST
+SEVENTY IS THINKING
+
+[Outro — strips back to the atmos it started on. does not resolve]
+burned the CD-ROMs
+put them in boxes
+mailed them to your customers

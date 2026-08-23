@@ -139,6 +139,18 @@ Companion piece written to the same spec: **"Self-Checkout (Convinced I'm the Ca
  
 ---
  
+## Known duplicate files — checked, and deliberately left alone
+
+Two pairs in this folder are byte-identical apart from a trailing newline:
+
+- `second-draft` and `read-the-card`
+- `all-clear` and `forty-one-walks`
+
+Both were found by frequency scans (2026-08-20 and 2026-08-23), both were raised, and the answer
+was that they are not important. **Do not flag them again and do not delete them.** They add two to
+the catalogue count that `check.sh` computes cooling deadlines against, which is a rounding error
+at this size and not worth touching.
+
 ## Don't let it calcify (rotate the surfaces, keep the bones)
  
 The sibling institutional-hardcore spec had to grow a rule banning its own reflex (the *"I'm not paranoid — I'm just the only one still ___"* self-diagnosis) because the style kept defaulting to it until every song shared one spine. This style has the same trap and more surfaces to fall into, because the collage method makes it tempting to reach for the same few load-bearing phrases every time. So across a batch, these must **change song to song** — none is a template to refill:

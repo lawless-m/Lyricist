@@ -1,0 +1,41 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+do not generalise early
+
+[Build — the break enters. dense, fast, clipped. a ledger of trades, both columns]
+give up the general case
+you get one code path
+give up the plugin interface
+you get a function
+give up the configuration
+you get a constant
+give up allocating inside the loop
+you get a buffer that is already there
+give up handling input you did not make yourself
+you get to assume it
+give up the second backend
+you get to use the first one properly
+give up the abstraction over both
+you get to read it in one sitting
+none of this is laziness
+every one of these is a decision
+you have to know exactly what you are giving up
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+ONE CASE ONLY
+ONE CASE ONLY
+AND IT GOT BETTER
+ONE CASE ONLY
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+It took me half my career to stop doing that.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+ONE CASE ONLY
+AND IT GOT BETTER
+ONE CASE ONLY
+ONE CASE ONLY
+
+[Outro — strips back to the atmos it started on. does not resolve]
+it does one thing
+there is no configuration
+there has been nothing to decide since

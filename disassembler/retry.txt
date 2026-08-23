@@ -1,0 +1,41 @@
+[Intro — atmos and ominous sub, no break yet. one line read flat, almost bored]
+the service is responding slowly
+
+[Build — mechanical break enters. dense, fast, clipped. every step is the correct behaviour]
+the client waits
+the client times out
+the client retries
+the retry arrives while the first one is still running
+now there are two
+the queue grows
+the queue grows faster than it drains
+latency rises
+more clients time out
+more clients retry
+the pool is exhausted
+health checks time out
+the health check marks it unhealthy
+traffic moves to the others
+the others were already at capacity
+autoscaling responds to a metric that autoscaling is causing
+every one of these is the correct behaviour
+
+[Drop — half-time bass under the mechanical break. single voice, stacked on itself, no crowd, no gang]
+RETRY
+RETRY
+BACK OFF
+RETRY
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+The fewer of us there were, the fewer of us there were going to be.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+RETRY
+BACK OFF
+RETRY
+RETRY
+
+[Outro — strips back to the atmos it started on. does not resolve]
+the original cause has gone
+the load has not
+it does not need the cause any more

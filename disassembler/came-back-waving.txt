@@ -1,0 +1,54 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+cat — concatenate and print
+
+[Build — the break enters. dense, fast, clipped. every line of this is in the manual on your machine right now]
+usage, cat, option, file
+concatenate files to standard output
+with no file, read standard input
+nothing else was ever in it
+seventeen lines of C and a loop
+then Berkeley
+dash A, show all, equivalent to dash v E T
+dash b, number nonblank, overrides dash n
+dash e, equivalent to dash v E
+dash E, show ends, display dollar at end of each line
+dash n, number all output lines
+dash s, squeeze blank, suppress repeated empty output lines
+dash t, equivalent to dash v T
+dash T, show tabs, display tab characters as caret I
+dash v, show nonprinting, caret and M dash notation, except for LFD and TAB
+nineteen eighty four, Bell Labs Technical Journal
+Program Design in the UNIX Environment
+Pike and Kernighan, and one sentence people still quote
+cat came back from Berkeley waving flags
+they were not saying the flags were useless
+they were saying put them in a program of their own
+call it vis
+one job each
+copy the bytes and stop
+showing you the invisible is a different program
+the paper is four pages
+the flags are in every machine on earth
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+CAME BACK WAVING
+FROM BERKELEY
+CAME BACK WAVING
+WAVING
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+Somebody cared about this enough to write it down.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+CAME BACK WAVING
+CAME BACK WAVING
+FROM BERKELEY
+WAVING
+
+[Outro — strips back to the atmos it started on. does not resolve]
+POSIX standardises one option
+dash u
+forty years of arguing
+it is still accepted
+dash u
+(ignored)

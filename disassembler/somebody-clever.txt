@@ -1,0 +1,41 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+the abstraction has a diagram
+
+[Build — the break enters. dense, fast, clipped. none of this is stupid]
+the diagram has a legend
+it is generic over the second case
+the second case has not arrived
+it has a plugin architecture
+it has one plugin
+the config language has conditionals
+the config language has loops
+the config language is Turing complete
+the config language has no debugger
+it is event sourced
+it runs on a single node
+it is eventually consistent with itself
+it is sharded across a table with ten thousand rows
+there is a team of four
+there is a diagram for the team of four
+every part of this is clever
+that is the problem
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+IT TOOK SOMEBODY CLEVER
+IT TOOK SOMEBODY CLEVER
+TO GET HERE
+IT TOOK SOMEBODY CLEVER
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+I am the only person who can still change it.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+IT TOOK SOMEBODY CLEVER
+TO GET HERE
+IT TOOK SOMEBODY CLEVER
+IT TOOK SOMEBODY CLEVER
+
+[Outro — strips back to the atmos it started on. does not resolve]
+there is a version of this that is a text file and a cron job
+it would have taken a week
+it would still be running

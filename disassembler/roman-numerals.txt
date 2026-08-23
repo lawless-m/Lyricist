@@ -1,0 +1,41 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+a class with one method
+
+[Build — the break enters. dense, fast, clipped. all of it compiles, all of it ships]
+the method is called run
+an interface with one implementation
+a factory for the interface
+an abstract factory for the factory
+getters and setters around a field that is public in effect
+inheritance, three deep
+inheritance, five deep
+the behaviour you want is in the third one
+visitor, because there is no pattern matching
+strategy, because a function is not a value here
+command, because there are no closures
+singleton, which is a global with paperwork
+sixteen of the twenty-three go away in a language that has functions
+the patterns are not solutions
+the patterns are the shape of what is missing
+none of this is wrong
+all of it works
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+ROMAN NUMERALS
+ROMAN NUMERALS
+YOU CAN COUNT WITH THEM
+ROMAN NUMERALS
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+I wrote a class whose only method was run.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+ROMAN NUMERALS
+YOU CAN COUNT WITH THEM
+ROMAN NUMERALS
+ROMAN NUMERALS
+
+[Outro — strips back to the atmos it started on. does not resolve]
+now try multiplying two of them
+the notation is not wrong
+it is just very hard to multiply

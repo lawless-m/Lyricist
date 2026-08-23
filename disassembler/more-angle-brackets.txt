@@ -1,0 +1,42 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+it is only a markup format
+
+[Build — the break enters. dense, fast, clipped. a family tree, all of it shipped]
+a document type definition
+then a schema
+then a schema language for the schema
+namespaces
+a namespace declaration on every element
+a transformation language
+the transformation language is Turing complete
+a query language
+a second query language
+a pointer language
+an inclusion language
+a protocol on top of it
+a description language for the protocol
+a registry for the descriptions
+configuration files
+build files
+deployment descriptors
+an entity that refers to another entity
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+MORE ANGLE BRACKETS
+MORE ANGLE BRACKETS
+THAT WILL FIX IT
+MORE ANGLE BRACKETS
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+There was a year when I was good at this.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+MORE ANGLE BRACKETS
+THAT WILL FIX IT
+MORE ANGLE BRACKETS
+MORE ANGLE BRACKETS
+
+[Outro — strips back to the atmos it started on. does not resolve]
+ten entities
+each one refers to ten of the one before it
+the document is four lines long and it does not stop

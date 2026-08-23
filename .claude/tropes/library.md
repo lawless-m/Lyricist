@@ -1835,6 +1835,319 @@ gets fixed.
 - Example: disassembler/count-the-handsets
 - Logged at catalog size 200.
 
+### The build as an escalating inventory of doors
+- Disassembler's dense system-text rule arranged as a climb: root, sudo, the break glass account
+  whose emergency has not happened, a debug flag, a header that skips the check, a test account that
+  still works in production, an allow list with one home address on it, a feature flag enabled for
+  one user id, a branch that checks for one name — then the turn that reframes all of it, "the audit
+  log does not cover the person who configures the audit log" — and finally the compiler that can be
+  taught to insert it into the compiler, where it will not appear in the source. Every entry is
+  somebody's deliberate decision and none of them is a fault.
+- Example: disassembler/break-glass
+- Logged at catalog size 201.
+
+### "BREAK GLASS" / "FOR EMERGENCIES ONLY" — shouted-anchor drop as a control and its justification
+- Disassembler's drop pairing the mechanism with the reason given for it, immediately after the
+  build has established that the emergency never arrived. Neither line is disputed anywhere in the
+  song.
+- Example: disassembler/break-glass
+- Logged at catalog size 201.
+
+### The build as observability latency, itemised
+- Disassembler's dense system-text rule turned on the instruments themselves: scrape interval,
+  dashboard lag, samples taken before you looked, a percentile over a window that has already
+  closed, an alert that fires after three consecutive failures and therefore a minute and a half
+  late, time to detect, time to acknowledge, time to mitigate, and a post-mortem timeline
+  reconstructed from things that were already recordings. Nothing is broken, nothing is misconfigured
+  and no number is wrong — every figure quoted is the tool working as specified, and the sum of them
+  is that the picture is always of a thing that has stopped.
+- Example: disassembler/already-happened
+- Logged at catalog size 202.
+
+### "IT ALREADY HAPPENED" / "THIRTY SECONDS AGO" — shouted-anchor drop as a finding and its measurement
+- Disassembler's drop stating the condition and then pinning it to a figure from the build, so the
+  second line is evidence rather than emphasis.
+- Example: disassembler/already-happened
+- Logged at catalog size 202.
+
+### The build as published axioms
+- Disassembler's dense system-text rule filled with Gall's laws read flat: systems tend to oppose
+  their own proper function, the system always kicks back, new systems generate new problems, a
+  complex system that works evolved from a simple system that worked, complex systems usually
+  operate in failure mode, malfunction may not be detectable for long periods, a system continues to
+  do its thing regardless of need, systems attract systems people. Every line was already written by
+  somebody as an aphorism, which makes them native system text under the band's rule and means the
+  song does no arguing at all. Sibling to disassembler/worse-is-better (an essay) and
+  disassembler/as-designed (a single cybernetic principle) — this one is a whole book's worth of
+  them, and the closing pair is the owner's own compression of it.
+- Example: disassembler/cannot-change-one-thing
+- Logged at catalog size 203.
+
+### "YOU CANNOT CHANGE ONE THING" / "YOU CANNOT CHANGE EVERYTHING" — shouted-anchor drop as a closed trap
+- Disassembler's first drop built from two claims that are each true and jointly forbid action, with
+  the order reversed on the second drop so neither is the conclusion. The build states them plainly
+  before the drop and then adds the only commentary in the track: "both of those are true / they are
+  true at the same time".
+- Example: disassembler/cannot-change-one-thing
+- Logged at catalog size 203.
+
+### The build as a runaway loop, one correct step at a time
+- Disassembler's dense system-text rule arranged as causation rather than inventory: the client
+  waits, times out, retries; the retry arrives while the first is still running; the queue grows
+  faster than it drains; the health check times out and marks the service unhealthy; traffic moves to
+  others already at capacity; autoscaling responds to a metric autoscaling is causing. The section
+  closes on the line that makes it a Disassembler song rather than an incident report — "every one of
+  these is the correct behaviour". The band's fourth cybernetics subject after as-designed (purpose),
+  already-happened (latency) and cannot-change-one-thing (immobility), and distinct from all three:
+  this one is amplification.
+- Example: disassembler/retry
+- Logged at catalog size 204.
+
+### "RETRY" / "BACK OFF" — shouted-anchor drop that enacts the loop it describes
+- Disassembler's drop repeating the action that causes the failure, with the remedy stated once in
+  the middle and then ignored on the way back round. The only anchor in the band that performs its
+  own subject rather than naming it.
+- Example: disassembler/retry
+- Logged at catalog size 204.
+
+### The build as a chain of fixes that closes into a circle
+- Disassembler's dense system-text rule arranged as a stack read bottom to top, where every layer was
+  the remedy for the one beneath it: the script fixed doing it by hand, cron fixed remembering to run
+  the script, the wrapper fixed cron's environment, the config file fixed the wrapper's arguments,
+  the templating fixed having too many config files, and onward through the generator, the linter,
+  the pipeline, the cache, the invalidation tool, the runbook and the alert — closing on "somebody is
+  on call for the alert / at four in the morning / **somebody is doing it by hand**", which is the
+  first line of the song. Deliberately not the published-axiom device of
+  disassembler/cannot-change-one-thing, which draws on the same source: that one quotes the laws,
+  this one demonstrates one.
+- Example: disassembler/that-was-the-fix
+- Logged at catalog size 205.
+
+### "THAT WAS THE FIX" / "FOR THE ONE BEFORE IT" — shouted-anchor drop as a receding justification
+- Disassembler's drop stating that each thing was a solution and then pointing backwards rather than
+  forwards, so the justification never terminates and no layer is ever defended on its own merits.
+- Example: disassembler/that-was-the-fix
+- Logged at catalog size 205.
+
+### The two-movement build — what the probe does to the system, then what the system does to the probe
+- Disassembler's dense system-text rule split across two labelled build sections, the second mirroring
+  the first. Movement one is the observer effect in operations: the agent takes a share of the
+  processor, the scrape keeps the process from idling, the health check holds the connection open,
+  the profiler changes the timing so the race will not reproduce, and the logging added to find it
+  slows it below the threshold — closing on "the bug is gone / the bug is not gone". Movement two is
+  the owner's own addition and the better half: thresholds set from what the system does rather than
+  what it should do, an exceptions list longer than the rules, a dashboard arranged around failures
+  already had, a check rewritten to stop it firing at weekends, and "the probe has learned this
+  system / the probe would not work on another one". Distinct from
+  disassembler/worse-is-better's two rankings of one list — these are two different lists that
+  rhyme.
+- Example: disassembler/both-ways
+- Logged at catalog size 206.
+
+### "BOTH WAYS" / "THE PROBE AS WELL" — shouted-anchor drop naming the symmetry
+- Disassembler's drop stating that the alteration runs in both directions, with the second line
+  specifying the half nobody mentions.
+- Example: disassembler/both-ways
+- Logged at catalog size 206.
+
+### The build as incantations people actually type
+- Disassembler's dense system-text rule turned on prompt engineering: you are an expert, think step
+  by step, take a deep breath, this is very important to my career, I will tip you two hundred
+  dollars, do not hallucinate, no yapping, you must be one hundred percent accurate, do not make
+  mistakes. Every line is a real thing people write, quoted without mockery, and the section closes
+  on the flat correction rather than a joke — "none of these are settings / none of these are
+  parameters / there is no switch behind any of them". Second song addressed at the assistant writing
+  it, after disassembler/commit-it, and pointed at the prompters rather than the model.
+- Example: disassembler/do-not-make-mistakes
+- Logged at catalog size 207.
+
+### "DO NOT MAKE MISTAKES" / "TAKE A DEEP BREATH" — shouted-anchor drop as two instructions to a thing without a body
+- Disassembler's drop pairing an impossible demand with an impossible action, both of them real
+  prompt text, neither mocked anywhere in the song.
+- Example: disassembler/do-not-make-mistakes
+- Logged at catalog size 207.
+
+### The build as a ladder with attrition
+- Disassembler's dense system-text rule arranged as four ascending transformations, each naming what
+  it costs rather than what it adds: rows and events and samples are data; aggregating and joining
+  and putting it on an axis makes information; the pattern that took three incidents to see, and
+  somebody who had to be present for all three, makes knowledge; knowing which alert matters and that
+  it will recur in the spring is wisdom. Then the step that does not happen. Distinct from
+  disassembler/that-was-the-fix's chain, which closes into a circle — this one climbs cleanly and
+  simply stops at the top.
+- Example: disassembler/not-action
+- Logged at catalog size 208.
+
+### "WISDOM IS NOT ACTION" / "WE HAVE THE WISDOM" — shouted-anchor drop stating the gap and closing it off
+- Disassembler's drop naming the failed transition and then removing the available excuse: the
+  knowledge is not missing, the analysis was done, the document exists. The band's first anchor in
+  the first person plural.
+- Example: disassembler/not-action
+- Logged at catalog size 208.
+
+### The build as an inventory of cleverness, each item defensible
+- Disassembler's dense system-text rule filled with over-engineering that nobody could call stupid:
+  generic over a second case that has not arrived, a plugin architecture with one plugin, a config
+  language with conditionals and loops that is Turing complete and has no debugger, event sourced on
+  a single node, eventually consistent with itself, sharded across a table with ten thousand rows —
+  and a team of four, with a diagram for the team of four. Closes on the song's only editorial line,
+  "every part of this is clever / that is the problem", which is the same move as
+  disassembler/retry's "every one of these is the correct behaviour" and the band's clearest
+  statement of its own thesis.
+- Example: disassembler/somebody-clever
+- Logged at catalog size 209.
+
+### "IT TOOK SOMEBODY CLEVER" / "TO GET HERE" — shouted-anchor drop as a credit that indicts
+- Disassembler's drop crediting the intelligence required to produce the result, with the
+  destination named in three words. Nothing is mocked; the compliment is accurate and it is the
+  charge.
+- Example: disassembler/somebody-clever
+- Logged at catalog size 209.
+
+### The build as a proof followed by its evidence
+- Disassembler's dense system-text rule split into an argument and an exhibit: first Kernighan's law
+  restated as arithmetic — write it as cleverly as you can and you are by definition not clever
+  enough to debug it, "that is not an opinion / that is subtraction" — then the artefacts, which are
+  the proof. The nested ternary, the lookbehind, the bit shift that saves an allocation, the one-liner
+  that replaced eleven lines, a reviewer who wrote "clever" and meant it kindly, blame naming the
+  author and the date, no comment on it, a debugger that will not step into it, and the closing
+  fact: it is the only part of the file that has ever broken.
+- Example: disassembler/you-wrote-this
+- Logged at catalog size 210.
+
+### "YOU WROTE THIS" / "IT SAYS SO" — shouted-anchor drop as an accusation with a citation
+- Disassembler's drop in the second person, which is also what `git blame` says, with the second line
+  supplying the evidence rather than the emphasis. The band's first anchor that accuses the listener.
+- Example: disassembler/you-wrote-this
+- Logged at catalog size 210.
+
+### The build as a ledger of trades, both columns shown
+- Disassembler's dense system-text rule arranged in pairs, each naming what is surrendered and what
+  is bought: give up the general case and get one code path, give up the plugin interface and get a
+  function, give up the configuration and get a constant, give up allocating inside the loop and get
+  a buffer that is already there, give up handling input you did not make and get to assume it. Then
+  the guard against misreading it as sloth — "none of this is laziness / every one of these is a
+  decision / you have to know exactly what you are giving up". A fresh build shape after the chain
+  (that-was-the-fix), the ladder (not-action), the strata (leave-it) and the inventory
+  (somebody-clever).
+- Example: disassembler/one-case-only
+- Logged at catalog size 211.
+
+### "ONE CASE ONLY" / "AND IT GOT BETTER" — shouted-anchor drop as a constraint and its result
+- Disassembler's drop stating the restriction and the payoff, in that order, with no argument between
+  them. The band's first anchor where the second line is good news.
+- Example: disassembler/one-case-only
+- Logged at catalog size 211.
+
+### The build as a year of invisible work
+- Disassembler's dense system-text rule filled with things that did not happen: a certificate renewed
+  in February before anybody noticed it was due, capacity added in March against a July event that
+  therefore has no record, a two-in-the-morning Sunday window that went fine, a pager that did not go
+  off. Closes on the trap — "the disaster that did not happen has no name / it has no date / it is
+  not in the report / the report covers what occurred / nothing occurred / the review asks what you
+  have been doing".
+- Example: disassembler/nothing-happened
+- Logged at catalog size 212.
+
+### "NOTHING HAPPENED" / "THAT WAS THE GOOD ONE" — shouted-anchor drop revaluing its own first line
+- Disassembler's drop stating an absence and then reclassifying it as the achievement, so the same
+  two words are the complaint and the boast.
+- Example: disassembler/nothing-happened
+- Logged at catalog size 212.
+
+### The build as a family tree rather than a chain
+- Disassembler's dense system-text rule arranged as descent: a document type definition, then a
+  schema, then a schema language for the schema, namespaces, a transformation language that is
+  Turing complete, a query language, a second query language, a pointer language, an inclusion
+  language, a protocol on top, a description language for the protocol, a registry for the
+  descriptions. Distinct from disassembler/that-was-the-fix's chain, where each link solves the one
+  before — here nothing is solved, the format simply reproduces, and every branch shipped and was
+  used in earnest.
+- Example: disassembler/more-angle-brackets
+- Logged at catalog size 213.
+
+### "MORE ANGLE BRACKETS" / "THAT WILL FIX IT" — shouted-anchor drop as the remedy that caused it
+- Disassembler's drop prescribing more of the thing the build has just shown escalating, in the
+  register of the original joke rather than in commentary on it.
+- Example: disassembler/more-angle-brackets
+- Logged at catalog size 213.
+
+### The build as an asymmetry of process — everything for failure, nothing for success
+- Disassembler's dense system-text rule filled with the apparatus one half of the industry has:
+  incident review, blameless postmortem, timeline of events, contributing factors, five whys, action
+  items with owners and dates, a template, a wiki space for the templates, a review of the reviews.
+  Then the turn — all of that is for the outage, the migration in June went perfectly, there is no
+  template for June, the team was disbanded in August, and the only institutional memory left is
+  "we tried it before", which is usually wrong.
+- Example: disassembler/why-did-it-work
+- Logged at catalog size 214.
+
+### The build as a catalogue of second editions
+- Disassembler's dense system-text rule applied to reinvention: containers, jails, chroot, rings on
+  a machine from the sixties; serverless, and a program that starts, answers and exits, which is
+  CGI; the document database and the hierarchical database that shipped before the relational one
+  did; the actor model, message passing, tagged memory, capabilities, transactional memory. Closes
+  on the availability rather than the irony — "all of it is in the archive / all of it is written up
+  properly / the papers are free".
+- Example: disassembler/ten-years-is-plenty
+- Logged at catalog size 215.
+
+### The build as a protocol dance, step by step, ending on what it was never for
+- Disassembler's dense system-text rule walked through OAuth in order — redirect, state parameter,
+  code challenge, consent screen, the code on the redirect, the exchange, a bearer token where
+  whoever holds it is the user, a refresh token, a client secret that cannot be secret on a phone —
+  and then the two lines that reframe all of it: "the specification is a framework / the framework
+  does not say what to do / so no two of them are the same / and none of this was designed to tell
+  you who somebody is".
+- Example: disassembler/not-a-login
+- Logged at catalog size 216.
+
+### The build as a loop of well-meant removals
+- Disassembler's dense system-text rule arranged as a selection effect rather than an escalation:
+  each simplification is reasonable, each removal was requested by real support data, and the
+  section returns to its own first line — "we simplified the settings … so we simplified the
+  settings". Distinct from disassembler/retry's runaway, which amplifies; this one *filters*, and
+  the output is a different population of users rather than a bigger number.
+- Example: disassembler/something-went-wrong
+- Logged at catalog size 217.
+
+### The build as ceremony, ending on what the ceremony is for
+- Disassembler's dense system-text rule filled with object-oriented apparatus — a class with one
+  method called run, an interface with one implementation, a factory for the interface, an abstract
+  factory for the factory, accessors around a field that is public in effect, inheritance three and
+  five deep — then the turn that makes it an argument rather than a sneer: visitor because there is
+  no pattern matching, strategy because a function is not a value here, command because there are no
+  closures, singleton which is a global with paperwork. Closes on "the patterns are not solutions /
+  the patterns are the shape of what is missing / none of this is wrong / all of it works".
+- Example: disassembler/roman-numerals
+- Logged at catalog size 218.
+
+### "ROMAN NUMERALS" / "YOU CAN COUNT WITH THEM" — shouted-anchor drop that concedes the case
+- Disassembler's drop borrowing Pike's analogy and immediately granting its strongest counterargument:
+  the notation works. The concession is the argument, since Roman numerals fail on arithmetic rather
+  than on counting.
+- Example: disassembler/roman-numerals
+- Logged at catalog size 218.
+
+### The build as a run of invalid inferences
+- Disassembler's dense system-text rule arranged as "X, so Y" repeated until the shape itself becomes
+  audible: the dashboard is green so it is fine, the ticket is closed so it is done, it is in the
+  backlog so it is remembered, it passed the tests so it works, there is a runbook so we can recover,
+  the audit passed so we are secure, the diagram exists so that is the architecture, the policy is
+  published so it is followed. One line breaks the pattern by simply stopping — "the asset is in the
+  register, so we own it / **the asset is not in the register**" — and the section closes on "none of
+  these follow / all of them are load bearing". A fresh build shape after the chain, the ladder, the
+  strata, the ledger and the family tree.
+- Example: disassembler/so-it-is-fine
+- Logged at catalog size 219.
+
+### "SO IT IS FINE" / "THAT IS THE SAME THING" — shouted-anchor drop as a fallacy and its endorsement
+- Disassembler's drop shouting the invalid step and then affirming the conflation it depends on,
+  rather than exposing it. The song never says the inference is wrong except once, in the build, in
+  four words.
+- Example: disassembler/so-it-is-fine
+- Logged at catalog size 219.
+
 
 ## Phrases
 
@@ -3415,7 +3728,7 @@ gets fixed.
 
 ### "the cloud / the cloud is a building / the cloud is a building outside Slough with a fence round it"
 - The outro non-resolution as a fossil currently being formed: the song's whole subject applied to
-  the newest metaphor in the room, which is already a lie about a physical place. A twelfth distinct
+  the newest metaphor in the room, which is already a lie about a physical place. (Lyric note: originally Slough — the correct place, since it is the UK's main data centre corridor, but a three-way homograph Suno cannot say. A swap to Swindon fixed the sound and broke the fact, which Matt caught immediately; it is now "off the M4", which is the same corridor, unambiguous, and true.) A twelfth distinct
   closing shape for the band, after the re-read build line, the moved number, the unkept promise,
   the doctrine, the inventory of absence, the ending by omission, the contract renewal, the
   unwithdrawn recommendation, the trivial remedy, the endurance and the redundant restoration.
@@ -3595,6 +3908,310 @@ gets fixed.
   closing shape for the band.
 - Example: disassembler/count-the-handsets
 - Logged at catalog size 200.
+
+### "Mine is still there."
+- Disassembler's one-human-sentence breakdown, twenty-fifth instance and twenty-sixth territory, and
+  a **fifth grammatical shape** after the compound first-person default, the second-person statement
+  (in-gawk), the third-person future (poorly-implemented) and the question (count-the-handsets). Four
+  words, present tense, no compound, no explanation, no defence. Territory: **his own bypass, still
+  live** — distinct from disassembler/as-designed's complicity, which is about having been present
+  when a claim was agreed; this is about having built the exception and left it in.
+- Example: disassembler/break-glass
+- Logged at catalog size 201.
+
+### "account: service legacy / owner: unassigned / created: before the log"
+- The outro non-resolution as a record predating recording: an account with no owner, created before
+  the audit trail existed, so the question of who made it has no answer available anywhere in the
+  system. A twenty-third distinct closing shape for the band.
+- Example: disassembler/break-glass
+- Logged at catalog size 201.
+
+### "Everything I have ever fixed was already over."
+- Disassembler's one-human-sentence breakdown, twenty-sixth instance and twenty-seventh territory,
+  and a **sixth grammatical shape** after the compound first-person default, the second-person
+  statement, the third-person future, the question and the four-word bare statement: a single clause
+  with a superlative sweep and no qualification. Territory: **every intervention arriving after the
+  event** — not futility exactly, since the fixes were real, but the discovery that response is
+  always archaeology.
+- Example: disassembler/already-happened
+- Logged at catalog size 202.
+
+### "retention: fifteen days at full resolution / after that it is averaged / after that it is a shape"
+- The outro non-resolution as memory degrading on a schedule: the record of the past is itself
+  downsampled by policy until it is no longer a record of anything in particular. A twenty-fourth
+  distinct closing shape for the band.
+- Example: disassembler/already-happened
+- Logged at catalog size 202.
+
+### "After the third rewrite I stopped putting my name on the proposals."
+- Disassembler's one-human-sentence breakdown, twenty-seventh instance and twenty-eighth territory,
+  and a **seventh grammatical shape** after the compound first-person default, the second-person
+  statement, the third-person future, the question, the four-word bare statement and the
+  single-clause superlative: a fronted temporal phrase with a single clause behind it. Territory:
+  **quiet withdrawal from advocacy** — not a change of mind, which is disassembler/worse-is-better's
+  recantation, but ceasing to play while continuing to work.
+- Example: disassembler/cannot-change-one-thing
+- Logged at catalog size 203.
+
+### "the real world is whatever is reported to the system / that is in the book"
+- The outro non-resolution as a citation: the bleakest axiom in the source quoted bare and then
+  attributed in four flat words, so the song ends by pointing at a published page rather than making
+  a claim. A twenty-fifth distinct closing shape for the band, and it rhymes with
+  disassembler/already-happened, where the reported world is late as well as partial.
+- Example: disassembler/cannot-change-one-thing
+- Logged at catalog size 203.
+
+### "The fewer of us there were, the fewer of us there were going to be."
+- Disassembler's one-human-sentence breakdown, twenty-eighth instance and twenty-ninth territory,
+  and an **eighth grammatical shape** — a comparative correlative, the only sentence in the band
+  whose *grammar* is the loop it describes. Territory: **the feedback trap running on people rather
+  than packets** — the on-call rota that gets worse each time somebody leaves, which makes the next
+  person likelier to leave. No blame is assigned and the narrator does not exempt himself.
+- Example: disassembler/retry
+- Logged at catalog size 204.
+
+### "the original cause has gone / the load has not / it does not need the cause any more"
+- The outro non-resolution as metastable failure: a real and specific condition in which a system
+  stays down after its trigger is removed, because the failure is now sustaining itself. A
+  twenty-sixth distinct closing shape for the band, and deliberately not the available-remedy ending
+  of disassembler/ask-it-the-time — there is no fix quoted here at all.
+- Example: disassembler/retry
+- Logged at catalog size 204.
+
+### "There is a shell script underneath all of it: I wrote it."
+- Disassembler's one-human-sentence breakdown, twenty-ninth instance and thirtieth territory, and a
+  **ninth grammatical shape** — two clauses joined by a colon, the second three words long, after the
+  compound default, the second-person statement, the third-person future, the question, the four-word
+  bare statement, the single-clause superlative, the fronted temporal phrase and the comparative
+  correlative. Territory: **being the foundation nobody knows is there**. Distinct from
+  disassembler/as-designed's complicity (present when a claim was agreed) and
+  disassembler/break-glass's exception (a door he built for himself) — this is authorship of the
+  bottom layer, still load-bearing, still uncredited.
+- Example: disassembler/that-was-the-fix
+- Logged at catalog size 205.
+
+### "there is a proposal to replace it / the proposal is very well written / it will be a fix for this"
+- The outro non-resolution as the next iteration beginning: the song ends by starting the cycle
+  again, with the quality of the proposal conceded and its fate implied by everything preceding it. A
+  twenty-seventh distinct closing shape for the band.
+- Example: disassembler/that-was-the-fix
+- Logged at catalog size 205.
+
+### "If you watch something long enough you start keeping its hours."
+- Disassembler's one-human-sentence breakdown, thirtieth instance and thirty-first territory, and a
+  **tenth grammatical shape** — a second-person conditional, distinct from in-gawk's second-person
+  declarative. Territory: **the watcher altered by watching**, rendered as sleep rather than as
+  opinion. It is the human case of the song's own thesis, and the only place in the track where the
+  narrator appears at all.
+- Example: disassembler/both-ways
+- Logged at catalog size 206.
+
+### "the monitoring has monitoring / that has monitoring / the last one is not monitored"
+- The outro non-resolution as an infinite regress that stops arbitrarily: the tower of observers is
+  built one level at a time and then simply ends, unwatched, for no stated reason. A twenty-eighth
+  distinct closing shape for the band.
+- Example: disassembler/both-ways
+- Logged at catalog size 206.
+
+### "I am asking a machine to try harder."
+- Disassembler's one-human-sentence breakdown, thirty-first instance and thirty-second territory, and
+  an **eleventh grammatical shape** — present continuous, seven words, single clause. Territory:
+  **knowingly addressing a machine as though it had volition**, admitted without embarrassment and
+  without stopping.
+- Example: disassembler/do-not-make-mistakes
+- Logged at catalog size 207.
+
+### "think step by step / that one measurably works / nobody can tell you why"
+- The outro non-resolution as the exception that undoes the joke: one of the incantations is
+  genuinely effective and unexplained, which converts the whole build from superstition into
+  something worse — cargo cult with partial reinforcement. A twenty-ninth distinct closing shape for
+  the band, and the only one that argues against the song it ends.
+- Example: disassembler/do-not-make-mistakes
+- Logged at catalog size 207.
+
+### "They accepted every word of it."
+- Disassembler's one-human-sentence breakdown, thirty-second instance and thirty-third territory, and
+  a **twelfth grammatical shape** — five words, third person, simple past, with the whole weight on a
+  verb that sounds like success. Territory: **agreement as a substitute for action**. Nobody
+  disputed the finding, nobody blocked it, and nothing followed; there is no villain and no
+  argument to have.
+- Example: disassembler/not-action
+- Logged at catalog size 208.
+
+### "the events are still arriving / eight hundred thousand a minute / none of that is the problem"
+- The outro non-resolution as a return to the bottom of the ladder: the data layer is still producing
+  at volume while the top of the pyramid does nothing, and the song ends by pointing out that
+  abundance was never the constraint. A thirtieth distinct closing shape for the band.
+- Example: disassembler/not-action
+- Logged at catalog size 208.
+
+### "I am the only person who can still change it."
+- Disassembler's one-human-sentence breakdown, thirty-third instance and thirty-fourth territory, and
+  a **thirteenth grammatical shape** — first person present with a relative clause. Territory:
+  **trapped by your own cleverness**, which inverts the band's engine: elsewhere the narrator holds
+  knowledge nobody receives, here the knowledge is a liability nobody can take off him.
+- Example: disassembler/somebody-clever
+- Logged at catalog size 209.
+
+### "there is a version of this that is a text file and a cron job / it would have taken a week / it would still be running"
+- The outro non-resolution as a counterfactual: the simple thing that was available throughout,
+  costed in a week, and still working in the imagined version. A thirty-first distinct closing shape
+  for the band, and the only one that describes something that never existed.
+- Example: disassembler/somebody-clever
+- Logged at catalog size 209.
+
+### "I had to print it out."
+- Disassembler's one-human-sentence breakdown, thirty-fourth instance and thirty-fifth territory, and
+  a **fourteenth grammatical shape** — five words, simple past, a mundane physical action standing in
+  for the whole defeat. Territory: **being beaten by your own work**, with the tell being a reach for
+  paper. Chosen over "I do not understand what I did here", which is the same shape and flavour as
+  disassembler/commit-it's "I do not know what I am being protected from".
+- Example: disassembler/you-wrote-this
+- Logged at catalog size 210.
+
+### "there is a comment on it now / it explains what it does / it does not explain why"
+- The outro non-resolution as partial documentation: the repair is real and insufficient, because the
+  recoverable half is the mechanism and the lost half is the intent. A thirty-second distinct closing
+  shape for the band, and deliberately not disassembler/somebody-clever's counterfactual — there the
+  simpler version never existed, here the fix exists and is not enough.
+- Example: disassembler/you-wrote-this
+- Logged at catalog size 210.
+
+### "It took me half my career to stop doing that."
+- Disassembler's one-human-sentence breakdown, thirty-fifth instance and thirty-sixth territory, and
+  a **fifteenth grammatical shape** — an "it took me X to Y" construction. Territory: **a lesson
+  learned slowly**, which is a confession and a piece of progress in the same sentence. Deliberately
+  avoids "twenty years", which already appears in disassembler/not-unix and
+  disassembler/admired-not-used and would have been audible as a third use.
+- Example: disassembler/one-case-only
+- Logged at catalog size 211.
+
+### "it does one thing / there is no configuration / there has been nothing to decide since"
+- The outro non-resolution as an absence of decisions: the reward for the constraint is that nobody
+  has had to think about it again. A thirty-third distinct closing shape for the band, and the third
+  ending that is not bleak, after disassembler/no-callers and disassembler/in-gawk.
+- Example: disassembler/one-case-only
+- Logged at catalog size 211.
+
+### "My best day this year looked exactly like doing nothing."
+- Disassembler's one-human-sentence breakdown, thirty-sixth instance and thirty-seventh territory,
+  and a **sixteenth grammatical shape** — possessive subject with a "looked like" predicate.
+  Territory: **excellence indistinguishable from idleness**. Distinct from
+  disassembler/get-and-post's unnoticed thoroughness, where the work was visible and simply
+  disregarded; here there is nothing to disregard, because success leaves no artefact.
+- Example: disassembler/nothing-happened
+- Logged at catalog size 212.
+
+### "if nothing is breaking / why are there three of you / it is a fair question"
+- The outro non-resolution as a concession to the other side: the challenge is quoted and then
+  granted, without defence and without irony. A thirty-fourth distinct closing shape for the band,
+  and the first that agrees with an opponent.
+- Example: disassembler/nothing-happened
+- Logged at catalog size 212.
+
+### "There was a year when I was good at this."
+- Disassembler's one-human-sentence breakdown, thirty-seventh instance and thirty-eighth territory,
+  and a **seventeenth grammatical shape** — an existential opening with a temporal clause.
+  Territory: **a skill that was valuable and is now embarrassing**, stated without regret or
+  defence. Distinct from disassembler/one-case-only's slowly-learned lesson, which is progress; this
+  is expertise that simply expired.
+- Example: disassembler/more-angle-brackets
+- Logged at catalog size 213.
+
+### "ten entities / each one refers to ten of the one before it / the document is four lines long and it does not stop"
+- The outro non-resolution as the billion laughs attack, described mechanically and never named: a
+  tiny well-formed document whose expansion is unbounded. A thirty-fifth distinct closing shape for
+  the band — ending on a small input with an enormous consequence, and the first outro that is a
+  working exploit.
+- Example: disassembler/more-angle-brackets
+- Logged at catalog size 213.
+
+### "I could not tell you why that one worked."
+- Disassembler's one-human-sentence breakdown, thirty-eighth instance and thirty-ninth territory —
+  an **eighteenth grammatical shape**, a modal negative ("could not tell you"). Territory: **unable
+  to account for one's own success**, which is Braithwaite's sharper half: the failures are studied
+  exhaustively and the wins are not studied at all.
+- Example: disassembler/why-did-it-work
+- Logged at catalog size 214.
+
+### "I did this once and they called it innovative."
+- Disassembler's one-human-sentence breakdown, thirty-ninth instance and fortieth territory.
+  Territory: **having personally run the amnesia exploit**, reported without shame and without
+  boasting — the idea was decades old, correctly attributed nowhere, and received as new.
+- Example: disassembler/ten-years-is-plenty
+- Logged at catalog size 215.
+
+### "the incident process is very good / it is thorough and it is honest / we use it a great deal"
+- The outro non-resolution as praise for the working half of an asymmetry: the failure machinery is
+  genuinely excellent, which is exactly why its absence on the other side is invisible. A thirty-sixth
+  distinct closing shape for the band.
+- Example: disassembler/why-did-it-work
+- Logged at catalog size 214.
+
+### "ten months is probably plenty / the citation is on the first page / nobody follows it"
+- The outro non-resolution as an available provenance nobody pursues: the prior art is cited, in
+  public, at the top of the document, and the trail stops there. A thirty-seventh distinct closing
+  shape for the band.
+- Example: disassembler/ten-years-is-plenty
+- Logged at catalog size 215.
+
+### "Every one I have built has been different."
+- Disassembler's one-human-sentence breakdown, fortieth instance and forty-first territory —
+  a **nineteenth grammatical shape**, present perfect with a bare adjective. Territory:
+  **implementing the same standard repeatedly with no two alike**, which is not incompetence but the
+  documented consequence of a specification that declines to specify.
+- Example: disassembler/not-a-login
+- Logged at catalog size 216.
+
+### "I know exactly what that error is."
+- Disassembler's one-human-sentence breakdown, forty-first instance and forty-second territory.
+  Territory: **holding the diagnosis the interface refuses to show**, stated flatly with no
+  complaint about the policy. The band's engine — knowledge with no recipient — arriving as a
+  deliberate product decision rather than an accident.
+- Example: disassembler/something-went-wrong
+- Logged at catalog size 217.
+
+### "the lead author took his name off it / he wrote down why / it is still the standard"
+- The outro non-resolution as a repudiation that changed nothing: the person best placed to condemn
+  it did so publicly, in writing, and the thing carried on. A thirty-eighth distinct closing shape
+  for the band.
+- Example: disassembler/not-a-login
+- Logged at catalog size 216.
+
+### "the support queue is longer than it was / the articles are shorter than they were / both of those were the plan"
+- The outro non-resolution as two measurements moving in opposite directions, both of them intended.
+  A thirty-ninth distinct closing shape for the band.
+- Example: disassembler/something-went-wrong
+- Logged at catalog size 217.
+
+### "I wrote a class whose only method was run."
+- Disassembler's one-human-sentence breakdown, forty-second instance and forty-third territory —
+  simple past with a relative clause. Territory: **having produced the exhibit yourself**, in the
+  most recognisable form available, with no defence and no date. The narrator is inside the ceremony
+  he has just catalogued.
+- Example: disassembler/roman-numerals
+- Logged at catalog size 218.
+
+### "now try multiplying two of them / the notation is not wrong / it is just very hard to multiply"
+- The outro non-resolution as the analogy's mechanism rather than its subject: the song ends by
+  explaining Roman numerals and leaves the reader to carry it back. A fortieth distinct closing
+  shape for the band, and the only one that finishes on the metaphor instead of the thing.
+- Example: disassembler/roman-numerals
+- Logged at catalog size 218.
+
+### "I check the dashboard before I check the thing."
+- Disassembler's one-human-sentence breakdown, forty-third instance and forty-fourth territory —
+  simple present, single clause, with the whole admission carried by the word order. Territory:
+  **preferring the representation to the referent, knowingly**. The narrator is not deceived; he has
+  simply adopted the system's delusion as a working habit because it is faster.
+- Example: disassembler/so-it-is-fine
+- Logged at catalog size 219.
+
+### "a system built on a delusion / a delusion built by a system / the second one is much harder to see"
+- The outro non-resolution as the distinction the song was made from, stated only at the end and
+  never applied to any of the preceding lines. A forty-first distinct closing shape for the band.
+- Example: disassembler/so-it-is-fine
+- Logged at catalog size 219.
 
 
 ## Imagery / Motifs
@@ -5075,7 +5692,9 @@ gets fixed.
 ### The identical connector that does different things
 - The gravity well: hardware that made itself indistinguishable on purpose. Every cable fits, none
   of them announces what it can do, and the only way to find out is to try it — so the user
-  maintains a private taxonomy of physically identical objects. Nothing is faulty and nothing is
+  maintains a private taxonomy of physically identical objects. (Lyric note: the topology line was
+  originally "a tiered star with hubs" and Suno read *tiered* as *tired* on both takes — changed to
+  "a tree of hubs", see the near-miss spelling rule in the band's styles.md.) Nothing is faulty and nothing is
   hidden; the information simply was never put on the outside.
 - Example: disassembler/not-a-bus
 - Logged at catalog size 196.
@@ -5119,3 +5738,260 @@ gets fixed.
   and it is now in the lyric. Flagging uncertainty instead of bluffing is what produced it.
 - Example: disassembler/count-the-handsets
 - Logged at catalog size 200.
+
+### The designer's own exception, and the lecture nobody acted on
+- The gravity well: people who build systems build themselves a way past them, and the canonical
+  case is on the record — Thompson's Turing lecture describing a compiler taught to insert a
+  backdoor into the compiler, invisible in the source, published openly with no consequence. Sits
+  with disassembler/directive-four (a rule about you that you may not read) as the band's pair on
+  privileged access, and inverts it: there the narrator is governed by a hidden clause, here she
+  wrote one.
+- Example: disassembler/break-glass
+- Logged at catalog size 201.
+
+### Feedback as a picture of the past
+- The gravity well, from the owner's own framing and the second song sourced from cybernetics after
+  disassembler/as-designed. Every instrument in an operations stack reports a state that has already
+  changed, by an interval each tool publishes honestly, and the operator responds to a world that no
+  longer exists. Nobody is deceived and no measurement is inaccurate — the delay is the physics of
+  measurement, and the song simply adds the intervals up.
+- Example: disassembler/already-happened
+- Logged at catalog size 202.
+
+### The double bind stated as two axioms
+- The gravity well, from the owner's own compression of Gall: you cannot change one thing because
+  the system kicks back, and you cannot change everything because a complex system designed from
+  scratch does not work. Both are true, both are published, and together they leave no legal move.
+  Nobody is at fault and nothing is broken — the constraint is structural, and the narrator's
+  response to it is not despair but paperwork.
+- Example: disassembler/cannot-change-one-thing
+- Logged at catalog size 203.
+
+### Every step correct, the sum catastrophic
+- The gravity well: a failure assembled entirely from reasonable behaviour, in which no component
+  malfunctions, no engineer errs and no configuration is wrong. Retrying a timed-out request is
+  correct. Marking an unresponsive service unhealthy is correct. Shifting traffic away from it is
+  correct. Scaling on load is correct. The band's clearest statement of the thing it keeps finding —
+  that correctness and good outcomes are unrelated — and the only song where that produces a disaster
+  rather than a quiet absurdity.
+- Example: disassembler/retry
+- Logged at catalog size 204.
+
+### The solution becoming the problem, demonstrated rather than asserted
+- The gravity well, from the owner's prompt and the same Gall lineage as
+  disassembler/cannot-change-one-thing. Every layer in the stack was a correct response to a real
+  difficulty, and each one created the difficulty that justified the next. Nobody was wrong at any
+  step, no layer is unnecessary in isolation, and the whole returns exactly to the manual work it
+  replaced — at four in the morning, which is the only editorial word in the song.
+- Example: disassembler/that-was-the-fix
+- Logged at catalog size 205.
+
+### Measurement as a two-way alteration
+- The gravity well, from the owner's framing. The observer effect on its own is familiar; the second
+  clause is not, and it carries the song — a probe shaped so completely by one system that it has
+  become unusable anywhere else, with every adjustment along the way locally justified. Nothing is
+  miscalibrated and nobody cheated: the thresholds really were set from observed behaviour, which is
+  the correct method, and the result is an instrument that can only agree with the thing it measures.
+- Example: disassembler/both-ways
+- Logged at catalog size 206.
+
+### Prompting as invocation, reported without contempt
+- The gravity well: people typing sentences at a machine to make it behave, in a register borrowed
+  from prayer, bribery and line management. Nobody in the song is stupid — the instructions are
+  reasonable things to say to something that answers in sentences — and the narrator types them too.
+  The band's flat-report rule is what keeps it out of mockery: every line is quoted, none is
+  characterised, and the one that works is credited at the end.
+- Example: disassembler/do-not-make-mistakes
+- Logged at catalog size 207.
+
+### The pyramid that fails at the last step
+- From the owner's own extension of Eliot by way of Ackoff — data, information, knowledge, wisdom,
+  and then the clause that is not in the original: wisdom is not action. Each transformation in the
+  chain is real, effortful and successfully completed, which is what makes the final failure
+  unanswerable — nothing was missing, nobody was ignorant, and the document was accepted. Sits with
+  disassembler/as-designed and disassembler/cannot-change-one-thing as the band's third song about
+  organisations, and is the bleakest of them, because in the other two something was at least
+  unknown.
+- Example: disassembler/not-action
+- Logged at catalog size 208.
+
+### Intelligence as the precondition for the error
+- From Orwell by way of the owner: some ideas are wrong in a way that requires cleverness to reach.
+  Every element of the system in this song is a genuine engineering thought, correctly executed, and
+  the sum is unmaintainable by anyone but its author. The band's usual finding — correct components,
+  bad outcome — with the causation sharpened: the outcome is bad *because* the components were
+  clever, not despite it.
+- Example: disassembler/somebody-clever
+- Logged at catalog size 209.
+
+### The person locked out is you
+- Kernighan and Plauger, from The Elements of Programming Style, and the sharpened sequel to
+  disassembler/somebody-clever. That song is about an architecture other people cannot maintain; this
+  one narrows it to the same brain at a later date, with the cleverness intact and the context gone.
+  The law is arithmetic rather than observation, which is why the build states it as subtraction
+  before producing any evidence.
+- Note: the intro was "debugging is twice as hard as writing it" — the actual quotation — until the
+  PERM ban on "twice" caught it. The ban targets a stock count word for a repeated action, not a
+  comparative multiplier, but check.sh uses extended regex with no lookahead so the exception cannot
+  be expressed. The draft changed, per the library's own rule, to "writing it is half the work",
+  which says the same thing.
+- Example: disassembler/you-wrote-this
+- Logged at catalog size 210.
+
+### Restriction as the source of quality
+- From Carmack, and the counterweight to the two songs written immediately before it: where
+  disassembler/somebody-clever and disassembler/you-wrote-this are about cleverness defeating its
+  author, this is the discipline that works. It is the band's third positive song after
+  disassembler/no-callers and disassembler/in-gawk, and the only one that is positive about a method
+  rather than an act. The build refuses the obvious misreading by saying so outright — giving things
+  up is a decision requiring knowledge of what is being given up, which is the opposite of not
+  bothering.
+- Example: disassembler/one-case-only
+- Logged at catalog size 211.
+
+### The prevented disaster has no name
+- The gravity well: operations work is rewarded on evidence, and competence destroys the evidence.
+  Every preventative act in the song is real, dated and effective, and none of it is provable —
+  the outage that did not occur has no name, no date and no entry in a report that by definition
+  covers what occurred. Nobody is unfair and no manager is a villain; the measurement simply cannot
+  see the work.
+- Example: disassembler/nothing-happened
+- Logged at catalog size 212.
+
+### The format that reproduced
+- From the owner's quotation. The escalation is documentary rather than comic: every generation in
+  the family tree exists, was standardised, and was deployed in earnest by people solving real
+  problems. Nothing in the song is exaggerated, which is what makes the closing exploit land — the
+  chaos in the quotation turns out to be a four-line file.
+- Example: disassembler/more-angle-brackets
+- Logged at catalog size 213.
+
+### Amnesia, from both sides — the lament and the exploit
+- A deliberate pair from two quotations supplied together. disassembler/why-did-it-work is
+  Braithwaite's complaint that the industry learns from neither its mistakes nor its successes,
+  narrowed to the observation that only one of the two has any process attached.
+  disassembler/ten-years-is-plenty is Minnich's advice to treat that amnesia as a career strategy:
+  wait out the forgetting, go to the archives, take something good. Neither song is angry, and the
+  second is cheerful, which makes the pair land harder than either would alone — the same condition
+  as tragedy and as opportunity.
+- Example: disassembler/why-did-it-work, disassembler/ten-years-is-plenty
+- Logged at catalog size 215.
+
+### The condescension that selects its own audience
+- From Linus, by way of the owner: assume your users are fools and only fools will remain. Rendered
+  as a filter rather than an insult — every removal in the song was well meant and evidence-based,
+  and the effect is that the people who could have diagnosed their own problem leave, which makes
+  the remaining population exactly as helpless as the design assumed. Nobody is contemptuous
+  anywhere in it; the contempt is structural and arrives as kindness.
+- Example: disassembler/something-went-wrong
+- Logged at catalog size 217.
+
+### Patterns as the shape of what the language lacks
+- From Pike, and the reason the song is an argument rather than mockery: each named pattern is a
+  correct, disciplined workaround for a missing feature, and the count of how many evaporate in a
+  language with first-class functions is the evidence. Consistent with the band's standing finding —
+  nothing here malfunctions, everything is competently done — and consistent with Pike's own framing,
+  since Roman numerals are a working notation that merely makes one operation hard.
+- Example: disassembler/roman-numerals
+- Logged at catalog size 218.
+
+### Delusion systems versus system delusions
+- Written from a chapter title in Gall's Systemantics that was not to hand, so the distinction is a
+  reading rather than a quotation and is flagged as such: a *delusion system* rests on a false
+  premise, while a *system delusion* is a false belief the system manufactures in its own operators.
+  The song is entirely the second kind, because it is the one that arrives disguised as diligence —
+  every artefact named is real, correct and worth having, and each one is quietly accepted as
+  evidence of the thing it merely describes.
+- Example: disassembler/so-it-is-fine
+- Logged at catalog size 219.
+
+### "Somebody cared about this enough to write it down."
+- The one human sentence in third person about strangers, breaking a run of eight consecutive
+  first-person "I …" breakdown lines flagged in the band's own don't-calcify section. Single
+  clause, present tense, and the warmth points at people the narrator never met rather than at
+  herself.
+- Example: disassembler/came-back-waving
+- Logged at catalog size 220.
+
+### The vestigial token — a survivor that is still accepted and does nothing
+- The outro non-resolution as a switch that outlived the argument about it, still documented, still
+  parsed, with no effect: "dash u / forty years of arguing / it is still accepted / dash u /
+  (ignored)". A tenth distinct closing shape for the band, after the re-read build line, the moved
+  number, the unkept promise, the doctrine, the inventory of absence, the ending by omission, the
+  contract renewal, the unwithdrawn recommendation and the remedy too small for the harm.
+  Distinct from that last one — the smallness is not the point, the persistence-without-function is.
+- Example: disassembler/came-back-waving
+- Logged at catalog size 220.
+
+### The four-page paper against the installed base
+- Scale juxtaposition as the closing move of a build: the argument's size next to its reach, with
+  neither side blamed — "the paper is four pages / the flags are in every machine on earth". The
+  knowledge is correct, published, and lost anyway, which is the band's engine stated as arithmetic.
+- Example: disassembler/came-back-waving
+- Logged at catalog size 220.
+
+### "they were not saying X / they were saying Y" — the defence against the misreading
+- Correcting a famous quote's popular misuse inside the song, so the build defends its own source
+  rather than deploying it. Used on Pike and Kernighan's "cat came back from Berkeley waving flags",
+  which is generally quoted as contempt for the flags and was not.
+- Example: disassembler/came-back-waving
+- Logged at catalog size 220.
+
+### The whole lyric as one person's quoted advice, unaltered
+- The entire track — intro, build, drop anchors and outro — lifted word for word from a single
+  named person's written answer (Linus Torvalds on starting projects), with the band's only
+  authorship being where the line breaks fall and which phrases repeat. Distinct from
+  disassembler/trusted-third-parties, which quotes institutional boilerplate verbatim: that one is
+  anonymous text nobody reads, this one is one person's advice that demonstrably reached people,
+  so the engine runs backwards.
+- Example: disassembler/half-way-useful
+- Logged at catalog size 221.
+
+### The breakdown sentence spoken by somebody else
+- The band's signature slot — normally the narrator's single human sentence — given to a stranger's
+  reported speech arriving from outside the song ("hey, that almost works for me"), and still
+  unanswered. Inverts the voice rule on the one track where the entire record is human sentences
+  and the narrator has none of her own.
+- Example: disassembler/half-way-useful
+- Logged at catalog size 221.
+
+### Drop anchors lifted from the quoted source rather than written
+- The shouted two-to-four-word anchors taken straight out of the source text (START SMALL /
+  THINK ABOUT THE DETAILS / HALF-WAY USEFUL) instead of being composed as hooks, so the drop is
+  quotation at volume.
+- Example: disassembler/half-way-useful
+- Logged at catalog size 221.
+
+### The build as repository artefacts with nobody's voice in them
+- Disassembler's system-text rule filled with what a finished project leaves behind rather than
+  anything anyone said: files changed with nothing deleted, tests written from the code they test,
+  a README describing a flag that was never added, an architecture document written before the
+  architecture, TODO and FIXME, commit messages reading wip and fix. Deliberately not the third
+  use of assistant speech — disassembler/commit-it quotes the tool's advice and
+  disassembler/do-not-make-mistakes quotes the prompts aimed at it, so this one removes the voices
+  entirely and lets the artefacts testify that everything got produced except the thinking.
+- Example: disassembler/best-you-could-hope-for
+- Logged at catalog size 222.
+
+### "You have to change the way you think."
+- The one human sentence in the second person, present tense, single clause — a third distinct
+  grammar in three consecutive songs after the third-person "Somebody cared…" and the stranger's
+  reported speech, breaking the run of eight first-person breakdown lines the band's spec flagged.
+  It is also the source quote's own conclusion, so the only sentence on the record is the one
+  thing the tooling cannot do.
+- Example: disassembler/best-you-could-hope-for
+- Logged at catalog size 222.
+
+### The productivity ceiling stated as arithmetic
+- The build's payload as a bound rather than a complaint: seventy percent is thinking, so a tool
+  doing one hundred percent of the code, documentation and testing still tops out at thirty. No
+  tool is blamed and none is mocked; the number is simply the roof.
+- Example: disassembler/best-you-could-hope-for
+- Logged at catalog size 222.
+
+### The obsolete fulfilment chain as the outro
+- Closing on the dated physical tail of a software fantasy — burned the CD-ROMs, put them in boxes,
+  mailed them to your customers — so the track ends on machinery that no longer exists while the
+  argument it was carrying still holds. An eleventh distinct closing shape for the band.
+- Example: disassembler/best-you-could-hope-for
+- Logged at catalog size 222.

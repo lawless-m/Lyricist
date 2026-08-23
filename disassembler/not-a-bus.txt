@@ -16,7 +16,7 @@ this one carries data and will not charge it
 this one does video and that one does not
 you cannot tell by looking
 it was a bus, once, with a shared line and a controller
-it is a tiered star with hubs
+it is a tree of hubs
 alternate mode carries a protocol that is not USB at all
 over the same connector
 

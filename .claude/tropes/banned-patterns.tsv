@@ -315,7 +315,7 @@ BAN	128	signed the witness section	wink anchor — ultracoase/on-the-register
 BAN	128	framed the certificate	all-caps callback — ultracoase/on-the-register
 BAN	128	i get the haunch	verse-2 button — ultracoase/on-the-register
 BAN	128	on the nights she'?s on shift	concealment detail — ultracoase/on-the-register
-BAN	128	answers? before (she|he|they|the question|you)	response-latency-as-tell image — ultracoase/autopilot
+BAN	128	answers? before (the question|(she|he|they) ?('s| is|'ve| have)? ?(done|finish))	response-latency-as-tell image — ultracoase/autopilot
 BAN	129	peel the fruit, lose the pip	table-service imperative opener — laundry/instructions-unclear
 BAN	129	keep it coming	imperative-opener close — laundry/instructions-unclear
 BAN	129	toms come loose from the count	mechanical-collapse pre-hook line — laundry/instructions-unclear
@@ -643,7 +643,7 @@ BAN	189	not mean the same later	pictograms described rather than named — disas
 BAN	190	paste was glue	build as a vocabulary of fossils — disassembler/carbon-copy
 BAN	190	BLIND CARBON COPY	shouted-anchor drop, dead technology in daily use — disassembler/carbon-copy
 BAN	190	explained the scissors	one-human-sentence breakdown, being politely humoured — disassembler/carbon-copy
-BAN	190	building outside Slough	outro as a fossil currently being formed — disassembler/carbon-copy
+BAN	190	building off the M4	outro as a fossil currently being formed — disassembler/carbon-copy
 BAN	191	there is no reflex	build as a device performing an absent mechanism — disassembler/there-is-no-shutter
 BAN	191	THERE IS NO SHUTTER	shouted-anchor drop, denial and instruction — disassembler/there-is-no-shutter
 BAN	191	know it is not a noise	one-human-sentence breakdown, knowingly enjoying a fake — disassembler/there-is-no-shutter
@@ -672,7 +672,7 @@ BAN	196	cannot tell by looking	build as a name disproved word by word — disass
 BAN	196	NOT A BUS	three-line shouted-anchor drop — disassembler/not-a-bus
 BAN	196	only works the other way round	one-human-sentence breakdown, private knowledge of a broken object — disassembler/not-a-bus
 BAN	196	gen one by one	outro, three names for one unchanged thing — disassembler/not-a-bus
-BAN	196	tiered star with hubs	the identical connector that does different things — disassembler/not-a-bus
+BAN	196	a tree of hubs	the identical connector that does different things — disassembler/not-a-bus
 BAN	197	nobody asks options	complete vocabulary spoken with two words of it — disassembler/get-and-post
 BAN	197	GET AND POST	shouted-anchor drop, what survives and what waits — disassembler/get-and-post
 BAN	197	on purpose, and nobody noticed	one-human-sentence breakdown, unnoticed thoroughness — disassembler/get-and-post
@@ -692,3 +692,102 @@ BAN	200	COUNT THE HANDSETS	shouted-anchor drop as a method — disassembler/coun
 BAN	200	think was the small one	one-human-sentence breakdown, auditing your own assumption — disassembler/count-the-handsets
 BAN	200	on their own website	outro, a fact published where nobody looks — disassembler/count-the-handsets
 BAN	200	Prolog interpreter in Windows NT	league table nobody publishes — disassembler/count-the-handsets
+BAN	201	configures the audit log	escalating inventory of doors — disassembler/break-glass
+BAN	201	BREAK GLASS	shouted-anchor drop, control and justification — disassembler/break-glass
+BAN	201	Mine is still there	one-human-sentence breakdown, his own bypass still live — disassembler/break-glass
+BAN	201	created: before the log	outro, a record predating recording — disassembler/break-glass
+BAN	201	insert it into the compiler	the designer's own exception — disassembler/break-glass
+BAN	202	already recordings	build as observability latency itemised — disassembler/already-happened
+BAN	202	IT ALREADY HAPPENED	shouted-anchor drop, finding and measurement — disassembler/already-happened
+BAN	202	ever fixed was already over	one-human-sentence breakdown, response as archaeology — disassembler/already-happened
+BAN	202	after that it is a shape	outro, memory degrading on a schedule — disassembler/already-happened
+BAN	203	oppose their own proper function	build as published axioms — disassembler/cannot-change-one-thing
+BAN	203	CANNOT CHANGE	shouted-anchor drop as a closed trap — disassembler/cannot-change-one-thing
+BAN	203	name on the proposals	one-human-sentence breakdown, withdrawal from advocacy — disassembler/cannot-change-one-thing
+BAN	203	whatever is reported to the system	outro as a citation — disassembler/cannot-change-one-thing
+BAN	204	metric that autoscaling is causing	build as a runaway loop — disassembler/retry
+BAN	204	BACK OFF	shouted-anchor drop enacting its own subject — disassembler/retry
+BAN	204	fewer of us there were	one-human-sentence breakdown, the loop running on people — disassembler/retry
+BAN	204	need the cause any more	outro as metastable failure — disassembler/retry
+BAN	204	is the correct behaviour	every step correct, the sum catastrophic — disassembler/retry
+BAN	205	was a fix for	chain of fixes closing into a circle — disassembler/that-was-the-fix
+BAN	205	THAT WAS THE FIX	shouted-anchor drop as receding justification — disassembler/that-was-the-fix
+BAN	205	shell script underneath	one-human-sentence breakdown, the uncredited foundation — disassembler/that-was-the-fix
+BAN	205	proposal is very well written	outro as the next iteration beginning — disassembler/that-was-the-fix
+BAN	206	would not work on another one	two-movement build, probe and system — disassembler/both-ways
+BAN	206	THE PROBE AS WELL	shouted-anchor drop naming the symmetry — disassembler/both-ways
+BAN	206	start keeping its hours	one-human-sentence breakdown, the watcher altered — disassembler/both-ways
+BAN	206	last one is not monitored	outro as a regress that stops arbitrarily — disassembler/both-ways
+BAN	206	bug is not gone	the heisenbug beat — disassembler/both-ways
+BAN	207	no yapping	build as incantations people actually type — disassembler/do-not-make-mistakes
+BAN	207	DO NOT MAKE MISTAKES	shouted-anchor drop, two impossible instructions — disassembler/do-not-make-mistakes
+BAN	207	machine to try harder	one-human-sentence breakdown, addressing a machine as if it had volition — disassembler/do-not-make-mistakes
+BAN	207	measurably works	outro as the exception that undoes the joke — disassembler/do-not-make-mistakes
+BAN	207	no switch behind any of them	prompting as invocation — disassembler/do-not-make-mistakes
+BAN	208	took three incidents to see	build as a ladder with attrition — disassembler/not-action
+BAN	208	WISDOM IS NOT ACTION	shouted-anchor drop stating the gap — disassembler/not-action
+BAN	208	accepted every word of it	one-human-sentence breakdown, agreement instead of action — disassembler/not-action
+BAN	208	none of that is the problem	outro returning to the bottom of the ladder — disassembler/not-action
+BAN	209	one plugin	inventory of cleverness, each item defensible — disassembler/somebody-clever
+BAN	209	TOOK SOMEBODY CLEVER	shouted-anchor drop, a credit that indicts — disassembler/somebody-clever
+BAN	209	only person who can still change it	one-human-sentence breakdown, trapped by your own cleverness — disassembler/somebody-clever
+BAN	209	text file and a cron job	outro as a counterfactual — disassembler/somebody-clever
+BAN	209	that is the problem	the editorial line — disassembler/somebody-clever
+BAN	210	that is subtraction	build as a proof followed by its evidence — disassembler/you-wrote-this
+BAN	210	YOU WROTE THIS	shouted-anchor drop, accusation with a citation — disassembler/you-wrote-this
+BAN	210	had to print it out	one-human-sentence breakdown, beaten by your own work — disassembler/you-wrote-this
+BAN	210	does not explain why	outro as partial documentation — disassembler/you-wrote-this
+BAN	210	the reviewer wrote: clever	the compliment that was the warning — disassembler/you-wrote-this
+BAN	211	give up the general case	ledger of trades, both columns — disassembler/one-case-only
+BAN	211	ONE CASE ONLY	shouted-anchor drop, constraint and result — disassembler/one-case-only
+BAN	211	half my career	one-human-sentence breakdown, a lesson learned slowly — disassembler/one-case-only
+BAN	211	nothing to decide since	outro as an absence of decisions — disassembler/one-case-only
+BAN	211	none of this is laziness	the guard against misreading restraint as sloth — disassembler/one-case-only
+BAN	212	did not happen has no name	build as a year of invisible work — disassembler/nothing-happened
+BAN	212	THAT WAS THE GOOD ONE	shouted-anchor drop revaluing its first line — disassembler/nothing-happened
+BAN	212	looked exactly like doing nothing	one-human-sentence breakdown, excellence as idleness — disassembler/nothing-happened
+BAN	212	it is a fair question	outro conceding the other side — disassembler/nothing-happened
+BAN	213	schema language for the schema	build as a family tree — disassembler/more-angle-brackets
+BAN	213	MORE ANGLE BRACKETS	shouted-anchor drop, the remedy that caused it — disassembler/more-angle-brackets
+BAN	213	year when I was good at this	one-human-sentence breakdown, expertise that expired — disassembler/more-angle-brackets
+BAN	213	refers to ten of the one before	outro as a working exploit — disassembler/more-angle-brackets
+BAN	214	review of the reviews	asymmetry of process — disassembler/why-did-it-work
+BAN	214	WHY DID IT WORK	shouted-anchor drop, the unasked question — disassembler/why-did-it-work
+BAN	214	tell you why that one worked	one-human-sentence breakdown, unable to account for success — disassembler/why-did-it-work
+BAN	214	use it a great deal	outro praising the working half — disassembler/why-did-it-work
+BAN	215	starts, answers, and exits	catalogue of second editions — disassembler/ten-years-is-plenty
+BAN	215	TEN YEARS IS PLENTY	shouted-anchor drop, the amnesia interval — disassembler/ten-years-is-plenty
+BAN	215	called it innovative	one-human-sentence breakdown, running the amnesia exploit — disassembler/ten-years-is-plenty
+BAN	215	citation is on the first page	outro, provenance nobody pursues — disassembler/ten-years-is-plenty
+BAN	216	whoever holds it is the user	protocol dance ending on what it was never for — disassembler/not-a-login
+BAN	216	IT IS NOT A LOGIN	shouted-anchor drop — disassembler/not-a-login
+BAN	216	I have built has been different	one-human-sentence breakdown, a spec that declines to specify — disassembler/not-a-login
+BAN	216	took his name off it	outro, a repudiation that changed nothing — disassembler/not-a-login
+BAN	217	simplified the settings	loop of well-meant removals — disassembler/something-went-wrong
+BAN	217	SOMETHING WENT WRONG	shouted-anchor drop — disassembler/something-went-wrong
+BAN	217	exactly what that error is	one-human-sentence breakdown, holding the withheld diagnosis — disassembler/something-went-wrong
+BAN	217	both of those were the plan	outro, two measurements moving apart — disassembler/something-went-wrong
+BAN	218	shape of what is missing	build as ceremony ending on its purpose — disassembler/roman-numerals
+BAN	218	ROMAN NUMERALS	shouted-anchor drop that concedes the case — disassembler/roman-numerals
+BAN	218	only method was run	one-human-sentence breakdown, producing the exhibit yourself — disassembler/roman-numerals
+BAN	218	hard to multiply	outro finishing on the metaphor — disassembler/roman-numerals
+BAN	218	global with paperwork	patterns as the shape of what the language lacks — disassembler/roman-numerals
+BAN	219	all of them are load bearing	run of invalid inferences — disassembler/so-it-is-fine
+BAN	219	SO IT IS FINE	shouted-anchor drop, a fallacy endorsed — disassembler/so-it-is-fine
+BAN	219	dashboard before I check the thing	one-human-sentence breakdown, representation over referent — disassembler/so-it-is-fine
+BAN	219	delusion built by a system	outro stating the distinction — disassembler/so-it-is-fine
+BAN	220	cared about this enough to write it down	disassembler/came-back-waving breakdown sentence
+BAN	220	came back from Berkeley	disassembler/came-back-waving anchor; Pike/Kernighan quote
+BAN	220	^\(ignored\)	disassembler/came-back-waving vestigial-token close (line-anchored: the construction spans lines)
+BAN	220	they were not saying	disassembler/came-back-waving defence-against-misreading frame (line-anchored: the construction spans lines)
+BAN	220	in every machine on earth	disassembler/came-back-waving scale juxtaposition
+BAN	221	half.?way useful	disassembler/half-way-useful anchor, from the Torvalds quote
+BAN	221	that almost works for me	disassembler/half-way-useful breakdown, stranger's reported speech
+BAN	221	think about the details	disassembler/half-way-useful drop anchor
+BAN	221	not how these things work	disassembler/half-way-useful build line
+BAN	222	no tool, no matter how advanced	disassembler/best-you-could-hope-for spine quote
+BAN	222	change the way you think	disassembler/best-you-could-hope-for breakdown sentence
+BAN	222	burn(ed)? the CD.?ROMs	disassembler/best-you-could-hope-for outro
+BAN	222	written before the architecture	disassembler/best-you-could-hope-for build artefact
+BAN	222	tests were written from the code	disassembler/best-you-could-hope-for build artefact
+BAN	222	SEVENTY IS THINKING	disassembler/best-you-could-hope-for drop anchor

@@ -1,0 +1,41 @@
+[Intro — atmos and ominous sub, no break yet. one line read flat, almost bored]
+there is always a door
+
+[Build — mechanical break enters. dense, fast, clipped. every one of these is somebody's decision]
+root
+sudo
+the break glass account
+the break glass account is for emergencies
+the emergency has not happened
+debug equals true
+a header that skips the check
+a test account that still works in production
+an allow list with one home address on it
+a feature flag enabled for one user id
+a branch that checks for one name
+the audit log does not cover the person who configures the audit log
+the compiler can be taught to insert it
+the compiler can be taught to insert it into the compiler
+it will not appear in the source
+Thompson described that in his Turing lecture
+he described it and published it and nobody changed anything
+
+[Drop — half-time bass under the mechanical break. single voice, stacked on itself, no crowd, no gang]
+BREAK GLASS
+BREAK GLASS
+FOR EMERGENCIES ONLY
+BREAK GLASS
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+Mine is still there.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+BREAK GLASS
+FOR EMERGENCIES ONLY
+BREAK GLASS
+BREAK GLASS
+
+[Outro — strips back to the atmos it started on. does not resolve]
+account: service legacy
+owner: unassigned
+created: before the log

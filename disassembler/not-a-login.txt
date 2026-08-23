@@ -1,0 +1,40 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+it is an authorisation framework
+
+[Build — the break enters. dense, fast, clipped. the dance, in order]
+redirect the user to the provider
+the state parameter, to stop the other attack
+the code challenge, to stop the one after that
+the user is shown a consent screen
+the consent screen lists everything the app may do
+the user reads none of it
+the code comes back on the redirect
+exchange the code for a token
+the token is a bearer token
+whoever holds it is the user
+a refresh token, because the first one expires
+the client secret, which cannot be secret on a phone
+the specification is a framework
+the framework does not say what to do
+so no two of them are the same
+and none of this was designed to tell you who somebody is
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+IT IS NOT A LOGIN
+IT IS NOT A LOGIN
+EVERYBODY USES IT AS ONE
+IT IS NOT A LOGIN
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+Every one I have built has been different.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+IT IS NOT A LOGIN
+EVERYBODY USES IT AS ONE
+IT IS NOT A LOGIN
+IT IS NOT A LOGIN
+
+[Outro — strips back to the atmos it started on. does not resolve]
+the lead author took his name off it
+he wrote down why
+it is still the standard

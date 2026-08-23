@@ -1,0 +1,43 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+calculate the rough time of amnesia
+
+[Build — the break enters. dense, fast, clipped. everything here is a second edition]
+containers
+jails
+chroot
+rings, on a machine from the sixties
+serverless
+a program that starts, answers, and exits
+that is CGI
+the document database
+the hierarchical database
+that shipped before the relational one did
+the actor model
+message passing
+tagged memory
+capabilities
+transactional memory
+persistent data structures
+all of it is in the archive
+all of it is written up properly
+the papers are free
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+TEN YEARS IS PLENTY
+TEN YEARS IS PLENTY
+GO TO THE ARCHIVES
+TEN YEARS IS PLENTY
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+I did this once and they called it innovative.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+TEN YEARS IS PLENTY
+GO TO THE ARCHIVES
+TEN YEARS IS PLENTY
+TEN YEARS IS PLENTY
+
+[Outro — strips back to the atmos it started on. does not resolve]
+ten months is probably plenty
+the citation is on the first page
+nobody follows it

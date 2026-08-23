@@ -6,7 +6,7 @@ worth learning for the profound enlightenment experience
 the only beautiful programming language
 it had garbage collection first
 it had closures first
-it had the read eval print loop first
+it had the reed evaluate print loop first
 it had macros first
 code is data
 data is code

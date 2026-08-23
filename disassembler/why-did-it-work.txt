@@ -1,0 +1,41 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+we have a process for this
+
+[Build — the break enters. dense, fast, clipped. one half of the industry is very well equipped]
+incident review
+blameless postmortem
+timeline of events
+contributing factors
+five whys
+action items with owners
+action items with dates
+a template
+a wiki space for the templates
+a review of the reviews
+all of that is for the outage
+the migration went perfectly in June
+there is no template for June
+the team that did it was disbanded in August
+the one who knew why is at another company now
+the only thing anybody remembers is that we tried it before
+and that is usually wrong
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+WHY DID IT WORK
+WHY DID IT WORK
+THERE IS NO FORM FOR THAT
+WHY DID IT WORK
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+I could not tell you why that one worked.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+WHY DID IT WORK
+THERE IS NO FORM FOR THAT
+WHY DID IT WORK
+WHY DID IT WORK
+
+[Outro — strips back to the atmos it started on. does not resolve]
+the incident process is very good
+it is thorough and it is honest
+we use it a great deal
