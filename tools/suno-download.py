@@ -1,22 +1,33 @@
 #!/usr/bin/env python3
-"""Mirror liked Suno tracks to local WAVs, sorted by band.
+"""Mirror your Suno library to local WAVs, foldered the way you organise it.
 
 Usage:
-  tools/suno-download.py              # sync new liked tracks
+  tools/suno-download.py              # sync everything new
   tools/suno-download.py --dry-run    # list what would be fetched
-  tools/suno-download.py --all        # not just liked ones
+  tools/suno-download.py --prune      # also move files whose project changed
+  tools/suno-download.py --playlists  # organise by playlist instead, keeping order
 
-Only tracks you have clicked LIKE on are fetched by default. Existing files are
-left alone, so re-running only pulls what's new — safe to run any time.
+Your Suno *projects* are the filter and the folder. A track you have filed
+under Rejects lands in audio/rejects/ and nowhere else; move it out of Rejects
+in Suno and the next run refiles it. The LIKE flag is ignored — it is a working
+filter on the Suno site, not a statement about what belongs here.
 
-Audio lands in audio/<band>/<slug>--<clipid>.wav. Band is resolved from the repo
-lyric files: first by matching the Suno title to a filename, then by looking for
-the title inside a lyric (many titles are the hook line, not the filename —
-"Act Like It's News" is guessed/four-minute-fix). Anything unresolved, including
-the non-band personal songs, goes to audio/unsorted/.
+My Workspace is a filing decision too — it means still in progress — so it
+gets audio/in-progress/ rather than being scattered among the finished work.
+Anything in no project at all falls back to the repo lyric files: first by matching the Suno title to a
+filename, then by looking for the title inside a lyric (many titles are the
+hook line, not the filename — "Act Like It's News" is guessed/four-minute-fix).
+Still unresolved, including the non-band personal songs, goes to audio/unsorted/.
 
-WAV because this feeds the mixing tools; Suno serves mp3, so ffmpeg converts.
-Reckon on ~30 MB per track.
+Refiling is free: a track already on disk is hard-linked to its new folder, not
+downloaded again. Without --prune the old copy stays put, so nothing is deleted
+behind your back.
+
+Audio comes from Suno's WAV master, not the mp3 the feed advertises: the master
+is rendered on demand and downloaded as 48 kHz PCM, then resampled to the 44.1 kHz
+the rest of the archive and the mixing tools already use. audio/.masters.json
+records which clips arrived this way, so a re-run replaces anything still left
+over from the old mp3 path and leaves the rest alone. Reckon on ~25 MB per track.
 """
 
 import argparse
@@ -70,6 +81,68 @@ for (const p of (meta.playlists || [])) {
 return rows.join('\n');
 """
 
+# Suno's feed only carries lossy mp3/m4a. The WAV master is generated on demand:
+# POST convert_wav, then poll wav_file until it hands back a URL. A null test put
+# the mp3 only 21.8 dB below the master — it is a real encode of it, not a decode
+# the other way round, so the mp3 path throws away audio we can still have.
+WAV_URLS = r"""
+const tok = await window.Clerk.session.getToken();
+const H = {Authorization: 'Bearer ' + tok, 'Content-Type': 'application/json'};
+const B = 'https://studio-api-prod.suno.com';
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+const ids = IDS;
+const out = {}, pending = new Set(ids);
+for (const id of ids) {
+  try { await fetch(`${B}/api/gen/${id}/convert_wav`, {method: 'POST', headers: H, body: '{}'}); }
+  catch (e) { }
+  await sleep(120);
+}
+for (let round = 0; round < 30 && pending.size; round++) {
+  for (const id of [...pending]) {
+    try {
+      const r = await fetch(`${B}/api/gen/${id}/wav_file`, {headers: H});
+      if (!r.ok) continue;
+      const d = await r.json();
+      if (d.wav_file_url) { out[id] = d.wav_file_url; pending.delete(id); }
+    } catch (e) { }
+    await sleep(120);
+  }
+  if (pending.size) await sleep(4000);
+}
+return Object.entries(out).map(([id, url]) => JSON.stringify({id, url})).join('\n');
+"""
+
+PROJECTS = r"""
+const tok = await window.Clerk.session.getToken();
+const H = {Authorization: 'Bearer ' + tok};
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+const meta = await (await fetch('https://studio-api-prod.suno.com/api/project/me?page=0', {headers: H})).json();
+const rows = [];
+for (const p of (meta.projects || [])) {
+  let page = 0;
+  const seen = new Set();
+  while (page < 60 && seen.size < (p.clip_count || 0)) {
+    const r = await fetch(`https://studio-api-prod.suno.com/api/project/${p.id}?page=${page}`, {headers: H});
+    if (r.status === 429) { await sleep(3000); continue; }
+    if (!r.ok) break;
+    const d = await r.json();
+    const pcs = d.project_clips || [];
+    if (!pcs.length) break;
+    let fresh = 0;
+    for (const pc of pcs) {
+      const c = pc.clip || {};
+      if (!c.id || seen.has(c.id)) continue;
+      seen.add(c.id); fresh++;
+      rows.push(JSON.stringify({project: p.name, id: c.id}));
+    }
+    if (!fresh) break;
+    page++;
+    await sleep(250);
+  }
+}
+return rows.join('\n');
+"""
+
 FEED = r"""
 const tok = await window.Clerk.session.getToken();
 const H = {Authorization: 'Bearer ' + tok};
@@ -97,6 +170,21 @@ return all.map(c => JSON.stringify({
 """
 
 
+# Project names that already have a differently-named folder in the repo.
+PROJECT_FOLDER = {
+    "Penny": "penny-rich",
+    "CoaseGuard": "coase-guard",
+    "Cherry": "girlboss",
+    "Emosy": "the-bell-knows-my-name",
+    "Rinse Cycle": "laundry",     # laundry's second album, after the first was mixed
+    "My Workspace": "in-progress",
+}
+
+# Folders holding work made from the downloads, not downloads. Same clip ids
+# turn up here under other names; --prune must never touch them.
+DERIVED = {"playlists", "stems", "mixes", "fillers"}
+
+
 def api(path, body=None):
     req = urllib.request.Request(
         BROKER + path,
@@ -118,6 +206,31 @@ def fetch_clips(script=FEED):
     if out.startswith("ERROR"):
         sys.exit(out)
     return [json.loads(line) for line in out.splitlines() if line.strip()]
+
+
+MASTERS = AUDIO / ".masters.json"
+
+
+def masters():
+    return set(json.loads(MASTERS.read_text())) if MASTERS.exists() else set()
+
+
+def mark_master(clip_id):
+    have = masters()
+    have.add(clip_id)
+    MASTERS.write_text(json.dumps(sorted(have), indent=0))
+
+
+def wav_urls(ids, batch=25):
+    """Ask Suno to render the WAV masters, in batches a bridge job can finish."""
+    found = {}
+    for i in range(0, len(ids), batch):
+        chunk = ids[i:i + batch]
+        script = WAV_URLS.replace("IDS", json.dumps(chunk))
+        for row in fetch_clips(script):
+            found[row["id"]] = row["url"]
+        print(f"  wav urls: {len(found)}/{len(ids)}")
+    return found
 
 
 def fold(s):
@@ -156,6 +269,14 @@ def resolve_band(title, stems, lyrics):
     return "unsorted", slug
 
 
+def folder_for(clip, filed, stems, lyrics):
+    """Your filing wins; where you haven't filed, fall back to matching the lyrics."""
+    project = filed.get(clip["id"])
+    if project:
+        return PROJECT_FOLDER.get(project) or slugify(project)
+    return resolve_band(clip["title"], stems, lyrics)[0]
+
+
 def existing_by_clip():
     """clip-id prefix -> an existing wav, so a track already on disk is linked, not refetched."""
     found = {}
@@ -167,7 +288,8 @@ def existing_by_clip():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
-    ap.add_argument("--all", action="store_true", help="include tracks you haven't liked")
+    ap.add_argument("--prune", action="store_true",
+                    help="move files whose project changed, instead of leaving a copy behind")
     ap.add_argument("--playlists", action="store_true",
                     help="organise by your Suno playlists, keeping their running order")
     args = ap.parse_args()
@@ -180,10 +302,10 @@ def main():
                    for r in wanted]
     else:
         stems, lyrics = band_index()
+        filed = {r["id"]: r["project"] for r in fetch_clips(PROJECTS)}
         rows = fetch_clips()
-        wanted = [r for r in rows
-                  if r["audio_url"] and r["status"] == "complete" and (args.all or r["liked"])]
-        targets = [(r, AUDIO / resolve_band(r["title"], stems, lyrics)[0] /
+        wanted = [r for r in rows if r["audio_url"] and r["status"] == "complete"]
+        targets = [(r, AUDIO / folder_for(r, filed, stems, lyrics) /
                     f"{slugify(r['title']) or 'untitled'}--{r['id'][:8]}.wav")
                    for r in wanted]
 
@@ -194,8 +316,16 @@ def main():
     titles_path.write_text(json.dumps(titles, indent=1, ensure_ascii=False))
 
     pool = existing_by_clip()
-    plan, skipped, linked = [], 0, 0
+    have_master = masters()
+    plan, skipped, linked, upgrades = [], 0, 0, 0
     for c, dest in targets:
+        # Anything fetched down the old mp3 path is worth replacing, even though
+        # a file is sitting there.
+        if c["id"] not in have_master:
+            plan.append((c, dest))
+            if dest.exists():
+                upgrades += 1
+            continue
         if dest.exists():
             skipped += 1
             continue
@@ -214,20 +344,45 @@ def main():
     if linked:
         print(f"{linked} linked from audio already on disk")
 
-    print(f"{len(rows)} clips; {len(wanted)} selected; "
-          f"{skipped} already local; {len(plan)} to fetch")
+    if args.prune:
+        correct = {c["id"][:8]: dest for c, dest in targets}
+        for stale in sorted(AUDIO.rglob("*--*.wav")):
+            if stale.relative_to(AUDIO).parts[0] in DERIVED:
+                continue
+            dest = correct.get(stale.stem.rsplit("--", 1)[-1])
+            if not dest or stale == dest:
+                continue
+            print(f"  refiled: {stale.relative_to(AUDIO)} -> {dest.relative_to(AUDIO)}")
+            if args.dry_run:
+                continue
+            if dest.exists():
+                stale.unlink()          # already linked across; this one is the duplicate
+            else:
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                stale.rename(dest)
+
+    print(f"{len(rows)} clips; {len(wanted)} selected; {skipped} already local; "
+          f"{len(plan)} to fetch ({upgrades} replacing mp3-sourced files)")
     if args.dry_run:
         for c, dest in plan:
             print(f"  {dest.relative_to(REPO)}   <- {c['title']}")
         return
 
+    print("asking Suno to render WAV masters...")
+    urls = wav_urls([c["id"] for c, _ in plan])
+    missing = [c["title"] for c, _ in plan if c["id"] not in urls]
+    if missing:
+        print(f"{len(missing)} produced no WAV and are skipped: {', '.join(missing[:5])}",
+              file=sys.stderr)
+    plan = [(c, dest) for c, dest in plan if c["id"] in urls]
+
     for i, (c, dest) in enumerate(plan, 1):
         dest.parent.mkdir(parents=True, exist_ok=True)
-        tmp_mp3 = dest.with_suffix(".mp3.part")
+        tmp_mp3 = dest.with_suffix(".src.part")
         tmp_wav = dest.with_suffix(".wav.part")
         print(f"[{i}/{len(plan)}] {c['title']} -> {dest.relative_to(REPO)}")
         try:
-            urllib.request.urlretrieve(c["audio_url"], tmp_mp3)
+            urllib.request.urlretrieve(urls[c["id"]], tmp_mp3)
             subprocess.run(
                 # -f wav is required: ffmpeg picks the muxer from the extension, and
                 # the .part suffix tells it nothing.
@@ -237,6 +392,7 @@ def main():
             # Rename only once complete, so an interrupted run leaves no half file
             # that a later run would mistake for done.
             tmp_wav.rename(dest)
+            mark_master(c["id"])
         except Exception as e:
             print(f"    failed: {e}", file=sys.stderr)
             tmp_wav.unlink(missing_ok=True)
