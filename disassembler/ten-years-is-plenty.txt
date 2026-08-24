@@ -4,9 +4,9 @@ calculate the rough time of amnesia
 [Build — the break enters. dense, fast, clipped. everything here is a second edition]
 containers
 jails
-chroot
+cha root
 rings, on a machine from the sixties
-serverless
+server less
 a program that starts, answers, and exits
 that is CGI
 the document database

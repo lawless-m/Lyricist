@@ -60,6 +60,24 @@
   actually speak (`no query`), the same way `9P`, `p ninety-five` and `slash inet slash tcp` are
   written out. The `.txt` is a paste-target for a renderer, not a config file, so phonetic spacing is
   correct practice rather than a compromise — but keep the *spoken* form true to the real directive.
+- **Compound tokens fail even when they are ordinary English.** Observed 2026-08-24 —
+  `not-a-login`'s repeated anchor came back as *lojin*, the `gi` softened as though the word were
+  Italian. This is the `noquery` class and not a homograph: the fix is to split the compound, so
+  the drop now reads **LOG IN**, which removes the offending letter pair altogether. Worth assuming
+  for any run-together word, not only config tokens — `login`, `logout`, `signin`, `changelog`,
+  `pagefile` all present the same hazard.
+- **Coined tokens with no agreed pronunciation need writing out phonetically.** Observed
+  2026-08-24 — `ten-years-is-plenty` could not say `chroot`, and the owner's response is the useful
+  part: *"but then again who can!?"* Where a term has no settled spoken form among the people who
+  use it daily, there is nothing for Suno to fall back on, so spell it the way it is actually said
+  — **cha root**, which was re-rendered and confirmed correct by ear. Distinct from the compound-splitting fix above, which repairs a word that does
+  have a correct reading. Same song: `serverless` became **server less**.
+- **`lead` is the homograph most worth rewriting rather than re-rolling.** Observed 2026-08-24 —
+  "the lead author" came back as *led author*. Homographs are normally stochastic and worth a
+  re-roll first, but this one has an unusually strong wrong attractor and there is almost always a
+  precise substitute that removes the ambiguity for free. Here it became **"the editor"**, which is
+  what Eran Hammer actually was when he took his name off OAuth 2.0 — so the fix improved the
+  accuracy as well. Apply the Slough test every time: check the replacement is still true.
 - **Third class: British place names.** Observed 2026-08-23 — `carbon-copy`'s "a building outside
   **Slough**" defeated it. Slough is a three-way homograph (*sluff* to shed, *sloo* a swamp, *slau*
   the town) and the town is the rarest reading, so it will lose every time. The same trap is
