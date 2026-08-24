@@ -66,6 +66,14 @@
   the drop now reads **LOG IN**, which removes the offending letter pair altogether. Worth assuming
   for any run-together word, not only config tokens — `login`, `logout`, `signin`, `changelog`,
   `pagefile` all present the same hazard.
+- **The two-take test is the diagnostic, and it now has a clean case both ways.** Observed
+  2026-08-24 — `ten-years-is-plenty` rendered "the archive" as *arch hive* in one take and
+  correctly in the other. Differing across takes of the same lyric is the signature of the
+  stochastic class, so the correct response is to keep the good take and change nothing; the word
+  is not at fault. The contrast is `not-a-bus`, where *tiered* came back as *tired* in **both**
+  takes, which is what identified it as deterministic and worth rewriting. Before reaching for a
+  rewrite, check the other take: it tells you which class you are in, and rewriting a stochastic
+  miss throws away a correct word for no reason.
 - **Coined tokens with no agreed pronunciation need writing out phonetically.** Observed
   2026-08-24 — `ten-years-is-plenty` could not say `chroot`, and the owner's response is the useful
   part: *"but then again who can!?"* Where a term has no settled spoken form among the people who
