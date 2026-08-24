@@ -78,7 +78,8 @@ for (const p of (meta.playlists || [])) {
         status: c.status, audio_url: c.audio_url || (c.media_urls && c.media_urls[0]) || null
       }));
     }
-    if (!fresh) break;
+    // Same 1-based paging as projects: page 0 and page 1 repeat, so trust the
+    // count and the empty page, never the absence of fresh rows.
     page++;
     await sleep(300);
   }
@@ -140,7 +141,8 @@ for (const p of (meta.projects || [])) {
       seen.add(c.id); fresh++;
       rows.push(JSON.stringify({project: p.name, id: c.id}));
     }
-    if (!fresh) break;
+    // Page 0 and page 1 return identical rows — the endpoint is 1-based — so a
+    // page with nothing fresh in it is not the end. Only an empty page is.
     page++;
     await sleep(250);
   }
