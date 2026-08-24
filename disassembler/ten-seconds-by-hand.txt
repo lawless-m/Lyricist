@@ -1,0 +1,49 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+ten seconds by hand
+
+[Build — the break enters. dense, fast, clipped. the script itself, top to bottom, in the order it is written]
+hash bang, bin, bash
+set minus e, u, o pipefail
+IFS, newline and tab
+readonly VERSION, zero point one point zero
+usage, a heredoc, exit two
+die, print to standard error, exit one
+log, date plus percent F percent T, then the message
+parse_args
+case minus h, usage
+case minus v, VERBOSE equals one
+case star, die, unknown option
+shift, OPTIND minus one
+main
+cd to the target directory, or die
+shopt minus s nullglob
+for f in star, count it
+if the count is zero, log nothing found, exit zero
+newest equals
+ls minus t
+head minus one
+printf, percent s, backslash n
+main, dollar at
+two pages of it
+and the whole of it does
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+LS MINUS T
+HEAD MINUS ONE
+LS MINUS T
+TEN SECONDS BY HAND
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record, and it is a happy one]
+The best part is that nobody will ever see it.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+LS MINUS T
+HEAD MINUS ONE
+TEN SECONDS BY HAND
+LS MINUS T
+
+[Outro — strips back to the atmos it started on. does not resolve]
+chmod plus x
+time, dot slash newest dot sh
+real, zero m, zero point zero zero four s
+user, zero m, zero point zero zero one s

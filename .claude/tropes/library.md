@@ -5995,3 +5995,97 @@ gets fixed.
   argument it was carrying still holds. An eleventh distinct closing shape for the band.
 - Example: disassembler/best-you-could-hope-for
 - Logged at catalog size 222.
+
+### The build as a shell script's literal source, read top to bottom
+- Disassembler's system-text rule filled with the actual lines of a program in the order they are
+  written — shebang, set minus e u o pipefail, IFS, a usage heredoc, die, log, the option case,
+  shopt nullglob, and at the bottom the two commands that are the entire point. Deliberately not
+  disassembler/somebody-clever's inventory of defensible cleverness, where each item invites a
+  justification, and not disassembler/not-action's chain of fixes closing into a circle: nothing
+  here is clever and nothing remedies anything. The joke is sequence and length against the last
+  two lines, so the source testifies without editorial.
+- Example: disassembler/ten-seconds-by-hand
+- Logged at catalog size 223.
+
+### "The best part is that nobody will ever see it."
+- Disassembler's one-human-sentence breakdown as a **tenth grammatical shape** — copular, with a
+  subordinate that-clause — after the compound default, the second-person statement, the
+  third-person future, the question, the four-word bare statement, the single-clause superlative,
+  the fronted temporal phrase, the comparative correlative and the colon-joined pair. Territory:
+  **pleasure in unwitnessed work**, and the first breakdown in the band that is happy. The engine
+  runs unchanged — knowledge with no recipient — but for once she does not mind, which is what the
+  Douglas Adams source is actually about.
+- Example: disassembler/ten-seconds-by-hand
+- Logged at catalog size 223.
+
+### The runtime as the outro
+- Closing on the measurement that settles the joke without commenting on it — chmod plus x, then
+  time, then real zero m zero point zero zero four s — after a build describing a day's work. A
+  twelfth distinct closing shape for the band. The number is a single reading rather than a counter
+  that moved, which is the band's own rule about not always ending on a number that changed.
+- Example: disassembler/ten-seconds-by-hand
+- Logged at catalog size 223.
+
+### The build as what a document demonstrates, not what it lists
+- Disassembler's system-text rule filled from a real manual (Tom Duff's *Raster Graphics in Plan 9*)
+  by taking its worked example rather than its table of contents: there is no program to make a
+  picture taller, so you transpose it, resample it and transpose it back. Deliberately not
+  disassembler/use-this-one's bare list of real names read flat — the tool names are compressed into
+  a single line so the build can spend its length on the one idea the document is actually proving,
+  that the second program does not need to exist.
+- Example: disassembler/the-command-that-made-it
+- Logged at catalog size 224.
+
+### "There is a man whose face everyone in this trade has seen."
+- Disassembler's one-human-sentence breakdown as an **eleventh grammatical shape** — existential
+  "there is" carrying a relative clause — after the compound default, the second-person statement,
+  the third-person future, the question, the four-word bare statement, the single-clause
+  superlative, the fronted temporal phrase, the comparative correlative, the colon-joined pair and
+  the copular that-clause. Territory: **the anonymous ubiquitous**, sourced from the sample image
+  in the manual being called pjw. Present tense deliberately, since the man is alive.
+- Example: disassembler/the-command-that-made-it
+- Logged at catalog size 224.
+
+### "same Duff" — the citation collapsed into two words
+- A reference and its author identified flat and without comment: the compositing paper cited in
+  the manual is Porter and Duff, and the manual is by Duff. No claim is made about it and nothing
+  in the song returns to it.
+- Example: disassembler/the-command-that-made-it
+- Logged at catalog size 224.
+
+### The artefact's stored provenance as the outro
+- Closing on a file format's own record of how the file was made — a COMMAND field in the picfile
+  header holding the command that produced the picture, "and it has been in there the whole time".
+  A thirteenth distinct closing shape for the band, and the engine stated as a file format: the
+  knowledge is written down, correct, shipped with the artefact, and in a field nobody opens.
+- Example: disassembler/the-command-that-made-it
+- Logged at catalog size 224.
+
+### "THERE ARE NO SOCKETS" — shouted-anchor drop as a negation lifted from the specification
+- Disassembler's drop filled with what a protocol deliberately does not have, quoted straight out of
+  its own paper ("There are no Sockets. There are no socket system calls."). Distinct from
+  purple-dog's inventory-ending-in-negation, which is accusatory and totals up what was withheld:
+  nothing is withheld here and nobody is at fault — the absence is the design, stated by the people
+  who chose it.
+- Example: disassembler/shelf-three-slot-six
+- Logged at catalog size 225.
+
+### "If you ever leave, you can take it all with you."
+- Disassembler's one-human-sentence breakdown as a **twelfth grammatical shape** — a conditional
+  with a second-person main clause — after the compound default, the second-person statement, the
+  third-person future, the question, the four-word bare statement, the single-clause superlative,
+  the fronted temporal phrase, the comparative correlative, the colon-joined pair, the copular
+  that-clause and the existential with a relative. Territory: **a design decision translated into a
+  promise to a person**, from the AoE paper's plain claim that users can always get their data off
+  the blades. Warm, and unanswered like the rest.
+- Example: disassembler/shelf-three-slot-six
+- Logged at catalog size 225.
+
+### The address that is a place in a room
+- The outro non-resolution as a path that resolves to somewhere you could physically stand: shelf
+  three slot six, /dev/etherd/e3.6, the second partition e3.6p2, and the observation that the name
+  tells you where it is. A fourteenth distinct closing shape for the band, and the opposite of the
+  catalogue's usual direction — instead of knowledge arriving nowhere, an address that arrives
+  somewhere you can walk to. Sourced from the shelf's identity being set with dip switches by hand.
+- Example: disassembler/shelf-three-slot-six
+- Logged at catalog size 225.

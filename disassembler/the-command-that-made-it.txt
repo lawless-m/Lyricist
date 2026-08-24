@@ -1,0 +1,47 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+Raster Graphics in Plan 9
+
+[Build — the break enters. dense, fast, clipped. the tools are real and the header fields are real]
+Tom Duff, td at plan9 dot att dot com
+bind minus b, slash dollar cputype, slash bin, slash fb, slash bin
+a picture is a rectangular array of n byte pixels
+a byte containing zero is black
+the header is attribute equals value
+WINDOW equals, the dimensions
+CHAN equals m, monochrome
+CHAN equals rgb, full colour
+CHAN equals rgba, and the a is how much of the pixel it covers
+alpha is a fraction, stored as zero to 255
+Compositing Digital Images, Porter and Duff, SIGGRAPH, proceedings
+same Duff
+TYPE equals runcode, if it is compressed
+piccat, picinfo, picjoin, pic2ps, cvt2pic
+resample makes a picture wider or narrower
+there is no program to make it taller
+transpose it, resample it, transpose it back
+that is how you make it taller
+resample 320 pjw, pipe, transpose, pipe, resample 240, pipe, transpose
+you do not need the second program
+you need the first one and a way to turn things sideways
+and the sample image is called pjw
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+CHAN EQUALS RGBA
+COMMAND EQUALS
+CHAN EQUALS RGBA
+IT IS CALLED PJW
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+There is a man whose face everyone in this trade has seen.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+COMMAND EQUALS
+CHAN EQUALS RGBA
+IT IS CALLED PJW
+COMMAND EQUALS
+
+[Outro — strips back to the atmos it started on. does not resolve]
+there is a field in the header called COMMAND
+it holds the command that made the picture
+COMMAND equals resample 320 pjw
+it has been in there the whole time

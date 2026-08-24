@@ -1,0 +1,48 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+The ATA over Ethernet Protocol
+
+[Build — the break enters. dense, fast, clipped. every field is in the specification and every path is real]
+Brantley Coile, Sam Hopkins, Coraid, Athens, Georgia
+the common header is twenty-four bytes
+Ethernet destination address
+Ethernet source address
+Ethernet type, eight eight a two
+version, R bit, E bit, error
+shelf, slot, tag
+the Ethernet header is described here for convenience
+it is the E of AoE
+the tag comes back unchanged, so you can match the answer to the question
+best effort delivery
+if nothing comes back, ask again
+that is the whole reliability model
+there are no sockets
+there are no socket system calls
+just block special files in slash dev
+each shelf has dip switches
+each blade reads the switches and reads its own slot
+those two numbers are the address
+it does not route, and that is not a limitation
+for storage across an internetwork they tell you to use something else
+they name the something else, in their own paper
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+THERE ARE NO SOCKETS
+SHELF AND SLOT
+THERE ARE NO SOCKETS
+BEST EFFORT
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+If you ever leave, you can take it all with you.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+SHELF AND SLOT
+THERE ARE NO SOCKETS
+BEST EFFORT
+SHELF AND SLOT
+
+[Outro — strips back to the atmos it started on. does not resolve]
+shelf three, slot six
+slash dev slash etherd slash e three point six
+the second partition is e three point six p two
+the name tells you where it is in the room
+you can walk up to it
