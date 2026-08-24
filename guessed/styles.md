@@ -54,3 +54,10 @@ Core instrument/texture palette: slowed hip-hop breakbeat, Rhodes/Wurlitzer, vin
  
 ---
  
+
+- **Pronunciation and phrasing failures are catalogued in `disassembler/styles.md`** and apply to
+  every band, not just that one. Nine classes so far, all found by listening rather than predicted:
+  homographs (stochastic — re-roll), near-miss spellings (deterministic — rewrite), compound tokens,
+  British place names, run-together config tokens, coined tokens with no agreed pronunciation
+  (spell them as said — `emerald-three`'s *lol* became **loll** for this reason), initialisms read
+  as words, bare years, and a line ending in a function word being re-parsed across the break.

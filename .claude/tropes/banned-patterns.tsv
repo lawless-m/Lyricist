@@ -836,3 +836,30 @@ BAN	230	THEY ALL GOT OUT	the-bell-knows-my-name/they-all-got-out shout-back
 BAN	230	play it thin, play it early	the-bell-knows-my-name/they-all-got-out band-instruction opener
 BAN	230	did it one by one	the-bell-knows-my-name/they-all-got-out collective-action line
 BAN	230	maybe the ones who stayed	the-bell-knows-my-name/they-all-got-out bridge meditation (line-anchored: spans lines)
+BAN	231	sent to nobody	disassembler/nothing-is-sent-to-nobody thesis and drop anchor
+BAN	231	Even with nobody there	disassembler/nothing-is-sent-to-nobody breakdown sentence
+BAN	231	no timeout in the paper	disassembler/nothing-is-sent-to-nobody outro
+BAN	231	BOTH OR NEITHER	disassembler/nothing-is-sent-to-nobody drop anchor
+BAN	231	west query c	disassembler/nothing-is-sent-to-nobody CSP notation build line
+BAN	232	job running somebody else's machine	disassembler/series-is-and breakdown sentence
+BAN	232	AND GATE	disassembler/series-is-and drop anchor
+BAN	232	HE WAS TWENTY-ONE	disassembler/series-is-and drop anchor
+BAN	232	zero is a closed circuit	disassembler/series-is-and outro, Shannon's hindrance convention
+BAN	232	nothing to put it in for eighty years	disassembler/series-is-and Boole interval line
+BAN	233	standing next to impossible	disassembler/standing-next-to-impossible drop anchor, Shaney's own line
+BAN	233	Read the replies, not the posts	disassembler/standing-next-to-impossible breakdown sentence
+BAN	233	already full of people who wrote like that	disassembler/standing-next-to-impossible disguise line
+BAN	233	sour apples in every bushel	disassembler/standing-next-to-impossible outro, Shaney quote
+BAN	233	someone just like you to write to	disassembler/standing-next-to-impossible outro, Jillette line
+BAN	234	but I plan to	disassembler/but-i-plan-to drop anchor, Shaney's line
+BAN	234	swap space in the butt	disassembler/but-i-plan-to drop anchor, Shaney's line
+BAN	234	as if it were mine	disassembler/but-i-plan-to breakdown sentence
+BAN	234	the only part that is	disassembler/but-i-plan-to header outro
+BAN	234	too complicated to discuss here	disassembler/but-i-plan-to drop anchor
+BAN	235	SHOW IT DOGS	disassembler/show-it-dogs drop anchor
+BAN	235	name every part of the thing	disassembler/show-it-dogs breakdown sentence
+BAN	235	nothing else in there to come out	disassembler/show-it-dogs outro
+BAN	235	same trick each time	disassembler/show-it-dogs lineage close
+BAN	235	twelve per cent	disassembler/show-it-dogs ImageNet dog proportion
+BAN	235	had to put his cup down	disassembler/show-it-dogs outro claim
+PERM	235	horses can.t cry	the-bell-knows-my-name/they-went-up-quiet signature line — never logged until now; disassembler/show-it-dogs quotes it deliberately and is the only permitted reuse

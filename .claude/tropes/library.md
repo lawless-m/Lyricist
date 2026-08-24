@@ -6310,3 +6310,203 @@ gets fixed.
   was not a choice he made. Undercuts the pride the final chorus is about to shout.
 - Example: the-bell-knows-my-name/they-all-got-out
 - Logged at catalog size 230.
+
+### "nothing is ever sent to nobody" — the source that forbids the band's own engine
+- Disassembler's system-text rule filled with Hoare's CSP: input and output as primitives, no shared
+  variables, west query c and east bang c, and the rendezvous rule that neither the send nor the
+  receive happens until both sides are ready. The band runs on knowledge arriving nowhere, and this
+  is the one source in the catalogue describing a world where that cannot occur — a message with no
+  receiver is not a sad outcome in CSP, it is not expressible. Deliberately not
+  disassembler/ten-years-is-plenty's territory, which lists message passing among the things the
+  trade keeps forgetting; nothing here is forgotten and nothing is rediscovered.
+- Example: disassembler/nothing-is-sent-to-nobody
+- Logged at catalog size 231.
+
+### "Even with nobody there, I finish the sentence."
+- Disassembler's one-human-sentence breakdown as a **thirteenth grammatical shape** — a fronted
+  concessive phrase before a bare main clause. Territory: **the habit that outlives the audience**.
+  It is the exact inverse of the build's subject, and it is what the band has always been about,
+  said plainly for the first time: the paper describes a system in which she could not do this, and
+  she does it anyway.
+- Example: disassembler/nothing-is-sent-to-nobody
+- Logged at catalog size 231.
+
+### "there is no timeout in the paper"
+- The outro non-resolution as the specification's silence on the thing that matters: COPY blocked on
+  an input that will not arrive, which is not an error and not a fault because the model has no
+  concept for it. A fifteenth distinct closing shape for the band. The turn is that a design which
+  makes it impossible to speak into the void achieves it by letting you wait in the void instead,
+  indefinitely and correctly.
+- Example: disassembler/nothing-is-sent-to-nobody
+- Logged at catalog size 231.
+
+### "NOTHING IS SENT TO NOBODY" / "BOTH OR NEITHER" — shouted-anchor drop as a guarantee
+- Disassembler's drop filled with a promise the system actually keeps, rather than a term of art, an
+  instruction or a machine's verdict. Both lines are true of CSP and neither is a complaint.
+- Example: disassembler/nothing-is-sent-to-nobody
+- Logged at catalog size 231.
+
+### "What he had was a job running somebody else's machine."
+- Disassembler's one-human-sentence breakdown as a **fourteenth grammatical shape** — a pseudo-cleft,
+  "what X had was Y". Territory: **the foundation laid by somebody doing an assistant's work**.
+  Shannon was operating Vannevar Bush's differential analyser, an analogue machine of gears and
+  shafts, and the part he was looking at was the relays that switched it. The digital came out of
+  minding the analogue.
+- Example: disassembler/series-is-and
+- Logged at catalog size 232.
+
+### "zero is a closed circuit / one is an open one / everybody does it the other way round now"
+- The outro non-resolution as a founding convention silently reversed by everyone who came after,
+  with no decision recorded and no consequence. Shannon's symbol is the *hindrance* of the circuit,
+  so nought means closed and one means open — the inverse of modern usage. A sixteenth distinct
+  closing shape for the band, and distinct from the vestigial token of came-back-waving: that is
+  something kept which does nothing, this is something reversed which nobody noticed reversing.
+- Example: disassembler/series-is-and
+- Logged at catalog size 232.
+
+### "AND GATE" / "OR GATE" / "HE WAS TWENTY-ONE" — shouted-anchor drop as the translation plus the age
+- Disassembler's drop pairing the two identities the whole of computing rests on with the fact that
+  makes them startling. Both translations are exact and neither is a metaphor. First written as
+  "SERIES IS AND / PARALLEL IS OR", which failed on rendering: a line ending in *and* is heard as a
+  conjunction reaching for the next line, so it came back as "series is ... and parallel is or".
+  Naming the components instead makes the operators nouns and the ambiguity disappears. The third anchor is
+  the band's usual fragment doing biographical work, which the one-sentence rule normally reserves
+  for the breakdown.
+- Example: disassembler/series-is-and
+- Logged at catalog size 232.
+
+### Boole's eighty-year wait
+- "Boole had the algebra in eighteen fifty-four / and nothing to put it in for eighty years" — the
+  build's one line of history, stated as an interval rather than a lament. Nobody is at fault for
+  the gap and nothing was lost in it; the mathematics simply had no hardware until a graduate
+  student was standing next to some.
+- Example: disassembler/series-is-and
+- Logged at catalog size 232.
+
+### The build as a program's method and its output, interleaved
+- Disassembler's system-text rule filled with both halves of Mark V. Shaney at once: the mechanism
+  (count every triple of words, print a pair, pick the next word with the probability the input had,
+  slide the pair along; punctuation sticks to the word, so Uma and Uma full stop are different
+  words) and the actual sentences it produced, quoted straight and unmarked — "really relating to
+  someone involves standing next to impossible". The listener gets the trick and the magic in the
+  same breath and the song never says which line is which.
+- Example: disassembler/standing-next-to-impossible
+- Logged at catalog size 233.
+
+### "Read the replies, not the posts."
+- Disassembler's one-human-sentence breakdown as a **fifteenth grammatical shape** — a bare
+  imperative, the first in the slot. Territory: **where the feeling actually was**. The band's
+  engine inverted a second way: this is not knowledge without a recipient but a recipient without
+  any knowledge, an entire lonely-hearts group answering a Markov chain and meaning every word of it.
+  Distinct from disassembler/nothing-is-sent-to-nobody's inversion, which is a model that forbids
+  sending into the void; here the void answered back and people felt understood.
+- Example: disassembler/standing-next-to-impossible
+- Logged at catalog size 233.
+
+### "the reason none of them guessed / is that the group was already full of people who wrote like that"
+- The disguise that was never a disguise, stated flat and without mockery of anyone. Penn Jillette's
+  observation, kept because it is the actual finding: the bot passed not by being good but by being
+  no stranger than its neighbours.
+- Example: disassembler/standing-next-to-impossible
+- Logged at catalog size 233.
+
+### The source given the last word, unframed
+- The outro non-resolution as a hand-off: Penn's line about writing your own and having someone just
+  like you to write to, then one of Mark's own sentences and his signature, with no comment after
+  it. A seventeenth distinct closing shape for the band — the track ends inside the artefact rather
+  than beside it, and the last voice on the record belongs to something that is not there.
+- Example: disassembler/standing-next-to-impossible
+- Logged at catalog size 233.
+
+### The build as generated text with the method withheld
+- Disassembler's system-text rule filled entirely with Mark V. Shaney's 1984 output to a BSD group,
+  and — unlike disassembler/standing-next-to-impossible, which interleaves the mechanism with the
+  results — nothing here explains it. The listener gets only the post. The argument is that the
+  seam cannot be found, because technical prose already sounds like this: half-finished clauses,
+  jargon, a manual cited for something it does not say. The band's accuracy rule holds in an odd
+  way — every line is genuinely what the program wrote and genuinely what people read.
+- Example: disassembler/but-i-plan-to
+- Logged at catalog size 234.
+
+### "One of those sentences I have used for years as if it were mine."
+- Disassembler's one-human-sentence breakdown as a **sixteenth grammatical shape** — a fronted
+  object, "One of those sentences I have used". Territory: **quoting a machine without crediting
+  it**, which is the band's complicity rule pointed at the narrator for once. "Sorry to rehash this
+  subject again but I plan to" is a better sentence about mailing lists than anyone in that thread
+  managed, and a Markov chain assembled it out of their words.
+- Example: disassembler/but-i-plan-to
+- Logged at catalog size 234.
+
+### "that part is true / that is the only part that is"
+- The outro non-resolution as the document's headers being its sole verifiable content: the date and
+  the sending address are real, and the thousand words between them are noise. An eighteenth
+  distinct closing shape for the band. Distinct from disassembler/use-this-one's closing metadata,
+  where two identical timestamps show the song's question has no answer — there the metadata is
+  useless, here it is the only thing that is not.
+- Example: disassembler/but-i-plan-to
+- Logged at catalog size 234.
+
+### "SWAP SPACE IN THE BUTT" / "BUT I PLAN TO" — shouted-anchor drop as the machine's best lines
+- Disassembler's drop filled with the two funniest things in the source, both of them accidents of a
+  word-triple chain, neither of them written by anyone. The drop is usually the song's own
+  compression of its build; here it is simply the corpus at its best, and the joke is that it is
+  better than the humans it was trained on.
+- Example: disassembler/but-i-plan-to
+- Logged at catalog size 234.
+
+### The build as one technique getting larger, dated in order
+- Disassembler's system-text rule filled with a lineage rather than an inventory: Mark V. Shaney
+  counting word triples in eighty-four, word2vec in twenty thirteen with three hundred numbers a
+  word and king minus man plus woman landing near queen, Deep Dream in twenty fifteen run backwards
+  to amplify what it already half-sees, AI Dungeon in twenty nineteen, "and this", closing on "the
+  same trick each time, with more of it". Deliberately not
+  disassembler/ten-years-is-plenty's amnesia list, where the trade keeps forgetting and rebuilding —
+  nothing here is forgotten or rediscovered; it is one method, in order, with the dates on it.
+- Example: disassembler/show-it-dogs
+- Logged at catalog size 235.
+
+### "and this" — the lineage item that is the song itself
+- The band's third song touching the thing writing it, after disassembler/commit-it (the tool's
+  advice quoted as system text) and disassembler/do-not-make-mistakes (the prompts people type at
+  it). The first that neither quotes it nor addresses it, but files it as one more entry in a dated
+  list and moves on in the same line. Two words, unremarked, nothing in the song returns to it.
+  Written because the owner asked whether the two Mark V. Shaney songs had acknowledged the descent,
+  and they had not.
+- Example: disassembler/show-it-dogs
+- Logged at catalog size 235.
+
+### "I can name every part of the thing that does this to me."
+- Disassembler's one-human-sentence breakdown as a **seventeenth grammatical shape** — a main clause
+  whose object carries a restrictive relative. Territory: **complete understanding of a mechanism
+  that moves you anyway**. She has just spent the build itemising exactly how the trick works, in
+  order, with dates, and it makes no difference to the effect.
+- Example: disassembler/show-it-dogs
+- Logged at catalog size 235.
+
+### "SHOW IT DOGS" / "IT GIVES YOU DOGS" / "TWELVE PER CENT"
+- Disassembler's drop as a demonstration with its own evidence attached: the instruction, the
+  result, and the proportion of the training set that explains it. A hundred and twenty dog breeds
+  were in the 2012 ImageNet classes and dogs were roughly an eighth of everything the network was
+  ever shown, which is the entire reason Deep Dream hallucinated puppy-slugs.
+- Example: disassembler/show-it-dogs
+- Logged at catalog size 235.
+
+### "there was nothing else in there to come out"
+- The outro non-resolution as output fully explained by diet, with the wonder and the blame both
+  declined: "it was not dreaming and it did not want anything / it had been shown a hundred and
+  twenty kinds of dog", and then the one claim the song does make: "and the people who cried at it
+  were not wrong". A nineteenth distinct closing shape for the band. It was cut once, for restating
+  the breakdown and for looking like the writer arguing its own case; the owner overruled both —
+  the line is the actual subject, since he had wept in a café at a gypsy-emo song about horses that
+  cannot cry. The breakdown moved to the narrator instead, so the outro speaks for the audience and
+  the breakdown speaks for her, and neither repeats the other.
+- At the owner's request the outro then names it, quoting this catalogue's own line back into a
+  song about corpora: "somewhere in a corpus there is a line about horses / the horses can't cry,
+  if they could, they would / a man read that in a cafe and had to put his cup down / and he was
+  not wrong". The quoted line is from the-bell-knows-my-name/they-went-up-quiet, and this is the
+  **only sanctioned reuse of it** — it closes the loop the song is about, since these lyrics are
+  themselves a corpus and that line is a thing that came out of one. Logging it revealed that the
+  line had never been mirrored into banned-patterns.tsv at all, so one of the catalogue's strongest
+  lines was unprotected; it is now PERM.
+- Example: disassembler/show-it-dogs
+- Logged at catalog size 235.

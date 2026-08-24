@@ -74,11 +74,48 @@
   takes, which is what identified it as deterministic and worth rewriting. Before reaching for a
   rewrite, check the other take: it tells you which class you are in, and rewriting a stochastic
   miss throws away a correct word for no reason.
+- **A line ending in a function word gets re-parsed across the break.** Observed 2026-08-24 and
+  the subtlest failure so far — `series-is-and` had the couplet "series is and / parallel is or",
+  and Suno sang it as *"series is ... and parallel is or"*, hearing the **and** as a conjunction
+  reaching for the next line rather than as the operator being named. Nothing is mispronounced;
+  the phrasing is simply wrong, which makes it harder to catch than a mangled word. Line breaks are
+  not read as punctuation. Where a lyric uses a function word — *and, or, but, not, if* — as a
+  **noun**, give it a frame that cannot be misread: the fix here was "two switches in series make an
+  **and gate**", with the drop anchors becoming "AND GATE" / "OR GATE". Capitals did not help; the
+  drop was already shouting them.
+  The same song had a subtler instance the owner caught next: "a contact that opens when the coil
+  pulls **is not**" — the ear waits for a sentence that never arrives. Now "is a **not gate**".
+  A sweep of the whole catalogue for lines ending in a function word found no other cases: ordinary
+  English endings like "so who was I keeping quiet for" or "that one does not" are stranded
+  prepositions and elliptical negations, and they read correctly. The fault is not a line ending in
+  a function word, it is a function word being used as a **noun** — which in practice means only
+  where logic operators are being named.
+- **Write years in full or they are just numbers.** Observed 2026-08-24 — `series-is-and` had
+  "master's thesis, MIT, thirty-seven / Transactions of the ..., thirty-eight", which Suno reads
+  correctly and which nobody hears as 1937 and 1938. A bare two-digit year survives on the page
+  because the eye supplies the century; the ear does not. Say **nineteen thirty-seven**. Same fix
+  applied to `show-it-dogs`, whose lineage opened on a bare "eighty-four". Note that "nineteen"
+  does not trip the PERM ban on the word *nine* — the pattern is word-anchored.
+- **Initialisms get read as words.** Observed 2026-08-24 — `series-is-and` rendered `AIEE` as a
+  yelp rather than four letters. Suno has no way to know an initialism is not a word, and spacing
+  the letters is unreliable. **Expand it instead**: the line now says *Transactions of the American
+  Institute of Electrical Engineers*, which is what AIEE stands for, so the fix costs nothing and
+  gains accuracy. Only skip the expansion where the initialism is itself the well-known name and
+  the expansion would be the surprising form — nobody says International Business Machines. Note
+  what did work in the same batch: `MIT`, `ISO`, `TCP`, `BSD`, `PDP`, `VAX`.
 - **Coined tokens with no agreed pronunciation need writing out phonetically.** Observed
   2026-08-24 — `ten-years-is-plenty` could not say `chroot`, and the owner's response is the useful
   part: *"but then again who can!?"* Where a term has no settled spoken form among the people who
   use it daily, there is nothing for Suno to fall back on, so spell it the way it is actually said
-  — **cha root**, which was re-rendered and confirmed correct by ear. Distinct from the compound-splitting fix above, which repairs a word that does
+  — **cha root**, which was re-rendered and confirmed correct by ear. Second instance, and it is not a
+  Disassembler song: `guessed/emerald-three` has the line *I typed "lol"*, which came back as three
+  letters. Spelled **loll** it renders as the word people actually say. Note the cost — the written
+  lyric now carries a misspelling of the token, and the song's point is that she typed rather than
+  spoke, which the letters arguably conveyed. The owner's ear wins; these files exist to be pasted
+  into Suno, not read.
+
+  **These classes are catalogue-wide.** They live in this file because the Disassembler material
+  surfaced most of them, but every one applies to every band. Distinct from the compound-splitting fix above, which repairs a word that does
   have a correct reading. Same song: `serverless` became **server less**.
 - **`lead` is the homograph most worth rewriting rather than re-rolling.** Observed 2026-08-24 —
   "the lead author" came back as *led author*. Homographs are normally stochastic and worth a
