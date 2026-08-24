@@ -6089,3 +6089,224 @@ gets fixed.
   somewhere you can walk to. Sourced from the shelf's identity being set with dip switches by hand.
 - Example: disassembler/shelf-three-slot-six
 - Logged at catalog size 225.
+
+### "it's an hour on the train, and I have made it a border"
+- Gypsy-emo's emotional-thesis mismatch couplet in a fresh grammatical shape: a small, checkable
+  measurement in the first clause, converted by the second into something impassable that the
+  narrator admits he built. The shape is measurement-then-reinterpretation, and it carries the
+  band's complicity rule — the distance is nobody's doing but his. Distinct from
+  ultracoase/certain-too-early's "My sister's cottage sat two hundred yards past his gate... I
+  checked the distance after", which measures a distance to prove a futility; this one converts a
+  short distance into a chosen frontier.
+- Example: the-bell-knows-my-name/an-hour-on-the-train
+- Logged at catalog size 226.
+
+### "and the fiddle learns to whisper / the way they do indoors"
+- Gypsy-emo's pre-chorus personification slot, after the retired "starts confessing", "remembers",
+  "stops its weeping" and "the strings go quiet too". Fresh mechanism: the instrument does not
+  speak for the narrator here, it *assimilates* — learning the volume of the house it has been
+  brought into, which is the song's whole subject applied to the band's own signature device.
+- Example: the-bell-knows-my-name/an-hour-on-the-train
+- Logged at catalog size 226.
+
+### "Zora, does he know you can sing?"
+- Gypsy-emo's mandatory direct question, aimed at one named person and built from a domestic detail
+  rather than a moral. It asks whether the man she married knows the thing her family knew, which
+  makes the loss specific and unaccusing — nobody is blamed and the answer is not supplied.
+- Example: the-bell-knows-my-name/an-hour-on-the-train
+- Logged at catalog size 226.
+
+### "and not one of us has gone" — shout-back as collective self-indictment
+- A fresh gang-vocal mechanism for the catalogue, after the label-contradiction flips ("HE'S NOT
+  FINE", "HE'S DIFFICULT" → "WE'RE DIFFICULT"), the institution-voiced flip ("THAT'S NORMAL FOR
+  YOU" → "FOR US"), the flipped prediction and the "but God," pivot. Here the crowd does not
+  contradict an accusation or reclaim a label — it confesses. The family has repeated "she is lost
+  to us" for ten years and the last line is the room admitting that none of them made the journey.
+- Example: the-bell-knows-my-name/an-hour-on-the-train
+- Logged at catalog size 226.
+
+### "we say that she is lost to us, we say it like a fact"
+- The family's own account of a loss quoted inside the song and marked as a repetition rather than
+  a truth, so the chorus can hold the story and disbelieve it at once. Sets up the shout-back that
+  names who actually stopped travelling.
+- Example: the-bell-knows-my-name/an-hour-on-the-train
+- Logged at catalog size 226.
+
+### "we saved it from him, and we did not save it"
+- Gypsy-emo's emotional-thesis mismatch couplet in a fresh grammatical shape: the same verb stated
+  and then negated across two clauses, with the years between them left out. The construction does
+  the argument by itself — the act of protection and the failure to protect are the same act — and
+  it holds the narrator's complicity without accusing anyone.
+- Example: the-bell-knows-my-name/no-place-here
+- Logged at catalog size 227.
+
+### "and the fiddle keeps no copies / of the things it used to know"
+- Gypsy-emo's pre-chorus personification slot, after the retired "starts confessing", "remembers",
+  "stops its weeping", "the strings go quiet too" and "learns to whisper". Fresh mechanism: the
+  instrument as a medium with no archive, which turns the band's signature device into the song's
+  argument — the thing they defended from a recording machine was the one thing that could not
+  survive without one.
+- Example: the-bell-knows-my-name/no-place-here
+- Logged at catalog size 227.
+
+### "YOUR COMPUTERS HAVE NO PLACE HERE" — shout-back as the unrepentant slogan
+- A fresh gang-vocal mechanism, and the first in the catalogue that does not turn. After the
+  label-contradiction flips, the institution-voiced flip, the flipped prediction, the "but God,"
+  pivot and the collective self-indictment of an-hour-on-the-train, this one has the crowd chant
+  the line that cost them everything, word for word, still proud, after the song has spent three
+  minutes showing the bill. Nothing corrects it and the song does not comment.
+- Example: the-bell-knows-my-name/no-place-here
+- Logged at catalog size 227.
+
+### "I never asked his name, and he wrote mine in the book"
+- The asymmetry of records as a one-line confession: the stranger kept an account of the people who
+  turned him away, and they kept nothing of him. Sets the band's usual complicity in an
+  administrative fact rather than a feeling.
+- Example: the-bell-knows-my-name/no-place-here
+- Logged at catalog size 227.
+
+### Anton with his hands in his lap — the loss where nobody has died
+- Gypsy-emo's mandatory verse-2 specific human loss, filled without a death: the old player is alive
+  and in the room, can hear perfectly well, and cannot lift his hands to the strings. The grief is
+  for a living man and for a recording that was never made, which keeps the slot from defaulting to
+  a graveside and honours the standing rule against the narrator outliving what he loves.
+- Example: the-bell-knows-my-name/no-place-here
+- Logged at catalog size 227.
+
+### "his were bigger than mine, and mine are bigger than hers"
+- Gypsy-emo's emotional-thesis mismatch couplet in a fresh grammatical shape: a three-term
+  generational comparison with the narrator as the middle term, so his complicity is structural
+  rather than confessed — he is simultaneously the one who was short-changed and the one doing the
+  short-changing. Paired with "we hand it on a little worse and call it handing on".
+- Example: the-bell-knows-my-name/this-big
+- Logged at catalog size 228.
+
+### "and the fiddle tunes down a little / and tells us it's the same tune"
+- Gypsy-emo's pre-chorus personification slot, sixth fresh filling after "starts confessing",
+  "remembers", "stops its weeping", "the strings go quiet too", "learns to whisper" and "keeps no
+  copies". Mechanism: the instrument as an unreliable baseline — it is the thing measuring the
+  decline and it is quietly declining too, which is the song's whole argument stated by the band's
+  own device.
+- Example: the-bell-knows-my-name/this-big
+- Logged at catalog size 228.
+
+### "THEY WERE THIS BIG" — shout-back as a shared exaggeration
+- A fresh gang-vocal mechanism: not a flip, not a confession and not a slogan, but a lie the whole
+  room tells together, performed with the hands. After the label-contradiction flips, the
+  institution-voiced flip, the flipped prediction, the "but God," pivot, the collective
+  self-indictment of an-hour-on-the-train and the unrepentant slogan of no-place-here. Distinct
+  from ultracoase/on-the-register's "SHE FRAMED THE CERTIFICATE", which is a solo final hook
+  observing somebody else's gesture; this one is the crowd performing its own.
+- Example: the-bell-knows-my-name/this-big
+- Logged at catalog size 228.
+
+### "I have never lied about it and I have never told it straight"
+- The confession that refuses both available positions, placed where the band usually puts an
+  admission. Nothing is retracted and nothing is claimed, which is what makes it an admission.
+- Example: the-bell-knows-my-name/this-big
+- Logged at catalog size 228.
+
+### Marko sold the boat — verse-2 loss as an abandoned trade
+- Gypsy-emo's specific human loss filled with a living man who gave up the work rather than one who
+  died or lost the ability to do it: three generations held the licence, he waves from the cab of a
+  lorry now and does not look at the bank. Deliberately not the shape used one song earlier in
+  no-place-here, where the loss is a living man's hands; here nothing has been taken from the
+  person at all, and the river is still there and still called the same.
+- Example: the-bell-knows-my-name/this-big
+- Logged at catalog size 228.
+
+### "maybe there is no year to go back to that anybody actually saw"
+- Gypsy-emo's "maybe X was never Y" bridge meditation filled with the shifting baseline: the
+  remembered better year is itself inherited rather than witnessed, so the grief may have no
+  original. Turns the song's nostalgia on the narrator without excusing the decline.
+- Example: the-bell-knows-my-name/this-big
+- Logged at catalog size 228.
+
+### "she said it isn't a song, it's a fence"
+- Gypsy-emo's verse-2 specific human loss filled with a lost *function* rather than a lost person or
+  a lost reputation: the lament was taught as a safety warning about the weir, and the children now
+  sing it at the water without knowing what it is for. Deliberately not
+  the-bell-knows-my-name/best-thing-i-ever-ate's device, where a dead man's name becomes the term
+  and is used about people who were not born — that is a reputation outliving a body; this is a
+  warning outliving its meaning, and it gives the song's central choice a real cost.
+- Example: the-bell-knows-my-name/sanda-came-up
+- Logged at catalog size 229.
+
+### "I could give them the right words in a minute, and I would rather hear this"
+- Gypsy-emo's emotional-thesis mismatch couplet in a fresh grammatical shape: stated capability set
+  against stated preference, so the narrator's complicity is a choice he is making in the present
+  rather than a failure he is confessing from the past. The band's usual admission is retrospective;
+  this one is live and reversible, and he does not reverse it.
+- Example: the-bell-knows-my-name/sanda-came-up
+- Logged at catalog size 229.
+
+### "and the fiddle takes their tempo / and forgets the way it went"
+- Gypsy-emo's pre-chorus personification slot, seventh fresh filling after "starts confessing",
+  "remembers", "stops its weeping", "the strings go quiet too", "learns to whisper", "keeps no
+  copies" and "tunes down a little". Mechanism: the instrument defects — it joins the corrupted
+  version rather than testifying to the true one, so the band's own witness changes sides.
+- Example: the-bell-knows-my-name/sanda-came-up
+- Logged at catalog size 229.
+
+### "SANDA WENT DOWN, SANDA CAME UP" — shout-back as the corruption, sung happily
+- A fresh gang-vocal mechanism: the crowd performs the error the song has just explained, at
+  skipping-rope speed, accidentally giving a drowned girl a happy ending. After the
+  label-contradiction flips, the institution-voiced flip, the flipped prediction, the "but God,"
+  pivot, the collective self-indictment, the unrepentant slogan and the shared exaggeration. The
+  line is joyful and the listener is the only one who knows what it used to say.
+- Example: the-bell-knows-my-name/sanda-came-up
+- Logged at catalog size 229.
+
+### "and they sing it at the weir now, and they sing it going in"
+- The warning that has stopped working, stated flat and not acted on. Places the song's tenderness
+  and its danger in the same sentence, which is what stops the children's-voices premise being
+  sentimental.
+- Example: the-bell-knows-my-name/sanda-came-up
+- Logged at catalog size 229.
+
+### "I did not lose them. I sent them."
+- Gypsy-emo's emotional-thesis mismatch couplet in a fresh grammatical shape: the sympathetic verb
+  refused and the accurate one supplied, in two short sentences with nothing joining them. The
+  band's complicity rule at its most compressed — he is not asking to be consoled for something
+  that happened to him, he is naming what he did, and he still thinks it was right.
+- Example: the-bell-knows-my-name/they-all-got-out
+- Logged at catalog size 230.
+
+### "and the fiddle plays both parts now / and nobody hears the join"
+- Gypsy-emo's pre-chorus personification slot, eighth fresh filling. Mechanism: the instrument
+  covering for voices that are not there, and doing it well enough that the absence is inaudible —
+  which is the song's subject and also its defence of itself.
+- Example: the-bell-knows-my-name/they-all-got-out
+- Logged at catalog size 230.
+
+### "THEY ALL GOT OUT" — shout-back as a sincere boast whose triumph is the emptiness
+- A fresh gang-vocal mechanism: the village chanting its own success, meant straight, with no irony
+  available to the singers and all of it available to the listener. Distinct from
+  girlboss/best-deal-on-the-yard's verbatim-echo deadpan, where a boast is repeated so the second
+  pass carries the opposite meaning — nothing is repeated here and nothing flips; the pride is real
+  and the room is empty. Ninth distinct shout-back mechanism for the catalogue.
+- Example: the-bell-knows-my-name/they-all-got-out
+- Logged at catalog size 230.
+
+### Lidia's class of one — verse-2 loss as an institution kept running for a single person
+- Gypsy-emo's specific human loss filled with a school held open for two terms for one pupil, marked
+  at her own table with the heating off, and a register with one name in it. Fresh against the
+  band's other recent fillings: not a living man's lost capacity (no-place-here), not an abandoned
+  trade (this-big), not a warning that lost its meaning (sanda-came-up). Nobody here has failed at
+  anything; the loss is that succeeding took everyone away.
+- Example: the-bell-knows-my-name/they-all-got-out
+- Logged at catalog size 230.
+
+### "we did the good thing all together and we did it one by one"
+- Collective action with no collective decision — every family choosing correctly and separately,
+  producing an outcome none of them chose. Lets the song hold an emptied village without blaming a
+  group, which is the boundary against purple-dog.
+- Example: the-bell-knows-my-name/they-all-got-out
+- Logged at catalog size 230.
+
+### "maybe the ones who stayed are only the ones who couldn't"
+- Gypsy-emo's "maybe X was never Y" bridge meditation turned on the narrator at the last moment:
+  having spent the song as the one who did the sending, he lands on the possibility that staying
+  was not a choice he made. Undercuts the pride the final chorus is about to shout.
+- Example: the-bell-knows-my-name/they-all-got-out
+- Logged at catalog size 230.

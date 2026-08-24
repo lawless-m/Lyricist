@@ -806,3 +806,33 @@ BAN	225	THERE ARE NO SOCKETS	disassembler/shelf-three-slot-six drop anchor
 BAN	225	it is the E of AoE	disassembler/shelf-three-slot-six build line
 BAN	225	tells you where it is in the room	disassembler/shelf-three-slot-six outro
 BAN	225	each blade reads the switches	disassembler/shelf-three-slot-six dip-switch build line
+BAN	226	made it a border	the-bell-knows-my-name/an-hour-on-the-train thesis couplet
+BAN	226	fiddle learns to whisper	the-bell-knows-my-name/an-hour-on-the-train pre-chorus personification
+BAN	226	does he know you can sing	the-bell-knows-my-name/an-hour-on-the-train direct question
+BAN	226	not one of us has gone	the-bell-knows-my-name/an-hour-on-the-train shout-back
+BAN	226	play it clean, play it careful	the-bell-knows-my-name/an-hour-on-the-train band-instruction opener
+BAN	226	we say it like a fact	the-bell-knows-my-name/an-hour-on-the-train quoted family account
+BAN	227	keeps no copies	the-bell-knows-my-name/no-place-here pre-chorus personification
+BAN	227	we did not save it	the-bell-knows-my-name/no-place-here thesis couplet
+BAN	227	play it old, play it useless	the-bell-knows-my-name/no-place-here band-instruction opener
+BAN	227	COMPUTERS HAVE NO PLACE HERE	the-bell-knows-my-name/no-place-here shout-back
+BAN	227	he wrote mine in the book	the-bell-knows-my-name/no-place-here record-asymmetry line
+BAN	227	hands in his lap	the-bell-knows-my-name/no-place-here verse-2 living loss
+BAN	228	bigger than mine, and mine are bigger	the-bell-knows-my-name/this-big thesis couplet
+BAN	228	tunes down a little	the-bell-knows-my-name/this-big pre-chorus personification
+BAN	228	THEY WERE THIS BIG	the-bell-knows-my-name/this-big shout-back
+BAN	228	cast it long, cast it hopeless	the-bell-knows-my-name/this-big band-instruction opener
+BAN	228	never told it straight	the-bell-knows-my-name/this-big admission line
+BAN	228	no year to go back to	the-bell-knows-my-name/this-big bridge meditation
+BAN	229	isn't a song, it's a fence	the-bell-knows-my-name/sanda-came-up verse-2 lost function
+BAN	229	I would rather hear this	the-bell-knows-my-name/sanda-came-up thesis couplet
+BAN	229	takes their tempo	the-bell-knows-my-name/sanda-came-up pre-chorus personification
+BAN	229	SANDA (WENT DOWN|CAME UP)	the-bell-knows-my-name/sanda-came-up shout-back
+BAN	229	sing it wrong, sing it louder	the-bell-knows-my-name/sanda-came-up band-instruction opener
+BAN	229	they sing it going in	the-bell-knows-my-name/sanda-came-up failed-warning line
+BAN	230	I did not lose them. I sent them	the-bell-knows-my-name/they-all-got-out thesis couplet
+BAN	230	plays both parts now	the-bell-knows-my-name/they-all-got-out pre-chorus personification
+BAN	230	THEY ALL GOT OUT	the-bell-knows-my-name/they-all-got-out shout-back
+BAN	230	play it thin, play it early	the-bell-knows-my-name/they-all-got-out band-instruction opener
+BAN	230	did it one by one	the-bell-knows-my-name/they-all-got-out collective-action line
+BAN	230	maybe the ones who stayed	the-bell-knows-my-name/they-all-got-out bridge meditation (line-anchored: spans lines)
