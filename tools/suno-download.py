@@ -44,6 +44,7 @@ import subprocess
 import sys
 import unicodedata
 import urllib.request
+from collections import Counter
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
@@ -139,7 +140,8 @@ for (const p of (meta.projects || [])) {
       const c = pc.clip || {};
       if (!c.id || seen.has(c.id)) continue;
       seen.add(c.id); fresh++;
-      rows.push(JSON.stringify({project: p.name, id: c.id}));
+      rows.push(JSON.stringify({project: p.name, id: c.id,
+        liked: !!(c.reaction && c.reaction.reaction_type === 'L')}));
     }
     // Page 0 and page 1 return identical rows — the endpoint is 1-based — so a
     // page with nothing fresh in it is not the end. Only an empty page is.
@@ -278,10 +280,74 @@ def resolve_band(title, stems, lyrics):
 
 def folder_for(clip, filed, stems, lyrics):
     """Your filing wins; where you haven't filed, fall back to matching the lyrics."""
-    project = filed.get(clip["id"])
-    if project:
-        return PROJECT_FOLDER.get(project) or slugify(project)
+    row = filed.get(clip["id"])
+    if row:
+        return PROJECT_FOLDER.get(row["project"]) or slugify(row["project"])
     return resolve_band(clip["title"], stems, lyrics)[0]
+
+
+def band_display(folder):
+    """the-bell-knows-my-name -> The Bell Knows My Name, for the artist tag."""
+    small = {"a", "an", "and", "the", "of", "my", "in", "on", "at", "for"}
+    words = folder.split("-")
+    return " ".join(w if i and w in small else w.capitalize()
+                    for i, w in enumerate(words))
+
+
+def write_mp3s(targets, filed, dry_run):
+    """Transcode the picks to mp3 from the local WAV masters.
+
+    Never re-fetches: the master on disk is the best source there is, and Suno's
+    own mp3 would be a second lossy encode bought with the download allowance.
+    """
+    out_root = AUDIO / "mp3"
+    keep = []
+    skipped_unliked = {}
+    for clip, dest in targets:
+        band = dest.parent.name
+        if band in DERIVED or band in ("rejects", "unsorted"):
+            continue
+        if not filed.get(clip["id"], {}).get("liked"):
+            skipped_unliked[band] = skipped_unliked.get(band, 0) + 1
+            continue
+        if dest.exists():
+            keep.append((clip, dest, band, dest.stem.rsplit("--", 1)[0]))
+
+    # Both takes of a song can be Liked. Dropping the clip id makes for tidy
+    # filenames but would let the second one overwrite the first in silence, so
+    # only the names that actually clash keep it.
+    clashes = Counter((band, slug) for _, _, band, slug in keep)
+
+    plan = []
+    for clip, dest, band, slug in keep:
+        stem = slug if clashes[(band, slug)] == 1 else f"{slug}--{clip['id'][:8]}"
+        out = out_root / band / f"{stem}.mp3"
+        if out.exists() and out.stat().st_mtime >= dest.stat().st_mtime:
+            continue
+        plan.append((clip, dest, out, band))
+
+    for band, n in sorted(skipped_unliked.items()):
+        print(f"  {band}: {n} not marked Liked, so no mp3")
+    print(f"{len(plan)} mp3s to write")
+    if dry_run:
+        return
+
+    for i, (clip, src, out, band) in enumerate(plan, 1):
+        out.parent.mkdir(parents=True, exist_ok=True)
+        tmp = out.with_suffix(".mp3.part")
+        print(f"[{i}/{len(plan)}] {out.relative_to(REPO)}")
+        try:
+            subprocess.run(
+                ["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", str(src),
+                 "-codec:a", "libmp3lame", "-q:a", "0",
+                 "-metadata", f"title={clip.get('title') or out.stem}",
+                 "-metadata", f"artist={band_display(band)}",
+                 "-f", "mp3", str(tmp)],
+                check=True)
+            tmp.rename(out)
+        except Exception as e:
+            print(f"    failed: {e}", file=sys.stderr)
+            tmp.unlink(missing_ok=True)
 
 
 def existing_by_clip():
@@ -295,12 +361,15 @@ def existing_by_clip():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--mp3", action="store_true",
+                    help="write mp3s of the Liked tracks from the local WAV masters")
     ap.add_argument("--prune", action="store_true",
                     help="move files whose project changed, instead of leaving a copy behind")
     ap.add_argument("--playlists", action="store_true",
                     help="organise by your Suno playlists, keeping their running order")
     args = ap.parse_args()
 
+    filed = {}
     if args.playlists:
         rows = fetch_clips(PLAYLISTS)
         wanted = [r for r in rows if r["audio_url"] and r["status"] == "complete"]
@@ -309,7 +378,7 @@ def main():
                    for r in wanted]
     else:
         stems, lyrics = band_index()
-        filed = {r["id"]: r["project"] for r in fetch_clips(PROJECTS)}
+        filed = {r["id"]: r for r in fetch_clips(PROJECTS)}
         rows = fetch_clips()
         wanted = [r for r in rows if r["audio_url"] and r["status"] == "complete"]
         targets = [(r, AUDIO / folder_for(r, filed, stems, lyrics) /
@@ -321,6 +390,10 @@ def main():
     titles = json.loads(titles_path.read_text()) if titles_path.exists() else {}
     titles.update({r["id"][:8]: r["title"] for r in wanted if r.get("title")})
     titles_path.write_text(json.dumps(titles, indent=1, ensure_ascii=False))
+
+    if args.mp3:
+        write_mp3s(targets, filed, args.dry_run)
+        return
 
     pool = existing_by_clip()
     have_master = masters()
