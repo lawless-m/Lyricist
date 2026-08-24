@@ -4,7 +4,7 @@ A reusable brief for writing songs in the "lurker trip-hop" style — the Portis
  
 Fourth sibling spec to **gypsy-emo**, **institutional-hardcore** and **dissociative-hardcore**. Same house, fourth temperature. Gypsy-emo turns the wound inward and mournful; institutional hardcore turns it outward and furious; dissociative hardcore turns it sideways and numb. This one turns it **inward and silent** — the wound is never reported at all. The devices deliberately rhyme across all four, but the crowd device inverts, and that inversion is the whole style. Read the "no crowd" section before you write a line.
  
-**The title word is load-bearing and multivalent — keep all its meanings live.** A lurker is someone who has read every thread for fifteen years and posted in none of them: fully present, entirely unregistered, holding an opinion nobody will ever receive. It's a net-native word and a kind one — lurkers aren't despised, they're simply not counted, which is the exact temperature of this style. It also arrives out of the same 4chan lineage as the four words (*lurk moar* being the instruction that made her one). And underneath the affectionate sense sits the older one: something that lurks is something waiting, unresolved, not yet dealt with. She is both at once — the quiet reader, and the thing in the room that hasn't been addressed.
+**The title word is load-bearing and multivalent — keep all its meanings live.** A lurker is someone who has read every thread for fifteen years and posted in none of them: fully present, entirely unregistered, holding an opinion nobody will ever receive. It's a net-native word and a kind one — lurkers aren't despised, they're simply not counted, which is the exact temperature of this style. It also arrives out of the same 4chan lineage as the six words (*lurk moar* being the instruction that made her one). And underneath the affectionate sense sits the older one: something that lurks is something waiting, unresolved, not yet dealt with. She is both at once — the quiet reader, and the thing in the room that hasn't been addressed.
  
 The narrator is therefore always **a reader, not a speaker**. She knows everything about the room she's in. The room knows nothing about her. She isn't withholding out of strategy any more; it's just what she does now.
  
@@ -59,8 +59,8 @@ This style's craft section, the way collage-method is dissociative hardcore's. T
 - **A whole song is maybe 120 words.** Portishead lyrics are tiny. Most of the track is space, loop and voice. If a draft is a page of text, it's the wrong genre. Cut it in half, then take out the explaining.
 - **Short flat lines, plain vocabulary.** No inversions, no poeticism, no reaching. "I know when not to speak" beats anything ornamental. The register is a clever woman being deliberately unclever because she's tired.
 - **Repetition is the engine, and repetition changes meaning.** The same line three or four times isn't padding — it lands differently each pass because of what's happened around it. Build for that: a line in verse one that returns in the final hook meaning something worse.
-- **Concrete and domestic, never grand.** The tea, the tab, the headset, the loading screen, the letter, the bus stop, a specific year. Small nouns doing large work. Dates and numbers are especially good — *two thousand and four*, *fifteen years*, *four words* — they're flat, factual, and utterly damning.
-- **Refuse the noun.** Never name the thing directly. Count it, describe its shape, mention its length, say what she did after. **The four words are never quoted.** Naming it lets the listener file it; withholding it makes them lean in and makes her seem like someone who's had to not-say it for years, which she is.
+- **Concrete and domestic, never grand.** The tea, the tab, the headset, the loading screen, the letter, the bus stop, a specific year. Small nouns doing large work. Dates and numbers are especially good — *two thousand and four*, *fifteen years*, *six words* — they're flat, factual, and utterly damning.
+- **Refuse the noun.** Never name the thing directly. Count it, describe its shape, mention its length, say what she did after. **The six words are never quoted.** Naming it lets the listener file it; withholding it makes them lean in and makes her seem like someone who's had to not-say it for years, which she is.
 - **Dry wit, one or two beats per song.** A joke she makes at her own expense, delivered completely flat. This is what keeps it out of whinge and it's the most Beth-Gibbons-adjacent thing there is — the wry line that isn't funny by the second listen.
 - **Second person aimed at nobody in particular.** "You" who could be a man, a friend, a movement, herself at twenty-two, the listener. Never resolve it. (Rhymes with dissoc's floating pronoun, but here it's *withholding*, not drift.)
 - **One flash of legibility.** As in the sibling specs — one line that snaps into plain sense and lands hard because everything around it is oblique. Usually the drop-out line. Only one per song.
@@ -105,7 +105,7 @@ Save the size for nothing. **This style has no big moment.** It gets closer, col
  
 These songs live in territory the sibling specs don't, and the craft advice and the ethics happen to be the same advice. The brief is **genuine representation of people who don't get a voice** — so the failure mode isn't offence, it's the two ways of getting it wrong: turning her into a poster, or turning her into a victim. Both are lies about a real person.
  
-**Territory this style covers.** Social anxiety and the specific loserhood of a woman who isn't the woman she was supposed to be. Regretting career over children. Being a woman who plays games and is never quite in the room. The four words, and the fifteen years of pre-emptive male-presenting that followed. Feeling let down by a movement that told her what she'd want. Supporting something in principle and being hurt by it in person, then finding she isn't allowed to say so. A friend's win she can't feel happy about, performed anyway (`be-happy-for-her`). One theme per song, or two that share a shape — never all of them at once.
+**Territory this style covers.** Social anxiety and the specific loserhood of a woman who isn't the woman she was supposed to be. Regretting career over children. Being a woman who plays games and is never quite in the room. The six words, and the fifteen years of pre-emptive male-presenting that followed. Feeling let down by a movement that told her what she'd want. Supporting something in principle and being hurt by it in person, then finding she isn't allowed to say so. A friend's win she can't feel happy about, performed anyway (`be-happy-for-her`). One theme per song, or two that share a shape — never all of them at once.
 
 **Banked, unused territory** — double-bind situations spotted but not yet written; check this list before reaching for a theme, so a fresh one doesn't get proposed twice:
 - Grief that's aged out of its welcome — old enough that people have started saying "still?"
@@ -117,16 +117,16 @@ These songs live in territory the sibling specs don't, and the craft advice and 
 **The rules:**
  
 - **First person, one woman, one life. Never a group, never a statistic, never "they."** Not "men do this" — *he* did this, on this street, in this year. Not "immigration has consequences" — *a hand on her arm outside the Co-op at half nine and the two weeks of deciding not to mention it.* Demographic claims turn a song into a leaflet and a leaflet is both worse art and worse faith. The particular is the only honest unit and it's also the only one that moves anyone.
-- **The song is the silence, not the incident.** For every one of these themes, the thing she can't do is *report it*. Write the double bind, not the grievance. This is why the whole spec holds together: the four words and the street and the movement and the childlessness are all the same locked door, and the song is her standing on the wrong side of it being reasonable about it.
+- **The song is the silence, not the incident.** For every one of these themes, the thing she can't do is *report it*. Write the double bind, not the grievance. This is why the whole spec holds together: the six words and the street and the movement and the childlessness are all the same locked door, and the song is her standing on the wrong side of it being reasonable about it.
 - **Let her be wrong, and don't correct her.** She may conclude that nature always wins and the whole project was a lie sold to her. That's a real thing real women think, arrived at through a real life, and the song should let her think it without either endorsing it or arguing with it. Write it as **a ledger, not a manifesto** — the accounting of one person's specific losses, from which she has drawn a conclusion. A listener who disagrees with her conclusion should still believe her losses. If a line reads like it wants to win an argument, cut it; if it reads like something bitter she arrived at alone at 2am, keep it.
-- **No villains, and no absolution either.** The men in these songs are barely present — a shape at a desk, four words, a hand. They're weather. Making them monsters lets the listener off; the point is that nothing dramatic enough to complain about ever happened, which is exactly why she couldn't.
+- **No villains, and no absolution either.** The men in these songs are barely present — a shape at a desk, six words, a hand. They're weather. Making them monsters lets the listener off; the point is that nothing dramatic enough to complain about ever happened, which is exactly why she couldn't.
 - **She's complicit and she knows it.** She muted herself. She typed *ha*. She agreed. She was *pleased to be let in*. The self-implication is what makes it a real voice rather than a grievance, and it's the most painful material available.
 - **Never a solution, never a lesson, never a moral.** Nobody learns anything. The loop runs out.
 ---
  
 ## Reference example (a finished song in this style)
  
-**"Handle"** — Guessed. fifteen years of passing as no-one online, and the four words in 2004 that started it. Sits mid-dial, tipped cold. The gravity well is the arrangement she made with a room, and how well it worked.
+**"Handle"** — Guessed. fifteen years of passing as no-one online, and the six words in 2004 that started it. Sits mid-dial, tipped cold. The gravity well is the arrangement she made with a room, and how well it worked.
  
 ```
 [Verse 1 — dry slowed breakbeat, Rhodes, vinyl crackle, voice close and thin]
@@ -151,7 +151,7 @@ so who was I keeping quiet for
 [Verse 2 — same loop, one string line added, nothing else changes]
 I said "she" once. About myself.
 Two thousand and four. A thread about a game.
-Somebody typed four words
+Somebody typed six words
 and the room agreed with him.
  
 And I laughed. I typed "ha".
