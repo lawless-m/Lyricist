@@ -5,6 +5,8 @@ Usage:
   tools/suno-download.py              # sync everything new
   tools/suno-download.py --dry-run    # list what would be fetched
   tools/suno-download.py --prune      # also move files whose project changed
+  tools/suno-download.py --mp3        # transcode the picks from the local masters
+  tools/suno-download.py --prune --mp3   # the whole cycle in one pass
   tools/suno-download.py --playlists  # organise by playlist instead, keeping order
 
 Your Suno *projects* are the filter and the folder. A track you have filed
@@ -391,10 +393,6 @@ def main():
     titles.update({r["id"][:8]: r["title"] for r in wanted if r.get("title")})
     titles_path.write_text(json.dumps(titles, indent=1, ensure_ascii=False))
 
-    if args.mp3:
-        write_mp3s(targets, filed, args.dry_run)
-        return
-
     pool = existing_by_clip()
     have_master = masters()
     plan, skipped, linked, upgrades = [], 0, 0, 0
@@ -446,6 +444,8 @@ def main():
     if args.dry_run:
         for c, dest in plan:
             print(f"  {dest.relative_to(REPO)}   <- {c['title']}")
+        if args.mp3:
+            write_mp3s(targets, filed, True)
         return
 
     print("asking Suno to render WAV masters...")
@@ -478,6 +478,12 @@ def main():
             tmp_wav.unlink(missing_ok=True)
         finally:
             tmp_mp3.unlink(missing_ok=True)
+
+    # Last, so one invocation is the whole cycle: fetch what is new, refile what
+    # moved, then transcode the picks — off a single pass over the bridge rather
+    # than paying for the project and feed fetches twice.
+    if args.mp3:
+        write_mp3s(targets, filed, args.dry_run)
 
 
 if __name__ == "__main__":
