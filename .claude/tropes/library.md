@@ -6687,3 +6687,114 @@ gets fixed.
   domestic rather than abstract, and it explains nothing.
 - Example: laundry/i-must-dont
 - Logged at catalog size 239.
+
+### The build as an inventory of work maxims that contradict each other
+- Laundry's collage filled with the sayings the trade repeats at itself — do it right, do it fast,
+  measure it and cut it wherever, good enough is good enough, move fast and break things, don't let
+  perfect be the enemy of the good — stacked until they cancel. Nothing is corrected and no maxim is
+  singled out as the wrong one; they are simply all present at once, which is the actual condition.
+  Distinct from girlboss's corrected-proverb device, where one saying is repaired to land a moral,
+  and from laundry/they-hate-that, where a single self-cancelling joke becomes the mantra.
+- Example: laundry/worth-doing
+- Logged at catalog size 240.
+
+### "worth doing" — the mantra as the only fragment they all share
+- Laundry's mantra anchor filled with the two words common to every maxim in the build, so chanting
+  it chants the one thing the sayings agree on, which is nothing at all. Degrades in the final hook
+  to "worth do— / wor—". The source line — *if a job's worth doing, it's not worth doing it* — sits
+  in the verse and the final hook rather than in the mantra slot, so the aphorism is not the chant.
+- Example: laundry/worth-doing
+- Logged at catalog size 240.
+
+### "don't let the perfect be the enemy of the packing peanuts"
+- A real maxim derailed mid-sentence into the band's grotesque-retail palette, so the saying starts
+  as advice and arrives as nonsense without ever being contradicted. The collage method's
+  sound-picks-the-word rule applied to received wisdom rather than to imagery.
+- Example: laundry/worth-doing
+- Logged at catalog size 240.
+
+### "nobody has ever told me when a thing is finished"
+- Laundry's one flash of legibility, fresh shape: a plain admission of a missing definition, in the
+  middle of a hook made of definitions. The song's unstated centre is work with no completion
+  criterion, and this is the only line that comes close to naming it.
+- Example: laundry/worth-doing
+- Logged at catalog size 240.
+
+### "they are all the same tooth"
+- The floating unresolved "I" rendered as accumulated debris: what has been sanded off is in the
+  tray with everything else previously sanded off, and it is all the same. Grotesque, domestic, and
+  explains nothing — the collage rules' concrete-not-abstract requirement doing the work a thesis
+  would otherwise do.
+- Example: laundry/worth-doing
+- Logged at catalog size 240.
+
+### "and the fiddle will not finish / the bar it is already in"
+- Gypsy-emo's pre-chorus personification slot, ninth fresh filling after "starts confessing",
+  "remembers", "stops its weeping", "the strings go quiet too", "learns to whisper", "keeps no
+  copies", "tunes down a little", "takes their tempo" and "plays both parts now". Mechanism: the
+  instrument refusing to leave the present bar, which is the song's request stated in musical terms —
+  the one device in the band that can enact a subject rather than describe it.
+- Example: the-bell-knows-my-name/here-in-today
+- Logged at catalog size 241.
+
+### "tomorrow is already true, it is only not here yet"
+- Gypsy-emo's emotional-thesis mismatch couplet in a fresh grammatical shape: a flat assertion
+  followed by a concessive qualifier that concedes nothing. From the owner's own formulation of the
+  two permanent days — it is always today and there is always a tomorrow — and its companion
+  observation that this makes today the best day available, since you are never in the other one.
+  Paired with "I will say it in the morning and I am not saying it now", which is the band's
+  complicity rule in one line: the walk is kindness and cowardice in the same gesture.
+- Example: the-bell-knows-my-name/here-in-today
+- Logged at catalog size 241.
+
+### "WE ARE STILL IN TODAY" — shout-back as an assertion of the current tense
+- A tenth distinct gang-vocal mechanism for the catalogue, after the label-contradiction flips, the
+  institution-voiced flip, the flipped prediction, the "but God," pivot, the collective
+  self-indictment, the unrepentant slogan, the shared exaggeration, the corruption sung happily and
+  the sincere boast. This one neither flips nor confesses nor boasts — the room simply states where
+  it currently is, as a fact, against something that has not arrived. Defiance with no object.
+- Example: the-bell-knows-my-name/here-in-today
+- Logged at catalog size 241.
+
+### The father who did it first — verse-2 loss as the same act, one generation back
+- Gypsy-emo's specific human loss filled with the narrator discovering he is repeating something
+  done to him: his father walked him up to the top field the day before selling it, talked about
+  fencing, said nothing, and it took thirty years to understand. Fresh against the band's recent
+  fillings — not a living man's lost capacity, not an abandoned trade, not a warning that lost its
+  meaning, not a school kept open for one pupil. Nobody is blamed and the narrator is doing it too.
+- Example: the-bell-knows-my-name/here-in-today
+- Logged at catalog size 241.
+
+### "if it still lands, I am still here / it stopped landing in March"
+- Ultracoase's chanted-hook couplet in a fresh grammatical shape: a conditional used as a
+  self-diagnostic, then the date it failed. Deliberately **not** the mastery-not-resistance thesis
+  already spent at catalog size 41 ("You don't out-run X — you learn to ride it, or you
+  [consequence]"), which is the obvious rendering of the owner's line *always embrace the horror or
+  it owns you* and would have re-spent it. The amor fati pillar is carried instead by "I looked at
+  all of it on purpose and I would do it again" — the cost affirmed, with the cost stated first.
+- Example: ultracoase/it-stopped-landing
+- Logged at catalog size 242.
+
+### "I ate my lunch at that desk." — the wink as an ordinary act in an unbearable place
+- Ultracoase's single spoken wink, placed as the **opening line** rather than before the final hook,
+  and recalled in all caps as the closer. One concrete domestic fact, stated and left completely
+  alone: nothing says what the desk was for, and the listener supplies the rest. Evidence, not
+  analysis, per the band's fourth pillar.
+- Example: ultracoase/it-stopped-landing
+- Logged at catalog size 242.
+
+### "I asked her when it happened" — the living human detail as a wrong response
+- Ultracoase's mandatory concrete living human detail, filled with a child showing her father a cut
+  knee and getting a timestamp question back. The band's retired device is a dead mentor or parent;
+  this is the opposite — a living child, unharmed, and the loss is in the narrator's reply. Followed
+  by "I have got very good at the wrong question", which names the damage without explaining it.
+- Example: ultracoase/it-stopped-landing
+- Logged at catalog size 242.
+
+### "there is a category for everything / and the ones with no category are the ones you take home"
+- The job stated entirely as process — a queue sorted oldest first, a code written in a box, a
+  number to ring that has an answerphone — with nothing described. The horror is present only as an
+  absence in a taxonomy, which is both the band's state-the-fact discipline and the only decent way
+  to write this subject.
+- Example: ultracoase/it-stopped-landing
+- Logged at catalog size 242.

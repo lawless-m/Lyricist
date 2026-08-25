@@ -14,6 +14,13 @@ the next band's song.
 Drives a bridge-connected suno.com tab (see the Suno-Automation skill). Confirm
 after the fact with metadata.persona_id on the generated clip, which is the
 only ground truth.
+
+KNOWN BROKEN as of 2026-08-25: applying a voice reports "voice picker did not
+open" and does nothing. The click on "Add Voice" works — the check after it
+looks for a [role="dialog"] to confirm, and with the picker visibly open there
+are zero such elements on the page, so it bails. Reading and clearing state
+still work. Until it is fixed, apply the voice by hand and verify with a bare
+run of this tool, then check persona_id on the clip.
 """
 
 import argparse
