@@ -6586,3 +6586,38 @@ gets fixed.
   compel it. The other three points are still open, and the third still bothers him sixty years on.
 - Example: disassembler/when-it-becomes-when-it-becomes
 - Logged at catalog size 237.
+
+### The build as one sentence losing its author, dated at every step
+- Disassembler's system-text rule filled with the provenance of the security industry's most-quoted
+  line: Alperovitch says it at McAfee in August 2011 and Vanity Fair prints it with his name on;
+  the FBI director reshapes it at RSA in March 2012 and adds a third variant in the same speech;
+  the next FBI director does it again on Sixty Minutes in 2014; and in January 2015 it appears on
+  the World Economic Forum's site under a chief executive's byline with nobody's name on it at all.
+  Distinct from disassembler/show-it-dogs, which dates one technique getting larger — this is one
+  utterance being reshaped and stripped as it climbs. The subject of the sentence is not knowing you
+  have been compromised, which is also what happens to the sentence.
+- Example: disassembler/now-you-know
+- Logged at catalog size 238.
+
+### "Looking for the original, I found four of them."
+- Disassembler's one-human-sentence breakdown as a **nineteenth grammatical shape** — a participial
+  opener before a bare main clause. Territory: **the search that dissolves the thing it was looking
+  for**. No complaint is made and nobody is accused of theft; the count is the whole finding.
+- Example: disassembler/now-you-know
+- Logged at catalog size 238.
+
+### "Now you know" — the outro as the researcher's sign-off
+- The closing non-resolution handed to the man who did the work: Bejtlich traced all four variants,
+  dated them, published it on a blog in 2018 and ended cheerfully. A twenty-first distinct closing
+  shape for the band. The correction is complete, correct, free, and will change nothing about how
+  the line gets quoted — which is the engine, delivered in three words by somebody who does not
+  appear to mind.
+- Example: disassembler/now-you-know
+- Logged at catalog size 238.
+
+### "TWO TYPES OF COMPANIES" / "NOBODY'S NAME ON IT" / "FOUR VERSIONS"
+- Disassembler's drop pairing the famous half of the quote with the two facts about it nobody
+  repeats. Every anchor is a plain statement of provenance rather than a term of art or an
+  instruction.
+- Example: disassembler/now-you-know
+- Logged at catalog size 238.
