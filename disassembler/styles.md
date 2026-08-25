@@ -74,6 +74,22 @@
   takes, which is what identified it as deterministic and worth rewriting. Before reaching for a
   rewrite, check the other take: it tells you which class you are in, and rewriting a stochastic
   miss throws away a correct word for no reason.
+
+  **Repetition converts a stochastic fault into an effectively deterministic one.** Observed
+  2026-08-25 — `now-you-know` "sometimes sings *two types of come pennies*", and *companies* appears
+  five times, four of them shouted in the drops. A per-occurrence slip that lands eight times in ten
+  still leaves a clean take unlikely once a word is repeated five times, so the re-roll advice above
+  weakens sharply for hook words. **Count the occurrences before deciding.** One or two, re-roll;
+  a word carrying the hook, expect to respell it even though the fault is genuinely stochastic.
+  Confirmed the same day: after two more takes the owner reported *"not that stochastic now, both of
+  them do it"*, so at five occurrences it behaves as deterministic. Resolved by changing only the
+  four shouted anchors to **TWO TYPES OF FIRM** and leaving the single quoted line as *companies* —
+  the anchors are the song's own compression and free to change, the quotation is not. Reducing the
+  exposure beats respelling the word when most occurrences are the band's own wording rather than
+  the source's. Better still, and the owner's suggestion: **cut the problem word out of the anchor
+  altogether and repeat what remains** — "TWO TYPES / TWO TYPES". Shorter anchors are safer anyway,
+  a doubled fragment is more percussive than a phrase, and here it sets up the closing line, since
+  the song ends on "there were never two types". Prefer shortening an anchor to respelling one.
 - **A line ending in a function word gets re-parsed across the break.** Observed 2026-08-24 and
   the subtlest failure so far — `series-is-and` had the couplet "series is and / parallel is or",
   and Suno sang it as *"series is ... and parallel is or"*, hearing the **and** as a conjunction
@@ -96,6 +112,21 @@
   because the eye supplies the century; the ear does not. Say **nineteen thirty-seven**. Same fix
   applied to `show-it-dogs`, whose lineage opened on a bare "eighty-four". Note that "nineteen"
   does not trip the PERM ban on the word *nine* — the pattern is word-anchored.
+- **Stress will not land on a final function word — and this one is unsolved.** Observed
+  2026-08-25 in `now-you-know`: the quoted antithesis *"those that have been hacked, and those that
+  will be"* needs its weight on **will**, and Suno flattens it, so the past/future contrast the
+  whole line exists for does not arrive. Same underlying cause as the AND GATE problem — function
+  words get destressed — but there is no equivalent fix, because the phrase ends on two of them
+  ("will be") and the only repair is to restore the elided verb ("will be hacked"), which is an
+  alteration rather than a spelling. Where the line is a **quotation**, that trade is not free:
+  this song is a chain of custody for a sentence everyone reshapes, so improving the quote would
+  make the song another link in it. Options, in order of preference: pick a different real variant
+  that ends on a content word; leave the stress wrong and the quote exact; alter it and say so.
+  **Do not treat this as fixed by respelling.** Nothing tried so far moves it. Resolved here by the
+  third route: the owner chose "will be hacked" on the grounds that it scans better, so the song
+  carries a quote one word off from what Mueller said. Worth stating plainly rather than hiding,
+  given that the song is about a sentence everybody reshapes — it is now, very slightly, one of
+  them.
 - **Suno defaults to American pronunciation.** Observed 2026-08-25 — `series-is-and` said
   *rə-LAY* where the owner wanted the British *REE-lay*. This is not a homograph and re-rolling
   will not fix it: there is one word, two national readings, and the model has a default. Respell

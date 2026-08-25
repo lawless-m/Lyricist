@@ -24,6 +24,14 @@ the real release — and build from those. The reason `the-machine-stops` works 
 Forster's fault log and not a generic story about decay. A song assembled from convincing-sounding
 devops furniture would pass every check in this repo and be worthless.
 
+**But this is a rule against fabrication, not against craft.** Flagged by the owner 2026-08-25:
+*"we are not an encyclopedia, we can editorialize a bit."* Trimming a quote so it scans, restoring
+an elided word so the stress lands, choosing which of four real variants to use — all fine, and the
+songs are better for it. `now-you-know` says "those that will be hacked" where Mueller said "those
+that will be", because the line would not otherwise land. What is forbidden is inventing the source,
+the incident or the detail. Do not treat a small adaptation as a breach and agonise over it; do not
+manufacture a fact and call it research.
+
 **The name is load-bearing.** A disassembler turns compiled machine code back into something a
 human can nearly read — which is exactly the voice rule below. It also plainly means one who
 takes things apart.

@@ -6606,12 +6606,25 @@ gets fixed.
 - Example: disassembler/now-you-know
 - Logged at catalog size 238.
 
-### "Now you know" — the outro as the researcher's sign-off
-- The closing non-resolution handed to the man who did the work: Bejtlich traced all four variants,
-  dated them, published it on a blog in 2018 and ended cheerfully. A twenty-first distinct closing
-  shape for the band. The correction is complete, correct, free, and will change nothing about how
-  the line gets quoted — which is the engine, delivered in three words by somebody who does not
-  appear to mind.
+### "Now you know" — the sign-off, and then a fifth variant that was not in the list
+- The closing non-resolution handed to the man who did the work and then immediately overtaken:
+  Bejtlich traced all four variants, dated them, published it on a blog in 2018 and ended
+  cheerfully — and the version actually in circulation is a fifth one the owner read in a Hacker
+  News comment. "there are two types of organizations / those that have been hacked / and those
+  that know that they have been hacked / the don't has fallen out of it / the second lot are inside
+  the first lot / there were never two types". A twenty-first distinct closing shape for the band.
+  The descent is the song: a named researcher, a magazine, two FBI directors, the World Economic
+  Forum, an anonymous comment. An earlier draft closed on "both halves are the same half" and the
+  owner corrected it twice. First: there are no halves, there is a **set and a proper subset**.
+  Then twice more. **Every speaker is running the same device**: the first half of all five is the
+  same assertion, that every company has been hacked, and the second half is only about who knows.
+  A draft made a beat of the missing "don't" and he cut it — that is just better English, not a
+  reveal. What the positive phrasing actually implies is the ending: *those that know* describes
+  **sysops who went and looked**, so knowing is work rather than luck, and the aphorism is not a
+  warning about fate but a description of a job. "every company has been hacked / the difference is
+  whether anybody went and looked / that is not a warning, it is a job description / there were
+  never two types". The song opens on "there are only two types of companies" and takes it back. The correction is complete, correct, free, and arrived after
+  the sentence had already stopped meaning what it meant.
 - Example: disassembler/now-you-know
 - Logged at catalog size 238.
 
