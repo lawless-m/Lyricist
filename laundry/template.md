@@ -4,6 +4,17 @@ A reusable brief for writing songs in the "dissociative hardcore" style — the 
  
 Third sibling spec to **gypsy-emo** and **institutional-hardcore**. Same house, third temperature. Gypsy-emo turns the wound inward and mournful; institutional hardcore turns it outward and furious; this one turns it **sideways and numb**. The devices deliberately rhyme across all three — but the biggest departure is in the *words*: the other two tell a story, this one lets the story come apart on purpose. Read the collage-method section before you write a line.
 
+**Where the style came from — it was found, not chosen.** `doom-scroller` (July 2026) was written
+as a Purple Dog song and did not come out as one. The owner played it to a friend, who did not know
+what he was hearing and said: *"sounds like a real band, Lip Critic, who I want to go see."* That is
+where the reference at the top of this file comes from — a listener naming the lineage unprompted,
+which is the strongest evidence available that a style is coherent rather than a mashup. The spec
+was written afterwards, to describe what had already happened.
+
+The track itself is the band's ancestor and is not in this repo — it lives only in Suno, filed under
+Purple Dog, and it is the most-played thing in the catalogue by a factor of eight. Its lyric is
+recoverable from `metadata.prompt` on the clip if it is ever wanted.
+
 **Where the band name comes from.** We wanted robots to fold the laundry while we made music and wrote poetry — we got robots that make music and write poetry while we fold the laundry. **Laundry** is that inversion, worn as a name. It's the same joke "The Machine is Crying" is already built on (the kettle writes the villanelle, he minds the lint, "I'm not even sad about it"), and it's the actual gravity well under the whole band, not just one song's — worth keeping live as a possibility, not spending it all at once.
 
 A newer, sharper way of saying the same thing: **"the machine gets the emotions while I go through the motions."** Used as the legible spike in `second-draft` — now logged in the trope library and retired like any other device.
