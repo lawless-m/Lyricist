@@ -21,6 +21,24 @@
   one below and the slow insidious churn. If a song seems to want brightness, it probably wants the
   core variant at the followable end of the coherence dial instead — the dial is a lyric decision,
   not a production one.
+**Adding an instrument (open experiment, 2026-08-25).** At forty-odd songs the band's palette is
+still only drums, samplers and voices, and the owner's point is that a real band would have added
+something by now. Two rules learned immediately:
+
+- **Suno foregrounds whatever instrument you name.** A baritone saxophone was tried on
+  `best-before-end` and the verdict was *"wasn't so bad, but Suno puts it loud in the mix"*. The
+  instrument was not the problem, the billing was. Name it with subordinating language — *buried low
+  under the drums, as texture, never featured, never a lead* — the same lesson as naming a gang
+  vocal's placement rather than its character.
+- **Check the roster before choosing.** Violin appears in seven bands, brass in three, trombone and
+  trumpet belong to Lucy Might and Penny Rich, organ to girlboss and hobo. Sax was unclaimed, which
+  is what recommended it.
+
+Currently trialling a **distorted acid 303**, which suits the owner's own lineage — free-party acid
+and the hardcore labels — and gives the band a machine voice it did not have. **Fence it against
+ultracoase**, whose identity is a *clean* pulsing sequenced arpeggiated bassline in 80s new wave
+production: laundry's 303 is blown out, squelching and buried, never tuneful and never in front.
+
 Core instrument/texture palette to draw from: two drum kits played as *separate* parts, hardware + laptop samplers, chopped / pitched vocal used as an instrument, gang chants, driving low end — but **no guitars or bass as the backbone**, and no solos. The **sampler is the solo** (the way the violin carries gypsy-emo and the spoken monologue *is* the solo in institutional hardcore).
  
 ---

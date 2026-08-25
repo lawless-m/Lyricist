@@ -6798,3 +6798,66 @@ gets fixed.
   to write this subject.
 - Example: ultracoase/it-stopped-landing
 - Logged at catalog size 242.
+
+### "chill it, wrap it, stack it, ship it" / "keep it moving"
+- Laundry's consumption-imperative opener and mantra taken from cold-chain handling: the four verbs
+  are the actual sequence and "keep it moving" is the trade's own rule, which is also the band's
+  engine — an obligation with no completion state. Deliberately **not** the packaging phrase as the
+  chant: laundry/by-continuing already owns boilerplate-degraded-to-mantra, so BEST BEFORE END is
+  spent once, as the flash of legibility, rather than worn down by repetition.
+- Example: laundry/best-before-end
+- Logged at catalog size 243.
+
+### "BEST BEFORE END, it says, and it does not say what happens after"
+- Laundry's one flash of legibility: real packaging text quoted, then the observation that the
+  wording stops exactly where the question starts. The refuse-the-noun rule doing a whole thesis's
+  work — nothing in the song names what is coming, and the label declines to as well.
+- Example: laundry/best-before-end
+- Logged at catalog size 243.
+
+### "everything in here is going somewhere to be eaten / including Kevin"
+- The grotesque inventory that turns out to include a named person and then the machinery, stated
+  flat and immediately dropped. Distinct from the "including the narrator" constructions elsewhere
+  in the catalogue, which concede a shared ignorance — this one is a claim about destination, and
+  the joke and the horror arrive in the same word.
+- Example: laundry/best-before-end
+- Logged at catalog size 243.
+
+### "the cold is not a thing they put in, it is a thing they keep taking out"
+- A correct physical fact stated as if it were a paranoid observation, per the collage rules'
+  preference for images that are true and unexplained. Sets the building up as something engaged in
+  continuous removal without the song saying of what.
+- Example: laundry/best-before-end
+- Logged at catalog size 243.
+
+### "pick to voice" — mantra as the name of the system doing it to him
+- Laundry's mantra anchor filled with the trade's own name for voice-directed warehouse picking, so
+  the chant is the process rather than an instruction, a joke or a slogan. Degrades to "pick to
+  voi— / pick to— / pick—". Distinct from laundry/by-continuing's boilerplate-as-mantra and from
+  laundry/they-hate-that's punchline-as-mantra: nothing is being quoted at the narrator here, it is
+  simply what the thing he is inside is called.
+- Example: laundry/pick-to-voice
+- Logged at catalog size 244.
+
+### "there is no button on any of it that means I have had enough"
+- Laundry's one flash of legibility, fresh shape: an absence described in interface terms. Everything
+  in the system has a control and the one he wants is not among them, which the song states once and
+  never returns to. Pairs with "it does not say well done, it says the next one".
+- Example: laundry/pick-to-voice
+- Logged at catalog size 244.
+
+### "scan it, lift it, say it back, go"
+- Laundry's consumption-imperative hook opener built from the actual voice-picking sequence,
+  including the confirmation step — the operator reads check digits back to prove he is standing
+  where the system says he is. The band's imperative slot filled with commands a machine really
+  issues to a body, rather than ones the feed issues to a consumer.
+- Example: laundry/pick-to-voice
+- Logged at catalog size 244.
+
+### "Kevin's numbers are up on the board and Kevin is not on the board"
+- The performance league table with the person subtracted from it, stated flat and left. Second
+  appearance for Kevin after laundry/best-before-end, which is deliberate — the band's floating
+  unresolved pronoun given one fixed name across the warehouse songs, so the setting accumulates a
+  population without the songs connecting.
+- Example: laundry/pick-to-voice
+- Logged at catalog size 244.

@@ -164,7 +164,12 @@
   re-roll first, but this one has an unusually strong wrong attractor and there is almost always a
   precise substitute that removes the ambiguity for free. Here it became **"the editor"**, which is
   what Eran Hammer actually was when he took his name off OAuth 2.0 — so the fix improved the
-  accuracy as well. Apply the Slough test every time: check the replacement is still true.
+  accuracy as well. Apply the Slough test every time: check the replacement is still true. Second
+  instance, 2026-08-25: `lives` in *"nothing in this building lives here"* came back as **lyves**,
+  the plural of life rather than the verb. Same profile as *lead* — a homograph whose wrong reading
+  is a strong attractor — so rewrite rather than re-roll. **living** is unambiguous and preserves
+  the sense exactly. Others in this family worth watching: *reads, wound, tears, close, minute,
+  refuse, produce, content, invalid, bass, sow, wind, row*.
 - **Third class: British place names.** Observed 2026-08-23 — `carbon-copy`'s "a building outside
   **Slough**" defeated it. Slough is a three-way homograph (*sluff* to shed, *sloo* a swamp, *slau*
   the town) and the town is the rarest reading, so it will lose every time. The same trap is
