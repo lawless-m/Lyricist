@@ -2,7 +2,7 @@
 Communicating Sequential Processes
 
 [Build — the break enters. dense, fast, clipped. the notation is the paper's own]
-C. A. R. Hoare, Communications of the ACM, August, seventy-eight
+C. A. R. Hoare, Communications of the ACM, August, nineteen seventy-eight
 input and output are primitives
 they are not library calls, they are not a service
 there are no shared variables anywhere in it

@@ -1,0 +1,44 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+a monad is just a monoid in the category of endofunctors
+
+[Build — the break enters. dense, fast, clipped. every part of this is true and none of it helps]
+Saunders Mac Lane, Categories for the Working Mathematician, nineteen seventy-one
+a monoid is a set, an operation that takes two and gives one back
+associative, and one element that changes nothing
+an endofunctor is a functor from a category to itself
+so: things that take a category and give you the same category
+the composition is the operation, the identity is the unit
+that is the whole of the claim and the claim is correct
+in the language it is two functions, return and bind
+return puts a thing in, bind takes a thing out and puts it back
+do notation is sugar and underneath it is bind
+left identity, right identity, associativity, three laws
+the burrito, the space suit, the assembly line, the box
+every one of those tutorials was written by somebody who had just understood it
+Brent Yorgey named it: the monad tutorial fallacy
+you climb it, and from the top you cannot see the climb
+James Iry, the same year, adds one question to the end of Mac Lane
+what's the problem
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+WHAT'S THE PROBLEM
+IT IS A CORRECT SENTENCE
+WHAT'S THE PROBLEM
+CORRECT
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+To explain it I would have to forget it again.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+IT IS A CORRECT SENTENCE
+WHAT'S THE PROBLEM
+CORRECT
+WHAT'S THE PROBLEM
+
+[Outro — strips back to the atmos it started on. does not resolve]
+the sentence does not stop where the joke stops
+all told, a monad in X is just a monoid in the category of endofunctors of X
+with product replaced by composition of endofunctors
+and unit set by the identity endofunctor
+that is the rest of it
+that part is the answer

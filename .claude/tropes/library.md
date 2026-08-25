@@ -6904,3 +6904,38 @@ gets fixed.
   and lines are what must not repeat; this entry exists so a fourth is a decision rather than a drift.
 - Example: laundry/i-cant-take-more-beans
 - Logged at catalog size 245.
+
+### The build as a definition that is entirely correct and helps nobody
+- Disassembler's system-text rule filled with the monad joke taken seriously: a monoid is a set with
+  an associative operation and an identity, an endofunctor is a functor from a category to itself,
+  composition is the operation, and the claim is true. Then the language version — return and bind,
+  do-notation as sugar, the three laws — then the tutorials (the burrito, the space suit, the box),
+  every one written by somebody who had just understood it. The engine stated as mathematics:
+  precision is not explanation, and a sentence can be perfect and land nowhere.
+- Example: disassembler/whats-the-problem
+- Logged at catalog size 246.
+
+### "To explain it I would have to forget it again."
+- Disassembler's one-human-sentence breakdown as a **twentieth grammatical shape** — an infinitive
+  phrase as the subject. Territory: **understanding that destroys the ability to convey it**, which
+  is Brent Yorgey's monad tutorial fallacy stated from the inside. The build says he named it; the
+  breakdown is what it costs her.
+- Example: disassembler/whats-the-problem
+- Logged at catalog size 246.
+
+### "that is the rest of it / that part is the answer"
+- The outro non-resolution as the citation restored: the meme stops at "a monoid in the category of
+  endofunctors", and Mac Lane's actual sentence continues *"with product × replaced by composition
+  of endofunctors and unit set by the identity endofunctor"* — which is the part that explains it. A
+  twenty-second distinct closing shape for the band. Distinct from disassembler/now-you-know, where
+  a sentence mutates as it travels and nobody notices; here nothing mutates, the quotation is simply
+  cut short, and the half everybody drops is the half that would have helped.
+- Example: disassembler/whats-the-problem
+- Logged at catalog size 246.
+
+### "WHAT'S THE PROBLEM" / "IT IS A CORRECT SENTENCE"
+- Disassembler's drop pairing James Iry's 2009 addition with the song's flat defence of the thing it
+  is mocking. Neither anchor takes a side: the joke is fair and the sentence is true, and the drop
+  simply states both.
+- Example: disassembler/whats-the-problem
+- Logged at catalog size 246.
