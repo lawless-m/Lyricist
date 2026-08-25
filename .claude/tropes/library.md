@@ -6634,3 +6634,56 @@ gets fixed.
   instruction.
 - Example: disassembler/now-you-know
 - Logged at catalog size 238.
+
+### "today I must do / come tomorrow I must don't" — mantra as broken grammar
+- Laundry's mantra anchor filled with the owner's own line, kept deliberately ungrammatical: *"I
+  must don't"* is the band's sound-over-sense rule stated outright, and the wrongness is the payload
+  rather than a slip to be tidied. Degrades through the final hook to "must don— / I must do— / I
+  must— / must—" over a loop left running.
+
+  **The tenses are load-bearing and were chosen, not stumbled on.** The owner's account: *"one is
+  always present, one never."* Then, correcting me again when I overstated it: *"except both always
+  exist."* Both days are permanent fixtures — it is always today and there is always a tomorrow.
+  The obligation is therefore permanently current and the release permanently adjacent, and there is
+  no day on which the second becomes the instruction. Not duty measured against an end date, and not
+  an end that fails to exist: an end that is real, visible, one day away, and never now. My first reading of it was the softer one
+  and he corrected it. The rest of the song is built to that: a cycle called Last that does not
+  exist, a calendar that will not say until when, and Hold turning out not to be a cycle either.
+
+  Related, and where it came from: he described a larger arch under much of the catalogue as
+  **"I must do but one day it will end"** — visible in disassembler/nothing-is-sent-to-nobody's
+  "Even with nobody there, I finish the sentence", in COPY blocked with no timeout in the paper,
+  and in laundry/rest-when-im-dead.
+- Example: laundry/i-must-dont
+- Logged at catalog size 239.
+
+### "load it, run it, drain it, load it"
+- Laundry's consumption-imperative hook opener built from the band's own machine verbs, with the
+  list returning to its first word so the instruction is a loop rather than a sequence. Distinct
+  from the apology verbs of "say sorry, mean nothing…", the disposal verbs of "thank the machine,
+  name the machine, strip the machine for spares" and the scrapping verbs of "part it out, price
+  the pieces, move the meat" — nothing here is being consumed or discarded, only repeated.
+- Example: laundry/i-must-dont
+- Logged at catalog size 239.
+
+### "the machine has a cycle called Daily and there is no cycle called Last"
+- Laundry's one flash of legibility, fresh shape: an inventory of real settings ending on the one
+  that does not exist. The song never names its subject and this line does not either — it names an
+  absence in a menu, which is the collage method's "refuse the noun" rule doing the work of a thesis.
+  Set up by "the calendar says Repeats Weekly and it does not say until when" and paid off by
+  "Refresh, Daily, Rinse, Hold / Hold is not a cycle either".
+- Example: laundry/i-must-dont
+- Logged at catalog size 239.
+
+### "which one of these hands is the one that stops"
+- Laundry's question-with-no-addressee aimed at his own body, asking which part of him is the part
+  that will be the one to fail. Nothing answers it and the hook returns to the mantra.
+- Example: laundry/i-must-dont
+- Logged at catalog size 239.
+
+### "a queue of me going back as far as the door"
+- The floating unresolved "I" of the collage method rendered literally as a queue of himself, each
+  holding the same basket, the front one working and the rest waiting their turn. Grotesque and
+  domestic rather than abstract, and it explains nothing.
+- Example: laundry/i-must-dont
+- Logged at catalog size 239.
