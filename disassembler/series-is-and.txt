@@ -1,11 +1,11 @@
 [Intro — atmos and sub, no break yet. one line read flat, almost bored]
-A Symbolic Analysis of Relay and Switching Circuits
+A Symbolic Analysis of Ree-lay and Switching Circuits
 
 [Build — the break enters. dense, fast, clipped. all of it is in the thesis]
 Claude Shannon, master's thesis, MIT, nineteen thirty-seven
 Transactions of the American Institute of Electrical Engineers, nineteen thirty-eight
 he was twenty-one
-a relay is a switch that another switch closes
+a ree-lay is a switch that another switch closes
 two switches in series make an and gate
 two switches in parallel make an or gate
 a contact that opens when the coil pulls is a not gate
@@ -19,7 +19,7 @@ there is an electric combination lock in the thesis
 there is an adder in the thesis
 he was operating Vannevar Bush's differential analyser
 gears, wheels, shafts, a machine that works by turning
-and the part he was looking at was the relays that switched it
+and the part he was looking at was the ree-lays that switched it
 
 [Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
 AND GATE

@@ -96,6 +96,17 @@
   because the eye supplies the century; the ear does not. Say **nineteen thirty-seven**. Same fix
   applied to `show-it-dogs`, whose lineage opened on a bare "eighty-four". Note that "nineteen"
   does not trip the PERM ban on the word *nine* — the pattern is word-anchored.
+- **Suno defaults to American pronunciation.** Observed 2026-08-25 — `series-is-and` said
+  *rə-LAY* where the owner wanted the British *REE-lay*. This is not a homograph and re-rolling
+  will not fix it: there is one word, two national readings, and the model has a default. Respell
+  it — **ree-lay** — the same treatment as *cha root* and *loll*, and accept that the written lyric
+  now carries an odd-looking word. Applied to all three occurrences including the paper's title.
+  **Do not pre-emptively respell the rest.** A sweep of the catalogue for words with a known split
+  found *data* (17), *process* (9), *status* (5), *schedule* (5), *garage* (4), *router* (2) and
+  *privacy* (2). The audible ones are **schedule** (SHED-yool / SKED-jool), **garage**, **router**
+  (ROOT-er / ROW-ter) and **privacy** — worth listening for specifically, but every class in this
+  file earned its place by being heard rather than predicted, and mangling forty lines on a guess
+  would break that.
 - **Initialisms get read as words.** Observed 2026-08-24 — `series-is-and` rendered `AIEE` as a
   yelp rather than four letters. Suno has no way to know an initialism is not a word, and spacing
   the letters is unreliable. **Expand it instead**: the line now says *Transactions of the American

@@ -1,0 +1,44 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+page ten of an internal memo, held to a wall with a magnet
+
+[Build — the break enters. dense, fast, clipped. the memo is quoted as it stands]
+Bell Labs, October the eleventh, nineteen sixty-four
+IBM mainframes, batch mode, a fourteen oh one turning card decks into tape
+BESYS, and a PDP seven driving a Graphics two display
+the machine they commandeered a bit later to build Unix on
+Summary, what's most important
+to put my strongest concerns into a nutshell
+one: we should have some ways of connecting programs like garden hose
+screw in another segment when it becomes when it becomes necessary
+to massage data in another way
+this is the way of IO also
+two: our loader should be able to do link-loading and controlled establishment
+three: our library filing scheme should allow for rather general indexing
+responsibility, generations, data path switching
+four: it should be possible to get private system components for buggering around with
+all routines are system components
+M. D. McIlroy
+he nearly used managerial authority to get the first one built
+the third one is the one that still bothers him
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+LIKE GARDEN HOSE
+SCREW IN ANOTHER SEGMENT
+LIKE GARDEN HOSE
+FOUR POINTS
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+Nobody says why it was the tenth page and not the rest.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+SCREW IN ANOTHER SEGMENT
+LIKE GARDEN HOSE
+FOUR POINTS
+LIKE GARDEN HOSE
+
+[Outro — strips back to the atmos it started on. does not resolve]
+when it becomes when it becomes
+it is like that in the original
+he typed those three words again and it stayed
+there is a scan, you can see the damage
+nobody took it out

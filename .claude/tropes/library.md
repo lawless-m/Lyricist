@@ -6510,3 +6510,79 @@ gets fixed.
   lines was unprotected; it is now PERM.
 - Example: disassembler/show-it-dogs
 - Logged at catalog size 235.
+
+### "they hate that" — mantra as a punchline worn down to noise
+- Laundry's mantra anchor filled with the second half of a joke — *you shouldn't anthropomorphize
+  computers, they hate that* — so the phrase arrives funny, repeats until it is only a sound, and
+  degrades in the final hook to "they hate th— / they h— / they —". The joke's own structure is the
+  device: a sentence that forbids attributing feeling and attributes one in the same breath, which
+  is the band's collage method already built into the source.
+- Example: laundry/they-hate-that
+- Logged at catalog size 236.
+
+### "thank the machine, name the machine, strip the machine for spares"
+- Laundry's consumption-imperative hook opener filled with courtesy verbs escalating into disposal,
+  the same object three times. Distinct from the apology-verb opener of "say sorry, mean nothing,
+  wipe your face, keep walking" — nothing here is being repaired or excused, the politeness and the
+  scrapping are simply the same list.
+- Example: laundry/they-hate-that
+- Logged at catalog size 236.
+
+### "I thanked a cash machine in March and I meant it"
+- Laundry's one flash of legibility, fresh shape: a small true admission with a month on it, landing
+  in the middle of the smear. The band's usual spike states a condition; this one confesses a
+  harmless act and then refuses to explain it, and the "and I meant it" is what stops it being a
+  joke about himself.
+- Example: laundry/they-hate-that
+- Logged at catalog size 236.
+
+### The cartoon boiler smiling on the side of the van
+- The unstated centre made visible for one image: the engineer who fixes boilers drives a van with a
+  smiling boiler painted on it, so the anthropomorphising the song is nominally warning against is
+  already commercial, already everywhere, and nobody finds it odd. Grotesque-retail register per the
+  collage rules, and it explains nothing.
+- Example: laundry/they-hate-that
+- Logged at catalog size 236.
+
+### Gerald — the named laptop that never asked
+- Laundry's floating identity wound worn casually: the narrator names a machine, reports its age and
+  its warmth in the same breath as its dying, and puts a palm on the case the way you would on a dog.
+  Kept as texture rather than thesis, per the spec — it is why he is thin, not a point about
+  machines.
+- Example: laundry/they-hate-that
+- Logged at catalog size 236.
+
+### "when it becomes when it becomes" — the preserved typo as the outro
+- The outro non-resolution as a defect kept on purpose: McIlroy's 1964 memo repeats three words,
+  Ritchie retyped the page with the duplication intact and noted it was historically accurate, and
+  the song ends "it is like that in the original / he typed those three words again and it stayed /
+  there is a scan, you can see the damage / nobody took it out". A twentieth distinct closing shape
+  for the band. Cashes the premise bank's "the typo is the truest part", which had been written
+  against filenames and never used — a typewriter slip in a memo that produced Unix pipes is the
+  better instance. The song is named for it at the owner's request.
+- Example: disassembler/when-it-becomes-when-it-becomes
+- Logged at catalog size 237.
+
+### "LIKE GARDEN HOSE" / "SCREW IN ANOTHER SEGMENT" / "FOUR POINTS"
+- Disassembler's drop filled with a 1964 analogy and its own instruction, both quoted from the memo
+  that argued for pipes six years before anyone built them. The third anchor is the memo's size —
+  the whole of it is four numbered points on one surviving page, and one of them turned into the
+  defining idea of Unix.
+- Example: disassembler/when-it-becomes-when-it-becomes
+- Logged at catalog size 237.
+
+### "Nobody says why it was the tenth page and not the rest."
+- Disassembler's one-human-sentence breakdown as an **eighteenth grammatical shape** — a negative
+  indefinite subject taking a wh-clause as its object. Territory: **what the archive declines to
+  record**. Ritchie kept page ten on his wall under a magnet for years and never explains why that
+  page, and the omission is the only thing in the song nobody can supply.
+- Example: disassembler/when-it-becomes-when-it-becomes
+- Logged at catalog size 237.
+
+### The idea that needed rank pulled to get built
+- "he nearly used managerial authority to get the first one built" — McIlroy has said outright that
+  he came close to ordering pipes into existence. Sits against the band's engine rather than in it:
+  here the knowledge did reach somebody, and only because the person holding it had the standing to
+  compel it. The other three points are still open, and the third still bothers him sixty years on.
+- Example: disassembler/when-it-becomes-when-it-becomes
+- Logged at catalog size 237.

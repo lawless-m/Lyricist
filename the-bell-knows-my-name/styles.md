@@ -21,6 +21,14 @@
   was clicked.
   **Current preference: female**, for a while, to correct the drift. The narrator's gender is free — the songs are aimed at one person
   and almost never depend on who is singing.
+- **Name the gang vocal's placement, never its character.** Flagged 2026-08-25: `sanda-came-up`
+  came back with crowd chanting all the way through and the owner's verdict was that it spoils it.
+  Its prompt asked for *"gang vocals like a schoolyard skipping chant on the final line"* — and a
+  chant is a **character**, so Suno applied it to the whole song rather than to the line. Every
+  other song in the band says plainly *"gang vocals on the final line"* and renders correctly.
+  The spec allows a crowd on the last line and nowhere else, so say that, and say it as a negative
+  too: *solo voice throughout, no crowd and no chanting anywhere until the very end, one gang shout
+  on the final line only*. Adjectives describing how the crowd should sound are the hazard.
 - The vocal delivery on the chorus is the least predictable part — regenerate a few times to find a take where the singer actually cracks on the shout-back line.
 - Style prompt for the **darker / cinematic** flavour (recommended default):
   ```
