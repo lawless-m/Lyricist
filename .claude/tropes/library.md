@@ -6861,3 +6861,46 @@ gets fixed.
   population without the songs connecting.
 - Example: laundry/pick-to-voice
 - Logged at catalog size 244.
+
+### "I can't take more beans" — mantra as the company's own value test, said back by the body carrying it
+- Laundry's mantra anchor built from the owner's real workplace phrase: *"will this sell more
+  beans"* is the actual test any proposal is measured against where he works. The song gives it to
+  the person at the other end of the sentence, where it stops being a value proposition and becomes
+  a physical limit. Distinct from the band's other mantras — not a punchline (they-hate-that), not
+  boilerplate (by-continuing), not a process name (pick-to-voice) — this one is a refusal, and the
+  only one of them that says no.
+- Example: laundry/i-cant-take-more-beans
+- Logged at catalog size 245.
+
+### "every idea I have ever had has been weighed against a bean and lost"
+- Laundry's one flash of legibility, fresh shape: a career summarised as a series of losses to a
+  legume, stated without complaint. Sets up and pays off the verse line "upstairs they ask if a
+  thing will sell more beans / that is the test, that is the actual test, and I have no argument
+  against it" — the narrator concedes the test is correct, which is what stops it being a grievance
+  and keeps it out of purple-dog.
+- Example: laundry/i-cant-take-more-beans
+- Logged at catalog size 245.
+
+### "what is a person in tonnes"
+- Laundry's question-with-no-addressee aimed at his own body, posed as a unit conversion that does
+  not exist. Deliberately reworded off "how many is that", the quantity-question shape from
+  guessed/say-it-and-stop — that pattern had cooled and was technically available, but it is a
+  phrase rather than a device and a phrase heard twice is the thing the library exists to stop.
+- Example: laundry/i-cant-take-more-beans
+- Logged at catalog size 245.
+
+### "the beans do not know they are beans and that is the healthiest thing in here"
+- The grotesque inventory's closing observation, envy pointed at stock. Concrete, unexplained, and
+  the only line in the song that says anything about the narrator's state — obliquely, by comparing
+  him unfavourably to tinned goods.
+- Example: laundry/i-cant-take-more-beans
+- Logged at catalog size 245.
+
+### The warehouse as laundry's accumulating setting — watch, do not ration
+- Three songs now share it: best-before-end (the cold chain), pick-to-voice (voice-directed picking)
+  and this one, with Kevin recurring across two. Recorded so the *setting* is visible as a pattern
+  while the devices stay distinct — a mantra that is a rule, one that is a process name, and one
+  that is a refusal. Per the environment-is-not-a-trope principle the repeated setting is legitimate
+  and lines are what must not repeat; this entry exists so a fourth is a decision rather than a drift.
+- Example: laundry/i-cant-take-more-beans
+- Logged at catalog size 245.

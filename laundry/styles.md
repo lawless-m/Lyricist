@@ -8,7 +8,7 @@
 - **`(gang) line here` is a kept-in quirk, not a mislabeling to fix.** Strictly, writing the voice's label inside the parens (rather than in the `[tag]`) makes Suno bark the literal word "GANG" as a percussive vocal stab before the line, the same mistake the notation rules elsewhere warn against. For Laundry specifically, that stab has become a genuine textural feature of the sound across the catalogue — keep writing `(gang) part it out` / `(gang) pin the face` exactly like that; don't "correct" it to a bracketed tag.
 - Style prompt for the **fast digital-hardcore core** (recommended default):
   ```
-  digital hardcore, two live drummers playing against each other, blown-out sampler stabs instead of guitars, ranted cult-leader vocals, chanted gang hooks, chopped and pitched vocal samples, stop-start collage structure, overheated lo-fi digital production, clipping
+  digital hardcore, two live drummers playing against each other, blown-out sampler stabs instead of guitars, a Novation Bass Station analogue mono synth as grit and texture only, never the backbone and never a lead, a distorted acid 303 under the drums, ranted cult-leader vocals, chanted gang hooks, chopped and pitched vocal samples, stop-start collage structure, overheated lo-fi digital production, clipping
   ```
 - **Slow "insidious churn" variant** (the *Talon* mood — dissociation at half speed, push the dial toward pure-collage):
   ```
@@ -44,6 +44,16 @@ addition.** In a mix this dense — two drum kits, sampler stabs, chopped vocal,
 does not seem to introduce a new instrument on the strength of a prompt term; it shifts the
 character of what is already there. Both trials point the same way: the sax was audible only when
 billed loudly enough to unbalance the track, and the 303 never appeared at any setting.
+
+Then a **Novation Bass Station** — a British analogue mono, thick and raw where a 303 is squelchy —
+phrased as *grit and texture only, never the backbone and never a lead*, to respect the no-bass-as-
+backbone rule. Tried on `i-cant-take-more-beans`, and the owner's verdict was that **the sound
+hits**. That is the keeper.
+
+So the three probes ran: sax audible only when billed loudly enough to unbalance the mix, 303
+inaudible at every setting but usefully dirtier, Bass Station landing. The pattern holds throughout
+— none of them added a hearable instrument, all of them changed the texture, and the useful question
+turned out to be *which grit* rather than *which instrument*.
 
 **Keep the 303 term in the prompt** for the distortion it brings, and stop expecting to hear one.
 If an actually audible instrument is wanted, the next thing to try is a **bracketed section tag**
