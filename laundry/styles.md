@@ -14,10 +14,13 @@
   ```
   slow digital hardcore, sludgy lurching rhythm, nauseating blown-out texture that clings rather than explodes, dissociative half-spoken muttered vocals, pitched vocal loops, claustrophobic overheated production, no release, no catharsis
   ```
-- **Club/pop-adjacent variant** (the *Hex Dealer* end — brighter, catchier, then rancid; sits toward the followable end of the dial):
-  ```
-  electropunk, club-footed drum-machine-and-live-drums, catchy chanted hook, sampler hooks, snotty half-sung preacher vocals, glitchy pop-hardcore, bright then rotten, minor
-  ```
+- **Club/pop-adjacent variant — RETIRED 2026-08-25, do not use.** There was an electropunk /
+  glitchy-pop-hardcore variant here aimed at the *Hex Dealer* end of their catalogue. It was tried
+  on `worth-doing` and the owner's verdict was that it did not work; the prompt has been removed so
+  it cannot be pasted again by habit. The band has two variants and they are both proven: the core
+  one below and the slow insidious churn. If a song seems to want brightness, it probably wants the
+  core variant at the followable end of the coherence dial instead — the dial is a lyric decision,
+  not a production one.
 Core instrument/texture palette to draw from: two drum kits played as *separate* parts, hardware + laptop samplers, chopped / pitched vocal used as an instrument, gang chants, driving low end — but **no guitars or bass as the backbone**, and no solos. The **sampler is the solo** (the way the violin carries gypsy-emo and the spoken monologue *is* the solo in institutional hardcore).
  
 ---
