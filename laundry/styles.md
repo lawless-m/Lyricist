@@ -34,10 +34,23 @@ something by now. Two rules learned immediately:
   trumpet belong to Lucy Might and Penny Rich, organ to girlboss and hobo. Sax was unclaimed, which
   is what recommended it.
 
-Currently trialling a **distorted acid 303**, which suits the owner's own lineage — free-party acid
-and the hardcore labels — and gives the band a machine voice it did not have. **Fence it against
-ultracoase**, whose identity is a *clean* pulsing sequenced arpeggiated bassline in 80s new wave
-production: laundry's 303 is blown out, squelching and buried, never tuneful and never in front.
+A **distorted acid 303** was tried next — it suits the owner's own lineage, free-party acid and the
+hardcore labels. Result on `pick-to-voice`, asking for a role rather than a volume (*running under
+the drums as part of the rhythm bed, present throughout, not a lead*): **no audible 303 at all, but
+the texture changed and got noticeably more distorted, which the owner prefers.**
+
+**So the finding is that an instrument name behaves as a texture modifier here, not as an
+addition.** In a mix this dense — two drum kits, sampler stabs, chopped vocal, gang chants — Suno
+does not seem to introduce a new instrument on the strength of a prompt term; it shifts the
+character of what is already there. Both trials point the same way: the sax was audible only when
+billed loudly enough to unbalance the track, and the 303 never appeared at any setting.
+
+**Keep the 303 term in the prompt** for the distortion it brings, and stop expecting to hear one.
+If an actually audible instrument is wanted, the next thing to try is a **bracketed section tag**
+placing it at one specific point, the way the tags already control the breakdown — prompt-level
+terms have now failed twice. **Fence against ultracoase** either way: its identity is a *clean*
+pulsing sequenced arpeggiated bassline in 80s new wave production, where laundry's is blown out and
+never tuneful.
 
 Core instrument/texture palette to draw from: two drum kits played as *separate* parts, hardware + laptop samplers, chopped / pitched vocal used as an instrument, gang chants, driving low end — but **no guitars or bass as the backbone**, and no solos. The **sampler is the solo** (the way the violin carries gypsy-emo and the spoken monologue *is* the solo in institutional hardcore).
  
