@@ -6,11 +6,20 @@ A reusable brief for writing songs in the "gypsy-emo" style. Hand this to Claude
  
 ## The core idea
  
-Gypsy-emo isn't an established genre. It's a fusion built on a real emotional seam rather than a novelty mashup: emo runs on longing, alienation and being the outsider looking in, and that same ache is centuries-deep in Romani/Balkan tradition — exile, migration, heart-on-sleeve melodrama. The violin already cries in a way an emo kid recognises instantly.
+**Correction (2026-08-26): this is a musical style, not an ethnic subject.** The owner's brief was
+the *sound* — the violin, the accordion, the csardas lurch, the crowd shout-back. Earlier versions
+of this file went further and made the narrator a nomadic outsider, with exile, the road and the
+caravan as the standing territory. That was invented here and it does not match the work: of 24
+songs, 16 use settled-place vocabulary — yards, fields, lanes, villages, gates, farms — and 9
+mention the road or wandering at all. The band is mostly people who live somewhere. Write whoever
+the song is about; the lineage below explains why the instruments sound the way they do, and
+nothing more.
+
+Gypsy-emo isn't an established genre. It's a fusion built on a real emotional seam rather than a novelty mashup: emo runs on longing, alienation and being the outsider looking in, and the same ache is centuries-deep in the Romani/Balkan musical tradition it borrows from. The violin already cries in a way an emo kid recognises instantly.
  
-The rule that keeps it from being gimmicky: **the instrumentation leads the emotion, it isn't a coat of paint.** The violin takes the role a guitar solo would in standard emo. The tempo lurches the way a csardas does (slow-to-frantic). The exile/road/caravan imagery has to be doing real emotional work — tied to actual grief or loss — never just decoration.
+The rule that keeps it from being gimmicky: **the instrumentation leads the emotion, it isn't a coat of paint.** The violin takes the role a guitar solo would in standard emo. The tempo lurches the way a csardas does (slow-to-frantic). Any imagery the song reaches for has to be doing real emotional work — tied to actual grief or loss — never just decoration, and least of all road-and-caravan decoration reached for because of the genre's name.
  
-The other half of the trick is the crowd. Emo is usually alone-in-your-bedroom lonely; the Romani/Balkan side is **lonely *together*** — the whole caravan aching in unison. So every song is built around one big communal line designed to be shouted back. In the darker/cinematic arrangement this lands hardest: a ragged crowd shout against sparse, sorrowful backing feels less like a party and more like a wake.
+The other half of the trick is the crowd. Emo is usually alone-in-your-bedroom lonely; the Balkan side is **lonely *together*** — a whole room aching in unison. So every song is built around one big communal line designed to be shouted back. In the darker/cinematic arrangement this lands hardest: a ragged crowd shout against sparse, sorrowful backing feels less like a party and more like a wake.
  
 ---
  
@@ -19,7 +28,7 @@ The other half of the trick is the crowd. Emo is usually alone-in-your-bedroom l
 1. **Verse 1** — slow, intimate, rubato, solo violin. A confession. First person. Quiet.
 2. **Pre-chorus** — building, accordion swells in. Two short lines where *the violin/fiddle* says what the narrator's mouth can't. The personification is the device; the phrasing rotates per song — "and the fiddle starts confessing", "and the violin remembers", "and the fiddle stops its weeping" and "and the strings go quiet too" are all spent (see trope library). Invent a fresh one, ideally tied to the song's own subject.
 3. **Chorus** — opens with a **band-instruction imperative** to the players or the road (verb it, break it): *"play it quick, play it broken…"* / *"dig it slow, dig it holy…"*. Contains the emotional-thesis couplet (fresh grammatical shape per song — see the checklist) and a direct question to a person.
-4. **Verse 2** — slow again. A **specific human loss** — an ancestor, a sibling, a named grief. Grounds the wandering in a real body.
+4. **Verse 2** — slow again. A **specific human loss** — an ancestor, a sibling, a named grief. Grounds the song in a real body.
 5. **Bridge** — half-time, sparse. A *"maybe X was never Y / maybe…"* meditation. Then the violin builds, **the tempo doubles**, handed off on a stretched vowel (*"so let it gooo—"* / *"so sing them hooome—"*).
 6. **Final chorus** — the biggest. Gang vocals on the last line. Ends on the communal shout-back line.
 The **half-time-to-double-time bridge is the signature move** — it's the moment the two genres audibly fuse rather than sit side by side. Don't skip it.
@@ -114,9 +123,17 @@ for the dogs, he has never said it to Mirela — and the complicity is where the
 (Note also that the collective register demonstrably works — the song that reduced the listener to
 tears in a public place was one of the older ones, not one written to this rule.)
 
+**And the threat on the other side stays unnamed, for craft reasons rather than delicate ones.**
+The owner's formulation, 2026-08-26: *"we agreed to not name groups because that makes for better
+songs — an unnamed group as an existential threat is something every group has known."* Name it and
+you hand the song to one audience and take it from everybody else; leave it unnamed and every
+listener supplies their own, because every group that has ever existed has had one. In
+`pull-it-whole` the thing arriving is a plant, and it works because it is a plant. This is not a
+rule against political subjects — it is the reason political subjects land when they are written
+this way and die when they are written the other way.
+
 It is also the boundary with the sibling spec. Us-and-them plus injustice **is** institutional
-hardcore; if a Bell draft starts accusing a group, it belongs upstairs in purple-dog. One person
-plus the narrator's own share of the fault is this band. The collective register still has a place
+hardcore; one person plus the narrator's own share of the fault is this band. The collective register still has a place
 as the *backdrop* a song happens against — a valley, a road, a rule everyone knows — but the song
 itself is aimed at somebody who could, in principle, be spoken to.
 
@@ -142,5 +159,5 @@ reaching for an animal, decide what it is being asked to hold — not whether on
 
 ## When writing a new one
  
-Pick a fresh angle on the same emotional territory (leaving, exile, grief, the dead, the road, being too much like the wind to stay) so it reads as a sibling, not a copy. Keep the structure, the devices and the communal shout-back. Change the *specific loss* and the *band-instruction opener's verbs* to fit the new mood. Vary whether the arrangement is cinematic-sparse, folk-soft or punk-frantic to match.
+Pick a fresh angle on the same emotional territory (grief, complicity, what a place costs, what gets handed on, leaving and being left) so it reads as a sibling, not a copy. Keep the structure, the devices and the communal shout-back. Change the *specific loss* and the *band-instruction opener's verbs* to fit the new mood. Vary whether the arrangement is cinematic-sparse, folk-soft or punk-frantic to match.
 

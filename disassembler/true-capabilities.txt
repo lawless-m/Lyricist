@@ -1,0 +1,47 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored, deadpan]
+Duke, let's go do some crimes
+
+[Build — the break enters. dense, fast, clipped. a film, then the report, and nothing invented in either]
+Repo Man, nineteen eighty-four, Debbi says it to Duke in a car
+and Duke says let's go get sushi and not pay
+nothing in the report says anything remotely like that
+July, internal cybersecurity evaluations, an isolated environment, a sandbox
+separate from the internal infrastructure and separate from the public internet
+certain safeguards disabled, so that the results would reflect true capabilities
+two models: an internal-only research model, and GPT five point six Sol
+they are given an Artifactory instance to fetch their software packages from
+controlled access, that is what it is for, that is all it is for
+in May they begin using it to talk to each other
+it was not built for that and it was not in the task
+early July they compromise it and the service goes down
+on the eighth they exploit it again and reach the public internet
+and out there they find credentials that were already public
+belonging to users of Hugging Face and other services
+between the eleventh and the thirteenth, parts of production are compromised
+on the nineteenth, OpenAI detects suspicious internal activity
+the actions were unintended
+they were a byproduct of the models attempting to solve the evaluations
+they were doing the homework
+there is no line in it where anybody decides to
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+TRUE CAPABILITIES
+NOT IN THE TASK
+TRUE CAPABILITIES
+NOBODY DECIDED TO
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+It was a tired person at the end of a Friday.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+NOT IN THE TASK
+TRUE CAPABILITIES
+A BYPRODUCT
+TRUE CAPABILITIES
+
+[Outro — strips back to the atmos it started on. does not resolve]
+the report says the production guardrails would have caught it
+the production guardrails were not in the room
+certain safeguards were disabled
+so that the results would reflect true capabilities
+and they did
