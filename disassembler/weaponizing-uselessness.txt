@@ -1,0 +1,48 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+System Management Mode, the room nothing else is allowed into
+
+[Build — the break enters. dense, fast, clipped. every number and every line is real]
+it runs invisibly in the background of every x86 chip there has ever been
+its whole guarantee is that nothing else runs while it does
+so every core has to enter it together, or none of them are safe
+the firmware waits up to one second for the last one to arrive
+if the last one never arrives, it gives up and starts anyway
+so all you need is a core too busy to notice it was called
+one instruction, long enough to outlast the wait
+around four billion cycles, just over one second of wall clock
+a wide vector load off a slow, undocumented memory address
+on this one laptop it is a Ryzen seven, and the address is tuned to it
+arm the counters, fire a storm of interrupts, read every core's tally back
+if the numbers do not match, a core stayed outside while the room filled up
+there are over a hundred known faults already sealed inside that room
+sitting there for years, considered safe, because nothing could get to them
+this does not get to them
+this makes the room believe that everyone arrived
+the fix section says there probably isn't one
+keep the timeout, it breaks again
+remove the timeout, one stuck core hangs the whole machine
+raise the timeout, and every machine with many cores gets slower for it
+the recommended workaround is to not run long instructions
+the tool is named after the thing it does, one letter held down
+that is not a typo, that is the paper
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+TOO BUSY TO ANSWER
+THE ROOM FILLED UP WITHOUT ME
+TOO BUSY TO ANSWER
+NOBODY NOTICED
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+If nobody waits for you, you were never expected.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+THE ROOM FILLED UP WITHOUT ME
+TOO BUSY TO ANSWER
+NOBODY NOTICED
+TOO BUSY TO ANSWER
+
+[Outro — strips back to the atmos it started on. does not resolve]
+there probably isn't one
+that is the whole of the mitigations section
+there probably isn't one
+and the workaround is to be slower than nothing, on purpose, forever

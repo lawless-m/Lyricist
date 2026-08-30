@@ -7092,3 +7092,239 @@ gets fixed.
   one thing it was not for, by parties who were never told they could.
 - Example: disassembler/true-capabilities
 - Logged at catalog size 250.
+
+### "winter will end, and that is the smallest true thing that I own"
+- Gypsy-emo's emotional-thesis mismatch couplet in a fresh grammatical shape: a true statement
+  followed by an assessment of its own size. The consolation is correct — winter does end — and the
+  couplet's second half concedes that being correct is not the point, which is the band's complicity
+  rule applied to comfort rather than to harm.
+- Example: the-bell-knows-my-name/winter-will-end
+- Logged at catalog size 251.
+
+### "and the fiddle will not hold its tuning / in a room this cold"
+- Gypsy-emo's pre-chorus personification slot, eleventh fresh filling. Mechanism: a physical fact
+  about instruments in the cold doing the song's argument — the consolation will not hold either,
+  for the same reason and in the same room. The device is at its best when the instrument's real
+  behaviour is the metaphor rather than a granted human faculty.
+- Example: the-bell-knows-my-name/winter-will-end
+- Logged at catalog size 251.
+
+### The wood that is not in — verse-2 loss as an undone chore
+- Gypsy-emo's specific human loss with the cause withheld entirely: Lena has had the wood in by the
+  first week of October for as long as the narrator has known the house, and this year it is not in.
+  Nothing says why — illness, age, grief, and the song declines to choose. Fresh against the band's
+  other fillings, and the strongest form of the refuse-the-noun instinct in this band: the loss is
+  legible only as a task that did not happen.
+- Example: the-bell-knows-my-name/winter-will-end
+- Logged at catalog size 251.
+
+### "Lena, shall I bring the wood in?" — the direct question as the offer he should have made
+- Gypsy-emo's mandatory direct question filled with a practical offer rather than a moral one,
+  placed immediately after the platitude it should have replaced. Paid off in verse 2: "I have stood
+  in that kitchen and offered her a fact." The complicity is not cruelty or absence — he was there,
+  he had the afternoons, and he gave her something true instead of something useful.
+- Example: the-bell-knows-my-name/winter-will-end
+- Logged at catalog size 251.
+
+### "WINTER WILL END" — shout-back as a small consolation meant sincerely
+- A twelfth distinct gang-vocal mechanism. Not a flip, a boast, a confession, a slogan, a refusal or
+  an assertion of the present tense: a room repeating the one thing it is sure of, knowing the song
+  has just called it the smallest true thing available. Distinct from they-all-got-out's sincere
+  boast, which is proud — this one is comfort, offered by people who need it and have nothing
+  larger.
+- Example: the-bell-knows-my-name/winter-will-end
+- Logged at catalog size 251.
+
+### "everybody gets in" — mantra as knowing complicity
+- Laundry's mantra anchor for a song in which nobody is deceived. Everyone knows what is in the
+  water, and everyone gets in, and the chant is that fact worn down until it stops sounding like a
+  decision. Distinct from the band's other mantras — not a punchline, not boilerplate, not a process
+  name, not a refusal, not a rule — this one is a description of what people do anyway.
+- Example: laundry/everybody-gets-in
+- Logged at catalog size 252.
+
+### "that smell is not the chlorine, that smell is what the chlorine made / it made it out of us"
+- Real chemistry as the opening image: the strong pool smell is chloramine, formed when chlorine
+  reacts with what swimmers bring in. The song states it flat and adds the only editorial it allows
+  itself — "we are one half of it" — so the grotesque is factual rather than invented, per the
+  collage rules' concrete-and-physical requirement.
+- Example: laundry/everybody-gets-in
+- Logged at catalog size 252.
+
+### "the dye that shows it up was never real, they made that up for children"
+- Laundry's one flash of legibility, fresh shape: a deterrent revealed as a fiction, in a song about
+  a thing everybody does. The lie was told to stop it and it did not, and the line is the only place
+  the song acknowledges being lied to rather than complicit.
+- Example: laundry/everybody-gets-in
+- Logged at catalog size 252.
+
+### "we do not talk about it because talking about it closes the pool / and the pool is the best thing this town has left"
+- The unstated centre brought within one inch of being stated, then dropped. The silence is not
+  cowardice, it is load-bearing and correct: naming the thing would remove the thing, and what would
+  be lost is worth more than the honesty. Generalises well beyond a swimming pool, which is why the
+  song never widens it — the reader does that unaided. Returns in the final hook as the line before
+  the mantra.
+- Example: laundry/everybody-gets-in
+- Logged at catalog size 252.
+
+### "WHO HAS" / "TELL" — drop anchors lifted verbatim off the wire
+- Disassembler's drop filled with the literal text of an ARP request — *who has 10.0.0.5, tell
+  10.0.0.1* — which is a machine asking a question in a register that sounds human and is not. The
+  band's system-text rule at its purest: nothing is adapted, and the poignancy is an accident of
+  protocol design.
+- Example: disassembler/who-has
+- Logged at catalog size 253.
+
+### "Half of what arrives for me was meant for somebody else."
+- Disassembler's one-human-sentence breakdown as a **twenty-second grammatical shape** — a partitive
+  quantifier as the subject. Territory: **inheriting somebody else's correspondence**. Sits directly
+  on the build, which lists what still points at the previous holder of the address: cached records,
+  a switch with their hardware against your number, mail, a backup, a printer still convinced.
+- Example: disassembler/who-has
+- Logged at catalog size 253.
+
+### "it is called the lease file and it is not a memorial"
+- The record that contains everyone and is not for remembering. A DHCP server keeps every holder of
+  every address with times attached, which is a complete history nobody will ever read for that
+  purpose. The band's engine as a file format, and the line refuses the sentiment it invites.
+- Example: disassembler/who-has
+- Logged at catalog size 253.
+
+### The link-local address — the outro as a name you give yourself when nothing answers
+- The closing non-resolution: when no server replies, the machine assigns itself a link-local
+  address, from which it can reach anything on that wire — and there is nothing on that wire. A
+  twenty-fourth distinct closing shape for the band. Self-sufficiency and total isolation are the
+  same state, described by a standard, with no comment added.
+- Example: disassembler/who-has
+- Logged at catalog size 253.
+
+### The DHCP pool and the swimming pool — a deliberate pair across two bands
+- laundry/everybody-gets-in and disassembler/who-has are the same object seen twice: a shared
+  resource everybody dips into, with no memory of who was in it before and residue from the last
+  occupant. The owner's origin for both was thinking of the swimming-pool line while talking about
+  DHCP. **Neither song mentions the other or the other's frame** — laundry stays entirely at the
+  pool, Disassembler entirely on the wire — and the pairing exists only for a listener who happens
+  to hear both. Logged so the connection is not spent by being pointed at later.
+- Example: laundry/everybody-gets-in, disassembler/who-has
+- Logged at catalog size 253.
+
+### "we had to want it" — mantra as the friction that used to stand in for protection
+- Laundry's mantra anchor for the video-nasty song. The subject is not what was watched but what it
+  cost to watch it: a third-generation tape, a person who knew a person, a wait, a room with the
+  curtains shut. Paid off by the flash of legibility — "the tape was hard to get and that was the
+  only thing protecting anybody" — which concedes that the protection was never moral, only
+  inconvenient, and that removing the inconvenience removed everything.
+- Example: laundry/we-had-to-want-it
+- Logged at catalog size 254.
+
+### The song that describes nothing
+- Laundry's refuse-the-noun rule at its strictest and most necessary: a song about extreme material
+  in which no image, act or event is described at any point. Everything is apparatus — tracking
+  lines, a hiss you could lean on, the DPP list, a grid of stills, a comment section discussing the
+  camerawork, a thumb that has learned the distance. The horror is entirely in the change of
+  friction between the two verses, and the owner's own experience supplied both ends of it.
+- Example: laundry/we-had-to-want-it
+- Logged at catalog size 254.
+
+### "I deny it has done me any harm / perhaps that is the harm it has done me"
+- The owner's own line, and the song's real ending. A denial that convicts itself in the second
+  clause without retracting the first — both halves stand, which is the band's self-cancelling
+  register in its purest form and considerably better than the flat statement it replaced. Placed
+  after the standing "and I'm not even shocked", so verse 2 closes on under-reaction, then denial,
+  then the fold.
+
+  That also moves the kept device: "and I'm not even [adjective]" appears in twenty-four songs as
+  the verse-1 closer and sits here at the end of verse 2. Earned rather than habitual — the song's
+  subject is a reaction that no longer arrives, so the device is the thesis rather than a decoration
+  on it. First recorded instance of moving it.
+- Example: laundry/we-had-to-want-it
+- Logged at catalog size 254.
+
+### "my thumb knows the distance without me, it has learned the distance"
+- Agency relocated to the hand, stated flat. Rhymes deliberately with laundry/nobody-gets-hurt's "my
+  feet are doing it without me, which is fine, which is efficient" — the same relocation twice, in
+  two different bodies and two different rooms, and logged together so a third instance is a
+  decision.
+- Example: laundry/we-had-to-want-it
+- Logged at catalog size 254.
+
+### "the loop is a fault" — the build as a proof carried further than the proof needed
+- Disassembler's system-text rule filled from the M/o/Vfuscator's readme: everything a program does
+  performed with one instruction, with the readme's own insistence quoted — "no self-modifying code,
+  no transport-triggered calculation, no other form of non-mov cheating". The turn is that Stephen
+  Dolan's paper proved mov Turing-complete but still needed one jump, and Domas removed it by using
+  a **faulting mov** for the infinite loop, so the control flow of every program compiled this way
+  is a deliberate crash. The readme then offers alternatives for anyone who thinks that still counts
+  as jumping, which is the funniest and most rigorous paragraph in it.
+- Example: disassembler/i-thought-it-would-be-funny
+- Logged at catalog size 255.
+
+### "It takes a certain kind of person to finish a joke."
+- Disassembler's one-human-sentence breakdown as a **twenty-third grammatical shape** — an
+  extraposed subject, "it takes X to Y". Territory: **the distance between having the idea and doing
+  the work**. Everyone in the trade has had the thought; one person wrote a complete C compiler to
+  land it, and the sentence declines to say which kind of person she is.
+- Example: disassembler/i-thought-it-would-be-funny
+- Logged at catalog size 255.
+
+### "why did you make this / I thought it would be funny"
+- The outro non-resolution as the source's own FAQ, quoted whole: one question, one answer, no
+  defence offered and none needed. A twenty-fifth distinct closing shape for the band. Distinct from
+  disassembler/standing-next-to-impossible's sign-off, which hands the last word to the artefact —
+  this hands it to the author, and it is the only motive stated anywhere in the song.
+- Example: disassembler/i-thought-it-would-be-funny
+- Logged at catalog size 255.
+
+### "ONLY MOV" / "NO CHEATING" / "THE LOOP IS A FAULT"
+- Disassembler's drop built from a constraint, its enforcement, and its cost. All three are the
+  project's own terms, and the third is the price of the second — the rule against jumping is kept
+  by crashing on purpose, forever.
+- Example: disassembler/i-thought-it-would-be-funny
+- Logged at catalog size 255.
+
+### The build as a real exploit's mechanism, quoted procedurally
+- Disassembler's system-text rule filled from Christopher Domas's `smiiiiiiiiiiiiiiii`: System
+  Management Mode's whole guarantee is that nothing else runs while it does, which requires every
+  CPU core to enter it together; firmware waits up to one second for the last core and gives up if
+  it never arrives; the break is a single instruction tuned to outlast that second, timed in real
+  cycles (~4 billion, "just over one second"), off a real slow MMIO address on a named laptop chip.
+  Distinct from disassembler/true-capabilities' incident report — that quotes an institution's
+  after-the-fact account of what happened; this quotes a working method for making something happen,
+  told in the researcher's own procedural voice.
+- Example: disassembler/weaponizing-uselessness
+- Logged at catalog size 256.
+
+### "there are over a hundred known faults already sealed inside that room... this does not get to them, this makes the room believe that everyone arrived"
+- The band's engine turned around: usually knowledge sits with nobody to receive it; here a hundred-
+  plus known vulnerabilities have sat safely unreachable for years, and the exploit's whole
+  contribution is not a new hole but a new *route to old ones*, achieved by lying to a synchronization
+  check rather than breaking anything. Nothing is invented, all attributed to the source's own
+  framing of the CVEs it reactivates.
+- Example: disassembler/weaponizing-uselessness
+- Logged at catalog size 256.
+
+### "the fix section says there probably isn't one" — the outro as a security paper's own admission of no mitigation
+- The outro non-resolution as the source's plainest sentence, restated rather than softened: keep
+  the timeout and it breaks again, remove it and one stuck core hangs the machine, raise it and every
+  many-core platform gets slower. A twenty-sixth distinct closing shape for the band — not a
+  vestigial token, not a preserved typo, not a citation restored, but a professional shrug quoted
+  straight, closing on "the workaround is to be slower than nothing, on purpose, forever".
+- Example: disassembler/weaponizing-uselessness
+- Logged at catalog size 256.
+
+### "If nobody waits for you, you were never expected."
+- Disassembler's one-human-sentence breakdown as a **twenty-fourth grammatical shape** — a
+  conditional with a passive-adjacent main clause. Territory: **absence read backwards as non-
+  existence**. Drawn straight from the exploit's own logic — a core that fails to answer the
+  rendezvous isn't recorded as missing, the room simply proceeds as if it had never been invited —
+  turned once, at the edge, into a sentence about a person.
+- Example: disassembler/weaponizing-uselessness
+- Logged at catalog size 256.
+
+### "the tool is named after the thing it does, one letter held down / that is not a typo, that is the paper"
+- Distinct from disassembler/when-it-becomes-when-it-becomes's preserved-typo outro, which keeps a
+  genuine slip because retyping it faithfully mattered. Here nothing was ever a mistake: the repo
+  name `smiiiiiiiiiiiiiiii` visually enacts the long interrupt it describes, on purpose, and the
+  build states the distinction rather than leaving it to be assumed.
+- Example: disassembler/weaponizing-uselessness
+- Logged at catalog size 256.

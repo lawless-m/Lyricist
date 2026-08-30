@@ -1,0 +1,42 @@
+[Intro — atmos and sub, no break yet. one line read flat, almost bored]
+the single instruction C compiler
+
+[Build — the break enters. dense, fast, clipped. all of it is in the readme]
+Chris Domas, the M o V fuscator, short o, sounds like mobfuscator
+it compiles programs into mov instructions, and only mov instructions
+arithmetic, through mov
+comparisons, through mov
+jumps, function calls, everything a program needs, through mov
+no self-modifying code, no transport-triggered calculation
+no other form of non-mov cheating, and that is the phrase in the readme
+Stephen Dolan proved it first, mov is Turing-complete, that is the paper
+Dolan's proof still needed one jump
+this does not need one
+it uses a faulting mov to get the infinite loop
+the control flow is a crash, on purpose, forever
+and if that still counts as jumping, the readme offers you alternatives
+pages aliased to the same address, wrapping round the top of memory
+ring zero exception handling, or just repeating the loop until you stop
+the control flow graph of a program compiled this way is one long line
+it compiles a game, with curses, and you can play it
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+ONLY MOV
+NO CHEATING
+ONLY MOV
+THE LOOP IS A FAULT
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+It takes a certain kind of person to finish a joke.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+NO CHEATING
+ONLY MOV
+THE LOOP IS A FAULT
+ONLY MOV
+
+[Outro — strips back to the atmos it started on. does not resolve]
+there is a frequently asked questions section
+there is one question in it
+why did you make this
+I thought it would be funny
