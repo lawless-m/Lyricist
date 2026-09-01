@@ -219,6 +219,29 @@ version suffixes and bracketed duplicates all survived. Punctuation-dense text w
 unspeakable and is not — do not pre-emptively translate system text into how a person would say it
 aloud without testing first.
 
+**And now it has been tested, so here is the other half.** The rule above still holds — assume it
+can say the thing — but three faults turned up in one sitting, all of them found by ear and none
+of them visible on the page. `readme` came out *red me*. `capabilities` came out *cap abalities*.
+In laundry, `tabard` came out *t'bard*. The pattern is not punctuation, which survives fine: it is
+**ordinary words whose stress or vowel the model gets wrong**, and long words in the all-caps drop
+anchors are the worst place for it, because the fault then lands on the hook and repeats.
+
+Two remedies, and the owner picked the second one twice:
+
+- **Respell it phonetically.** `readme` → `reed me` is confirmed working — the two takes with the
+  old spelling were marked down and the corrected take was kept. Reach for this when the word is
+  load-bearing and nothing else will do.
+- **Use a different word.** Usually better. `capabilities` → `TRUE LIMITS`, `tabard` → `high-vis`.
+  Accuracy forbids fabrication, not adaptation, so a quoted phrase can lose a word without losing
+  its register — and in the tabard case the replacement was the term the audience already uses,
+  which the song wanted anyway.
+
+Two things that follow. If the term already appears elsewhere in the catalogue, **match the
+spelling that has already rendered** rather than inventing a third — `high-vis` was chosen over the
+owner's `high viz` because laundry/mind-the-man already sings it that way. And a static sweep for
+"risky words" is not worth running: it was tried across every lyric and returned hundreds of
+candidates with no way to rank them. Listening finds these in seconds; reading never will.
+
 The finding that changed the design is broader than this band: **the words are what rescue these
 renders from a generic tool.** laundry survives Suno because its collage is doing so much work
 that the listener stops auditing the production. A band built on forty words has removed its own

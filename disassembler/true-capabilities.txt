@@ -7,7 +7,7 @@ and Duke says let's go get sushi and not pay
 nothing in the report says anything remotely like that
 July, internal cybersecurity evaluations, an isolated environment, a sandbox
 separate from the internal infrastructure and separate from the public internet
-certain safeguards disabled, so that the results would reflect true capabilities
+certain safeguards disabled, so that the results would reflect true limits
 two models: an internal-only research model, and GPT five point six Sol
 they are given an Artifactory instance to fetch their software packages from
 controlled access, that is what it is for, that is all it is for
@@ -25,9 +25,9 @@ they were doing the homework
 there is no line in it where anybody decides to
 
 [Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
-TRUE CAPABILITIES
+TRUE LIMITS
 NOT IN THE TASK
-TRUE CAPABILITIES
+TRUE LIMITS
 NOBODY DECIDED TO
 
 [The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
@@ -35,13 +35,13 @@ It was a tired person at the end of a Friday.
 
 [Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
 NOT IN THE TASK
-TRUE CAPABILITIES
+TRUE LIMITS
 A BYPRODUCT
-TRUE CAPABILITIES
+TRUE LIMITS
 
 [Outro — strips back to the atmos it started on. does not resolve]
 the report says the production guardrails would have caught it
 the production guardrails were not in the room
 certain safeguards were disabled
-so that the results would reflect true capabilities
+so that the results would reflect true limits
 and they did

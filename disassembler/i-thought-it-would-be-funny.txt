@@ -8,13 +8,13 @@ arithmetic, through mov
 comparisons, through mov
 jumps, function calls, everything a program needs, through mov
 no self-modifying code, no transport-triggered calculation
-no other form of non-mov cheating, and that is the phrase in the readme
+no other form of non-mov cheating, and that is the phrase in the reed me
 Stephen Dolan proved it first, mov is Turing-complete, that is the paper
 Dolan's proof still needed one jump
 this does not need one
 it uses a faulting mov to get the infinite loop
 the control flow is a crash, on purpose, forever
-and if that still counts as jumping, the readme offers you alternatives
+and if that still counts as jumping, the reed me offers you alternatives
 pages aliased to the same address, wrapping round the top of memory
 ring zero exception handling, or just repeating the loop until you stop
 the control flow graph of a program compiled this way is one long line
