@@ -104,6 +104,7 @@ lossy encode of it, roughly 22 dB down.
 ## The rest of the toolchain
 
 ```
+tools/db.py            the catalogue — one SQLite row per clip, keyed by GUID
 tools/mixdown.py       plan and render a DJ mix
 tools/mixtape.py       render one continuous mix per band or playlist, with a tracklist
 tools/stems.py         separate stems via the Demucks server, then derive the bar grid the mixer needs
@@ -118,4 +119,45 @@ bridge.js              browser bridge client — evaluates jobs in a logged-in S
 
 Every tool with `suno` in its name drives a logged-in browser tab through that bridge rather than an
 API key, so a tab has to be connected for them to work. `local-draft.py` is the exception and talks
-to a local model instead.
+to a local model instead, and `db.py` needs the bridge only for `sync`.
+
+## The catalogue
+
+`lyricist.db` is one SQLite row per Suno clip, keyed on the whole GUID. It exists because the same
+state used to be spread across `audio/titles.json`, `audio/analysis.json`, `audio/stems.json` and
+`stats/*.jsonl`, three of which key on the first eight characters — a lossy join, and none of them
+aware of the others.
+
+```
+tools/db.py build              rebuild from the local JSON stores and audio/
+tools/db.py sync               refresh from Suno — feed, projects, playlists
+tools/db.py queue              GUIDs not yet fetched, newest first
+tools/db.py fetched < ids      stamp GUIDs read from stdin as fetched
+tools/db.py page               write catalogue.html, the track list
+tools/db.py page --artifact    the same page, shaped for publishing
+```
+
+`page` writes a single self-contained track list — no server, no dependencies. One row per clip with
+a search box, click-to-sort columns and an mp4 download link to right-click and save, over a band
+rail whose fraction is published-over-total, so it doubles as the list of what to publish next.
+Regenerate after a `sync`; both outputs are gitignored, being derivable from the database.
+
+One template, two wrappers. The default writes `catalogue.html`, a standalone document for `file://`.
+`--artifact` writes `catalogue.artifact.html` without a `<head>`, because a published Artifact
+supplies its own — publish that one rather than opening it.
+
+The mp4 link only appears on published clips. `cdn1.suno.ai/<guid>.mp4` serves anything public and
+403s the rest, and downloading what is already published is the route that neither spends the
+download allowance nor looks like scraping. Unpublished clips are listed without a link.
+
+It deliberately does not track where audio lives. The downloader runs on another machine and fetches
+by GUID, so what it wants handed to it is a list of GUIDs — `queue` is that list, a query over
+`fetched_at IS NULL` rather than a flag to keep in step with reality.
+
+Nothing else reads it yet and nothing in it writes the JSON stores, so `build` is always safe to
+re-run: it only fills columns in. The database is committed, which incidentally gives `analysis.json`
+and `stems.json` the only backup they have — `audio/` is not in git.
+
+`first_seen` and `last_seen` are worth knowing about. Suno deletes generations without saying so, and
+a null `last_seen` (a clip known only from a local file) is a different state from a `last_seen`
+older than the last sync (a clip Suno has dropped). `sync` reports both counts.
