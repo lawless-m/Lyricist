@@ -255,6 +255,18 @@ def connect():
     return db
 
 
+def read_only():
+    """A reader that cannot alter the file, for anything that serves pages.
+
+    connect() runs the schema script, which wants a write lock and would fail
+    for a web server that can only read the repo — and a viewer has no business
+    creating tables anyway.
+    """
+    db = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
+    db.row_factory = sqlite3.Row
+    return db
+
+
 def load_json(path):
     return json.loads(path.read_text()) if path.exists() else {}
 
@@ -529,11 +541,11 @@ def cmd_fetched(args):
 
 # --- page -----------------------------------------------------------------
 
-def cmd_page(args):
-    db = connect()
+def catalogue(db):
+    """Everything the track list needs, straight out of the database."""
     # Plays and likes live in the stat series, so take each clip's most recent
     # reading rather than carrying a denormalised copy on the clip itself.
-    rows = db.execute("""
+    clips = [dict(r) for r in db.execute("""
         SELECT c.id, c.title, c.band, c.project, c.created_at, c.slug,
                CASE WHEN c.is_public THEN 1 ELSE 0 END AS is_public,
                s.plays, s.likes
@@ -541,8 +553,7 @@ def cmd_page(args):
         LEFT JOIN stat s ON s.clip_id = c.id
              AND s.taken_on = (SELECT MAX(taken_on) FROM stat WHERE clip_id = c.id)
         WHERE c.last_seen IS NOT NULL
-        ORDER BY c.created_at DESC""").fetchall()
-    clips = [dict(r) for r in rows]
+        ORDER BY c.created_at DESC""")]
 
     # The rail's fraction is the point of it: published over total, per band,
     # which is the same thing as how much of each band you can actually download.
@@ -552,16 +563,26 @@ def cmd_page(args):
         FROM clip WHERE last_seen IS NOT NULL
         GROUP BY COALESCE(band, 'unfiled') ORDER BY n DESC""")]
 
-    published = sum(c["is_public"] for c in clips)
-    plays = sum(c["plays"] or 0 for c in clips)
-    when = date.today().strftime("%-d %B %Y")
+    return clips, bands
 
-    markup = page.render(clips, bands, when, published, plays)
+
+def markup(db):
+    clips, bands = catalogue(db)
+    return page.render(clips, bands, date.today().strftime("%-d %B %Y"),
+                       sum(c["is_public"] for c in clips),
+                       sum(c["plays"] or 0 for c in clips))
+
+
+def cmd_page(args):
+    db = connect()
+    body = markup(db)
+    clips, bands = catalogue(db)
     default = "catalogue.artifact.html" if args.artifact else "catalogue.html"
     out = Path(args.output) if args.output else REPO / default
-    out.write_text(markup if args.artifact else page.wrap(markup), encoding="utf-8")
+    out.write_text(body if args.artifact else page.wrap(body), encoding="utf-8")
 
     where = out.relative_to(REPO) if out.is_relative_to(REPO) else out
+    published = sum(c["is_public"] for c in clips)
     print(f"{where}: {len(clips)} clips, {published} with an mp4, {len(bands)} bands")
     if args.artifact:
         print("  no <head> of its own — publish it, don't open it")

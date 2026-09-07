@@ -136,14 +136,20 @@ input[type="search"]::placeholder { color: var(--dim); }
 :focus-visible { outline: 2px solid var(--rust); outline-offset: 2px; }
 
 /* --- table --- */
+/* An ancestor with a non-visible overflow becomes the scrollport sticky is
+   measured against, so inside here the header is stuck to a box that never
+   scrolls vertically and `top` only pushes it down over the rows. Wide enough
+   for the table and there is nothing to scroll horizontally, so the container
+   steps out of the way and the header can stick to the viewport properly. */
 .scroll { overflow-x: auto; }
-table { border-collapse: collapse; width: 100%; min-width: 800px; }
+table { border-collapse: separate; border-spacing: 0; width: 100%; min-width: 800px; }
 thead th {
-  position: sticky; top: 56px; z-index: 4; background: var(--paper);
+  position: sticky; top: 0; z-index: 4; background: var(--paper);
   text-align: left; font-weight: 500; font-size: 11px;
   letter-spacing: .09em; text-transform: uppercase; color: var(--dim);
-  padding: 12px 12px 9px; border-bottom: 1px solid var(--line);
-  cursor: pointer; white-space: nowrap;
+  padding: 12px 12px 9px; cursor: pointer; white-space: nowrap;
+  /* A real border would sit outside the sticky box and let a row show above it. */
+  box-shadow: inset 0 -1px 0 var(--line);
 }
 thead th:hover { color: var(--ink); }
 thead th[aria-sort="ascending"]::after  { content: " \2191"; color: var(--rust); }
@@ -188,6 +194,12 @@ footer {
 }
 footer code { font-family: "IBM Plex Mono", ui-monospace, monospace;
               font-size: 12px; color: var(--ink); }
+@media (min-width: 900px) {
+  .scroll { overflow-x: visible; }
+  /* --bar-h is measured from the toolbar, which changes height when the
+     webfonts land and again whenever it wraps, so it is never a fixed number. */
+  thead th { top: var(--bar-h, 62px); }
+}
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
 
@@ -311,6 +323,13 @@ rail.addEventListener('click', e => {
     c.setAttribute('aria-pressed', String(c.dataset.band === band)));
   draw();
 });
+
+const bar = document.querySelector('.bar');
+const measure = () => document.documentElement.style
+  .setProperty('--bar-h', bar.offsetHeight + 'px');
+measure();
+addEventListener('resize', measure);
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
 
 q.addEventListener('input', draw);
 pub.addEventListener('change', draw);

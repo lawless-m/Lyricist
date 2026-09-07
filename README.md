@@ -143,8 +143,22 @@ rail whose fraction is published-over-total, so it doubles as the list of what t
 Regenerate after a `sync`; both outputs are gitignored, being derivable from the database.
 
 One template, two wrappers. The default writes `catalogue.html`, a standalone document for `file://`.
-`--artifact` writes `catalogue.artifact.html` without a `<head>`, because a published Artifact
-supplies its own — publish that one rather than opening it.
+`--artifact` writes `catalogue.artifact.html` without a `<head>`, for anywhere that supplies its own.
+
+Neither is what you actually read it through. `tools/catalogue.cgi` serves the same page from the
+lighttpd already running on this box, built per request from the database, so a `sync` shows up on a
+refresh with nothing to regenerate:
+
+```
+http://localhost/catalogue
+
+/usr/lib/cgi-bin/catalogue                    symlink to tools/catalogue.cgi
+/etc/lighttpd/conf-enabled/15-catalogue.conf  aliases /catalogue to it
+```
+
+It follows the shape the `glossy` endpoints in `10-cgi.conf` already use, and opens the database
+`mode=ro` — the web server can read the repo and must never be able to write to it. Removing it is
+`rm` on those two paths and a `systemctl reload lighttpd`.
 
 The mp4 link only appears on published clips. `cdn1.suno.ai/<guid>.mp4` serves anything public and
 403s the rest, and downloading what is already published is the route that neither spends the
