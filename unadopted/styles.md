@@ -6,6 +6,14 @@ unrendered at the time of writing. `a-six-six-six` tests the unchanging variant 
 recorded for it here. Findings in this file
 are added by listening, never by predicting — the same rule the rest of the catalogue runs on.
 
+**One note on provenance, since the prompts have been edited.** `get-lifted` was actually rendered
+with the phrase *"Prodigy style"* in its prompt, and `chelsea-girl` was written with that plus a
+named vocalist. Both have been stripped under the no-real-artists rule below. The `.style.txt` files
+are paste-targets first, so they carry the corrected prompts rather than the historical ones — but
+the founding render, and therefore the 303 finding, came off a prompt that had a band name in it.
+Nothing about the finding depends on that term, and the acid line is still named in both, so the
+comparison stands; it is recorded here so nobody later reads the files as a clean before-and-after.
+
 ## Why this band exists, in rendering terms
 
 The catalogue-wide taxonomy in `disassembler/styles.md` applies here as everywhere. The specific
@@ -57,7 +65,7 @@ Suno appears to weight terms by position, and the riff is the entire point of th
 
 ```
 big beat, huge distorted guitar riff carrying the hook, 140 BPM, hard live breakbeat drums with
-room mics, Prodigy style, blown-out analogue synth stabs, acid squelch under the riff, shouted manic
+room mics, riff-led rave-punk crossover, blown-out analogue synth stabs, acid squelch under the riff, shouted manic
 male vocal ranted flat out, thick UK accent, gang shouts placed on the four-word chant in the drops,
 siren rise into each drop, long riff-only stretches between vocals, gritty analogue distortion,
 clipping, hard stop ending on the beat
@@ -86,6 +94,11 @@ Guessed and Laundry notes both record, and a sung read kills the declamatory voi
   purpose; it is Laundry's texture, not this band's. Use bracketed tags here.
 - **Spell numbers as words in a chant.** `FIVE EIGHT OH`, not `580` — per the orthography class on
   bare numerals. Same for initialisms: `C and A`, not `C&A`.
+- **Never name a real band or artist in a style prompt.** Genre terms, instrumentation, delivery and
+  production language only. The lineage belongs in `template.md`, where naming the reference is the
+  whole point; it must not travel into the paste-target. Describe the thing instead — *riff-led
+  rave-punk crossover* for the big-beat lineage, *brassy untrained female punk delivery* for the
+  vocal.
 - **Cap the `-ah` line ending at two per song.** Beyond that it reads as Mark E. Smith karaoke
   rather than as a voice.
 
