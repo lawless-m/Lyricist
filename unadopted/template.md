@@ -106,6 +106,17 @@ The Mark E. Smith `-ah` line ending is available and is **capped at two per song
 and it stops being a voice and becomes karaoke, the same trap the Laundry spec has against Lip
 Critic's own mantra tic.
 
+**The voice is not fixed to one singer.** `chelsea-girl` is the female-voice test, and the register
+is the constant rather than the gender: declamatory, shouted, dead on the beat, no melody, not in on
+it. The reference shifts with the singer — The Fall and Half Man Half Biscuit for the male voice,
+X-Ray Spex and Poly Styrene for the female one, which is the same delivery aimed at the high street
+and was already writing about shopping. **The `-ah` ending is a male-voice device only**; it belongs
+to one specific singer and does not transfer.
+
+**Fence against the roster's other women.** Guessed is one thin close-miked voice that withholds;
+girlboss is a woman talking fast and entirely in control; hobo is stacked harmony with no lead at
+all. This one is loud, oblivious and singing nothing.
+
 ---
 
 ## Structure — two arrangements, both in evidence

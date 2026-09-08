@@ -1007,3 +1007,9 @@ BAN	258	do not ask me about the train	unadopted/a-six-six-six authority-without-
 BAN	258	down as two vehicles	unadopted/a-six-six-six misfiled-as-a-quantity
 BAN	258	watford gap	unadopted/a-six-six-six flat provincial anchor
 BAN	258	mind the bollard	unadopted/a-six-six-six bridge close
+BAN	258	dorothy\.? *laura\.? *claire\.? *wallis	unadopted/chelsea-girl first-name roll-call set
+BAN	258	claire did (the|everybody.s) ears	unadopted/chelsea-girl chain-reported-as-a-person
+BAN	258	miss selfridge	unadopted/chelsea-girl truncated-to-the-honorific
+BAN	258	buried in something else	unadopted/chelsea-girl authority-without-explanation slot
+BAN	258	bag of bags	unadopted/chelsea-girl domestic-thrift image
+BAN	258	i am not throwing away a bag	unadopted/chelsea-girl domestic-thrift image

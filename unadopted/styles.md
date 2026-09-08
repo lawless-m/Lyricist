@@ -1,7 +1,9 @@
 # Unadopted — Suno Style Prompts
 
-**Status: two songs, one confirmed render.** `get-lifted` came back working. `a-six-six-six` is
-rendering at the time of writing and nothing below claims anything about it. Findings in this file
+**Status: three songs, one confirmed render.** `get-lifted` rendered and works — it is the founding
+render and the source of every finding below. `chelsea-girl` is the female-voice test and is
+unrendered at the time of writing. `a-six-six-six` tests the unchanging variant and no finding is
+recorded for it here. Findings in this file
 are added by listening, never by predicting — the same rule the rest of the catalogue runs on.
 
 ## Why this band exists, in rendering terms
@@ -21,6 +23,32 @@ Laundry's lead slot is therefore empty on the record — the spec bans guitars, 
 solos and key, and the sampler it nominates as lead is a thing Suno will not insert. The collage has
 been doing that job. **This band's whole premise is that giving Suno an actual riff to hold fixes
 the thin-music problem, and `get-lifted` says it does.**
+
+## The 303 appears here — and that corrects a catalogue-wide conclusion
+
+**Found by listening, on the `get-lifted` render: the acid line is audible.** The same family of
+term failed repeatedly in Laundry, where the recorded finding was that a 303 "never appeared at any
+setting" and that an instrument name "behaves as a texture modifier here, not as an addition."
+
+One caveat on the comparison, so nobody later reads it as a cleaner experiment than it was: the
+wordings are near-equivalents rather than identical. Laundry's prompt says *distorted acid 303 under
+the drums*; `get-lifted`'s says *acid squelch under the riff*. `chelsea-girl` names *distorted acid
+303 line running under the riff* explicitly, which tests the exact Laundry term in this arrangement
+and is worth listening for specifically.
+
+That finding stands for Laundry. What is now clear is *why*, and the general rule drawn from it was
+wrong. The two mixes differ in one obvious way: Laundry runs two drum kits played as separate parts,
+sampler stabs, chopped vocal and gang chants; Unadopted runs one riff, one breakbeat and one voice.
+**The blocker was arrangement density, not the prompt term.** Suno had nowhere to put a 303 in
+Laundry and plenty of room for one here.
+
+Two consequences worth carrying:
+
+- **If an audible instrument is wanted, make room for it.** The lever is the arrangement, not a
+  better-worded term. Three Laundry probes failed by trying to out-phrase a full mix.
+- **This band can take additions that Laundry cannot.** Keep them subordinated anyway — the sax
+  lesson (Suno foregrounds whatever you name, and billing is the problem, not the instrument) has
+  not been retested here and should be assumed to still apply.
 
 ## The two prompts
 

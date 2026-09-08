@@ -7434,3 +7434,48 @@ gets fixed.
   arrangement, and the thing the renderer is least willing to do.
 - Example: unadopted/a-six-six-six
 - Logged at catalog size 258.
+
+### "DOROTHY. LAURA. CLAIRE. WALLIS." — the roll-call of first names stripped off shop brands
+- Unadopted's third closed set and a third kind of set: real British high-street chains reduced to
+  the women's names inside them, chanted bare. The second reading — that this is a list of women who
+  are gone — is never voiced by anyone in the song, per the band's engine. Distinct from
+  get-lifted's polysemous set and a-six-six-six's numeric one; nothing here recombines or repeats a
+  sense, the names simply stand there having been shortened.
+- Example: unadopted/chelsea-girl
+- Logged at catalog size 258.
+
+### The final chant losing one name a pass until only the first is left
+- The drop-built arrangement's closing move, varied: where get-lifted's set fragments syllabically,
+  this one shortens — four names, then three, then two, then one, then a hard stop. The roll-call
+  closing down, with no line anywhere saying so.
+- Example: unadopted/chelsea-girl
+- Logged at catalog size 258.
+
+### "Claire did the ears. Claire did everybody's ears."
+- The dead chain reported as a person who performed a service, in the past tense, with no line ever
+  making the equation between the shop and the woman. The band's engine at sentence scale — the
+  ambiguity does the work and the narrator never clarifies it.
+- Example: unadopted/chelsea-girl
+- Logged at catalog size 258.
+
+### "Miss Selfridge. / Miss. Miss."
+- A brand truncated until only the honorific is left, at which point it is also the other word.
+  Distinct from get-lifted's lexical polysemy, which puts both senses in one line as literal
+  dictionary readings: here the second sense is never instantiated at all, and arrives only in the
+  listener.
+- Example: unadopted/chelsea-girl
+- Logged at catalog size 258.
+
+### "was buried in something else. / Anyway."
+- Unadopted's authority-without-explanation slot, fresh shape: instead of refusing a question
+  (a-six-six-six's "Do not ask me about the train"), she drops the most loaded fact in the song and
+  moves straight on to what time the market is. The refusal is the change of subject, and "Anyway"
+  is the whole of it.
+- Example: unadopted/chelsea-girl
+- Logged at catalog size 258.
+
+### "There is a bag of bags under my mother's sink"
+- The kept carrier bag as inherited domestic thrift, stated as fact and immediately defended
+  ("I am not throwing away a bag"). Provincial-England palette at household scale.
+- Example: unadopted/chelsea-girl
+- Logged at catalog size 258.
