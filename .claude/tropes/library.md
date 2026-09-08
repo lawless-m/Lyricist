@@ -7328,3 +7328,60 @@ gets fixed.
   build states the distinction rather than leaving it to be assumed.
 - Example: disassembler/weaponizing-uselessness
 - Logged at catalog size 256.
+
+### CHARGE / DRAW / LIFT / BANG — the closed word-set hook, reordered rather than reworded
+- The big-beat probe's hook: four bare monosyllables, grammar stripped off entirely, shouted as
+  percussion. Every one is a rave word and a police word at the same time (charge, a draw, getting
+  lifted, banged up) and the song never instantiates the second sense anywhere — the whole gravity
+  well sits in a vocabulary that does two jobs and is only ever used for one. Distinct from
+  laundry's consumption-imperative openers, which are verb-object instructions about consuming;
+  this has no verbs, no objects and no instruction. Distinct from disassembler's shouted-anchor
+  drops, which are phrases asserting a thesis; this asserts nothing and carries its payload in
+  recombination.
+- Example: get-lifted
+- Logged at catalog size 256.
+
+### The second drop reordered, not reworded
+- Drop 1 is CHARGE / DRAW / LIFT / BANG; drop 2 is LIFT / BANG / CHARGE / DRAW — the same closed
+  set in a new order, so the hook returns altered without a single word changing. Deliberately
+  distinct from disassembler's altered repeat (the second drop that changes one word), which
+  operates on lexis; this operates on sequence only.
+- Example: get-lifted
+- Logged at catalog size 256.
+
+### The build that assembles the hook one word at a time
+- The pre-drop build is the word set accumulating rather than the arrangement collapsing:
+  "charge — / charge, draw — / charge, draw, lift —", landing complete on the drop. The manic
+  inverse of laundry's mechanical-collapse pre-hook lines, where the kits come apart on the way in.
+- Example: get-lifted
+- Logged at catalog size 256.
+
+### Lexical polysemy as percussion — the same word twice in a line, both senses literal
+- The verse method: "copper in the copper", "boot in the boot, bag in the boot, boot in the bag",
+  "drawer full of draw", "dog's got the tape, tape's got the dog". The word is chosen because
+  repeating it is a drum hit, and the two senses are both plain dictionary senses rather than a
+  situational innuendo. Distinct from girlboss's task double-entendre and the Carry On homophone,
+  which are contextual — a job that also reads as sex; this is lexical and has no second situation
+  at all.
+- Example: get-lifted
+- Logged at catalog size 256.
+
+### "Hands up is the same as hands up."
+- The one legible line, in the breakdown, said once and never returned to: a tautology whose two
+  halves are different worlds. Placed as a claim in a quiet gap rather than as a spike in a smear,
+  which is what keeps it off laundry's flash-of-legibility slot.
+- Example: get-lifted
+- Logged at catalog size 256.
+
+### "Field's a field till somebody says field."
+- Naming as the thing that changes what a place is, stated as a tautology that isn't one. Sits next
+  to the line above as the breakdown's other half.
+- Example: get-lifted
+- Logged at catalog size 256.
+
+### Verse 2 as the harmless-sense pass — every hook word cashed in for its innocent meaning
+- Each of the four hook words is spent on its most ordinary reading, one per line: a draw on the
+  window, a lift out of order, charge on the meter, and "the bang was the door. That's all the bang
+  was." The other sense is never supplied, and the denial is what supplies it.
+- Example: get-lifted
+- Logged at catalog size 256.

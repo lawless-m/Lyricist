@@ -990,3 +990,12 @@ BAN	256	nobody waits for you, you were never expected	disassembler/weaponizing-u
 BAN	256	there probably isn.t one	disassembler/weaponizing-uselessness outro, quoted mitigations verdict
 BAN	256	slower than nothing, on purpose, forever	disassembler/weaponizing-uselessness outro close
 BAN	256	that is not a typo, that is the paper	disassembler/weaponizing-uselessness build line, repo-name device
+BAN	256	charge\.? *draw\.? *lift\.? *bang	get-lifted closed word-set hook
+BAN	256	lift\.? *bang\.? *charge\.? *draw	get-lifted reordered second drop
+BAN	256	hands up is the same as hands up	get-lifted breakdown legible line
+BAN	256	field.s a field till somebody says field	get-lifted breakdown tautology
+BAN	256	copper in the copper	get-lifted lexical-polysemy verse method
+BAN	256	boot in the (boot|bag)	get-lifted lexical-polysemy verse method
+BAN	256	drawer full of draw	get-lifted lexical-polysemy verse method
+BAN	256	tape.s got the dog	get-lifted lexical-polysemy verse method
+BAN	256	that.s all the bang was	get-lifted harmless-sense verse 2
