@@ -188,6 +188,20 @@
   on the first failure trades a good line away for a problem that may not recur. Knowing which words
   are *capable* of going wrong is still worth having: it tells you what to listen for and which take
   to keep.
+- **Sixth class, and the only one that happens before a render exists: the artist-name filter.**
+  Reported by the owner — a submission was **rejected for "name of an artist" because of the word
+  `phosphate`**, in a lyric. In the other direction, Unadopted's prompts carried *"Prodigy style"*
+  and a named vocalist and were never flagged. So the check is loose in both directions at once: it
+  fires on ordinary nouns that happen to collide with somebody's stage name, and it misses actual
+  band names written in plain sight.
+  Two things follow, and they are independent of each other:
+  - **A rejection does not tell you which token caused it.** Do not assume it is the obvious
+    reference — the offending word may be a perfectly innocent noun, and on the one datum available
+    it was. Bisect the text rather than guessing, and check the lyric as well as the prompt, since
+    this class fires on both.
+  - **Passing is not permission.** The house rule is that style prompts never name a real band or
+    artist, and it holds whether or not the filter enforces it on any given day. Two prompts getting
+    through is evidence about the filter, not about the rule.
 - The **breakdown is the least predictable part** — regenerate to find a take where the beat
   genuinely stops and the voice is dry, close and unaccompanied. A take that keeps a pad running
   under it kills the signature move. (Same job as chasing the crack in gypsy-emo's shout-back or

@@ -99,6 +99,9 @@ Guessed and Laundry notes both record, and a sung read kills the declamatory voi
   whole point; it must not travel into the paste-target. Describe the thing instead — *riff-led
   rave-punk crossover* for the big-beat lineage, *brassy untrained female punk delivery* for the
   vocal.
+  Note that Suno's own filter is not a reliable check on this: both offending prompts here passed
+  unflagged, while a lyric elsewhere was rejected for the word *phosphate*. See the artist-name
+  filter class in `disassembler/styles.md`. The rule is ours, not the renderer's.
 - **Cap the `-ah` line ending at two per song.** Beyond that it reads as Mark E. Smith karaoke
   rather than as a voice.
 
