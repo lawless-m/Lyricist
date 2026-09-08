@@ -113,6 +113,12 @@ X-Ray Spex and Poly Styrene for the female one, which is the same delivery aimed
 and was already writing about shopping. **The `-ah` ending is a male-voice device only**; it belongs
 to one specific singer and does not transfer.
 
+**Observed, not designed, and not yet a rule.** `chelsea-girl` came back sounding like someone who
+has not slept, which no part of its prompt asked for, and it was the better of the two voices for
+it. The candidate refinement to the engine — that exhaustion is *why* the narrator does not notice
+what she is reciting — is a good fit and rests on one render. Treat it as a hypothesis to test, not
+a constraint to write to. See `styles.md`.
+
 **Fence against the roster's other women.** Guessed is one thin close-miked voice that withholds;
 girlboss is a woman talking fast and entirely in control; hobo is stacked harmony with no lead at
 all. This one is loud, oblivious and singing nothing.

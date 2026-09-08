@@ -116,6 +116,28 @@ Guessed and Laundry notes both record, and a sung read kills the declamatory voi
 - **Dead brand names** (Bejam, Rumbelows, MFI) and UK-specific nouns (strimmer, hi-vis) are the
   pronunciation risks. Unverified.
 
+## The female voice renders exhausted, and nothing asked it to
+
+**Found by listening, on `chelsea-girl`: the owner's verdict was that the female version is better,
+and that "she sounds like she hasn't slept."** Nothing in the prompt requested that. It asks for
+*shouted female vocal ranted flat out*, *declamatory not sung*, *brassy untrained female punk
+delivery* — energy and register, no fatigue anywhere. Suno supplied the exhaustion on its own.
+
+It is worth having because it repairs a soft spot in the engine. The band's narrator is oblivious,
+and obliviousness with no cause is just a device. A voice that has not slept gives it one: she is
+not hearing what she is saying because she has been awake too long, which is a reason rather than a
+rule. The male voice has no equivalent and is the weaker of the two for it.
+
+**Do not go and name it in the next prompt without thinking.** The combination that landed is
+*exhausted and still going at full pelt*, and those pull against each other. Asking for a tired
+vocal will most likely buy a slow flat one, which kills the manic and takes the band with it. This
+is the sax lesson in another costume — the instrument was not the problem, the billing was.
+
+The cheap test, when there is a fourth song: render it twice off the same lyric, once with the
+prompt exactly as it stands and once with one fatigue term added, and compare. If the unmodified
+take is already exhausted, the effect belongs to the female-voice request and needs no help. If only
+the modified take has it, the term is doing the work and can be kept deliberately.
+
 ## Instrument roster check
 
 A distorted guitar riff is the backbone here, which is shared ground with **hobo** — the only other
