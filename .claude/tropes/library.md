@@ -7385,3 +7385,52 @@ gets fixed.
   was." The other sense is never supplied, and the denial is what supplies it.
 - Example: get-lifted
 - Logged at catalog size 256.
+
+### "FIVE EIGHT OH / SIX SIX SIX / FIVE FOUR" — the road-number chant as a closed percussive set
+- Unadopted's second closed set: three real British road numbers recited flat as the hook, spelled
+  as words rather than numerals per the orthography class. Numbers used as pure percussion, with no
+  proposition anywhere in the drop. Distinct from get-lifted's polysemous set, which recombines four
+  words with themselves; this one never recombines and never varies — the same three numbers, in the
+  same order, every time.
+- Example: unadopted/a-six-six-six
+- Logged at catalog size 258.
+
+### The unvoiced six-six-six — the ominous fact nobody in the song notices
+- The band's engine in its purest instance: the A666 is a real road number, it sits in the chant
+  between the A580 and the A54, and no line anywhere remarks on it. The deflation that would
+  normally follow ("it goes to Bolton") is deliberately withheld, because voicing it collapses the
+  gap into a joke and turns the drop into disassembler's shouted-anchor pair. The rule generalises —
+  a second reading is never spoken by anyone inside an Unadopted song.
+- Example: unadopted/a-six-six-six
+- Logged at catalog size 258.
+
+### The dead-retail succession as the verse method
+- Provincial England itemised by what each unit used to be: "The carpet shop's a vape shop and the
+  vape shop was a bank, / the bank's a Wetherspoons, the Wetherspoons was a bank", then
+  "Comet's a Costa, Costa's a Card Factory, Card Factory's shut". Half Man Half Biscuit's precision
+  discipline — the effect is exactness, never a punchline. Distinct from hobo's junk pile, which is
+  acquisition; nothing is being wanted here, only listed.
+- Example: unadopted/a-six-six-six
+- Logged at catalog size 258.
+
+### "I have been to the garden centre. There is a train in it. Do not ask me about the train."
+- Authority without explanation — the band's flat-assertion device, one per song. The Fall's
+  register: something oddly specific stated as though it were evidence, with the refusal to justify
+  it built into the same breath. Distinct from disassembler's system text, which is quoted from a
+  real artefact; this is asserted by a person who will not be questioned.
+- Example: unadopted/a-six-six-six
+- Logged at catalog size 258.
+
+### "He has got me down as two vehicles. He knows what he has done."
+- The identity wound worn casually and misfiled — a man counted as a quantity by a bloke with a
+  clipboard, and the paranoid second clause landing on something far too small to carry it.
+- Example: unadopted/a-six-six-six
+- Logged at catalog size 258.
+
+### The riff that never changes as a structural device
+- Unadopted's unchanging arrangement: one two-chord riff stated in the first bar and never developed
+  for the length of the track, no drops at all, the chants being nothing but the same riff louder
+  and the vocal running continuously over it. The structural opposite of the band's own drop-built
+  arrangement, and the thing the renderer is least willing to do.
+- Example: unadopted/a-six-six-six
+- Logged at catalog size 258.
