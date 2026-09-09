@@ -7555,10 +7555,12 @@ gets fixed.
 - Example: unadopted/thats-seven
 - Logged at catalog size 260.
 
-### "Nobody scored in three of them and I am having a marvellous afternoon."
-- The band's engine at its plainest: the outcome he is delighted by is nothing happening. Why a
-  nil-nil is the good result is never stated, so the listener assembles the coupon and he never
-  mentions it.
+### "Three of them all square with the goals in. / I am having a marvellous afternoon."
+- The band's engine at its plainest: the outcome he is delighted by is a match where both sides
+  scored and it cancelled out. Why that is the good result is never stated, so the listener
+  assembles the coupon and he never mentions it. The inverse is in the same song — a nil-nil gets
+  "that is the wrong kind of nothing", which is correct on a coupon and reads as perverse without
+  it.
 - Example: unadopted/thats-seven
 - Logged at catalog size 260.
 
@@ -7579,5 +7581,19 @@ gets fixed.
 ### "Our Michelle rang. I said I would ring her back."
 - The named relative who does not get a second line — a person entering the song only as an
   interruption to the ritual, and losing.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.
+
+### "East Fife four, Forfar five." — the folklore result recited among the real ones
+- The famous almost-spoonerism of British football commentary, dropped into a read-out of a division
+  Forfar are not in, with no acknowledgement that it is not today's result and no explanation
+  offered. A listener hears a joke he is plainly not making; he simply carries on to the next line.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.
+
+### "That is the wrong kind of nothing."
+- A nil-nil rejected by a man who wants goals that cancel out rather than no goals at all. The
+  distinction is real and belongs to the coupon; without it the line reads as pure perversity, which
+  is the point.
 - Example: unadopted/thats-seven
 - Logged at catalog size 260.

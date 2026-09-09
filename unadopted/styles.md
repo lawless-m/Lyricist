@@ -203,24 +203,28 @@ Still worth knowing:
 held the riff genuinely unchanged has not been reported separately, so that specific question — the
 one the variant exists to answer — is still open.
 
-## Unverified content in `thats-seven`
+## `thats-seven` — sourcing notes
 
-The club names in `thats-seven` are **not verified against the current table.** The owner supplied
-the BBC's Scottish League One table as the source and this environment's network policy refused the
-fetch (`www.bbc.co.uk:443`, 403 at the proxy), the same block that stops the Suno bridge working
-from here.
+**The clubs are the real Scottish League One division, supplied by the owner.** This environment's
+network policy refused the BBC table (`www.bbc.co.uk:443`, 403 at the proxy — the same block that
+stops the Suno bridge working from here), so the first draft used clubs believed to have played at
+that level and said so. The owner then pasted the table and the lyric was rewritten to use only
+those ten, paired into the division's five fixtures.
 
-The names used are Scottish senior clubs believed to have played at that level, but **which of them
-are in League One this season is unchecked.** The spec's rule is that a named thing must be real
-rather than approximated, so this is a known gap rather than an accepted one. Nothing in the lyric
-depends on the specific clubs — swap any that are wrong against the live table, keeping the syllable
-count roughly similar so the read-out still scans.
+**One club in the song is not in the division, on purpose.** *"East Fife four, Forfar five"* is the
+famous almost-spoonerism of British football commentary, kept at the owner's instruction. It works
+harder now than it did as filler: surrounded by verified fixtures it is plainly not today's result,
+he offers no explanation, and a listener hears a joke he is not making.
 
-One line is deliberate folklore rather than a result: *"East Fife four, Forfar five"* is the famous
-almost-spoonerism of British football commentary. It is included because a listener who knows it
-hears a joke the narrator is plainly not making, which is the band's engine.
+**A factual correction the real table forced, and it changed the content.** The first draft had him
+delighted by nil-nils. That is backwards: on a pools coupon a **no score draw** is 0-0 and a **score
+draw** is 1-1 or 2-2, and the treble chance paid on score draws, so nil-nils were worth less. The
+rewrite makes the good result a match where both sides scored and it cancelled out, and gives him
+*"that is the wrong kind of nothing"* for a 0-0 — correct on a coupon, and perverse without it,
+which is the band working as specified. The spec's rule is that a named thing must be real rather
+than approximated, and that covers how a thing works as much as what it is called.
 
-## Instrument roster check
+## Instrument roster check## Instrument roster check
 
 A distorted guitar riff is the backbone here, which is shared ground with **hobo** — the only other
 band in the catalogue built on a guitar. The fence is everything around it: hobo is a fuzz riff
