@@ -194,9 +194,10 @@
   is a **clean restart of the whole song**, observed on `unadopted/beech-way-stops`, where both
   takes came back at 7:59 with the song played three times; there the owner's verdict was that it
   was a win, because that band's whole intent is a track that never develops. So identify which form
-  you have before treating it as a problem. Unverified hypothesis worth testing: material with no
-  dynamics gives the renderer nothing to extend and so gets the clean restart, while a song with a
-  loud final section offers something to loop and gets the stuck one.
+  you have before treating it as a problem.
+  **This is a Suno behaviour, seen across the owner's renders, and it is not caused by prompting.**
+  Do not try to steer it in either direction, and do not read a padded clip as evidence about the
+  lyric or the style prompt. It also breaks the two-take test for duration, below.
   **And this class breaks the two-take test, which is worth knowing before applying that test
   anywhere.** Clip length appears to be decided once per generation and inherited by both takes, so
   two takes agreeing on a padded length is the expected outcome whether or not the cause is
