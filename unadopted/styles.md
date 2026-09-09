@@ -1,15 +1,20 @@
 # Unadopted — Suno Style Prompts
 
-**Status: four songs, two confirmed renders.** `get-lifted` rendered and works — it is the founding
-render and the source of the 303 finding. `chelsea-girl` rendered and is the better of the two
-voices; see the exhaustion finding below. `a-six-six-six` and `beech-way-stops` both test the
-unchanging variant and no finding is recorded for either.
+**Status: settled at four songs.** The owner's verdict is that this is the band's style. Both
+arrangements and both voices have good renders behind them, and the singer is a swappable variation
+rather than a property of the band — see `template.md`.
 
-**`beech-way-stops` changes exactly one thing against `chelsea-girl`: the arrangement.** Its vocal
-terms are copied across word for word so that whether the exhaustion reproduces can be read off it,
-and the acid 303 term is carried over unchanged. If the voice comes back tired again the effect
-belongs to the female-voice request rather than to a lucky roll; if it does not, the arrangement is
-the confound to suspect first. Findings in this file
+**Renders: four songs, two confirmed.** `get-lifted` rendered and works — it is the founding
+render and the source of the 303 finding. `chelsea-girl` rendered and is the better of the two
+voices; see the exhaustion finding below. `beech-way-stops` rendered and the verdict was a win,
+though what it came back with was the whole-song repeat documented below rather than an answer to
+the question it was built to ask. No finding is recorded for `a-six-six-six`.
+
+**`beech-way-stops` changed exactly one thing against `chelsea-girl`: the arrangement.** Its vocal
+terms were copied across word for word so that whether the exhaustion reproduces could be read off
+it, and the 303 term carried over unchanged. That comparison is still available on the take — tired
+again means the effect belongs to the female-voice request rather than a lucky roll — and so is the
+riff question, neither of which the padding affects. Findings in this file
 are added by listening, never by predicting — the same rule the rest of the catalogue runs on.
 
 **One note on provenance, since the prompts have been edited.** `get-lifted` was actually rendered
@@ -76,6 +81,17 @@ male vocal ranted flat out, thick UK accent, gang shouts placed on the four-word
 siren rise into each drop, long riff-only stretches between vocals, gritty analogue distortion,
 clipping, hard stop ending on the beat
 ```
+
+**Swapping the singer.** The voice is a dial (see `template.md`), and swapping it is a
+find-and-replace on one clause in either prompt below, nothing else:
+
+- male → `shouted manic male vocal ranted flat out, thick UK accent`
+- female → `shouted female vocal ranted flat out, thick UK accent, declamatory not sung, no melody
+  in the vocal anywhere, brassy untrained female punk delivery`
+
+The female wording is longer because it is the one that produced the exhaustion, and it is kept
+verbatim rather than tidied for that reason. `declamatory not sung` and `no melody in the vocal
+anywhere` are worth carrying into the male form too — Suno's default is to over-sing either.
 
 **Unchanging variant** (`a-six-six-six`, `beech-way-stops`). Paste as is; do not add structural
 negatives to it, for the reasons in the padding section below:

@@ -26,7 +26,7 @@ aliases — users may say either):
 | `hobo`                      | hobo, junk swagger, the scavengers, 90s hip-hop guitar crossover |
 | `penny-rich`                | Penny Rich, Penny, bargain bluegrass, banjo vaudeville        |
 | `disassembler`              | Disassembler, devops, drum and bass, neurofunk                 |
-| `unadopted`                 | Unadopted, big beat, Prodigy-adjacent, the road-number band     |
+| `unadopted`                 | Unadopted, big beat, the closed-set band                        |
 
 If the request names a theme but no band and it isn't clear from context, ask which band before
 doing anything else.

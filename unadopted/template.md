@@ -1,15 +1,17 @@
 # Unadopted — Song Style Spec
 
 A reusable brief for the **Unadopted** style — big beat carrying a British rant: one distorted riff,
-a hard breakbeat, and a man reciting perfectly ordinary things at speed until they turn into
-something else, which he never notices. Hand this to Claude with the instruction **"song for
+a hard breakbeat, and someone reciting perfectly ordinary things at speed until they turn into
+something else, which they never notice. Hand this to Claude with the instruction **"song for
 Unadopted"** — optionally with a closed set or an arrangement — and it should produce a new,
 standalone lyric set sharing the voice, structure and devices below.
 
-**This spec is provisional and deliberately loose, on the Disassembler precedent.** Two songs exist.
-The genre, the voice rule, the closed-set method and the fences are settled; the engine below is a
-hypothesis. Write songs, then tighten this file to match what the band keeps doing — not the other
-way round.
+**The spec is settled as of four songs.** It was written provisionally on the Disassembler
+precedent and has been tightened to match what the band actually does, which is the house method:
+write songs first, then describe them. The engine, the closed-set method, both arrangements, the
+voice dial and the fences are all load-bearing and proven. Two things remain genuinely open and are
+marked where they arise — whether Suno reliably holds the riff still in the unchanging arrangement,
+and whether the exhaustion in the female voice reproduces.
 
 **Where the band came from — it was found, not chosen.** The owner said Laundry was his favourite
 musical output and asked what would be adjacent. The diagnosis that followed was that Laundry's
@@ -102,22 +104,26 @@ fast, no gaps. Two rules:
 - **No wink and no irony at his own expense.** He is not in on it. He does not suspect. The comedy
   and the menace are both in the fact that he is completely sincere.
 
-The Mark E. Smith `-ah` line ending is available and is **capped at two per song** — more than that
-and it stops being a voice and becomes karaoke, the same trap the Laundry spec has against Lip
-Critic's own mantra tic.
+**The singer is a dial, not a fixture — swap male and female freely between songs.** The register
+is the constant and the gender is the variation: declamatory, shouted, dead on the beat, no melody,
+not in on it, whoever is singing. Only the reference shifts — The Fall and Half Man Half Biscuit for
+the male voice, X-Ray Spex and Poly Styrene for the female one, being the same delivery aimed at the
+high street by someone who was already writing about shopping. Both are proven: `get-lifted` and
+`a-six-six-six` male, `chelsea-girl` and `beech-way-stops` female.
 
-**The voice is not fixed to one singer.** `chelsea-girl` is the female-voice test, and the register
-is the constant rather than the gender: declamatory, shouted, dead on the beat, no melody, not in on
-it. The reference shifts with the singer — The Fall and Half Man Half Biscuit for the male voice,
-X-Ray Spex and Poly Styrene for the female one, which is the same delivery aimed at the high street
-and was already writing about shopping. **The `-ah` ending is a male-voice device only**; it belongs
-to one specific singer and does not transfer.
+Two consequences of the dial:
 
-**Observed, not designed, and not yet a rule.** `chelsea-girl` came back sounding like someone who
-has not slept, which no part of its prompt asked for, and it was the better of the two voices for
-it. The candidate refinement to the engine — that exhaustion is *why* the narrator does not notice
-what she is reciting — is a good fit and rests on one render. Treat it as a hypothesis to test, not
-a constraint to write to. See `styles.md`.
+- **The `-ah` line ending is a male-voice device only.** It belongs to one specific singer and does
+  not transfer. Capped at two per song where it is used at all, or it stops being a voice and
+  becomes karaoke — the same trap the Laundry spec has against Lip Critic's own mantra tic.
+- **Nothing in a lyric should depend on who sings it.** The closed set, the palette and the second
+  reading all have to work either way, so that the choice stays a production decision made at
+  render time rather than something baked into the words.
+
+**Open, and observed rather than designed:** `chelsea-girl` came back sounding like someone who has
+not slept, which no part of its prompt asked for, and was the better of the two voices for it. That
+exhaustion would fit the engine well — it would be *why* the narrator does not notice what she is
+reciting — but it rests on one render and is not a constraint to write to. See `styles.md`.
 
 **Fence against the roster's other women.** Guessed is one thin close-miked voice that withholds;
 girlboss is a woman talking fast and entirely in control; hobo is stacked harmony with no lead at
@@ -173,7 +179,7 @@ Fall arrangement, and it asks Suno for the one thing it least wants to do.
 ## Don't let it calcify
 
 Rotate every song: **the closed set**, **the kind of set** (polysemy, numbers, names, officialese),
-**the palette**, and **the arrangement**. Keep: the unvoiced second reading, the density, the
+**the palette**, **the arrangement**, and **the singer**. Keep: the unvoiced second reading, the density, the
 declamatory British voice with no melody, the riff, and the landing. If two consecutive songs pick
 the same kind of closed set, the second one is wrong — rewrite it.
 
