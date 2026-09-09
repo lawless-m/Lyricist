@@ -1,9 +1,15 @@
 # Unadopted — Suno Style Prompts
 
-**Status: three songs, one confirmed render.** `get-lifted` rendered and works — it is the founding
-render and the source of every finding below. `chelsea-girl` is the female-voice test and is
-unrendered at the time of writing. `a-six-six-six` tests the unchanging variant and no finding is
-recorded for it here. Findings in this file
+**Status: four songs, two confirmed renders.** `get-lifted` rendered and works — it is the founding
+render and the source of the 303 finding. `chelsea-girl` rendered and is the better of the two
+voices; see the exhaustion finding below. `a-six-six-six` and `beech-way-stops` both test the
+unchanging variant and no finding is recorded for either.
+
+**`beech-way-stops` changes exactly one thing against `chelsea-girl`: the arrangement.** Its vocal
+terms are copied across word for word so that whether the exhaustion reproduces can be read off it,
+and the acid 303 term is carried over unchanged. If the voice comes back tired again the effect
+belongs to the female-voice request rather than to a lucky roll; if it does not, the arrangement is
+the confound to suspect first. Findings in this file
 are added by listening, never by predicting — the same rule the rest of the catalogue runs on.
 
 **One note on provenance, since the prompts have been edited.** `get-lifted` was actually rendered

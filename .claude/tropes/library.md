@@ -7479,3 +7479,54 @@ gets fixed.
   ("I am not throwing away a bag"). Provincial-England palette at household scale.
 - Example: unadopted/chelsea-girl
 - Logged at catalog size 258.
+
+### "ELM. ASH. OAK. BEECH." — the tree-street closed set
+- Unadopted's fourth closed set and a fourth kind: the trees off an estate's street signs, chanted
+  bare as four hard monosyllables. The unvoiced second reading is in the source material rather than
+  the writing — an estate is named for what was cleared to build it, and the first two named are the
+  two Britain has largely lost. No line anywhere remarks on any of that. Species that double as
+  women's first names (Holly, Hazel, Rowan, Willow) are deliberately excluded so the set cannot
+  re-run chelsea-girl's first-name device.
+- Example: unadopted/beech-way-stops
+- Logged at catalog size 259.
+
+### The final chant taking on a fifth item that is not in the set
+- The closing move, third shape: the roll-call gains "BIN STORE" on the last passes and ends on it
+  alone. Addition where chelsea-girl's closing was subtraction and get-lifted's was syllabic
+  fragmentation — three closings, three mechanisms.
+- Example: unadopted/beech-way-stops
+- Logged at catalog size 259.
+
+### "Beech Way is not a way. Beech Way stops."
+- The street name contradicted by the street, stated as a fact about the road and not as a joke
+  about the name. Cul-de-sac as flat report.
+- Example: unadopted/beech-way-stops
+- Logged at catalog size 259.
+
+### "Everybody knows about Larch. I am not going into Larch."
+- Unadopted's authority-without-explanation slot, third shape: refusal by assumed common knowledge.
+  She declines to explain on the grounds that no explanation could be needed, which withholds the
+  thing entirely while implying the whole estate already has it. Distinct from a-six-six-six's
+  refusal of a question and chelsea-girl's change of subject.
+- Example: unadopted/beech-way-stops
+- Logged at catalog size 259.
+
+### "He dug the hole himself, he was very pleased with it. / It's not there."
+- The one place the absence surfaces, kept inside a story about her father rather than an
+  observation about the estate — she never connects it to the street names, so the pattern stays
+  unvoiced per the band's engine. Immediately abandoned for something trivial, which is the
+  obliviousness doing its job.
+- Example: unadopted/beech-way-stops
+- Logged at catalog size 259.
+
+### "they tarmacked the turning circle and put a turning circle in"
+- Improvement that arrives back where it started, reported without comment. The estate's works
+  programme as a closed loop.
+- Example: unadopted/beech-way-stops
+- Logged at catalog size 259.
+
+### The monkey puzzle as the only tree actually present
+- The single surviving tree on a estate full of tree names is an import nobody wanted, at number
+  twelve, and "we do not discuss it". The joke and the wound in the same object, neither explained.
+- Example: unadopted/beech-way-stops
+- Logged at catalog size 259.

@@ -1013,3 +1013,10 @@ BAN	258	miss selfridge	unadopted/chelsea-girl truncated-to-the-honorific
 BAN	258	buried in something else	unadopted/chelsea-girl authority-without-explanation slot
 BAN	258	bag of bags	unadopted/chelsea-girl domestic-thrift image
 BAN	258	i am not throwing away a bag	unadopted/chelsea-girl domestic-thrift image
+BAN	259	elm\.? *ash\.? *oak\.? *beech	unadopted/beech-way-stops tree-street set
+BAN	259	bin store	unadopted/beech-way-stops fifth-item closing
+BAN	259	beech way (is not a way|stops)	unadopted/beech-way-stops name-contradicted-by-the-road
+BAN	259	not going into larch	unadopted/beech-way-stops refusal-by-assumed-knowledge
+BAN	259	tarmacked the turning circle	unadopted/beech-way-stops closed-loop works programme
+BAN	259	monkey puzzle	unadopted/beech-way-stops the only surviving tree
+BAN	259	cannot get to oak view	unadopted/beech-way-stops estate-navigation refrain
