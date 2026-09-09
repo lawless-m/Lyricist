@@ -188,6 +188,17 @@
   on the first failure trades a good line away for a problem that may not recur. Knowing which words
   are *capable* of going wrong is still worth having: it tells you what to listen for and which take
   to keep.
+- **Seventh class: padding to the maximum clip length.** Reported by the owner and observed on
+  `unadopted/beech-way-stops` — both renderings came back at 7:59, Suno's ceiling, with the whole
+  song played three times over. The usual form is milder, repeating the last few lines for several
+  minutes. A short lyric leaves more to pad, so writing long helps, but the mechanism is the
+  duration target rather than the word count.
+  **And this class breaks the two-take test, which is worth knowing before applying that test
+  anywhere.** Clip length appears to be decided once per generation and inherited by both takes, so
+  two takes agreeing on a padded length is the expected outcome whether or not the cause is
+  deterministic. Agreement across takes is evidence about pronunciation and phrasing; it is not
+  evidence about duration. Reach for the duration control, or a longer lyric, rather than concluding
+  from two matching takes that the words must change.
 - **Sixth class, and the only one that happens before a render exists: the artist-name filter.**
   Reported by the owner — a submission was **rejected for "name of an artist" because of the word
   `phosphate`**, in a lyric. In the other direction, Unadopted's prompts carried *"Prodigy style"*

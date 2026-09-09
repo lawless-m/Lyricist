@@ -148,26 +148,40 @@ prompt exactly as it stands and once with one fatigue term added, and compare. I
 take is already exhausted, the effect belongs to the female-voice request and needs no help. If only
 the modified take has it, the term is doing the work and can be kept deliberately.
 
-## The unchanging variant repeats the whole song, and the prompt caused it
+## The whole-song repeat — Suno padding to its maximum length
 
-**Found by listening: `beech-way-stops` came back as the same song played three times inside one
-clip, in both takes.** Deterministic by the two-take rule, so it is not a re-roll problem.
+**Found by listening: `beech-way-stops` came back as the same song three times inside one clip, in
+both takes. Both renderings are 7:59, which is Suno's maximum.** The owner's account is that it does
+this generally — usually by repeating the last few lines for five minutes rather than by replaying
+the whole song.
 
-Length is not the cause, and the numbers rule it out. Lyric word counts are `get-lifted` 243,
-`chelsea-girl` 195, `a-six-six-six` 223, `beech-way-stops` 212. **The shortest of the four is
-`chelsea-girl`, and it rendered fine.** What separates the working renders from the broken one is
-the arrangement prompt, not the word count.
+**So this is Suno padding a clip to length, and it is not something this prompt caused.** An earlier
+version of this section claimed the unchanging variant instructed the fault. That was too strong and
+is withdrawn: a documented general behaviour explains it without any reference to our wording.
 
-**The unchanging variant instructs the fault.** It says *repeated unchanged for the whole track,
-never resolving* and *motorik repetition* — an explicit instruction never to end — to a renderer
-that has a clip length to fill. `hard stop mid-bar` is not something it can act on. Given no ending
-and time left over, it ran the song again.
+What remains open is why the generation targeted the maximum at all. The unchanging variant's
+*never resolving* and *motorik repetition* are a plausible nudge toward a long track and are worth
+removing on suspicion, but nothing observed establishes it, and the drop-built songs not doing it is
+weak evidence at four renders.
 
-Disassembler solves the identical problem from the other side: it asks for **long instrumental
-stretches**, which gives the renderer something to do with the time that is not the lyric. That is
-the fix adopted below.
+**A caveat this fault exposes in our own diagnostic, and it matters beyond this band.** The two-take
+test says differing across takes means stochastic and re-roll, identical in both means deterministic
+and the lyric must change. **That inference does not hold for duration.** Clip length appears to be
+decided once per generation and inherited by both takes, so two takes agreeing on a padded length is
+the expected result whether the cause is stochastic or not. Both takes agreeing here proves nothing.
+See the catalogue-wide note in `disassembler/styles.md`.
 
-**Revised unchanging variant — untested, replaces the original:**
+**Levers, in the order worth trying:**
+
+- **Set a shorter target duration in Suno**, if the UI exposes it. This addresses the actual
+  mechanism rather than guessing at prompt wording, and costs nothing.
+- **Write longer.** A lyric that fills more of the clip leaves less to pad. Unadopted's songs run
+  195-243 words against Laundry's 327 mean, so there is room, and the catalogue already holds that
+  word count is rhythm material.
+- **The revised variant below**, which removes the endlessness terms and states a plain structural
+  negative. Speculative, harmless, and worth folding in while doing the other two.
+
+**Revised unchanging variant — untested, and not claimed as the fix:**
 
 ```
 big beat, one distorted two-chord guitar riff, the same riff throughout, hard live breakbeat drums
@@ -178,21 +192,12 @@ on the chant, dry close-miked verses, lo-fi garage production, gritty analogue d
 one pass through the lyric only, do not repeat the song, ends on the final chant
 ```
 
-Three changes, and the reasoning for each so a later reader can undo the right one:
+`never resolving` is gone; long riff-only stretches are added on the Disassembler precedent, to give
+the renderer something to fill time with that is not the lyric; and the plain negatives are added on
+the gabber spike's finding that plainly-stated structural instructions are honoured.
 
-- **`never resolving` is gone.** It was the instruction that removed the ending.
-- **`long riff-only instrumental stretches between vocal sections` added**, on the Disassembler
-  precedent — fill the clip with riff rather than with a second pass.
-- **`one pass through the lyric only, do not repeat the song, ends on the final chant` added.** The
-  gabber spike established that Suno honours plainly-stated structural negatives (*kick fully
-  removed* worked), so a plain negative is worth trying before anything cleverer.
-
-*`the same riff throughout` is kept* — the Fall arrangement is the point of the variant, and nothing
-observed says that term is at fault. If the revision still repeats, that term is the next suspect
-and lengthening the lyric is the fallback after it.
-
-**Status of the variant: failed once, revised, still unproven.** The drop-built core remains the
-only arrangement with a clean render behind it.
+**Status of the variant: unproven, and not yet fairly tested** — the one render it has was consumed
+by a padding fault that had nothing to do with whether the riff stays still.
 
 ## Instrument roster check
 
