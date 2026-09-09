@@ -188,11 +188,15 @@
   on the first failure trades a good line away for a problem that may not recur. Knowing which words
   are *capable* of going wrong is still worth having: it tells you what to listen for and which take
   to keep.
-- **Seventh class: padding to the maximum clip length.** Reported by the owner and observed on
-  `unadopted/beech-way-stops` — both renderings came back at 7:59, Suno's ceiling, with the whole
-  song played three times over. The usual form is milder, repeating the last few lines for several
-  minutes. A short lyric leaves more to pad, so writing long helps, but the mechanism is the
-  duration target rather than the word count.
+- **Seventh class, and it is not always a fault: padding to the maximum clip length.** Suno fills a
+  clip to its ceiling, and it does it in at least two ways. The common form, per the owner, is
+  **repeating the last few lines for several minutes** — a stuck loop, and unwanted. The other form
+  is a **clean restart of the whole song**, observed on `unadopted/beech-way-stops`, where both
+  takes came back at 7:59 with the song played three times; there the owner's verdict was that it
+  was a win, because that band's whole intent is a track that never develops. So identify which form
+  you have before treating it as a problem. Unverified hypothesis worth testing: material with no
+  dynamics gives the renderer nothing to extend and so gets the clean restart, while a song with a
+  loud final section offers something to loop and gets the stuck one.
   **And this class breaks the two-take test, which is worth knowing before applying that test
   anywhere.** Clip length appears to be decided once per generation and inherited by both takes, so
   two takes agreeing on a padded length is the expected outcome whether or not the cause is
