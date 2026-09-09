@@ -77,8 +77,9 @@ siren rise into each drop, long riff-only stretches between vocals, gritty analo
 clipping, hard stop ending on the beat
 ```
 
-**Unchanging variant** (`a-six-six-six`, unproven). The Fall arrangement — one riff, no development,
-no drops:
+**Unchanging variant** (`a-six-six-six`, `beech-way-stops`) — **superseded, do not paste.** The
+original wording below caused the whole-song repeat documented further down; the revised version is
+in that section. Kept here only as the record of what was actually pasted:
 
 ```
 big beat, one distorted two-chord guitar riff repeated unchanged for the whole track, never
@@ -146,6 +147,52 @@ The cheap test, when there is a fourth song: render it twice off the same lyric,
 prompt exactly as it stands and once with one fatigue term added, and compare. If the unmodified
 take is already exhausted, the effect belongs to the female-voice request and needs no help. If only
 the modified take has it, the term is doing the work and can be kept deliberately.
+
+## The unchanging variant repeats the whole song, and the prompt caused it
+
+**Found by listening: `beech-way-stops` came back as the same song played three times inside one
+clip, in both takes.** Deterministic by the two-take rule, so it is not a re-roll problem.
+
+Length is not the cause, and the numbers rule it out. Lyric word counts are `get-lifted` 243,
+`chelsea-girl` 195, `a-six-six-six` 223, `beech-way-stops` 212. **The shortest of the four is
+`chelsea-girl`, and it rendered fine.** What separates the working renders from the broken one is
+the arrangement prompt, not the word count.
+
+**The unchanging variant instructs the fault.** It says *repeated unchanged for the whole track,
+never resolving* and *motorik repetition* — an explicit instruction never to end — to a renderer
+that has a clip length to fill. `hard stop mid-bar` is not something it can act on. Given no ending
+and time left over, it ran the song again.
+
+Disassembler solves the identical problem from the other side: it asks for **long instrumental
+stretches**, which gives the renderer something to do with the time that is not the lyric. That is
+the fix adopted below.
+
+**Revised unchanging variant — untested, replaces the original:**
+
+```
+big beat, one distorted two-chord guitar riff, the same riff throughout, hard live breakbeat drums
+with room mics, 138 BPM, distorted acid 303 line running under the riff, long riff-only instrumental
+stretches between vocal sections, shouted female vocal ranted flat out, thick UK accent, declamatory
+not sung, no melody in the vocal anywhere, brassy untrained female punk delivery, gang shouts placed
+on the chant, dry close-miked verses, lo-fi garage production, gritty analogue distortion, clipping,
+one pass through the lyric only, do not repeat the song, ends on the final chant
+```
+
+Three changes, and the reasoning for each so a later reader can undo the right one:
+
+- **`never resolving` is gone.** It was the instruction that removed the ending.
+- **`long riff-only instrumental stretches between vocal sections` added**, on the Disassembler
+  precedent — fill the clip with riff rather than with a second pass.
+- **`one pass through the lyric only, do not repeat the song, ends on the final chant` added.** The
+  gabber spike established that Suno honours plainly-stated structural negatives (*kick fully
+  removed* worked), so a plain negative is worth trying before anything cleverer.
+
+*`the same riff throughout` is kept* — the Fall arrangement is the point of the variant, and nothing
+observed says that term is at fault. If the revision still repeats, that term is the next suspect
+and lengthening the lyric is the fallback after it.
+
+**Status of the variant: failed once, revised, still unproven.** The drop-built core remains the
+only arrangement with a clean render behind it.
 
 ## Instrument roster check
 
