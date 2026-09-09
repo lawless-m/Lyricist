@@ -196,8 +196,11 @@
   was a win, because that band's whole intent is a track that never develops. So identify which form
   you have before treating it as a problem.
   **This is a Suno behaviour, seen across the owner's renders, and it is not caused by prompting.**
-  Do not try to steer it in either direction, and do not read a padded clip as evidence about the
-  lyric or the style prompt. It also breaks the two-take test for duration, below.
+  It crosses bands — `laundry/permanence-is-temporary` did it as well, on a far denser mix and a
+  different arrangement — and it is **stochastic and decided per take**: on that song it hit one of
+  the two takes only. So the two-take test works normally here, and a re-roll is the response when
+  the padding is unwanted. Do not try to steer it by prompt in either direction, and do not read a
+  padded clip as evidence about the lyric or the style prompt.
   **And this class breaks the two-take test, which is worth knowing before applying that test
   anywhere.** Clip length appears to be decided once per generation and inherited by both takes, so
   two takes agreeing on a padded length is the expected outcome whether or not the cause is

@@ -147,34 +147,41 @@ prompt exactly as it stands and once with one fatigue term added, and compare. I
 take is already exhausted, the effect belongs to the female-voice request and needs no help. If only
 the modified take has it, the term is doing the work and can be kept deliberately.
 
-## The whole-song repeat — a known Suno behaviour, not something we caused
+## The whole-song repeat — a known Suno behaviour, stochastic and per-take
 
 **`beech-way-stops` came back at 7:59 in both takes — Suno's maximum — with the entire song played
 through three times. The owner's verdict: a total win.**
 
-**It is a Suno issue, seen before, and it is not the result of prompting.** That is the owner's
-call, on far more renders than this band has. Three earlier versions of this section tried to
-explain it — the prompt instructed it, then Suno padded badly, then material without dynamics
-invites a clean restart. All three are withdrawn. There is no mechanism recorded here because none
-is known.
+**It is a Suno issue, seen before across the catalogue, and it is not the result of prompting.**
+Three earlier explanations attempted in this file are withdrawn; no mechanism is recorded because
+none is known.
 
-What is worth keeping is narrower:
+Two observations pin down its shape, and the second one matters most:
 
-- **It has two forms and they are not equally welcome.** The common one, per the owner, repeats the
-  last few lines for several minutes — a stuck loop. The other restarts the whole song cleanly,
-  which is what happened here, and for a band whose intent is a track that never develops it reads
-  as the arrangement rather than a defect. Work out which one you have before deciding it is a
-  problem.
-- **Do not prompt for it or against it.** It is not ours to steer. In particular, an earlier
-  revision of this file added *one pass through the lyric only, do not repeat the song, ends on the
-  final chant* to the unchanging variant, which would have done nothing about the cause and might
-  have suppressed a good outcome. Reverted; `beech-way-stops.style.txt` carries the original
-  wording, and `never resolving` and `motorik repetition` stay.
-- **The duration caveat to the two-take test stands, and this strengthens it.** Agreement across
-  takes is read elsewhere as proof of determinism. For length it proves nothing — clip length looks
-  like a per-generation setting both takes inherit, and if the cause is a renderer quirk rather than
-  our text then the lyric is not the lever regardless. That test is evidence about pronunciation and
-  phrasing only. See `disassembler/styles.md`.
+- **It crosses bands.** `laundry/permanence-is-temporary` did it too — a completely different spec,
+  a much denser mix and a different arrangement. Nothing about this band's prompt is implicated.
+- **It varies between takes of the same generation.** On `permanence-is-temporary` it hit **one of
+  the two takes only**. So it is stochastic and decided per take, not per generation.
+
+**Which means the two-take test applies here after all, and a re-roll is the response.** An earlier
+version of this file claimed the opposite — that clip length was a per-generation setting both takes
+inherit, so agreement across takes proved nothing about it. That was an inference, not an
+observation, and one take of two contradicts it. It is withdrawn. If a padded clip is unwanted,
+re-roll it; both takes agreeing, as they did here, is what a moderately-likely random event looks
+like rather than evidence of a cause.
+
+Still worth knowing:
+
+- **It has two forms and they are not equally welcome.** The common one repeats the last few lines
+  for several minutes — a stuck loop. The other restarts the whole song cleanly, which is what
+  happened here, and for a band whose intent is a track that never develops it reads as the
+  arrangement rather than a defect. Work out which you have before deciding it is a problem.
+- **Do not prompt for it or against it.** An earlier revision added *one pass through the lyric
+  only, do not repeat the song, ends on the final chant* to the unchanging variant, which would have
+  done nothing about a stochastic renderer behaviour and might have suppressed a good outcome.
+  Reverted; `beech-way-stops.style.txt` carries the original wording, and `never resolving` and
+  `motorik repetition` stay. If you want the whole-song restart, the only route is re-rolling until
+  it turns up.
 
 **Status of the unchanging variant: a good render behind it, per the owner's verdict.** Whether Suno
 held the riff genuinely unchanged has not been reported separately, so that specific question — the
