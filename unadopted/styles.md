@@ -203,6 +203,23 @@ Still worth knowing:
 held the riff genuinely unchanged has not been reported separately, so that specific question — the
 one the variant exists to answer — is still open.
 
+## Unverified content in `thats-seven`
+
+The club names in `thats-seven` are **not verified against the current table.** The owner supplied
+the BBC's Scottish League One table as the source and this environment's network policy refused the
+fetch (`www.bbc.co.uk:443`, 403 at the proxy), the same block that stops the Suno bridge working
+from here.
+
+The names used are Scottish senior clubs believed to have played at that level, but **which of them
+are in League One this season is unchecked.** The spec's rule is that a named thing must be real
+rather than approximated, so this is a known gap rather than an accepted one. Nothing in the lyric
+depends on the specific clubs — swap any that are wrong against the live table, keeping the syllable
+count roughly similar so the read-out still scans.
+
+One line is deliberate folklore rather than a result: *"East Fife four, Forfar five"* is the famous
+almost-spoonerism of British football commentary. It is included because a listener who knows it
+hears a joke the narrator is plainly not making, which is the band's engine.
+
 ## Instrument roster check
 
 A distorted guitar riff is the backbone here, which is shared ground with **hobo** — the only other

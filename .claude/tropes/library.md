@@ -7530,3 +7530,54 @@ gets fixed.
   twelve, and "we do not discuss it". The joke and the wound in the same object, neither explained.
 - Example: unadopted/beech-way-stops
 - Logged at catalog size 259.
+
+### "HOME WIN. AWAY WIN. SCORE DRAW. NO SCORE DRAW." — the pools classifications as the closed set
+- Unadopted's fifth closed set and a fifth kind: the four result categories off a football pools
+  coupon, chanted bare. Every outcome there is has a box, and most of them are not winning. The
+  unvoiced second reading is what the narrator is actually after — see the delight entry below —
+  and the coupon is never named anywhere in the song.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.
+
+### The build as rising intonation rather than added words
+- The pre-drop build carries no new material at all: one club name repeated with the voice climbing
+  the way a results announcer's does when the away side have won, which tells a British listener the
+  result before the second number arrives. Distinct from get-lifted's build, which assembles the
+  closed set a word at a time — here nothing is assembled and the lift is entirely in the delivery.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.
+
+### The final drop dismantled into a tally that stops one short
+- Unadopted's closing move, fourth mechanism: the chant stops being a chant and becomes counting —
+  "SCORE DRAW. That's five. / SCORE DRAW. That's six. / SCORE DRAW. / That's seven." — ending one
+  short of the eight a coupon needs, which is never mentioned. Against get-lifted's syllabic
+  fragmentation, chelsea-girl's subtraction and beech-way-stops' addition.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.
+
+### "Nobody scored in three of them and I am having a marvellous afternoon."
+- The band's engine at its plainest: the outcome he is delighted by is nothing happening. Why a
+  nil-nil is the good result is never stated, so the listener assembles the coupon and he never
+  mentions it.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.
+
+### "You do not do the Saturday one on a Sunday. That is not a rule anybody made up. That is just what it is."
+- Unadopted's authority-without-explanation slot, fourth shape: a private rule asserted as a law of
+  nature, with its lack of an author offered as proof rather than as a problem. Against the six's
+  refused question, chelsea-girl's change of subject and beech-way-stops' appeal to common
+  knowledge.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.
+
+### "Same pen. Same chair. Same eight."
+- Ritual itemised in three objects, the third of which is not an object. The number that matters
+  most in the song arrives in a list of furniture and is never explained.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.
+
+### "Our Michelle rang. I said I would ring her back."
+- The named relative who does not get a second line — a person entering the song only as an
+  interruption to the ritual, and losing.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.

@@ -1020,3 +1020,10 @@ BAN	259	not going into larch	unadopted/beech-way-stops refusal-by-assumed-knowle
 BAN	259	tarmacked the turning circle	unadopted/beech-way-stops closed-loop works programme
 BAN	259	monkey puzzle	unadopted/beech-way-stops the only surviving tree
 BAN	259	cannot get to oak view	unadopted/beech-way-stops estate-navigation refrain
+BAN	260	home win\.? *away win\.? *score draw	unadopted/thats-seven pools-classification set
+BAN	260	no score draw	unadopted/thats-seven pools-classification set
+BAN	260	having a marvellous afternoon	unadopted/thats-seven delight-at-nothing-happening
+BAN	260	not a rule anybody made up	unadopted/thats-seven authority-without-explanation slot
+BAN	260	same pen\.? same chair	unadopted/thats-seven ritual itemised
+BAN	260	said i would ring her back	unadopted/thats-seven interrupted-ritual relative
+BAN	260	that.s (five|six|seven)\.?$	unadopted/thats-seven tally closing
