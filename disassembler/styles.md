@@ -188,6 +188,39 @@
   on the first failure trades a good line away for a problem that may not recur. Knowing which words
   are *capable* of going wrong is still worth having: it tells you what to listen for and which take
   to keep.
+- **Seventh class, and it is not always a fault: padding to the maximum clip length.** Suno fills a
+  clip to its ceiling, and it does it in at least two ways. The common form, per the owner, is
+  **repeating the last few lines for several minutes** — a stuck loop, and unwanted. The other form
+  is a **clean restart of the whole song**, observed on `unadopted/beech-way-stops`, where both
+  takes came back at 7:59 with the song played three times; there the owner's verdict was that it
+  was a win, because that band's whole intent is a track that never develops. So identify which form
+  you have before treating it as a problem.
+  **This is a Suno behaviour, seen across the owner's renders, and it is not caused by prompting.**
+  It crosses bands — `laundry/permanence-is-temporary` did it as well, on a far denser mix and a
+  different arrangement — and it is **stochastic and decided per take**: on that song it hit one of
+  the two takes only. So the two-take test works normally here, and a re-roll is the response when
+  the padding is unwanted. Do not try to steer it by prompt in either direction, and do not read a
+  padded clip as evidence about the lyric or the style prompt.
+  **And this class breaks the two-take test, which is worth knowing before applying that test
+  anywhere.** Clip length appears to be decided once per generation and inherited by both takes, so
+  two takes agreeing on a padded length is the expected outcome whether or not the cause is
+  deterministic. Agreement across takes is evidence about pronunciation and phrasing; it is not
+  evidence about duration. Reach for the duration control, or a longer lyric, rather than concluding
+  from two matching takes that the words must change.
+- **Sixth class, and the only one that happens before a render exists: the artist-name filter.**
+  Reported by the owner — a submission was **rejected for "name of an artist" because of the word
+  `phosphate`**, in a lyric. In the other direction, Unadopted's prompts carried *"Prodigy style"*
+  and a named vocalist and were never flagged. So the check is loose in both directions at once: it
+  fires on ordinary nouns that happen to collide with somebody's stage name, and it misses actual
+  band names written in plain sight.
+  Two things follow, and they are independent of each other:
+  - **A rejection does not tell you which token caused it.** Do not assume it is the obvious
+    reference — the offending word may be a perfectly innocent noun, and on the one datum available
+    it was. Bisect the text rather than guessing, and check the lyric as well as the prompt, since
+    this class fires on both.
+  - **Passing is not permission.** The house rule is that style prompts never name a real band or
+    artist, and it holds whether or not the filter enforces it on any given day. Two prompts getting
+    through is evidence about the filter, not about the rule.
 - The **breakdown is the least predictable part** — regenerate to find a take where the beat
   genuinely stops and the voice is dry, close and unaccompanied. A take that keeps a pad running
   under it kills the signature move. (Same job as chasing the crack in gypsy-emo's shout-back or

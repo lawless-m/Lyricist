@@ -7328,3 +7328,272 @@ gets fixed.
   build states the distinction rather than leaving it to be assumed.
 - Example: disassembler/weaponizing-uselessness
 - Logged at catalog size 256.
+
+### CHARGE / DRAW / LIFT / BANG — the closed word-set hook, reordered rather than reworded
+- The big-beat probe's hook: four bare monosyllables, grammar stripped off entirely, shouted as
+  percussion. Every one is a rave word and a police word at the same time (charge, a draw, getting
+  lifted, banged up) and the song never instantiates the second sense anywhere — the whole gravity
+  well sits in a vocabulary that does two jobs and is only ever used for one. Distinct from
+  laundry's consumption-imperative openers, which are verb-object instructions about consuming;
+  this has no verbs, no objects and no instruction. Distinct from disassembler's shouted-anchor
+  drops, which are phrases asserting a thesis; this asserts nothing and carries its payload in
+  recombination.
+- Example: get-lifted
+- Logged at catalog size 256.
+
+### The second drop reordered, not reworded
+- Drop 1 is CHARGE / DRAW / LIFT / BANG; drop 2 is LIFT / BANG / CHARGE / DRAW — the same closed
+  set in a new order, so the hook returns altered without a single word changing. Deliberately
+  distinct from disassembler's altered repeat (the second drop that changes one word), which
+  operates on lexis; this operates on sequence only.
+- Example: get-lifted
+- Logged at catalog size 256.
+
+### The build that assembles the hook one word at a time
+- The pre-drop build is the word set accumulating rather than the arrangement collapsing:
+  "charge — / charge, draw — / charge, draw, lift —", landing complete on the drop. The manic
+  inverse of laundry's mechanical-collapse pre-hook lines, where the kits come apart on the way in.
+- Example: get-lifted
+- Logged at catalog size 256.
+
+### Lexical polysemy as percussion — the same word twice in a line, both senses literal
+- The verse method: "copper in the copper", "boot in the boot, bag in the boot, boot in the bag",
+  "drawer full of draw", "dog's got the tape, tape's got the dog". The word is chosen because
+  repeating it is a drum hit, and the two senses are both plain dictionary senses rather than a
+  situational innuendo. Distinct from girlboss's task double-entendre and the Carry On homophone,
+  which are contextual — a job that also reads as sex; this is lexical and has no second situation
+  at all.
+- Example: get-lifted
+- Logged at catalog size 256.
+
+### "Hands up is the same as hands up."
+- The one legible line, in the breakdown, said once and never returned to: a tautology whose two
+  halves are different worlds. Placed as a claim in a quiet gap rather than as a spike in a smear,
+  which is what keeps it off laundry's flash-of-legibility slot.
+- Example: get-lifted
+- Logged at catalog size 256.
+
+### "Field's a field till somebody says field."
+- Naming as the thing that changes what a place is, stated as a tautology that isn't one. Sits next
+  to the line above as the breakdown's other half.
+- Example: get-lifted
+- Logged at catalog size 256.
+
+### Verse 2 as the harmless-sense pass — every hook word cashed in for its innocent meaning
+- Each of the four hook words is spent on its most ordinary reading, one per line: a draw on the
+  window, a lift out of order, charge on the meter, and "the bang was the door. That's all the bang
+  was." The other sense is never supplied, and the denial is what supplies it.
+- Example: get-lifted
+- Logged at catalog size 256.
+
+### "FIVE EIGHT OH / SIX SIX SIX / FIVE FOUR" — the road-number chant as a closed percussive set
+- Unadopted's second closed set: three real British road numbers recited flat as the hook, spelled
+  as words rather than numerals per the orthography class. Numbers used as pure percussion, with no
+  proposition anywhere in the drop. Distinct from get-lifted's polysemous set, which recombines four
+  words with themselves; this one never recombines and never varies — the same three numbers, in the
+  same order, every time.
+- Example: unadopted/a-six-six-six
+- Logged at catalog size 258.
+
+### The unvoiced six-six-six — the ominous fact nobody in the song notices
+- The band's engine in its purest instance: the A666 is a real road number, it sits in the chant
+  between the A580 and the A54, and no line anywhere remarks on it. The deflation that would
+  normally follow ("it goes to Bolton") is deliberately withheld, because voicing it collapses the
+  gap into a joke and turns the drop into disassembler's shouted-anchor pair. The rule generalises —
+  a second reading is never spoken by anyone inside an Unadopted song.
+- Example: unadopted/a-six-six-six
+- Logged at catalog size 258.
+
+### The dead-retail succession as the verse method
+- Provincial England itemised by what each unit used to be: "The carpet shop's a vape shop and the
+  vape shop was a bank, / the bank's a Wetherspoons, the Wetherspoons was a bank", then
+  "Comet's a Costa, Costa's a Card Factory, Card Factory's shut". Half Man Half Biscuit's precision
+  discipline — the effect is exactness, never a punchline. Distinct from hobo's junk pile, which is
+  acquisition; nothing is being wanted here, only listed.
+- Example: unadopted/a-six-six-six
+- Logged at catalog size 258.
+
+### "I have been to the garden centre. There is a train in it. Do not ask me about the train."
+- Authority without explanation — the band's flat-assertion device, one per song. The Fall's
+  register: something oddly specific stated as though it were evidence, with the refusal to justify
+  it built into the same breath. Distinct from disassembler's system text, which is quoted from a
+  real artefact; this is asserted by a person who will not be questioned.
+- Example: unadopted/a-six-six-six
+- Logged at catalog size 258.
+
+### "He has got me down as two vehicles. He knows what he has done."
+- The identity wound worn casually and misfiled — a man counted as a quantity by a bloke with a
+  clipboard, and the paranoid second clause landing on something far too small to carry it.
+- Example: unadopted/a-six-six-six
+- Logged at catalog size 258.
+
+### The riff that never changes as a structural device
+- Unadopted's unchanging arrangement: one two-chord riff stated in the first bar and never developed
+  for the length of the track, no drops at all, the chants being nothing but the same riff louder
+  and the vocal running continuously over it. The structural opposite of the band's own drop-built
+  arrangement, and the thing the renderer is least willing to do.
+- Example: unadopted/a-six-six-six
+- Logged at catalog size 258.
+
+### "DOROTHY. LAURA. CLAIRE. WALLIS." — the roll-call of first names stripped off shop brands
+- Unadopted's third closed set and a third kind of set: real British high-street chains reduced to
+  the women's names inside them, chanted bare. The second reading — that this is a list of women who
+  are gone — is never voiced by anyone in the song, per the band's engine. Distinct from
+  get-lifted's polysemous set and a-six-six-six's numeric one; nothing here recombines or repeats a
+  sense, the names simply stand there having been shortened.
+- Example: unadopted/chelsea-girl
+- Logged at catalog size 258.
+
+### The final chant losing one name a pass until only the first is left
+- The drop-built arrangement's closing move, varied: where get-lifted's set fragments syllabically,
+  this one shortens — four names, then three, then two, then one, then a hard stop. The roll-call
+  closing down, with no line anywhere saying so.
+- Example: unadopted/chelsea-girl
+- Logged at catalog size 258.
+
+### "Claire did the ears. Claire did everybody's ears."
+- The dead chain reported as a person who performed a service, in the past tense, with no line ever
+  making the equation between the shop and the woman. The band's engine at sentence scale — the
+  ambiguity does the work and the narrator never clarifies it.
+- Example: unadopted/chelsea-girl
+- Logged at catalog size 258.
+
+### "Miss Selfridge. / Miss. Miss."
+- A brand truncated until only the honorific is left, at which point it is also the other word.
+  Distinct from get-lifted's lexical polysemy, which puts both senses in one line as literal
+  dictionary readings: here the second sense is never instantiated at all, and arrives only in the
+  listener.
+- Example: unadopted/chelsea-girl
+- Logged at catalog size 258.
+
+### "was buried in something else. / Anyway."
+- Unadopted's authority-without-explanation slot, fresh shape: instead of refusing a question
+  (a-six-six-six's "Do not ask me about the train"), she drops the most loaded fact in the song and
+  moves straight on to what time the market is. The refusal is the change of subject, and "Anyway"
+  is the whole of it.
+- Example: unadopted/chelsea-girl
+- Logged at catalog size 258.
+
+### "There is a bag of bags under my mother's sink"
+- The kept carrier bag as inherited domestic thrift, stated as fact and immediately defended
+  ("I am not throwing away a bag"). Provincial-England palette at household scale.
+- Example: unadopted/chelsea-girl
+- Logged at catalog size 258.
+
+### "ELM. ASH. OAK. BEECH." — the tree-street closed set
+- Unadopted's fourth closed set and a fourth kind: the trees off an estate's street signs, chanted
+  bare as four hard monosyllables. The unvoiced second reading is in the source material rather than
+  the writing — an estate is named for what was cleared to build it, and the first two named are the
+  two Britain has largely lost. No line anywhere remarks on any of that. Species that double as
+  women's first names (Holly, Hazel, Rowan, Willow) are deliberately excluded so the set cannot
+  re-run chelsea-girl's first-name device.
+- Example: unadopted/beech-way-stops
+- Logged at catalog size 259.
+
+### The final chant taking on a fifth item that is not in the set
+- The closing move, third shape: the roll-call gains "BIN STORE" on the last passes and ends on it
+  alone. Addition where chelsea-girl's closing was subtraction and get-lifted's was syllabic
+  fragmentation — three closings, three mechanisms.
+- Example: unadopted/beech-way-stops
+- Logged at catalog size 259.
+
+### "Beech Way is not a way. Beech Way stops."
+- The street name contradicted by the street, stated as a fact about the road and not as a joke
+  about the name. Cul-de-sac as flat report.
+- Example: unadopted/beech-way-stops
+- Logged at catalog size 259.
+
+### "Everybody knows about Larch. I am not going into Larch."
+- Unadopted's authority-without-explanation slot, third shape: refusal by assumed common knowledge.
+  She declines to explain on the grounds that no explanation could be needed, which withholds the
+  thing entirely while implying the whole estate already has it. Distinct from a-six-six-six's
+  refusal of a question and chelsea-girl's change of subject.
+- Example: unadopted/beech-way-stops
+- Logged at catalog size 259.
+
+### "He dug the hole himself, he was very pleased with it. / It's not there."
+- The one place the absence surfaces, kept inside a story about her father rather than an
+  observation about the estate — she never connects it to the street names, so the pattern stays
+  unvoiced per the band's engine. Immediately abandoned for something trivial, which is the
+  obliviousness doing its job.
+- Example: unadopted/beech-way-stops
+- Logged at catalog size 259.
+
+### "they tarmacked the turning circle and put a turning circle in"
+- Improvement that arrives back where it started, reported without comment. The estate's works
+  programme as a closed loop.
+- Example: unadopted/beech-way-stops
+- Logged at catalog size 259.
+
+### The monkey puzzle as the only tree actually present
+- The single surviving tree on a estate full of tree names is an import nobody wanted, at number
+  twelve, and "we do not discuss it". The joke and the wound in the same object, neither explained.
+- Example: unadopted/beech-way-stops
+- Logged at catalog size 259.
+
+### "HOME WIN. AWAY WIN. SCORE DRAW. NO SCORE DRAW." — the pools classifications as the closed set
+- Unadopted's fifth closed set and a fifth kind: the four result categories off a football pools
+  coupon, chanted bare. Every outcome there is has a box, and most of them are not winning. The
+  unvoiced second reading is what the narrator is actually after — see the delight entry below —
+  and the coupon is never named anywhere in the song.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.
+
+### The build as rising intonation rather than added words
+- The pre-drop build carries no new material at all: one club name repeated with the voice climbing
+  the way a results announcer's does when the away side have won, which tells a British listener the
+  result before the second number arrives. Distinct from get-lifted's build, which assembles the
+  closed set a word at a time — here nothing is assembled and the lift is entirely in the delivery.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.
+
+### The final drop dismantled into a tally that stops one short
+- Unadopted's closing move, fourth mechanism: the chant stops being a chant and becomes counting —
+  "SCORE DRAW. That's five. / SCORE DRAW. That's six. / SCORE DRAW. / That's seven." — ending one
+  short of the eight a coupon needs, which is never mentioned. Against get-lifted's syllabic
+  fragmentation, chelsea-girl's subtraction and beech-way-stops' addition.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.
+
+### "Three of them all square with the goals in. / I am having a marvellous afternoon."
+- The band's engine at its plainest: the outcome he is delighted by is a match where both sides
+  scored and it cancelled out. Why that is the good result is never stated, so the listener
+  assembles the coupon and he never mentions it. The inverse is in the same song — a nil-nil gets
+  "that is the wrong kind of nothing", which is correct on a coupon and reads as perverse without
+  it.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.
+
+### "You do not do the Saturday one on a Sunday. That is not a rule anybody made up. That is just what it is."
+- Unadopted's authority-without-explanation slot, fourth shape: a private rule asserted as a law of
+  nature, with its lack of an author offered as proof rather than as a problem. Against the six's
+  refused question, chelsea-girl's change of subject and beech-way-stops' appeal to common
+  knowledge.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.
+
+### "Same pen. Same chair. Same eight."
+- Ritual itemised in three objects, the third of which is not an object. The number that matters
+  most in the song arrives in a list of furniture and is never explained.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.
+
+### "Our Michelle rang. I said I would ring her back."
+- The named relative who does not get a second line — a person entering the song only as an
+  interruption to the ritual, and losing.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.
+
+### "East Fife four, Forfar five." — the folklore result recited among the real ones
+- The famous almost-spoonerism of British football commentary, dropped into a read-out of a division
+  Forfar are not in, with no acknowledgement that it is not today's result and no explanation
+  offered. A listener hears a joke he is plainly not making; he simply carries on to the next line.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.
+
+### "That is the wrong kind of nothing."
+- A nil-nil rejected by a man who wants goals that cancel out rather than no goals at all. The
+  distinction is real and belongs to the coupon; without it the line reads as pure perversity, which
+  is the point.
+- Example: unadopted/thats-seven
+- Logged at catalog size 260.
