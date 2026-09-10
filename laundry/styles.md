@@ -58,7 +58,16 @@ turned out to be *which grit* rather than *which instrument*.
 **Keep the 303 term in the prompt** for the distortion it brings, and stop expecting to hear one.
 If an actually audible instrument is wanted, the next thing to try is a **bracketed section tag**
 placing it at one specific point, the way the tags already control the breakdown — prompt-level
-terms have now failed twice. **Fence against ultracoase** either way: its identity is a *clean*
+terms have now failed twice.
+
+**Update (Unadopted, `get-lifted`): the cause is now known, and it is not the term.** An acid line
+rendered audibly in Unadopted, a band whose mix is one riff, one breakbeat and one voice. The
+difference from Laundry is arrangement density — two kits as separate parts, sampler stabs, chopped
+vocal and gang chants leave nowhere to put it. So the conclusion above holds for Laundry and the
+*general* rule drawn from it ("an instrument name behaves as a texture modifier") was too broad: it
+is a texture modifier **in a mix this full**. Nothing changes here in practice, because the density
+is the band and is not up for negotiation — the bracketed section tag is still the right next probe,
+and it is still untried. **Fence against ultracoase** either way: its identity is a *clean*
 pulsing sequenced arpeggiated bassline in 80s new wave production, where laundry's is blown out and
 never tuneful.
 
