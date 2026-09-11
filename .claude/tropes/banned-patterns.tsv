@@ -863,6 +863,12 @@ BAN	235	same trick each time	disassembler/show-it-dogs lineage close
 BAN	235	twelve per cent	disassembler/show-it-dogs ImageNet dog proportion
 BAN	235	had to put his cup down	disassembler/show-it-dogs outro claim
 PERM	235	horses can.t cry	the-bell-knows-my-name/they-went-up-quiet signature line — never logged until now; disassembler/show-it-dogs quotes it deliberately and is the only permitted reuse
+PERM	-	\blovely\b	stock British approval word; the house's default cheerfulness marker, saturated across 7 bands
+PERM	-	good coat	the good coat and what is in its pocket — laundry/mind-the-white, laundry/the-shoes-are-by-the-door
+PERM	-	coat.{0,12}pocket|pocket.{0,12}coat	same device: the small found object in the coat pocket
+PERM	-	(by|since|before|off|with|under|in) the coats\b	the cloakroom pile as a threshold — 4 bands, 3 of them Lucy Might
+WATCH	265	\bcoats?\b	the house's default prop; 37 songs. Allowed only where the coat is the subject, never as scenery
+WATCH	264	\bmarvellous\b	same approval-word class as lovely; allowed only if the song needs that exact register
 BAN	236	they hate that	laundry/they-hate-that mantra
 BAN	236	thank the machine, name the machine	laundry/they-hate-that hook opener
 BAN	236	thanked a cash machine	laundry/they-hate-that legible spike
@@ -1029,3 +1035,49 @@ BAN	260	said i would ring her back	unadopted/thats-seven interrupted-ritual rela
 BAN	260	that.s (five|six|seven)\.?$	unadopted/thats-seven tally closing
 BAN	260	east fife four, forfar five	unadopted/thats-seven folklore result among the real ones
 BAN	260	wrong kind of nothing	unadopted/thats-seven no-score-draw rejection
+BAN	257	the abyss looks away	laundry/nothing-moving legible spike, inverted aphorism
+BAN	257	stare into the abyss	laundry/nothing-moving legible spike, inverted aphorism
+BAN	257	nothing moving	laundry/nothing-moving mantra
+BAN	257	wave an arm, stand up	laundry/nothing-moving be-detected imperative opener
+BAN	257	make a shape, get seen	laundry/nothing-moving be-detected imperative opener
+BAN	257	how long was I sat there	laundry/nothing-moving question with no addressee
+BAN	257	stopped counting me	laundry/nothing-moving withdrawn-attention gravity well
+BAN	257	supposed to be the good part	laundry/nothing-moving verse-2 under-reaction closer
+BAN	258	under new	laundry/under-new mantra, truncated signage
+BAN	258	change is the only constant	laundry/under-new legible spike as signage
+BAN	258	in the good font	laundry/under-new signage device
+BAN	258	clear it out, strip it back	laundry/under-new refit imperative opener
+BAN	258	paint it white, open up	laundry/under-new refit imperative opener
+BAN	258	what was it before this one	laundry/under-new question with no addressee
+BAN	258	six separate businesses	laundry/under-new serial-replacement gravity well
+BAN	258	could not tell you which of them	laundry/under-new spike
+BAN	258	ghost sign comes back through	laundry/under-new fixtures palette
+BAN	264	bella\.? *molly\.? *daisy\.? *star	unadopted/ink-not-pencil mare-name closed set
+BAN	264	same four names	unadopted/ink-not-pencil closing wrong-observation landing
+BAN	264	what are the chances	unadopted/ink-not-pencil closing wrong-observation landing
+BAN	264	ink, not pencil	unadopted/ink-not-pencil procedural rule with the reading attached
+BAN	264	pencil comes out	unadopted/ink-not-pencil procedural rule with the reading attached
+BAN	264	nothing to do with me	unadopted/ink-not-pencil authority-without-explanation, refusal by jurisdiction
+BAN	264	no white on her	unadopted/ink-not-pencil identification blank costed as a workload
+BAN	264	a whorl takes longer than a star	unadopted/ink-not-pencil identification blank costed as a workload
+BAN	264	goes lighter every year	unadopted/ink-not-pencil the record undone by the animal
+BAN	264	before my dinner	unadopted/ink-not-pencil throughput as delight
+BAN	264	thirty-one in the spring	unadopted/ink-not-pencil bridge, presence rather than absence
+BAN	265	feel the width	laundry/feel-the-width mantra, proverb cut before the comma
+BAN	265	whole of the looking	laundry/feel-the-width flash of legibility
+BAN	265	forty-four and a half	laundry/feel-the-width unaddressed slot as a number read out
+BAN	265	comes back in as rag	laundry/feel-the-width circular-material image
+BAN	265	the price off the line	laundry/feel-the-width the fold priced as a flaw
+BAN	265	\b(shoddy|mungo)\b	laundry/feel-the-width rag-trade gravity well
+BAN	265	that is just the word for it	laundry/feel-the-width the proverb's missing half as jargon
+BAN	265	it does not stop at me	laundry/feel-the-width pre-hook close
+BAN	265	and it is fine, it is a	laundry dissolve opener, spent across nothing-moving and under-new
+BAN	265	stood up in the corner like a person	laundry/feel-the-width opening image
+BAN	266	harder to find	disassembler/harder-to-find drop anchor from the Limitations heading
+BAN	266	than we expect	disassembler/harder-to-find drop anchor
+BAN	266	more common than we believe	disassembler/harder-to-find second-drop anchor
+BAN	266	appendix redacted	disassembler/harder-to-find intro and outro bracket
+BAN	266	looking for something else	disassembler/harder-to-find the one human sentence
+BAN	266	list of minor incidents	disassembler/harder-to-find contents-page build
+BAN	266	every claim numbered	disassembler/harder-to-find contents-page build
+BAN	266	safety process failures	disassembler/harder-to-find contents-page build

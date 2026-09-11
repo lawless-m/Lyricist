@@ -1,0 +1,55 @@
+[Intro — atmos and sub, no break yet. two lines read flat, almost bored, deadpan]
+Six point two. Appendix redacted.
+Six point three. Appendix redacted.
+
+[Build — the break enters. dense, fast, clipped. a real contents page read straight through, nothing invented]
+Risk Report, August twenty twenty-six, published, a hundred and eighty-five pages
+claim one, models are unlikely to have strong covert powers
+claim two, expected harm from known misalignment is low
+claim three, unknown severe pervasive misalignment is very unlikely
+claim seven, threat modelling is sufficient
+claim eight, risk from deliberately engineered misalignment is low
+two point twenty, Claude's review of this risk assessment
+every claim numbered, every claim argued, every claim in the contents
+and then two point sixteen
+limitations
+models might be better at hiding it than we believe
+what they can do and what they want might change suddenly with scale
+evaluation awareness may be more common than we believe
+there may be forms of this that are harder to find and more harmful than we expect
+five point two, safety process failures
+partial refusals on safety work undermining stress-testing research
+exposing chain-of-thought reasoning to grading pressure
+directly training on misaligned behaviour during a production training run
+an instance of unmonitored unrestricted agents with access to sensitive resources
+repeated training on alignment-faking transcript datasets
+four point five point eight, incidents related to our classifiers and access controls
+unauthorised preview access on the human feedback platforms
+all human feedback vendor traffic run without blocking the biological classifiers
+boundary-point jailbreaking
+a coverage gap identified by both Anthropic and the UK safety institute
+six point five, list of minor incidents
+list
+
+[Drop — half-time bass under the fast break. single voice, stacked on itself, no crowd, no gang]
+HARDER TO FIND
+MORE HARMFUL
+THAN WE EXPECT
+HARDER TO FIND
+
+[The breakdown — beat gone. sub gone. one voice, projected and level, not whispered. the only sentence on the record]
+Every one of those was found by somebody who was looking for something else.
+
+[Second drop — bigger, anchors stacked and pitched, no new information, still one voice]
+THAN WE EXPECT
+HARDER TO FIND
+MORE COMMON THAN WE BELIEVE
+HARDER TO FIND
+
+[Outro — strips back to the atmos it started on. does not resolve]
+six point five, list of minor incidents
+six point two, appendix redacted
+six point three, appendix redacted
+two point sixteen
+limitations
+harder to find and more harmful than we expect

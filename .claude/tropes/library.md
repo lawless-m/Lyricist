@@ -7597,3 +7597,276 @@ gets fixed.
   is the point.
 - Example: unadopted/thats-seven
 - Logged at catalog size 260.
+
+### "actually, if you stare into the abyss long enough, the abyss looks away"
+- The owner's line, and Laundry's flash of legibility in a fresh shape: **a received aphorism
+  inverted into a boast that convicts itself.** Read straight it is a victory — he out-stared the
+  void. But the abyss looks away because he stopped reacting and it lost interest, so the triumph
+  is a description of the numbness, and the "actually" is the band's faint amusement doing the
+  work. Same self-cancelling family as we-had-to-want-it's "I deny it has done me any harm /
+  perhaps that is the harm it has done me", but built by turning somebody else's sentence round
+  rather than by contradicting his own.
+- Example: laundry/nothing-moving
+- Logged at catalog size 257.
+
+### "nothing moving" — mantra as a monitoring system's status line
+- Laundry's mantra anchor taken from the vocabulary of the thing that has stopped noticing him: what
+  a sensor reports when it sees nobody. Chanted by a room about itself. Distinct from the band's
+  other mantras — not a description of what people do anyway, not a friction, not a process name —
+  this one is the *machine's* verdict on the narrator, sung by the narrator.
+- Example: laundry/nothing-moving
+- Logged at catalog size 257.
+
+### "wave an arm, stand up, make a shape, get seen"
+- The consumption-imperative hook opener repurposed as a **be-detected imperative**: four commands
+  that are not about consuming or scrapping but about producing enough motion to register as
+  present. The feed's bark replaced by the building's requirement. Keeps the slot's shape (four
+  short commands) while changing what the instructions are for.
+- Example: laundry/nothing-moving
+- Logged at catalog size 257.
+
+### The motion sensor that stops seeing him — the building as the thing that looks away
+- Laundry's gravity well as **withdrawn institutional attention, stated only in apparatus**: lights
+  going off in banks, a badge reader with him going in and never coming out, a ceiling that has
+  stopped counting him. Nothing names what is wrong and nothing needs to — the abyss looking away
+  is literalised as a sensor timing out, which is why the song can end on "and that is supposed to
+  be the good part" without explaining itself.
+- Example: laundry/nothing-moving
+- Logged at catalog size 257.
+
+### "how long was I sat there" — the question with no addressee, asked about elapsed time
+- The band's mandatory unaddressed question moved off the body and onto the clock. Not *is that my
+  hand* and not a number read out: a man asking how long he has been still, of nobody, having just
+  been told by the ceiling that the answer is "long enough".
+- Example: laundry/nothing-moving
+- Logged at catalog size 257.
+
+### "under new" — mantra as a shop sign with its second half missing
+- Laundry's mantra anchor taken from *under new management* and cut before the noun, so the chant is
+  a permanent state rather than an announcement. Distinct from the band's other mantras — not a
+  description of what people do anyway, not a machine's verdict, not a friction — this one is
+  signage that never finishes its own sentence, which is the song's subject.
+- Example: laundry/under-new
+- Logged at catalog size 258.
+
+### "change is the only constant, in the good font, in vinyl, on the glass"
+- The flash of legibility filled with **the theme stated as decoration and then outlived by its own
+  premises**: the aphorism is true, it is on the window, and verse 2 reports that the lease went and
+  the saying went with it. Distinct from permanence-is-temporary, which argues the same idea through
+  monuments and vows failing — here nobody argues anything, the sentence is just retail signage that
+  got taken down like everything else.
+- Example: laundry/under-new
+- Logged at catalog size 258.
+
+### "clear it out, strip it back, paint it white, open up"
+- The consumption-imperative hook opener as **refit instructions** — four commands for emptying a
+  premises and reopening it as something else. Keeps the four-command shape while making the barked
+  orders the landlord's rather than the feed's.
+- Example: laundry/under-new
+- Logged at catalog size 258.
+
+### "what was it before this one" — the question with no addressee, asked about the past
+- The band's mandatory unaddressed question aimed at his own memory rather than his body, a
+  measurement or an unfinished sentence. He is standing in the room and cannot retrieve what it
+  used to be, which is the numbness stated as a lapse rather than a feeling.
+- Example: laundry/under-new
+- Logged at catalog size 258.
+
+### The one room that has been six businesses — serial replacement as the gravity well
+- Laundry's unstated centre as **a single premises churning through occupants**, carried entirely in
+  fixtures: vinyl coming off in strips with the old name still in glue, a night safe left in a
+  barber's wall, fridge units nobody will pay to remove, carpet tiles in four greys where four
+  counters stood, a ghost sign coming back through the paint. The spike — "I could not tell you
+  which of them I liked" — is the only place the song admits what the churn has done to him.
+- Example: laundry/under-new
+- Logged at catalog size 258.
+
+### BELLA / MOLLY / DAISY / STAR — the closed set as the commonest mare names in Britain
+- Four names hammered as percussion, chosen because they are the ones that always come up. The
+  second reading is arithmetic the narrator never does: the names recur every fortnight and the
+  animals carrying them do not. Distinct from chelsea-girl's brand-names-that-are-women's-names,
+  which are institutions; these are individuals, and the joke is that they are interchangeable.
+- Example: unadopted/ink-not-pencil
+- Logged at catalog size 264.
+
+### The chant that never changes while what it names does — the third roll-call mechanic
+- chelsea-girl's four-name roll-call loses one a line until only Dorothy is left; beech-way-stops'
+  takes on a fifth thing that is not a tree. This one is identical in every appearance, including
+  the last, which is the unchanging arrangement's motorik repetition made into the meaning rather
+  than left as a texture. Any future roll-call needs a fourth mechanic, not a fourth list.
+- Example: unadopted/ink-not-pencil
+- Logged at catalog size 264.
+
+### "There is a reason for that and it is nothing to do with me."
+- Unadopted's authority-without-explanation slot, fifth shape: **refusal by jurisdiction.** She does
+  not deny that an explanation exists, or claim everyone has it, or assert the rule as natural law —
+  she concedes the reason and places it in somebody else's department. Against a-six-six-six's
+  refused question, chelsea-girl's change of subject, beech-way-stops' appeal to common knowledge
+  and thats-seven's authorless rule.
+- Example: unadopted/ink-not-pencil
+- Logged at catalog size 264.
+
+### "Ink, not pencil. It has to be ink. Pencil comes out."
+- A procedural rule given with its own reason attached, where the reason is the whole second
+  reading and is delivered as pure stationery advice. The band's engine at its narrowest: nothing is
+  withheld, nothing is implied, and the listener assembles a forged record out of an instruction
+  about pens.
+- Example: unadopted/ink-not-pencil
+- Logged at catalog size 264.
+
+### The identification blank costed as a workload — no white on her, so it's whorls
+- Real passport procedure (star, stripe, snip, sock, stocking, whorl) used as palette, with the
+  unmarkable animal registering on the narrator only as a slower afternoon. The horse nobody can
+  tell apart is the horse nobody can prove is which, and she complains that it takes longer.
+  Companion line: a grey going lighter every year of its life, filed as the grey's fault.
+- Example: unadopted/ink-not-pencil
+- Logged at catalog size 264.
+
+### "I had four done before my dinner and the kettle was still hot."
+- Throughput as the source of delight — the manic-and-oblivious engine attached to a rate rather
+  than to a possession or an event. Distinct from hobo's boasting, which is about having things.
+- Example: unadopted/ink-not-pencil
+- Logged at catalog size 264.
+
+### The pony that is thirty-one and does nothing, and somebody pays for her
+- The bridge aside as **presence rather than absence** — beech-way-stops keeps the missing tree
+  inside a story about her father; this keeps a surviving animal inside a story about her sister,
+  useless, expensive and unremarked. The contrast is left entirely to the listener and the narrator
+  reports it as a mild absurdity of Lorraine's.
+- Example: unadopted/ink-not-pencil
+- Logged at catalog size 264.
+
+### "Same four names. Every fortnight. Same four names. / What are the chances."
+- The closing landing as **the wrong observation**: she notices a coincidence, and it is the only
+  thing in the song she does notice. Against thats-seven's tally close and chelsea-girl's
+  disappearing roll-call — here the set is intact at the hard stop and the remark is about the
+  names, never about what is carrying them.
+- Example: unadopted/ink-not-pencil
+- Logged at catalog size 264.
+
+### "Lovely" — the house's default approval word, retired
+- The owner's call. **PERM, catalogue-wide.** A mild British approval word had become the standing
+  marker for every narrator who is pleased about something they should not be pleased about, and it
+  leaked out of the bands that own that engine into ones that do not: Laundry's under-reaction,
+  Unadopted's obliviousness, Penny Rich's delight, girlboss, Guessed, Lucy Might. Seventeen songs
+  across seven bands, twice inside a single line in one of them.
+- The word is not the problem. **The problem is that it is doing the same job every time** — one
+  syllable of warmth dropped on top of something cold, so the listener knows how to read the
+  narrator without the song having to earn it. Every band now has to find its own approval, and it
+  should be specific to what is being approved of: a rate, a fit, a piece of workmanship, a saving.
+- `marvellous` is the same class and is on WATCH rather than retired — it is rarer and carries a
+  more particular register, but reaching for it as a straight substitute for the retired word is
+  the failure mode, not the fix.
+- **Forward-looking only.** The owner's ruling is that the word has had its use, not that the
+  songs carrying it are wrong. Nothing is rewritten and nothing is re-rendered, the Guessed
+  double included. The ban applies to drafts from here on.
+- Example: laundry/four-degrees, unadopted/thats-seven, penny-rich/say-the-man-did-it
+- Logged at catalog size 264.
+
+### "feel the width" — mantra as the instruction not to look
+- Laundry's mantra anchor taken from *never mind the quality, feel the width* and cut before the
+  comma, so what the room chants is the half that tells you to stop inspecting. Against under-new's
+  shop sign cut before its noun: that one is a state with no end, this one is an order with its
+  own condition removed, and the removed half is the song's subject.
+- Example: laundry/feel-the-width
+- Logged at catalog size 265.
+
+### "nobody unrolls it, they take the number off the end and that is the whole of the looking"
+- The flash of legibility filled with **the inspection that does not happen, described in full.**
+  Not an admission and not an aphorism: a plain account of a procedure, where the horror is that
+  the procedure is complete and correct and looks at nothing.
+- Example: laundry/feel-the-width
+- Logged at catalog size 265.
+
+### "forty-four. forty-four and a half." — the question with no addressee as a number read out
+- The shape the nothing-moving entry names as unused, now spent. She does not ask anything; she
+  reads her own measurement off the tape, corrects it upward, and stops. The unaddressed slot is
+  filled by an act of measurement rather than a question, and the correction is what makes it one.
+- Example: laundry/feel-the-width
+- Logged at catalog size 265.
+
+### The rag trade as gravity well — shoddy, mungo, bolts, offcuts, seconds
+- Laundry's unstated centre as **being priced by bulk**: cloth sold off a roll nobody opens, a bale
+  that used to be coats and is going to be coats, offcuts that weigh the same as her, a flaw rolled
+  so the middle stays inside. Shoddy and mungo are real reclaimed-wool cloths and are used straight,
+  per the house rule that a named thing is real rather than approximated.
+- Companion images: "a coat comes back in as rag and goes out as a coat and comes back in as rag",
+  and "there is a line down me where the fold has been and they take the price off the line".
+- Example: laundry/feel-the-width
+- Logged at catalog size 265.
+
+### "and the word for how fine the wool is, is quality. that is just the word for it."
+- The missing half of the song's own proverb walking back in as trade jargon, correctly used and
+  entirely unnoticed. *Quality* is a real wool-fineness count, so nothing in the line is figurative
+  and the narrator is only explaining her job. The band's under-reaction applied to its own title.
+- Example: laundry/feel-the-width
+- Logged at catalog size 265.
+
+### The pre-hook that stacks a measurement, and the dissolve where numbers overwrite the sentence
+- Two structural slots refilled rather than repeated, and the reason is that the two Laundry songs
+  before this one used **identical** mechanics in both: the sampler grabbing the verse's last word
+  and chopping it (`place — pla — ce — c —`, `off — o — ff — f —`), and a dissolve opening "and it
+  is fine, it is a [noun], it is a [noun] and a". **Both of those are now spent.** Here the pre-hook
+  stacks a tape measure climbing past her, and the dissolve keeps the sentence intact while the
+  numbers cut into it, so the machine eats the voice by measuring it rather than by chopping it.
+- Example: laundry/feel-the-width
+- Logged at catalog size 265.
+
+### The coat as the house's default prop — three separate calcifications, retired together
+- The owner's call, and he named the sharpest one exactly: **the good coat and what is in its
+  pocket.** Twice in Laundry, doing the identical job both times, a small found object standing in
+  for a life the song will not describe: a tape measure in one, crumbs and a folded hymn sheet in
+  the other. **PERM.**
+- **"the coats" as a threshold** is the second, and it is worse than it looks: the cloakroom pile
+  used as the moment before or after the real event, in four bands, three of those uses in Lucy
+  Might alone, where it had become that band's way of marking the end of an evening. **PERM.**
+- **The bare word is on WATCH, not retired.** It appears in 37 songs. A coat is the default English
+  outer garment and banning it outright would cost real work: the paint sense carries a whole
+  Guessed song, and the wool cycle carries the rag-trade well in feel-the-width. The rule is that
+  the coat has to be **the subject**, not the scenery. If it is there because a person needed
+  something to be wearing, holding, hanging up or taking off, it is the reflex and it goes.
+- The third cluster, not banned but worth naming so it does not become the fourth: **the coat left
+  behind by the dead or departed**, on a hook, on the stairs, buried in something else. Five songs,
+  mostly The Bell Knows My Name, where it is band-appropriate. It is one more use away from being a
+  device rather than a subject.
+- Example: laundry/mind-the-white, laundry/the-shoes-are-by-the-door, lucy-might/never
+- Logged at catalog size 265.
+
+### The contents page as the record nobody reads
+- Disassembler's build slot filled with **a real table of contents, read straight through** — claim
+  headings, appendix numbers, section labels — from Anthropic's published Risk Report, August 2026.
+  Fresh instance of the band's standing class (fault log, consent dialogue, spec, diffstat): the
+  whole document is public, numbered and argued, and the section that undoes the rest of it is
+  sitting in the list at 2.16 where nobody reaches.
+- The build is prose rather than counters, which is the deliberate alternation the band's calcify
+  rule asks for after `true-capabilities` ran on dates.
+- **Where the reading came from.** Not from this session. In an earlier thread the owner asked for a
+  summary of the same report, and the thing that came back was that the incident count was a count
+  of *known* incidents. That one adjective is the whole song, and the owner brought it here as the
+  brief. Recorded because the house rule is that provenance goes in the file: the observation is not
+  original to the song and should not be read as if it were.
+- Example: disassembler/harder-to-find
+- Logged at catalog size 266.
+
+### "HARDER TO FIND / MORE HARMFUL / THAN WE EXPECT" — drop anchors cut out of one quoted heading
+- The drop built by **breaking a single real sentence into its stressed pieces** rather than pairing
+  a claim with its translation, which is the spent shape. Nothing is asserted by the band: the
+  document's own Limitations heading is the hook, and the anchors are short and hard-consonant
+  because the long words in this vocabulary are the ones Suno mispronounces.
+- Example: disassembler/harder-to-find
+- Logged at catalog size 266.
+
+### "Every one of those was found by somebody who was looking for something else."
+- The one human sentence as **passive, third person, no first-person pronoun at all** — deliberately
+  against the calcified shape the owner flagged at `in-gawk` (first person, past, two clauses joined
+  by "and"). It is also the band's engine inverted: the knowledge does reach somebody, but only by
+  accident, and only because they were after something different.
+- Example: disassembler/harder-to-find
+- Logged at catalog size 266.
+
+### The redacted appendix as the bracket the song sits inside
+- Two consecutive appendix numbers, both redacted, read flat as the intro and again as the outro, so
+  the track opens and closes on the parts of the record that are not there. No editorial anywhere:
+  the song ends by quoting the Limitations heading and stops.
+- Example: disassembler/harder-to-find
+- Logged at catalog size 266.
