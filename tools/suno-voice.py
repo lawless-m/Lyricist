@@ -15,12 +15,11 @@ Drives a bridge-connected suno.com tab (see the Suno-Automation skill). Confirm
 after the fact with metadata.persona_id on the generated clip, which is the
 only ground truth.
 
-KNOWN BROKEN as of 2026-08-25: applying a voice reports "voice picker did not
-open" and does nothing. The click on "Add Voice" works — the check after it
-looks for a [role="dialog"] to confirm, and with the picker visibly open there
-are zero such elements on the page, so it bails. Reading and clearing state
-still work. Until it is fixed, apply the voice by hand and verify with a bare
-run of this tool, then check persona_id on the clip.
+Fixed 2026-09-11. It had been reporting "voice picker did not open" for two
+reasons at once. Suno renamed the section from "Personas" to "Voice"/"My
+Voices", so the text match failed; and the picker is rendered in a fixed-position
+portal, where offsetParent is null, so any visibility filter throws it away. The
+dialog is now found by its "My Voices" tab and matched without a visibility test.
 """
 
 import argparse
@@ -57,30 +56,39 @@ return document.querySelector('button[aria-label="Remove selected Voice"]') ? 'F
 
 # %s is the voice name. Clicking the card applies immediately; the dialog stays
 # open for browsing, so close it explicitly afterwards.
+# %s is the voice name. Clicking the card applies immediately; the dialog stays
+# open for browsing, so close it explicitly afterwards.
 SELECT = r"""
 const sleep = ms => new Promise(r => setTimeout(r, ms));
-const txt = e => (e.innerText || e.textContent || '').trim();
+const txt = e => (e.innerText || e.textContent || '').replace(/\s+/g, ' ').trim();
 const WANT = %s;
-const open = [...document.querySelectorAll('button[aria-label="Add Voice"]')].filter(e => e.offsetParent !== null)[0];
-if (!open) {
-  const cur = document.querySelector('button[aria-label="Remove selected Voice"]');
-  if (cur) return 'a voice is already applied — clear it first with --off';
-  return 'no Add Voice button on the page (is this /create?)';
+// Do NOT filter by offsetParent here: the picker is a fixed-position portal and
+// offsetParent is null for it even while it is plainly on screen.
+const picker = () => [...document.querySelectorAll('[role="dialog"]')]
+  .find(d => /My Voices/i.test(txt(d)));
+let dlg = picker();
+if (!dlg) {
+  const open = [...document.querySelectorAll('button[aria-label="Add Voice"]')][0];
+  if (!open) {
+    if (document.querySelector('button[aria-label="Remove selected Voice"]')) {
+      return 'a voice is already applied \u2014 clear it first with --off';
+    }
+    return 'no Add Voice button on the page (is this /create?)';
+  }
+  open.click();
+  for (let i = 0; i < 20 && !dlg; i++) { await sleep(300); dlg = picker(); }
+  if (!dlg) return 'voice picker did not open';
 }
-open.click();
-await sleep(1800);
-const dlg = [...document.querySelectorAll('[role="dialog"]')].find(d => /Personas/.test(txt(d)));
-if (!dlg) return 'voice picker did not open';
-const card = [...dlg.querySelectorAll('div.cursor-pointer')]
-  .filter(e => txt(e).toLowerCase().startsWith(WANT.toLowerCase()))[0];
+const cards = [...dlg.querySelectorAll('div.cursor-pointer')];
+const card = cards.find(e => txt(e).toLowerCase().startsWith(WANT.toLowerCase()));
 if (!card) {
-  const names = [...dlg.querySelectorAll('div.cursor-pointer')].map(e => txt(e).split('\n')[0]);
+  const names = cards.map(e => (e.innerText || '').trim().split('\n')[0]);
   dlg.querySelector('button[aria-label="Close"]')?.click();
   return 'no voice named ' + WANT + '; available: ' + JSON.stringify(names);
 }
 card.click();
 await sleep(1500);
-dlg.querySelector('button[aria-label="Close"]')?.click();
+picker()?.querySelector('button[aria-label="Close"]')?.click();
 await sleep(1200);
 return document.querySelector('button[aria-label="Remove selected Voice"]') ? 'applied' : 'FAILED';
 """

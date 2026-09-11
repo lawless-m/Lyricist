@@ -1,6 +1,6 @@
 ---
 name: write-song
-description: Use when writing a new song lyric for any of the bands in the roster (Guessed, Laundry, Lucy Might, Purple Dog, The Bell Knows My Name, Coase Guard, Ultracoase, girlboss, hobo, Penny Rich, Disassembler). Triggered by requests like "song for Guessed", "another laundry track", "make new song for purple-dog", "another gypsy-emo song", "write me a lucy-might song", "a Coase Guard track", "an Ultracoase song", "a girlboss song", "another references-available track", "a hobo song", "song for Penny", "a bargain bluegrass track", "a Disassembler song", "song for Disassembler", or a bare theme with no style named (in which case ask which band). This is the only entry point for song requests — the style specs are reference files it reads, not separate skills.
+description: Use when writing a new song lyric for any of the bands in the roster (Guessed, Laundry, Lucy Might, Purple Dog, The Bell Knows My Name, Coase Guard, Ultracoase, girlboss, hobo, Penny Rich, Disassembler, Unadopted). Triggered by requests like "song for Guessed", "another laundry track", "make new song for purple-dog", "another gypsy-emo song", "write me a lucy-might song", "a Coase Guard track", "an Ultracoase song", "a girlboss song", "another references-available track", "a hobo song", "song for Penny", "a bargain bluegrass track", "a Disassembler song", "song for Disassembler", "an Unadopted song", "a big beat track", or a bare theme with no style named (in which case ask which band). This is the only entry point for song requests — the style specs are reference files it reads, not separate skills.
 ---
 
 # write-song
@@ -27,6 +27,11 @@ aliases — users may say either):
 | `penny-rich`                | Penny Rich, Penny, bargain bluegrass, banjo vaudeville        |
 | `disassembler`              | Disassembler, devops, drum and bass, neurofunk                 |
 | `unadopted`                 | Unadopted, big beat, the closed-set band                        |
+
+**`wolfhound` is not on this table on purpose.** The folder exists and has one song
+(`quadratic-equations`) and a `render.json`, but no `template.md` and no `styles.md`, so step 2
+below has nothing to read. Treat a request for it as a request to write the spec first — do not
+improvise a brief from the single existing lyric.
 
 If the request names a theme but no band and it isn't clear from context, ask which band before
 doing anything else.
@@ -71,11 +76,22 @@ doing anything else.
      needs one removed) — per that band's own styles.md rotation guidance.
    - **Rewrite** only when a song genuinely departs from the band's core sound.
 
-   Then save both output files:
+   **Do not name a singer's sex in the style prompt.** Under `chirp-hawk` the prompt text does
+   not drive the singer — the Vocal Gender control does — so a prompt saying *female vocal* is a
+   claim the file cannot back, and it misleads anyone later trying to work out what a track
+   sounded like. Voice *type* words (baritone, tenor) are fine: they shape timbre.
+
+   Then save the output files:
    - `<band>/<slug>.txt` — the lyric, where `<slug>` is a short kebab-case phrase drawn from
      the song (matching the existing convention already used across all other band folders).
    - `<band>/<slug>.style.txt` — the flat, single-paragraph Suno style prompt. No markdown,
      no headers — just the prompt text itself, exactly as it will be pasted into Suno.
+   - `<band>/<slug>.render.json` — **only if this song departs from its band's defaults.**
+     Every band folder has a `render.json` holding the Suno control values (`gender`, `voice`,
+     `duration`, `weirdness`, `styleInfluence`, `variety`, `maxMode`); a per-song file overrides
+     individual keys and is merged over it. The normal case is two files, not three. Note that
+     `voice` is sticky across generations in Suno, so it is always set or cleared per song by the
+     render driver rather than assumed.
 7. Log the new song's notable devices into `.claude/tropes/library.md`: add each one under the
    right category (Constructions / Phrases / Imagery / Motifs) with a one-line description, one
    example, the source song, and a **"Logged at catalog size N."** line (N = current lyric-file
