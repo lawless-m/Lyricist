@@ -75,3 +75,41 @@ Core instrument/texture palette to draw from: two drum kits played as *separate*
  
 ---
  
+
+## v6 sang it, and three changes got the collage back (2026-09-11)
+
+**Found by listening, on the catalogue-wide re-render.** Every other band improved on v6. Laundry
+regressed, and the owner's words were exact: *"the music has lost its breakbeat collage and turned
+into a song"*, *"the vocal is still trying to sing not chant"*, and the tracks had *"gone slow
+(relatively)"*. That is v6 having more musical latitude and a prompt that never took it away.
+
+Three things fixed it, and the first is the big one:
+
+- **`v6-wild`, not `v6`.** Described in the picker as best for experimental ideas, which is
+  precisely what this band needs. It is set in `laundry/render.json` as `"model": "v6-wild"`.
+  **v5.5 is no longer offered at all**, so going back is not an option and was never the answer.
+- **Negatives belong in Exclude styles, not in the positive prompt.** The owner's suggestion:
+  *"we have exclude styles how about we try that instead of negative prompts in the positive."*
+  Writing *no melody* into the style text still puts the word melody in front of the model. The
+  exclude field is a separate channel and it tested better immediately. Now a `render.json` key.
+- **A named tempo.** Not one of the 62 prompts had a BPM, while every Disassembler and Unadopted
+  prompt does — and those were the two bands that did not drift. The core variant says **150 BPM**
+  and the twelve slow insidious-churn prompts say **100 BPM**.
+
+  **The exact number is not the lever, though, and the record should not pretend otherwise.** A
+  first pass set all 62 to 150 and `instructions-unclear` rendered on that, before it was corrected
+  to 100 and rendered again. The owner's verdict was that **both work**. So 100 is kept for the slow
+  variant because the arrangement word already says slow and the two should not argue, not because
+  150 was heard to fail. Having *a* tempo is what mattered; which one is a preference.
+
+**What did not work**, so nobody retries it: weirdness at 90 came back *"mushy"*; style influence at
+100 with 170 BPM was *"fighting the tempo"*; and shortening the duration back to 3:00 was the wrong
+diagnosis entirely — the problem was never pacing.
+
+`v6-wild` with and without the exclusions both landed, so the exclusions are insurance rather than
+the fix. Confirmed on three songs across both arrangement variants.
+
+**The model is sticky across generations, exactly like the voice.** One Laundry render leaves the
+whole account on `v6-wild` until something changes it, so the driver sets it per band on every
+press and verifies it before spending a render.
+

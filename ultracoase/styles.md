@@ -37,3 +37,24 @@ distinct from Coase Guard's distorted-808/industrial palette and from The Bell K
 accordion-and-cimbalom palette.
 
 ---
+
+## The custom voice wipes out the gang hook (2026-09-12)
+
+**The owner's read, and it resolves a contradiction that has been sitting in these files.** All 19
+style prompts ask for a `stacked gang-chanted hook`, `template.md` lists escalating to *"full
+gang-vocal weight in the final hook"* as a device, and **the records do not have gang chants.**
+
+The cause is the custom Voice. A persona is a single voice, so it cannot stack into a crowd, and
+applying one appears to suppress the request entirely rather than blend with it. The clause has
+therefore never fired on any Ultracoase track.
+
+Two consequences:
+
+- **The clause is inert in normal use** and the prompts can keep it or lose it without changing the
+  sound. Worth leaving until someone tests removing it, since it has never been the active
+  ingredient either way.
+- **It is not inert without the persona.** Anything rendered in this style with the Voice off — a
+  cross-style experiment, say — will get the gang hook for the first time and will not sound like
+  Ultracoase. Drop the clause in that case. Found while rendering Guessed lyrics in this style with
+  the persona deliberately off.
+

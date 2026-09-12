@@ -1,6 +1,8 @@
 {
   "gender": null,
   "voice": null,
+  "model": "v6-wild",
+  "exclude": "singing, melody, melodic vocal, sung vocal, verse chorus song structure, smooth production, pop",
   "duration": 270,
   "weirdness": 66,
   "styleInfluence": 65,
