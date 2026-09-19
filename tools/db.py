@@ -130,12 +130,18 @@ CREATE TABLE IF NOT EXISTS stems (
 # Copies of what suno-download.py and suno-stats.py run. Deliberate duplication:
 # a database build has no business changing a downloader that works.
 
+# %s is the first page to read. One job used to walk the whole feed, which was fine at
+# 600 clips and is not at 2000: the 429 back-offs alone push it past any job timeout. So it
+# reads a bounded slice and reports whether more is waiting, and cmd_sync loops the jobs.
+FEED_PAGES = 25
+
 FEED = r"""
 const tok = await window.Clerk.session.getToken();
 const H = {Authorization: 'Bearer ' + tok};
 const sleep = ms => new Promise(r => setTimeout(r, ms));
-let page = 0, all = [];
-while (page < 200) {
+const START = %s, BUDGET = %s;
+let page = START, all = [], more = true;
+while (page < START + BUDGET) {
   let d = null;
   for (let attempt = 0; attempt < 6; attempt++) {
     const r = await fetch(`https://studio-api-prod.suno.com/api/feed/v2?page=${page}&_=` + Date.now(), {headers: H});
@@ -146,16 +152,16 @@ while (page < 200) {
   }
   if (!d) return 'ERROR rate-limited out at page ' + page;
   all.push(...(d.clips || []));
-  if (!d.has_more || (d.clips || []).length === 0) break;
+  if (!d.has_more || (d.clips || []).length === 0) { more = false; break; }
   page++;
   await sleep(400);
 }
-return all.map(c => JSON.stringify({
+return [JSON.stringify({_more: more, _next: page + (more ? 1 : 0)})].concat(all.map(c => JSON.stringify({
   id: c.id, title: c.title, created_at: c.created_at, status: c.status,
   is_public: !!c.is_public, liked: !!c.is_liked, plays: c.play_count || 0,
   likes: c.upvote_count || 0, comments: c.comment_count || 0,
   model: c.model_name || null
-})).join('\n');
+}))).join('\n');
 """
 
 PROJECTS = r"""
@@ -465,7 +471,14 @@ def cmd_sync(args):
     now = datetime.now(timezone.utc).date().isoformat()
 
     print("reading the feed...")
-    feed = fetch_clips(FEED)
+    feed, page, more = [], 0, True
+    while more:
+        chunk = fetch_clips(FEED % (page, FEED_PAGES))
+        head = chunk[0] if chunk and "_more" in chunk[0] else {"_more": False, "_next": page}
+        rows = [c for c in chunk if "_more" not in c]
+        feed.extend(rows)
+        more, page = head["_more"], head["_next"]
+        print(f"  ...{len(feed)} clips")
     with db:
         for c in feed:
             upsert_clip(db, {**c, "is_public": int(bool(c.get("is_public"))),
